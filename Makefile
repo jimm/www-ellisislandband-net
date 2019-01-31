@@ -1,11 +1,17 @@
 HOST = jimmenard.com
-SRC = ellisislandband/
+SRC = _site/
 DEST = webapps/ellisislandband
 
-.PHONY: publish
+.PHONY: publish bild server
 
 # NOTE: do not use the `--del` rsync flag or otherwise delete any files on
 # the server. There are files there such as the `.well-known` directory
 # that should not be checked in here and should not be deleted there.
-publish:
+publish: build
 	rsync -qrlpt --filter='exclude .DS_Store' $(SRC) $(HOST):$(DEST)
+
+build:
+	jekyll build
+
+server:
+	jekyll server
