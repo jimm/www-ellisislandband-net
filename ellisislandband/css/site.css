@@ -2,3 +2,10 @@ body {
   background: black;
   color: white;
 }
+
+h1#title {
+  text-align: center;
+  font-size: 5em;
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
