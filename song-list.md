@@ -5,6 +5,7 @@ title: Song List
 
 # Ellis Island Song List
 
+<!-- start list -->
 - Alive - Pearl Jam
 - American Girl - Tom Petty
 - And It Stoned Me - Van Morrison
@@ -52,7 +53,7 @@ title: Song List
 - Let It Rain - Eric Clapton
 - Little Wing - Jimi Hendris
 - Maybe I'm Amazed - Paul McCartney
-- Me and Julio - Paul Simon (NO KEYS)
+- Me and Julio - Paul Simon
 - Midnight Rider - The Allman Brothers
 - Melissa - Allman Brothers
 - The Middle - Jimmy Eat World
@@ -61,7 +62,7 @@ title: Song List
 - Please Come Home for Christmas - Eagles
 - Plush - Stone Temple Pilots
 - Ready For Love - Bad Company
-- Remedy - THe Black Crowes
+- Remedy - The Black Crowes
 - Riptide - Vance Joy
 - Rocket Man - Elton John
 - Rocky Raccoon - Beatles
