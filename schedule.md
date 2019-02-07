@@ -7,7 +7,9 @@ title: Schedule
 
 ## Upcoming
 
-**Feb 14th** *???*, Greenwich CT (acoustic-ish)
+**Feb 14th** *Pomodoro Restaurant*, 1247 E. Putnam Ave, Riverside CT
+
+<img src="images/poster_2019_02_14.jpg" width="200"/>
 
 **May 2nd** *Private Event*
 
