@@ -1,0 +1,83 @@
+---
+layout: default
+title: Song List
+---
+
+# Ellis Island Song List
+
+- Alive - Pearl Jam
+- American Girl - Tom Petty
+- And It Stoned Me - Van Morrison
+- Angel Of Harlem - U2
+- Angela - The Luminiers
+- Appolossa - The Black Crowes
+- Are You Gonna Be My Girl - Jet
+- Back on the Chain Gang - The Pretenders
+- Bennie and the Jets - Elton John
+- Better Man - Perl Jam
+- Break On Through - The Doors
+- Caravan - Van Morrison
+- A Change Will Do You Good - Sheryl Crow
+- Daughter - Pearl Jam
+- Dead Flowers - The Rolling Stones
+- Driven to Tears - Police
+- Easy (Like Sunday Morning) - The Commodores
+- Fade Into You - Mazzy Star
+- The First Cut is the Deepest - Sheryl Crow
+- Gimme Some Loving - Spencer Davis Group
+- Give Me One Reason - Tracy Chapman
+- Give Me Some Lovin' - The Spencer Davis Group
+- Gold Dust Woman - Fleetwood Mac
+- Goodbye to You - Scandal
+- Goodbye Yellow Brick Road - Elton John
+- Here Comes the Sun - Beatles
+- Honkey Cat - Elton John
+- Hard To Handle - Black Crowes
+- Heroes - David Bowie
+- Hey Hey What Can I Do - Led Zepplin
+- I Don't Want to Be - Gavin DeGraw
+- I'm on Fire - Bruce Springsteen
+- In Gods Country - U2
+- Interstate Love Song - Stone Temple Pilots
+- Ironic - Alanis Morissette
+- Jealous Again - Black Crowes
+- Josie - Steely Dan
+- Keep Your Hands to Yourself - Georgia Satellites
+- LA Woman - The Doors
+- Landslide - Fleetwood Mac
+- Last Dance With Mary Jane - Tom Petty
+- Layla - Eric Clapton
+- Learn to Fly - Foo Fighters
+- Let It Go - James Bay
+- Let It Rain - Eric Clapton
+- Little Wing - Jimi Hendris
+- Maybe I'm Amazed - Paul McCartney
+- Me and Julio - Paul Simon (NO KEYS)
+- Midnight Rider - The Allman Brothers
+- Melissa - Allman Brothers
+- The Middle - Jimmy Eat World
+- Middle of the Road - Pretenders
+- Midnight Rider - The Allman Brothers
+- Please Come Home for Christmas - Eagles
+- Plush - Stone Temple Pilots
+- Ready For Love - Bad Company
+- Remedy - THe Black Crowes
+- Riptide - Vance Joy
+- Rocket Man - Elton John
+- Rocky Raccoon - Beatles
+- She's the One - Bruce Springsteen
+- Stop Draggin' My Heart Around - Stevie Nicks/Tom Petty
+- Superstition - Stevie Wonder
+- Surrender - Cheap Trick
+- Tennessee Jed - The Grateful Dead
+- Tennessee Whiskey - Chris Stapleton
+- These Are the Days - 10,000 Maniacs
+- Tighten Up - The Black Keys
+- Up On Cripple Creek - The Band
+- Waiting in Vain - Bob Marley
+- What's the Frequency, Kenneth - R.E.M.
+- When the World is Running Down - Police
+- Where the Streets have No Name - U2
+- Wish I Knew You - The Revivalists
+- Who Knew - Pink
+- Ziggy Stardust - David Bowie

@@ -8,7 +8,7 @@ DEST = webapps/ellisislandband
 # the server. There are files there such as the `.well-known` directory
 # that should not be checked in here and should not be deleted there.
 publish: build
-	rsync -qrlpt --filter='exclude .DS_Store' $(SRC) $(HOST):$(DEST)
+	rsync -qrlpt --filter='.DS_Store' --filter='.localized' $(SRC) $(HOST):$(DEST)
 
 build:
 	jekyll build
