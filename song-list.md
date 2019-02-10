@@ -14,17 +14,24 @@ title: Song List
 - Appolossa - The Black Crowes
 - Are You Gonna Be My Girl - Jet
 - Back on the Chain Gang - The Pretenders
+- Bad Moon Rising - Credence Clearwater Revival
 - Bennie and the Jets - Elton John
 - Better Man - Perl Jam
 - Break On Through - The Doors
 - Caravan - Van Morrison
 - A Change Will Do You Good - Sheryl Crow
+- Closing Time - Scary Pockets (Semisonic)
+- Crazy Love - Van Morrison
+- Criminal - Fiona Apple
+- Cupid - Sam Cooke
+- Danny's Song - Loggins and Mesina
 - Daughter - Pearl Jam
 - Dead Flowers - The Rolling Stones
 - Driven to Tears - Police
 - Easy (Like Sunday Morning) - The Commodores
 - Fade Into You - Mazzy Star
 - The First Cut is the Deepest - Sheryl Crow
+- Georgia - Ray Charles
 - Gimme Some Loving - Spencer Davis Group
 - Give Me One Reason - Tracy Chapman
 - Give Me Some Lovin' - The Spencer Davis Group
@@ -40,6 +47,7 @@ title: Song List
 - I'm on Fire - Bruce Springsteen
 - In Gods Country - U2
 - Interstate Love Song - Stone Temple Pilots
+- Into the Mystic - Van Morrison
 - Ironic - Alanis Morissette
 - Jealous Again - Black Crowes
 - Josie - Steely Dan
@@ -59,6 +67,7 @@ title: Song List
 - The Middle - Jimmy Eat World
 - Middle of the Road - Pretenders
 - Midnight Rider - The Allman Brothers
+- No Woman, No Cry - Bob Marley
 - Please Come Home for Christmas - Eagles
 - Plush - Stone Temple Pilots
 - Ready For Love - Bad Company

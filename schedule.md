@@ -7,9 +7,9 @@ title: Schedule
 
 ## Upcoming
 
-### May 2019
+### March 2019
 
-**May 2nd** *Rach's Hope*, Penfield Pavilion, Fairfield, CT
+**March 2nd** *Rach's Hope*, Penfield Pavilion, Fairfield, CT
 
 [Rach's Hope Kickoff!](https://www.eventbrite.com/e/rachs-hope-kickoff-tickets-55122699478?ref=eios&aff=eios)
 Families helping families weather the storm of critical illness
