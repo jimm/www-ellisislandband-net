@@ -35,6 +35,7 @@ title: Song List
 - Gimme Some Loving - Spencer Davis Group
 - Give Me One Reason - Tracy Chapman
 - Give Me Some Lovin' - The Spencer Davis Group
+- Going to California - Led Zepplin
 - Gold Dust Woman - Fleetwood Mac
 - Goodbye to You - Scandal
 - Goodbye Yellow Brick Road - Elton John
