@@ -5,9 +5,19 @@ title: About
 
 # About Ellis Island
 
-Ellis Island is made up of musicians with diverse backgrounds and musical
-histories. Combined, they have more than a century of experience playing for
-audiences from upstate New York down to Alabama and Florida.
+<table>
+  <tr>
+    <td>
+      Ellis Island is made up of musicians with diverse backgrounds and
+      musical histories. Combined, they have more than a century of
+      experience playing for audiences from upstate New York down to Alabama
+      and Florida.
+    </td>
+    <td width="300">
+      <img src="images/bourbon_tray.jpeg" width="300"/>
+    </td>
+  </tr>
+</table>
 
 ## Tim Ellis
 
