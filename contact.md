@@ -9,11 +9,20 @@ Would you like to join our mailing list? Want to book Ellis Island for a
 gig? Wondering how many bottles of Kentucky Bourbon the band goes through
 during a typical rehearsal? Get in touch!
 
-Email:
-<a href="mailto:EllisIslandRock@gmail.com">EllisIslandRock@gmail.com</a>
+<ul class="social-media-list">
+  <li>
+    <a href="mailto:EllisIslandRock@gmail.com">EllisIslandRock@gmail.com</a>
+  </li>
 
-Facebook:
-<a href="https://facebook.com/EllisIsland">EllisIsland</a>
+  {% if site.facebook_username %}
+    <li>
+      {% include facebook_link.html %}
+    </li>
+  {% endif %}
 
-Twitter:
-<a href="https://twitter.com/EllisIsland">@EllisIsland</a>
+  {% if site.twitter_username %}
+    <li>
+      {% include twitter_link.html %}
+    </li>
+  {% endif %}
+</ul>
