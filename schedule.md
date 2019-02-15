@@ -18,27 +18,23 @@ Families helping families weather the storm of critical illness
   <img src="images/rachs_hope.jpeg" width="200"/>
 </a>
 
-### February 2019
-
-**Feb 14th** *Pomodoro Restaurant*, 1247 E. Putnam Ave, Riverside CT
-
-<img src="images/poster_2019_02_14.jpg" width="200"/>
-
-
-
 ## Recent Gigs
 
 ### February 2019
 
+**Feb 14th** *Pomodoro Restaurant*, 1247 E. Putnam Ave, Riverside CT
+
+<a href="images/poster_2019_02_14.jpg"><img src="images/poster_2019_02_14.jpg" width="200"/></a>
+
 **Feb 1st** *Grace O'Malley's*, Fairfield CT
 
-<img src="images/poster_2019_02_01.jpg" width="200"/>
+<a href="images/poster_2019_02_01.jpg"><img src="images/poster_2019_02_01.jpg" width="200"/></a>
 
 ### January 2019
 
 **Jan 4th** *Seagrape*, Fairfield CT
 
-<img src="images/poster_2019_01_04.jpg" width="200"/>
+<a href="images/poster_2019_01_04.jpg"><img src="images/poster_2019_01_04.jpg" width="200"/></a>
 
 ### December 2018
 
