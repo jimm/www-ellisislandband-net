@@ -9,6 +9,9 @@ title: Schedule
 
 ### March 2019
 
+**March 30th** *Gridiron Benefit*, Christ and Holy Trinity Church, 75 Church
+Lane, Westport, CT
+
 **March 2nd** *Rach's Hope*, Penfield Pavilion, Fairfield, CT
 
 [Rach's Hope Kickoff!](https://www.eventbrite.com/e/rachs-hope-kickoff-tickets-55122699478?ref=eios&aff=eios)
