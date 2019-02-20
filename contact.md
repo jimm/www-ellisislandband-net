@@ -25,4 +25,10 @@ during a typical rehearsal? Get in touch!
       {% include twitter_link.html %}
     </li>
   {% endif %}
+
+  {% if site.instagram_username %}
+    <li>
+      {% include instagram_link.html %}
+    </li>
+  {% endif %}
 </ul>
