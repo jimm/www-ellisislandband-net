@@ -14,5 +14,12 @@ awk '/start list/ {exit} ; {print}' $(dirname $0)/../song-list.md > $tmpfile
 echo '<!-- start list -->' >> $tmpfile
 awk '/^\* Songs/,/^\* Tim/ {print}' $songfile \
     | awk '/^\*\* .*-/ {print}' \
-    | sed 's/^\*\* /- /' >> $tmpfile
+    | sed \
+          -e 's#<#&lt;#g' \
+          -e 's#&#&amp;#g' \
+          -e 's#^\*\* #<tr><td>#' \
+          -e 's# - #</td><td>#' \
+          -e 's#$#</td></tr>#' \
+          >> $tmpfile
+echo '</table>' >> $tmpfile
 mv $tmpfile "$dest"

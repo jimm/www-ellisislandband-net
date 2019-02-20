@@ -5,90 +5,96 @@ title: Song List
 
 # Ellis Island Song List
 
+<table class="songlist">
+<tr>
+  <th>Song</th>
+  <th>Artist</th>
+</tr>
 <!-- start list -->
-- Alive - Pearl Jam
-- American Girl - Tom Petty
-- And It Stoned Me - Van Morrison
-- Angel Of Harlem - U2
-- Angela - The Luminiers
-- Appolossa - The Black Crowes
-- Are You Gonna Be My Girl - Jet
-- Back on the Chain Gang - The Pretenders
-- Bad Moon Rising - Credence Clearwater Revival
-- Bennie and the Jets - Elton John
-- Better Man - Perl Jam
-- Break On Through - The Doors
-- Caravan - Van Morrison
-- A Change Will Do You Good - Sheryl Crow
-- Closing Time - Scary Pockets (Semisonic)
-- Crazy Love - Van Morrison
-- Criminal - Fiona Apple
-- Cupid - Sam Cooke
-- Danny's Song - Loggins and Mesina
-- Daughter - Pearl Jam
-- Dead Flowers - The Rolling Stones
-- Driven to Tears - Police
-- Easy (Like Sunday Morning) - The Commodores
-- Fade Into You - Mazzy Star
-- The First Cut is the Deepest - Sheryl Crow
-- Georgia - Ray Charles
-- Gimme Some Loving - Spencer Davis Group
-- Give Me One Reason - Tracy Chapman
-- Give Me Some Lovin' - The Spencer Davis Group
-- Going to California - Led Zepplin
-- Gold Dust Woman - Fleetwood Mac
-- Goodbye to You - Scandal
-- Goodbye Yellow Brick Road - Elton John
-- Here Comes the Sun - Beatles
-- Honkey Cat - Elton John
-- Hard To Handle - Black Crowes
-- Heroes - David Bowie
-- Hey Hey What Can I Do - Led Zepplin
-- I Don't Want to Be - Gavin DeGraw
-- I'm on Fire - Bruce Springsteen
-- In Gods Country - U2
-- Interstate Love Song - Stone Temple Pilots
-- Into the Mystic - Van Morrison
-- Ironic - Alanis Morissette
-- Jealous Again - Black Crowes
-- Josie - Steely Dan
-- Keep Your Hands to Yourself - Georgia Satellites
-- LA Woman - The Doors
-- Landslide - Fleetwood Mac
-- Last Dance With Mary Jane - Tom Petty
-- Layla - Eric Clapton
-- Learn to Fly - Foo Fighters
-- Let It Go - James Bay
-- Let It Rain - Eric Clapton
-- Little Wing - Jimi Hendris
-- Maybe I'm Amazed - Paul McCartney
-- Me and Julio - Paul Simon
-- Midnight Rider - The Allman Brothers
-- Melissa - Allman Brothers
-- The Middle - Jimmy Eat World
-- Middle of the Road - Pretenders
-- Midnight Rider - The Allman Brothers
-- No Woman No Cry - Bob Marley
-- Please Come Home for Christmas - Eagles
-- Plush - Stone Temple Pilots
-- Ready For Love - Bad Company
-- Remedy - The Black Crowes
-- Riptide - Vance Joy
-- Rocket Man - Elton John
-- Rocky Raccoon - Beatles
-- She's the One - Bruce Springsteen
-- Stop Draggin' My Heart Around - Stevie Nicks/Tom Petty
-- Superstition - Stevie Wonder
-- Surrender - Cheap Trick
-- Tennessee Jed - The Grateful Dead
-- Tennessee Whiskey - Chris Stapleton
-- These Are the Days - 10,000 Maniacs
-- Tighten Up - The Black Keys
-- Up On Cripple Creek - The Band
-- Waiting in Vain - Bob Marley
-- What's the Frequency, Kenneth - R.E.M.
-- When the World is Running Down - Police
-- Where the Streets have No Name - U2
-- Wish I Knew You - The Revivalists
-- Who Knew - Pink
-- Ziggy Stardust - David Bowie
+<tr><td>Alive</td><td>Pearl Jam</td></tr>
+<tr><td>American Girl</td><td>Tom Petty</td></tr>
+<tr><td>And It Stoned Me</td><td>Van Morrison</td></tr>
+<tr><td>Angel Of Harlem</td><td>U2</td></tr>
+<tr><td>Angela</td><td>The Luminiers</td></tr>
+<tr><td>Appolossa</td><td>The Black Crowes</td></tr>
+<tr><td>Are You Gonna Be My Girl</td><td>Jet</td></tr>
+<tr><td>Back on the Chain Gang</td><td>The Pretenders</td></tr>
+<tr><td>Bad Moon Rising</td><td>Credence Clearwater Revival</td></tr>
+<tr><td>Bennie and the Jets</td><td>Elton John</td></tr>
+<tr><td>Better Man</td><td>Perl Jam</td></tr>
+<tr><td>Break On Through</td><td>The Doors</td></tr>
+<tr><td>Caravan</td><td>Van Morrison</td></tr>
+<tr><td>A Change Will Do You Good</td><td>Sheryl Crow</td></tr>
+<tr><td>Closing Time</td><td>Scary Pockets (Semisonic)</td></tr>
+<tr><td>Crazy Love</td><td>Van Morrison</td></tr>
+<tr><td>Criminal</td><td>Fiona Apple</td></tr>
+<tr><td>Cupid</td><td>Sam Cooke</td></tr>
+<tr><td>Danny's Song</td><td>Loggins and Mesina</td></tr>
+<tr><td>Daughter</td><td>Pearl Jam</td></tr>
+<tr><td>Dead Flowers</td><td>The Rolling Stones</td></tr>
+<tr><td>Driven to Tears</td><td>Police</td></tr>
+<tr><td>Easy (Like Sunday Morning)</td><td>The Commodores</td></tr>
+<tr><td>Fade Into You</td><td>Mazzy Star</td></tr>
+<tr><td>The First Cut is the Deepest</td><td>Sheryl Crow</td></tr>
+<tr><td>Georgia</td><td>Ray Charles</td></tr>
+<tr><td>Gimme Some Loving</td><td>Spencer Davis Group</td></tr>
+<tr><td>Give Me One Reason</td><td>Tracy Chapman</td></tr>
+<tr><td>Give Me Some Lovin'</td><td>The Spencer Davis Group</td></tr>
+<tr><td>Going to California</td><td>Led Zepplin</td></tr>
+<tr><td>Gold Dust Woman</td><td>Fleetwood Mac</td></tr>
+<tr><td>Goodbye to You</td><td>Scandal</td></tr>
+<tr><td>Goodbye Yellow Brick Road</td><td>Elton John</td></tr>
+<tr><td>Here Comes the Sun</td><td>Beatles</td></tr>
+<tr><td>Honkey Cat</td><td>Elton John</td></tr>
+<tr><td>Hard To Handle</td><td>Black Crowes</td></tr>
+<tr><td>Heroes</td><td>David Bowie</td></tr>
+<tr><td>Hey Hey What Can I Do</td><td>Led Zepplin</td></tr>
+<tr><td>I Don't Want to Be</td><td>Gavin DeGraw</td></tr>
+<tr><td>I'm on Fire</td><td>Bruce Springsteen</td></tr>
+<tr><td>In Gods Country</td><td>U2</td></tr>
+<tr><td>Interstate Love Song</td><td>Stone Temple Pilots</td></tr>
+<tr><td>Into the Mystic</td><td>Van Morrison</td></tr>
+<tr><td>Ironic</td><td>Alanis Morissette</td></tr>
+<tr><td>Jealous Again</td><td>Black Crowes</td></tr>
+<tr><td>Josie</td><td>Steely Dan</td></tr>
+<tr><td>Keep Your Hands to Yourself</td><td>Georgia Satellites</td></tr>
+<tr><td>LA Woman</td><td>The Doors</td></tr>
+<tr><td>Landslide</td><td>Fleetwood Mac</td></tr>
+<tr><td>Last Dance With Mary Jane</td><td>Tom Petty</td></tr>
+<tr><td>Layla</td><td>Eric Clapton</td></tr>
+<tr><td>Learn to Fly</td><td>Foo Fighters</td></tr>
+<tr><td>Let It Go</td><td>James Bay</td></tr>
+<tr><td>Let It Rain</td><td>Eric Clapton</td></tr>
+<tr><td>Little Wing</td><td>Jimi Hendris</td></tr>
+<tr><td>Maybe I'm Amazed</td><td>Paul McCartney</td></tr>
+<tr><td>Me and Julio</td><td>Paul Simon</td></tr>
+<tr><td>Midnight Rider</td><td>The Allman Brothers</td></tr>
+<tr><td>Melissa</td><td>Allman Brothers</td></tr>
+<tr><td>The Middle</td><td>Jimmy Eat World</td></tr>
+<tr><td>Middle of the Road</td><td>Pretenders</td></tr>
+<tr><td>Midnight Rider</td><td>The Allman Brothers</td></tr>
+<tr><td>No Woman No Cry</td><td>Bob Marley</td></tr>
+<tr><td>Please Come Home for Christmas</td><td>Eagles</td></tr>
+<tr><td>Plush</td><td>Stone Temple Pilots</td></tr>
+<tr><td>Ready For Love</td><td>Bad Company</td></tr>
+<tr><td>Remedy</td><td>The Black Crowes</td></tr>
+<tr><td>Riptide</td><td>Vance Joy</td></tr>
+<tr><td>Rocket Man</td><td>Elton John</td></tr>
+<tr><td>Rocky Raccoon</td><td>Beatles</td></tr>
+<tr><td>She's the One</td><td>Bruce Springsteen</td></tr>
+<tr><td>Stop Draggin' My Heart Around</td><td>Stevie Nicks/Tom Petty</td></tr>
+<tr><td>Superstition</td><td>Stevie Wonder</td></tr>
+<tr><td>Surrender</td><td>Cheap Trick</td></tr>
+<tr><td>Tennessee Jed</td><td>The Grateful Dead</td></tr>
+<tr><td>Tennessee Whiskey</td><td>Chris Stapleton</td></tr>
+<tr><td>These Are the Days</td><td>10,000 Maniacs</td></tr>
+<tr><td>Tighten Up</td><td>The Black Keys</td></tr>
+<tr><td>Up On Cripple Creek</td><td>The Band</td></tr>
+<tr><td>Waiting in Vain</td><td>Bob Marley</td></tr>
+<tr><td>What's the Frequency, Kenneth</td><td>R.E.M.</td></tr>
+<tr><td>When the World is Running Down</td><td>Police</td></tr>
+<tr><td>Where the Streets have No Name</td><td>U2</td></tr>
+<tr><td>Wish I Knew You</td><td>The Revivalists</td></tr>
+<tr><td>Who Knew</td><td>Pink</td></tr>
+<tr><td>Ziggy Stardust</td><td>David Bowie</td></tr>
+</table>

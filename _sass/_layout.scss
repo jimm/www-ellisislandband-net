@@ -294,6 +294,14 @@ div.job-place {
     float: right;
 }
 
+table.songlist th,td {
+    text-align: left;
+}
+table.songlist th {
+    background: $text-color;
+    color: $background-color;
+}
+
 /**
  * Emacs tips and tricks
  */
