@@ -32,6 +32,7 @@ title: Song List
 <tr><td>Danny's Song</td><td>Loggins and Mesina</td></tr>
 <tr><td>Daughter</td><td>Pearl Jam</td></tr>
 <tr><td>Dead Flowers</td><td>The Rolling Stones</td></tr>
+<tr><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
 <tr><td>Driven to Tears</td><td>Police</td></tr>
 <tr><td>Easy (Like Sunday Morning)</td><td>The Commodores</td></tr>
 <tr><td>Fade Into You</td><td>Mazzy Star</td></tr>
