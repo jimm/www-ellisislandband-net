@@ -9,7 +9,8 @@ title: Schedule
 
 ### March 2019
 
-**March 14th** *Pomodoro Restaurant*, 1247 E. Putnam Ave, Riverside CT
+**March 14th** Ellis Island Acoustic (Tim and Jim) are playing at *Pomodoro
+Restaurant*, 1247 E. Putnam Ave, Riverside CT
 
 <a href="images/poster_2019_03_14.jpg"><img src="images/poster_2019_03_14.jpg" width="200"/></a>
 

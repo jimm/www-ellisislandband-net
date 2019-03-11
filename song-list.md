@@ -61,7 +61,7 @@ title: Song List
 <tr><td>Keep Your Hands to Yourself</td><td>Georgia Satellites</td></tr>
 <tr><td>LA Woman</td><td>The Doors</td></tr>
 <tr><td>Landslide</td><td>Fleetwood Mac</td></tr>
-<tr><td>Last Dance With Mary Jane</td><td>Tom Petty</td></tr>
+<tr><td>Mary Jane's Last Dance</td><td>Tom Petty</td></tr>
 <tr><td>Layla</td><td>Eric Clapton</td></tr>
 <tr><td>Learn to Fly</td><td>Foo Fighters</td></tr>
 <tr><td>Let It Go</td><td>James Bay</td></tr>
