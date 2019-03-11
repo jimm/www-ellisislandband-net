@@ -9,6 +9,10 @@ title: Schedule
 
 ### March 2019
 
+**March 14th** *Pomodoro Restaurant*, 1247 E. Putnam Ave, Riverside CT
+
+<a href="images/poster_2019_03_14.jpg"><img src="images/poster_2019_03_14.jpg" width="200"/></a>
+
 **March 30th** *Gridiron Club*, a fundraiser for the Farfield Warde High
 School football team. Christ and Holy Trinity Church, 75 Church Lane,
 Westport, CT
