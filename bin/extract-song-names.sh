@@ -12,7 +12,7 @@ fi
 
 awk '/start list/ {exit} ; {print}' $(dirname $0)/../song-list.md > $tmpfile
 echo '<!-- start list -->' >> $tmpfile
-awk '/^\* Songs/,/^\* Tim/ {print}' $songfile \
+awk '/^\* Songs/,/^\* Other Songs/ {print}' $songfile \
     | awk '/^\*\* .*-/ {print}' \
     | sed \
           -e 's#<#&lt;#g' \

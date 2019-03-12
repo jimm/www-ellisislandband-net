@@ -43,7 +43,6 @@ title: Song List
 <tr><td>Give Me Some Lovin'</td><td>The Spencer Davis Group</td></tr>
 <tr><td>Going to California</td><td>Led Zepplin</td></tr>
 <tr><td>Gold Dust Woman</td><td>Fleetwood Mac</td></tr>
-<tr><td>Goodbye to You</td><td>Scandal</td></tr>
 <tr><td>Goodbye Yellow Brick Road</td><td>Elton John</td></tr>
 <tr><td>Here Comes the Sun</td><td>Beatles</td></tr>
 <tr><td>Honkey Cat</td><td>Elton John</td></tr>
