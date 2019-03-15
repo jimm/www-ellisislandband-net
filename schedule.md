@@ -9,11 +9,6 @@ title: Schedule
 
 ### March 2019
 
-**March 14th** Ellis Island Acoustic (Tim and Jim) are playing at *Pomodoro
-Restaurant*, 1247 E. Putnam Ave, Riverside CT
-
-<a href="images/poster_2019_03_14.jpg"><img src="images/poster_2019_03_14.jpg" width="200"/></a>
-
 **March 30th** *Gridiron Club*, a fundraiser for the Farfield Warde High
 School football team. Christ and Holy Trinity Church, 75 Church Lane,
 Westport, CT
@@ -22,6 +17,8 @@ Westport, CT
 
 **April 5th** Ellis Island Acoustic (Tim and Jim) will be at the *St.
 Lawrence Society* for a private event.
+
+<a href="images/poster_2019_04_05.jpg"><img src="images/poster_2019_04_05.jpg" width="200"/></a>
 
 **April 26th** Ellis Island Acoustic (Tim, Nate, Alex, and Jim) will be at
 the *Hi-Ho Motel* for a Mad Men-themed party! 4180 Black Rock Turnpike,
@@ -34,6 +31,11 @@ Fairfield, CT
 ## Recent Gigs
 
 ### March 2019
+
+**March 14th** Ellis Island Acoustic (Tim and Jim) are playing at *Pomodoro
+Restaurant*, 1247 E. Putnam Ave, Riverside CT
+
+<a href="images/poster_2019_03_14.jpg"><img src="images/poster_2019_03_14.jpg" width="200"/></a>
 
 **March 2nd** *Rach's Hope*, Penfield Pavilion, Fairfield, CT
 [Rach's Hope Kickoff!](https://www.eventbrite.com/e/rachs-hope-kickoff-tickets-55122699478?ref=eios&aff=eios)
