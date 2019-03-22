@@ -20,7 +20,7 @@ Lawrence Society* for a private event.
 
 <a href="images/poster_2019_04_05.jpg"><img src="images/poster_2019_04_05.jpg" width="200"/></a>
 
-**April 26th** Ellis Island Acoustic (Tim, Nate, Alex, and Jim) will be at
+**April 25th** Ellis Island Acoustic (Tim, Nate, Alex, and Jim) will be at
 the *Hi-Ho Motel* for a Mad Men-themed party! 4180 Black Rock Turnpike,
 Fairfield, CT
 
