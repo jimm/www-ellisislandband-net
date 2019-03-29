@@ -10,8 +10,7 @@ title: Schedule
 ### March 2019
 
 **March 30th** *Gridiron Club*, a fundraiser for the Farfield Warde High
-School football team. Christ and Holy Trinity Church, 75 Church Lane,
-Westport, CT
+School football team.
 
 ### April 2019
 
