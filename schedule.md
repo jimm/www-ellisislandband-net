@@ -7,11 +7,6 @@ title: Schedule
 
 ## Upcoming
 
-### March 2019
-
-**March 30th** *Gridiron Club*, a fundraiser for the Farfield Warde High
-School football team.
-
 ### April 2019
 
 **April 5th** Ellis Island Acoustic (Tim and Jim) will be at the *St.
@@ -30,6 +25,9 @@ Fairfield, CT
 ## Recent Gigs
 
 ### March 2019
+
+**March 30th** *Gridiron Club*, a fundraiser for the Farfield Warde High
+School football team.
 
 **March 14th** Ellis Island Acoustic (Tim and Jim) are playing at *Pomodoro
 Restaurant*, 1247 E. Putnam Ave, Riverside CT
