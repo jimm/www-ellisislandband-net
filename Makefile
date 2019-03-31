@@ -2,7 +2,7 @@ HOST = jimmenard.com
 SRC = _site/
 DEST = webapps/ellisislandband
 
-.PHONY: publish build songlist site server
+.PHONY: publish build site server
 
 # NOTE: do not use the `--del` rsync flag or otherwise delete any files on
 # the server. There are files there such as the `.well-known` directory
@@ -12,9 +12,9 @@ publish: build
 	    --filter='- bin' --filter='- Makefile' --filter='- README.md' \
 	    $(SRC) $(HOST):$(DEST)
 
-build:	songlist site
+build:	schedule.md site
 
-songlist:
+schedule.md:	$(pim)/orgs/music/ellis_island.org
 	bin/extract-song-names.sh
 
 site:
