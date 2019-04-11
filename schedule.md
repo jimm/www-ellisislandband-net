@@ -9,20 +9,22 @@ title: Schedule
 
 ### April 2019
 
-**April 5th** Ellis Island Acoustic (Tim and Jim) will be at the *St.
-Lawrence Society* for a private event.
-
-<a href="images/poster_2019_04_05.jpg"><img src="images/poster_2019_04_05.jpg" width="200"/></a>
-
-**April 25th** Ellis Island Acoustic (Tim, Nate, Alex, and Jim) will be at
-the *Hi-Ho Motel* for a Mad Men-themed party! 4180 Black Rock Turnpike,
-Fairfield, CT
+**April 25th** (DATE SUBJECT TO CHANGE) Ellis Island Acoustic (Tim, Nate,
+Alex, and Jim) will be at the *Hi-Ho Motel* for a Mad Men-themed party! 4180
+Black Rock Turnpike, Fairfield, CT
 
 ### May 2019
 
 **May 18th** *Private Party*
 
 ## Recent Gigs
+
+### April 2019
+
+**April 5th** Ellis Island Acoustic (Tim and Jim) were at the *St. Lawrence
+Society* for a private event.
+
+<a href="images/poster_2019_04_05.jpg"><img src="images/poster_2019_04_05.jpg" width="200"/></a>
 
 ### March 2019
 
