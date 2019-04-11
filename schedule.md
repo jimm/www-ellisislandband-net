@@ -9,20 +9,20 @@ title: Schedule
 
 ### April 2019
 
-**April 25th** (DATE SUBJECT TO CHANGE) Ellis Island Acoustic (Tim, Nate,
-Alex, and Jim) will be at the *Hi-Ho Motel* for a Mad Men-themed party! 4180
-Black Rock Turnpike, Fairfield, CT
+**April 24th** Ellis Island Acoustic (Tim, Nate, Alex, and Jim) will be at
+the *Hi-Ho Motel* for a Mad Men-themed party! 4180 Black Rock Turnpike,
+Fairfield, CT
 
 ### May 2019
 
-**May 18th** *Private Party*
+**May 18th** *Private Event*
 
 ## Recent Gigs
 
 ### April 2019
 
 **April 5th** Ellis Island Acoustic (Tim and Jim) were at the *St. Lawrence
-Society* for a private event.
+Society*.
 
 <a href="images/poster_2019_04_05.jpg"><img src="images/poster_2019_04_05.jpg" width="200"/></a>
 
@@ -31,8 +31,8 @@ Society* for a private event.
 **March 30th** *Gridiron Club*, a fundraiser for the Farfield Warde High
 School football team.
 
-**March 14th** Ellis Island Acoustic (Tim and Jim) are playing at *Pomodoro
-Restaurant*, 1247 E. Putnam Ave, Riverside CT
+**March 14th** Ellis Island Acoustic (Tim and Jim) at *Pomodoro Restaurant*,
+1247 E. Putnam Ave, Riverside CT
 
 <a href="images/poster_2019_03_14.jpg"><img src="images/poster_2019_03_14.jpg" width="200"/></a>
 
@@ -53,13 +53,13 @@ her honor.
 
 <a href="images/poster_2019_02_14.jpg"><img src="images/poster_2019_02_14.jpg" width="200"/></a>
 
-**Feb 1st** *Grace O'Malley's*, Fairfield CT
+**Feb 1st** *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
 
 <a href="images/poster_2019_02_01.jpg"><img src="images/poster_2019_02_01.jpg" width="200"/></a>
 
 ### January 2019
 
-**Jan 4th** *Seagrape*, Fairfield CT
+**Jan 4th** *The Seagrape*, 1144 Reef Road, Fairfield CT
 
 <a href="images/poster_2019_01_04.jpg"><img src="images/poster_2019_01_04.jpg" width="200"/></a>
 
@@ -69,4 +69,4 @@ her honor.
 
 ### November 2018
 
-**Nov 8th** *Grace O'Malley's*, Fairfield CT
+**Nov 8th** *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
