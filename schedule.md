@@ -7,15 +7,13 @@ title: Schedule
 
 ## Upcoming
 
-### April 2019
-
-**April 24th** Ellis Island Acoustic (Tim, Nate, Alex, and Jim) will be at
-the *Hi-Ho Motel* for a Mad Men-themed party! 4180 Black Rock Turnpike,
-Fairfield, CT
-
 ### May 2019
 
 **May 18th** *Private Event*
+
+### July 2019
+
+**July 20th** Ellis Island Acoustic (Tim and Jim), *Private Event*
 
 ## Recent Gigs
 
@@ -25,6 +23,10 @@ Fairfield, CT
 Society*.
 
 <a href="images/poster_2019_04_05.jpg"><img src="images/poster_2019_04_05.jpg" width="200"/></a>
+
+**April 24th** Ellis Island Acoustic (Tim, Nate, Alex, and Jim) played at
+the *Hi-Ho Motel* for a Mad Men-themed party! 4180 Black Rock Turnpike,
+Fairfield, CT
 
 ### March 2019
 
