@@ -11,7 +11,6 @@ title: Song List
   <th>Artist</th>
 </tr>
 <!-- start list -->
-<tr><td>Alive</td><td>Pearl Jam</td></tr>
 <tr><td>American Girl</td><td>Tom Petty</td></tr>
 <tr><td>And It Stoned Me</td><td>Van Morrison</td></tr>
 <tr><td>Angel Of Harlem</td><td>U2</td></tr>
@@ -34,18 +33,16 @@ title: Song List
 <tr><td>Dead Flowers</td><td>The Rolling Stones</td></tr>
 <tr><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
 <tr><td>Driven to Tears</td><td>Police</td></tr>
-<tr><td>Easy (Like Sunday Morning)</td><td>The Commodores</td></tr>
 <tr><td>Fade Into You</td><td>Mazzy Star</td></tr>
+<tr><td>Take Me To the River</td><td>Talking Heads</td></tr>
 <tr><td>The First Cut is the Deepest</td><td>Sheryl Crow</td></tr>
 <tr><td>Georgia</td><td>Ray Charles</td></tr>
-<tr><td>Gimme Some Loving</td><td>Spencer Davis Group</td></tr>
 <tr><td>Give Me One Reason</td><td>Tracy Chapman</td></tr>
 <tr><td>Give Me Some Lovin'</td><td>The Spencer Davis Group</td></tr>
 <tr><td>Going to California</td><td>Led Zepplin</td></tr>
 <tr><td>Gold Dust Woman</td><td>Fleetwood Mac</td></tr>
 <tr><td>Goodbye Yellow Brick Road</td><td>Elton John</td></tr>
 <tr><td>Here Comes the Sun</td><td>Beatles</td></tr>
-<tr><td>Honkey Cat</td><td>Elton John</td></tr>
 <tr><td>Hard To Handle</td><td>Black Crowes</td></tr>
 <tr><td>Heroes</td><td>David Bowie</td></tr>
 <tr><td>Hey Hey What Can I Do</td><td>Led Zepplin</td></tr>
