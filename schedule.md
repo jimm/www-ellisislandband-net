@@ -7,21 +7,25 @@ title: Schedule
 
 ## Upcoming
 
-### May 2019
-
-**May 18th** *Private Event*
-
 ### June 2019
 
 **June 14th** Ellis Island Acoustic at *Saugatuck Sweets*, 575 Riverside
-Ave, Westport, CT. 5-7 PM (tentative). Join us on the patio outside for
-killer ice cream and music!
+Ave, Westport, CT. 5-7 PM (times tentative). Join us on the patio outside
+for killer ice cream and music!
+
+**June 15th** The whole band will be rocking *Kieran's Place*, H. Smith
+Richardson Golf Course, 2425 Morehouse Highway, Fairfield CT. 8:00 PM. Open
+to the public.
 
 ### July 2019
 
 **July 20th** Ellis Island Acoustic (Tim and Jim), *Private Event*
 
 ## Recent Gigs
+
+### May 2019
+
+**May 18th** *Private Event*
 
 ### April 2019
 
