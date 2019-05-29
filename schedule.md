@@ -17,6 +17,8 @@ for killer ice cream and music!
 Richardson Golf Course, 2425 Morehouse Highway, Fairfield CT. 8:00 PM. Open
 to the public.
 
+<a href="images/poster_2019_06_15.jpg"><img src="images/poster_2019_06_15.jpg" alt="band poster" width="200"/></a>
+
 ### July 2019
 
 **July 20th** Ellis Island Acoustic (Tim and Jim), *Private Event*
@@ -32,7 +34,7 @@ to the public.
 **April 5th** Ellis Island Acoustic (Tim and Jim) were at the *St. Lawrence
 Society*.
 
-<a href="images/poster_2019_04_05.jpg"><img src="images/poster_2019_04_05.jpg" width="200"/></a>
+<a href="images/poster_2019_04_05.jpg"><img src="images/poster_2019_04_05.jpg" alt="band poster" width="200"/></a>
 
 **April 24th** Ellis Island Acoustic (Tim, Nate, Alex, and Jim) played at
 the *Hi-Ho Motel* for a Mad Men-themed party! 4180 Black Rock Turnpike,
@@ -46,7 +48,7 @@ School football team.
 **March 14th** Ellis Island Acoustic (Tim and Jim) at *Pomodoro Restaurant*,
 1247 E. Putnam Ave, Riverside CT
 
-<a href="images/poster_2019_03_14.jpg"><img src="images/poster_2019_03_14.jpg" width="200"/></a>
+<a href="images/poster_2019_03_14.jpg"><img src="images/poster_2019_03_14.jpg" alt="band poster" width="200"/></a>
 
 **March 2nd** *Rach's Hope*, Penfield Pavilion, Fairfield, CT
 [Rach's Hope Kickoff!](https://www.eventbrite.com/e/rachs-hope-kickoff-tickets-55122699478?ref=eios&aff=eios)
@@ -56,24 +58,24 @@ has more information about Rachel and the foundation that's been created in
 her honor.
 
 <a href="https://www.eventbrite.com/e/rachs-hope-kickoff-tickets-55122699478?ref=eios&aff=eios">
-  <img src="images/rachs_hope.jpeg" width="200"/>
+  <img src="images/rachs_hope.jpeg" alt="band poster" width="200"/>
 </a>
 
 ### February 2019
 
 **Feb 14th** *Pomodoro Restaurant*, 1247 E. Putnam Ave, Riverside CT
 
-<a href="images/poster_2019_02_14.jpg"><img src="images/poster_2019_02_14.jpg" width="200"/></a>
+<a href="images/poster_2019_02_14.jpg"><img src="images/poster_2019_02_14.jpg" alt="band poster" width="200"/></a>
 
 **Feb 1st** *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
 
-<a href="images/poster_2019_02_01.jpg"><img src="images/poster_2019_02_01.jpg" width="200"/></a>
+<a href="images/poster_2019_02_01.jpg"><img src="images/poster_2019_02_01.jpg" alt="band poster" width="200"/></a>
 
 ### January 2019
 
 **Jan 4th** *The Seagrape*, 1144 Reef Road, Fairfield CT
 
-<a href="images/poster_2019_01_04.jpg"><img src="images/poster_2019_01_04.jpg" width="200"/></a>
+<a href="images/poster_2019_01_04.jpg"><img src="images/poster_2019_01_04.jpg" alt="band poster" width="200"/></a>
 
 ### December 2018
 
