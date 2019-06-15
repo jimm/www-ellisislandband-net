@@ -23,6 +23,8 @@ to the public.
 
 **July 20th** Ellis Island Acoustic (Tim and Jim), *Private Event*
 
+**July 25th** Ellis Island Acoustic (Tim, Jeannine, and Jim), *Private Event*
+
 <hr/>
 <br/>
 
