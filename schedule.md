@@ -7,6 +7,17 @@ title: Schedule
 
 ## Upcoming
 
+### July 2019
+
+**July 20th** Ellis Island Acoustic (Tim and Jim), *Private Event*
+
+**July 25th** Ellis Island Acoustic (Tim, Jeannine, and Jim), *Private Event*
+
+<hr/>
+<br/>
+
+## Recent Gigs
+
 ### June 2019
 
 **June 14th** Ellis Island Acoustic at *Saugatuck Sweets*, 575 Riverside
@@ -18,17 +29,6 @@ Richardson Golf Course, 2425 Morehouse Highway, Fairfield CT. 8:00 PM. Open
 to the public.
 
 <a href="images/poster_2019_06_15.jpg"><img src="images/poster_2019_06_15.jpg" alt="band poster" width="200"/></a>
-
-### July 2019
-
-**July 20th** Ellis Island Acoustic (Tim and Jim), *Private Event*
-
-**July 25th** Ellis Island Acoustic (Tim, Jeannine, and Jim), *Private Event*
-
-<hr/>
-<br/>
-
-## Recent Gigs
 
 ### May 2019
 
