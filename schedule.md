@@ -16,6 +16,11 @@ title: Schedule
 <hr/>
 <br/>
 
+### September 2019
+
+**September 28th** _TENTATIVE_ Ellis Island at *Bar Rosso*, 20 Spring St.,
+Stamford CT.
+
 ## Recent Gigs
 
 ### June 2019
