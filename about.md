@@ -21,11 +21,11 @@ title: About
 
 ## Tim Ellis
 
-Vocals, acoustic and electric guitar.
+Vocals, acoustic and electric guitars, and foot-tambourine.
 
 ## Nate Balogh
 
-Acoustic and electric guitar.
+Acoustic and electric guitars.
 
 ## Alex Giannaras
 
@@ -33,7 +33,7 @@ Bass.
 
 ## Jim Menard
 
-Keyboards.
+Keyboards, and tambourine on one song.
 
 ## Jeff Steele
 
