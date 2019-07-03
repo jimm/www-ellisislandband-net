@@ -1,8 +1,9 @@
 #!/bin/bash
 
+here="$(cd $(dirname "$0") && pwd)"
 songfile=$pim/orgs/music/ellis_island.org
 tmpfile=/tmp/song-list.md
-dest="$(dirname $0)/../song-list.md"
+dest="$here/../song-list.md"
 
 if [ ! -f $songfile ] ; then
     echo song file $songfile does not exist
@@ -12,8 +13,7 @@ fi
 
 awk '/start list/ {exit} ; {print}' $(dirname $0)/../song-list.md > $tmpfile
 echo '<!-- start list -->' >> $tmpfile
-awk '/^\* Songs/,/^\* Other Songs/ {print}' $songfile \
-    | awk '/^\*\* .*-/ {print}' \
+awk -f "$here/extract-song-names.awk" $songfile \
     | sed \
           -e 's#<#&lt;#g' \
           -e 's#&#&amp;#g' \
