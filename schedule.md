@@ -7,21 +7,24 @@ title: Schedule
 
 ## Upcoming
 
+### August 2019
+
+**August 8th** *Private Event*
+
+### September 2019
+
+**September 27th** *Grace O'Malley's*, , 1494 Post Rd, Fairfield CT
+
+## Recent Gigs
+
 ### July 2019
 
 **July 20th** Ellis Island Acoustic (Tim and Jim), *Private Event*
 
-**July 25th** Ellis Island Acoustic (Tim, Jeannine, and Jim), *Private Event*
+**July 25th** Ellis Island Acoustic (Tim and Jim), *Private Event*
 
 <hr/>
 <br/>
-
-### September 2019
-
-**September 28th** _TENTATIVE_ Ellis Island at *Bar Rosso*, 20 Spring St.,
-Stamford CT.
-
-## Recent Gigs
 
 ### June 2019
 
