@@ -301,6 +301,9 @@ table.songlist th {
     background: $text-color;
     color: $background-color;
 }
+table.songlist a:link, a:visited, a:hover, a:active {
+    color: $background-color;
+}
 
 /**
  * Emacs tips and tricks

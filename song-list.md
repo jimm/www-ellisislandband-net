@@ -5,10 +5,11 @@ title: Song List
 
 # Ellis Island Song List
 
-<table class="songlist">
+<p>Click "Song" or "Artist" to sort the list.</p>
+<table class="songlist" id="songlist">
 <tr>
-  <th>Song</th>
-  <th>Artist</th>
+  <th><a href="#" onclick="sort_by_title();">Song</a></th>
+  <th><a href="#" onclick="sort_by_artist();">Artist</a></th>
 </tr>
 <!-- start list -->
 <tr><td>American Girl</td><td>Tom Petty</td></tr>

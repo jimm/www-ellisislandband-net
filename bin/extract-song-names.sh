@@ -1,25 +1,23 @@
 #!/bin/bash
+#
+# usage: extract-song-names.sh [songfile]
 
 here="$(cd $(dirname "$0") && pwd)"
-songfile=$pim/orgs/music/ellis_island.org
-tmpfile=/tmp/song-list.md
-dest="$here/../song-list.md"
+songfile=${1:-$pim/orgs/music/ellis_island.org}
 
 if [ ! -f $songfile ] ; then
     echo song file $songfile does not exist
-    # do not want to exit with error; let make continue
-    exit 0
+    exit 1
 fi
 
-awk '/start list/ {exit} ; {print}' $(dirname $0)/../song-list.md > $tmpfile
-echo '<!-- start list -->' >> $tmpfile
+awk '/start list/ {exit} ; {print}' "$here/../song-list.md"
+echo '<!-- start list -->'
+echo 'song_list = {
 awk -f "$here/extract-song-names.awk" $songfile \
     | sed \
           -e 's#<#&lt;#g' \
           -e 's#&#&amp;#g' \
           -e 's#^\*\* #<tr><td>#' \
           -e 's# - #</td><td>#' \
-          -e 's#$#</td></tr>#' \
-          >> $tmpfile
-echo '</table>' >> $tmpfile
-mv $tmpfile "$dest"
+          -e 's#$#</td></tr>#'
+echo '</table>'

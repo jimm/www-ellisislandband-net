@@ -7,15 +7,15 @@ title: Schedule
 
 ## Upcoming
 
-### August 2019
-
-**August 8th** *Private Event*
-
 ### September 2019
 
 **September 27th** *Grace O'Malley's*, , 1494 Post Rd, Fairfield CT
 
 ## Recent Gigs
+
+### August 2019
+
+**August 8th** *Private Event*
 
 ### July 2019
 

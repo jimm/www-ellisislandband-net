@@ -15,7 +15,8 @@ publish: build
 build:	schedule.md site
 
 schedule.md:	$(pim)/orgs/music/ellis_island.org
-	bin/extract-song-names.sh
+	bin/extract-song-names.sh > /tmp/song-list.md && \
+	    mv /tmp/song-list.md .
 
 site:
 	jekyll build
