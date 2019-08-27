@@ -12,7 +12,6 @@ fi
 
 awk '/start list/ {exit} ; {print}' "$here/../song-list.md"
 echo '<!-- start list -->'
-echo 'song_list = {
 awk -f "$here/extract-song-names.awk" $songfile \
     | sed \
           -e 's#<#&lt;#g' \
