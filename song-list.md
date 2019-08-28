@@ -12,6 +12,7 @@ title: Song List
   <th><a href="#" onclick="sort_by_artist();">Artist</a></th>
 </tr>
 <!-- start list -->
+<tr><td>Alive</td><td>Pearl Jam</td></tr>
 <tr><td>American Girl</td><td>Tom Petty</td></tr>
 <tr><td>And It Stoned Me</td><td>Van Morrison</td></tr>
 <tr><td>Angel Of Harlem</td><td>U2</td></tr>
@@ -35,6 +36,7 @@ title: Song List
 <tr><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
 <tr><td>Driven to Tears</td><td>Police</td></tr>
 <tr><td>Fade Into You</td><td>Mazzy Star</td></tr>
+<tr><td>Friend of the Devil</td><td>Rolling Stones</td></tr>
 <tr><td>Take Me To the River</td><td>Talking Heads</td></tr>
 <tr><td>The First Cut is the Deepest</td><td>Sheryl Crow</td></tr>
 <tr><td>Georgia</td><td>Ray Charles</td></tr>
@@ -47,6 +49,7 @@ title: Song List
 <tr><td>Hard To Handle</td><td>Black Crowes</td></tr>
 <tr><td>Heroes</td><td>David Bowie</td></tr>
 <tr><td>Hey Hey What Can I Do</td><td>Led Zepplin</td></tr>
+<tr><td>Hey Jealousy</td><td>Gin Blossoms</td></tr>
 <tr><td>I Don't Want to Be</td><td>Gavin DeGraw</td></tr>
 <tr><td>I'm on Fire</td><td>Bruce Springsteen</td></tr>
 <tr><td>In Gods Country</td><td>U2</td></tr>
@@ -58,19 +61,21 @@ title: Song List
 <tr><td>Keep Your Hands to Yourself</td><td>Georgia Satellites</td></tr>
 <tr><td>LA Woman</td><td>The Doors</td></tr>
 <tr><td>Landslide</td><td>Fleetwood Mac</td></tr>
-<tr><td>Mary Jane's Last Dance</td><td>Tom Petty</td></tr>
 <tr><td>Layla</td><td>Eric Clapton</td></tr>
 <tr><td>Learn to Fly</td><td>Foo Fighters</td></tr>
 <tr><td>Let It Go</td><td>James Bay</td></tr>
 <tr><td>Let It Rain</td><td>Eric Clapton</td></tr>
 <tr><td>Little Wing</td><td>Jimi Hendris</td></tr>
+<tr><td>Mary Jane's Last Dance</td><td>Tom Petty</td></tr>
 <tr><td>Maybe I'm Amazed</td><td>Paul McCartney</td></tr>
 <tr><td>Me and Julio</td><td>Paul Simon</td></tr>
 <tr><td>Midnight Rider</td><td>The Allman Brothers</td></tr>
+<tr><td>Mr. Jones</td><td>Counting Crows</td></tr>
 <tr><td>Melissa</td><td>Allman Brothers</td></tr>
 <tr><td>The Middle</td><td>Jimmy Eat World</td></tr>
 <tr><td>Middle of the Road</td><td>Pretenders</td></tr>
 <tr><td>Midnight Rider</td><td>The Allman Brothers</td></tr>
+<tr><td>My Hero</td><td>Foo Fighters</td></tr>
 <tr><td>No Woman No Cry</td><td>Bob Marley</td></tr>
 <tr><td>Please Come Home for Christmas</td><td>Eagles</td></tr>
 <tr><td>Plush</td><td>Stone Temple Pilots</td></tr>
