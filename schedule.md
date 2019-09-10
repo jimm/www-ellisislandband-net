@@ -14,6 +14,8 @@ title: Schedule
 
 **September 27th** *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
 
+<a href="images/poster_2019_09_27.jpg"><img src="images/poster_2019_09_27.jpg" alt="band poster" width="200"/></a>
+
 ### October 2019
 
 **October 13th** *Taste of Fairfield*, Delmar Southport, 275 Old Post Road,
