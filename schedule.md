@@ -9,9 +9,6 @@ title: Schedule
 
 ### September 2019
 
-**September 21st** Ellis Island Acoustic (Tim, Nate, Alex, and Jim),
-*Clubhouse Grille*, 165 Fillow St, Norwalk, CT 06850, USA
-
 **September 27th** *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
 
 <a href="images/poster_2019_09_27.jpg"><img src="images/poster_2019_09_27.jpg" alt="band poster" width="200"/></a>
