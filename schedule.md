@@ -9,7 +9,18 @@ title: Schedule
 
 ### September 2019
 
-**September 27th** *Grace O'Malley's*, , 1494 Post Rd, Fairfield CT
+**September 21st** Ellis Island Acoustic (Tim, Nate, Alex, and Jim),
+*Clubhouse Grille*, 165 Fillow St, Norwalk, CT 06850, USA
+
+**September 27th** *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
+
+### October 2019
+
+**October 13th** *Taste of Fairfield*, Delmar Southport, 275 Old Post Road,
+Southport CT
+
+**October 19th** *Kieran's Place*, H. Smith Richardson Golf Course, 2425
+Morehouse Highway, Fairfield CT. 8:00 PM.
 
 ## Recent Gigs
 
