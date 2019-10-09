@@ -7,12 +7,6 @@ title: Schedule
 
 ## Upcoming
 
-### September 2019
-
-**September 27th** *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
-
-<a href="images/poster_2019_09_27.jpg"><img src="images/poster_2019_09_27.jpg" alt="band poster" width="200"/></a>
-
 ### October 2019
 
 **October 13th** *Taste of Fairfield*, Delmar Southport, 275 Old Post Road,
@@ -21,9 +15,17 @@ Southport CT
 **October 19th** *Kieran's Place*, H. Smith Richardson Golf Course, 2425
 Morehouse Highway, Fairfield CT. 8:00 PM.
 
+<a href="images/poster_2019_10_19.jpg"><img src="images/poster_2019_10_19.jpg" alt="band poster" width="200"/></a>
+
 ## Recent Gigs
 
 ### August 2019
+
+### September 2019
+
+**September 27th** *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
+
+<a href="images/poster_2019_09_27.jpg"><img src="images/poster_2019_09_27.jpg" alt="band poster" width="200"/></a>
 
 **August 8th** *Private Event*
 
