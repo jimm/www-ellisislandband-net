@@ -7,12 +7,9 @@ title: Schedule
 
 ## Upcoming
 
-### October 2019
+### December 2019
 
-**October 19th** *Kieran's Place*, H. Smith Richardson Golf Course, 2425
-Morehouse Highway, Fairfield CT. 8:00 PM.
-
-<a href="images/poster_2019_10_19.jpg"><img src="images/poster_2019_10_19.jpg" alt="band poster" width="200"/></a>
+**December 14th** *Private Event*
 
 ## Recent Gigs
 
@@ -20,6 +17,11 @@ Morehouse Highway, Fairfield CT. 8:00 PM.
 
 **October 13th** *Taste of Fairfield*, Delmar Southport, 275 Old Post Road,
 Southport CT
+
+**October 19th** *Kieran's Place*, H. Smith Richardson Golf Course, 2425
+Morehouse Highway, Fairfield CT. 8:00 PM.
+
+<a href="images/poster_2019_10_19.jpg"><img src="images/poster_2019_10_19.jpg" alt="band poster" width="200"/></a>
 
 ### September 2019
 
