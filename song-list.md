@@ -17,7 +17,7 @@ title: Song List
 <tr><td>And It Stoned Me</td><td>Van Morrison</td></tr>
 <tr><td>Angel Of Harlem</td><td>U2</td></tr>
 <tr><td>Angela</td><td>The Luminiers</td></tr>
-<tr><td>Appolossa</td><td>The Black Crowes</td></tr>
+<tr><td>Appaloosa</td><td>The Black Crowes</td></tr>
 <tr><td>Are You Gonna Be My Girl</td><td>Jet</td></tr>
 <tr><td>Back on the Chain Gang</td><td>The Pretenders</td></tr>
 <tr><td>Bad Moon Rising</td><td>Credence Clearwater Revival</td></tr>
@@ -26,7 +26,7 @@ title: Song List
 <tr><td>Better Man</td><td>Perl Jam</td></tr>
 <tr><td>Break On Through</td><td>The Doors</td></tr>
 <tr><td>Caravan</td><td>Van Morrison</td></tr>
-<tr><td>A Change Will Do You Good</td><td>Sheryl Crow</td></tr>
+<tr><td>A Change Would Do You Good</td><td>Sheryl Crow</td></tr>
 <tr><td>Closing Time</td><td>Scary Pockets (Semisonic)</td></tr>
 <tr><td>Crazy Love</td><td>Van Morrison</td></tr>
 <tr><td>Criminal</td><td>Fiona Apple</td></tr>
@@ -37,7 +37,8 @@ title: Song List
 <tr><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
 <tr><td>Driven to Tears</td><td>Police</td></tr>
 <tr><td>Fade Into You</td><td>Mazzy Star</td></tr>
-<tr><td>Friend of the Devil</td><td>Rolling Stones</td></tr>
+<tr><td>Feeling Alright</td><td>Joe Cocker</td></tr>
+<tr><td>Friend of the Devil</td><td>Grateful Dead</td></tr>
 <tr><td>Take Me To the River</td><td>Talking Heads</td></tr>
 <tr><td>The First Cut is the Deepest</td><td>Sheryl Crow</td></tr>
 <tr><td>Georgia</td><td>Ray Charles</td></tr>
@@ -55,25 +56,23 @@ title: Song List
 <tr><td>Hunger Strike</td><td>Temple of the Dog</td></tr>
 <tr><td>I Don't Want to Be</td><td>Gavin DeGraw</td></tr>
 <tr><td>I'm on Fire</td><td>Bruce Springsteen</td></tr>
-<tr><td>In Gods Country</td><td>U2</td></tr>
+<tr><td>In God's Country</td><td>U2</td></tr>
 <tr><td>Interstate Love Song</td><td>Stone Temple Pilots</td></tr>
 <tr><td>Into the Mystic</td><td>Van Morrison</td></tr>
 <tr><td>Ironic</td><td>Alanis Morissette</td></tr>
 <tr><td>Jealous Again</td><td>Black Crowes</td></tr>
 <tr><td>Josie</td><td>Steely Dan</td></tr>
 <tr><td>Just What I Needed</td><td>The Cars</td></tr>
-<tr><td>Keep Your Hands to Yourself</td><td>Georgia Satellites</td></tr>
 <tr><td>LA Woman</td><td>The Doors</td></tr>
 <tr><td>Landslide</td><td>Fleetwood Mac</td></tr>
 <tr><td>Layla</td><td>Eric Clapton</td></tr>
 <tr><td>Learn to Fly</td><td>Foo Fighters</td></tr>
 <tr><td>Let It Go</td><td>James Bay</td></tr>
 <tr><td>Let It Rain</td><td>Eric Clapton</td></tr>
-<tr><td>Little Wing</td><td>Jimi Hendris</td></tr>
+<tr><td>Little Wing</td><td>Jimi Hendrix</td></tr>
 <tr><td>Mary Jane's Last Dance</td><td>Tom Petty</td></tr>
 <tr><td>Maybe I'm Amazed</td><td>Paul McCartney</td></tr>
 <tr><td>Me and Julio</td><td>Paul Simon</td></tr>
-<tr><td>Midnight Rider</td><td>The Allman Brothers</td></tr>
 <tr><td>Mr. Jones</td><td>Counting Crows</td></tr>
 <tr><td>Melissa</td><td>Allman Brothers</td></tr>
 <tr><td>The Middle</td><td>Jimmy Eat World</td></tr>
@@ -94,7 +93,6 @@ title: Song List
 <tr><td>Surrender</td><td>Cheap Trick</td></tr>
 <tr><td>Tennessee Jed</td><td>The Grateful Dead</td></tr>
 <tr><td>Tennessee Whiskey</td><td>Chris Stapleton</td></tr>
-<tr><td>These Are the Days</td><td>10,000 Maniacs</td></tr>
 <tr><td>Tighten Up</td><td>The Black Keys</td></tr>
 <tr><td>Up On Cripple Creek</td><td>The Band</td></tr>
 <tr><td>Waiting in Vain</td><td>Bob Marley</td></tr>
