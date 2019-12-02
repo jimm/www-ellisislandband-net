@@ -17,6 +17,12 @@ Rock that'll get you moving!
            alt="A Taste of Fairfield"/>
     </td>
   </tr>
+  <tr style="vertical-align: top;">
+    <td colspan="2" width="100%" style="align: top; text-align: center;">
+      <img src="images/band_2019_09_09.jpg" width="100%"
+           alt="A Taste of Fairfield"/>
+    </td>
+  </tr>
 </table>
 
 # Contact Information

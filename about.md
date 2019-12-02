@@ -17,6 +17,13 @@ title: About
       <img src="images/bourbon_tray.jpeg" width="300"/>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" style="text-align: center;">
+      <br/>
+      <img src="images/band_2019_09_09.jpg" width="80%"/>
+      <p>L to R: Nate, Alex, Jeannine, Jeff, Tim, Jim</p>
+    </td>
+  </tr>
 </table>
 
 ## Tim Ellis
