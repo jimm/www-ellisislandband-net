@@ -21,24 +21,25 @@ title: About
 
 ## Tim Ellis
 
-Vocals, acoustic and electric guitars, and foot-tambourine.
+Vocals and acoustic and electric guitars (*and foot tambourine*)
 
 ## Nate Balogh
 
-Acoustic and electric guitars.
+Acoustic and electric guitars
 
 ## Alex Giannaras
 
-Bass.
+Bass and vocals
 
 ## Jim Menard
 
-Keyboards, and tambourine on one song.
+Keyboards (*and tambourine on one song, and they let him sing some harmony
+that's not critical or needs to be in tune or anything*)
 
 ## Jeff Steele
 
-Drums.
+Drums and percussion
 
 ## Jeannine Swaim
 
-Vocals, percussion.
+Vocals and percussion
