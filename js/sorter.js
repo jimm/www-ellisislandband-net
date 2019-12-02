@@ -5,13 +5,29 @@ function load_table_data(table) {
     table_data.push([row.cells[0].innerHTML, row.cells[1].innerHTML])
 }
 
+function normalize_sort_string(str) {
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+    // says to use upper case instead of lower case due to problems with
+    // certain UTF-8 character conversions.
+  str = str.toUpperCase();
+  var regex = /^(AN?|THE) /;
+  var found = str.match(regex);
+  if (found != null)
+    str = str.substr(found[0].length);
+  return str;
+}
+
 function sort_by(which) {
   var table = document.getElementById("songlist");
   if (table_data.length == 0)
     load_table_data(table);
+  // Yes, we normalize each string N times when sorting. The total list size
+  // isn't that big so I'm not worried about performance.
   table_data.sort(function (a, b) {
-    if (a[which] < b[which]) return -1;
-    if (a[which] > b[which]) return 1;
+    a_str = normalize_sort_string(a[which]);
+    b_str = normalize_sort_string(b[which]);
+    if (a_str < b_str) return -1;
+    if (a_str > b_str) return 1;
     return 0;
   });
   for (var i = 1, row; row = table.rows[i]; i++) {
