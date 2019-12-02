@@ -15,6 +15,7 @@ title: Song List
 <tr><td>Alive</td><td>Pearl Jam</td></tr>
 <tr><td>American Girl</td><td>Tom Petty</td></tr>
 <tr><td>And It Stoned Me</td><td>Van Morrison</td></tr>
+<tr><td>Ants Marching</td><td>Dave Matthews Band</td></tr>
 <tr><td>Angel Of Harlem</td><td>U2</td></tr>
 <tr><td>Angela</td><td>The Luminiers</td></tr>
 <tr><td>Appaloosa</td><td>The Black Crowes</td></tr>
@@ -25,7 +26,9 @@ title: Song List
 <tr><td>Best of You</td><td>Foo Fighters</td></tr>
 <tr><td>Better Man</td><td>Perl Jam</td></tr>
 <tr><td>Break On Through</td><td>The Doors</td></tr>
+<tr><td>Cannonball</td><td>The Breeders</td></tr>
 <tr><td>Caravan</td><td>Van Morrison</td></tr>
+<tr><td>Celebrity Skin</td><td>Hole</td></tr>
 <tr><td>A Change Would Do You Good</td><td>Sheryl Crow</td></tr>
 <tr><td>Closing Time</td><td>Scary Pockets (Semisonic)</td></tr>
 <tr><td>Crazy Love</td><td>Van Morrison</td></tr>
@@ -53,6 +56,7 @@ title: Song List
 <tr><td>Heroes</td><td>David Bowie</td></tr>
 <tr><td>Hey Hey What Can I Do</td><td>Led Zepplin</td></tr>
 <tr><td>Hey Jealousy</td><td>Gin Blossoms</td></tr>
+<tr><td>Higher Ground</td><td>Stevie Wonder</td></tr>
 <tr><td>Hunger Strike</td><td>Temple of the Dog</td></tr>
 <tr><td>I Don't Want to Be</td><td>Gavin DeGraw</td></tr>
 <tr><td>I'm on Fire</td><td>Bruce Springsteen</td></tr>
@@ -70,6 +74,7 @@ title: Song List
 <tr><td>Let It Go</td><td>James Bay</td></tr>
 <tr><td>Let It Rain</td><td>Eric Clapton</td></tr>
 <tr><td>Little Wing</td><td>Jimi Hendrix</td></tr>
+<tr><td>Love Me Two Times</td><td>The Doors</td></tr>
 <tr><td>Mary Jane's Last Dance</td><td>Tom Petty</td></tr>
 <tr><td>Maybe I'm Amazed</td><td>Paul McCartney</td></tr>
 <tr><td>Me and Julio</td><td>Paul Simon</td></tr>
@@ -77,9 +82,11 @@ title: Song List
 <tr><td>Melissa</td><td>Allman Brothers</td></tr>
 <tr><td>The Middle</td><td>Jimmy Eat World</td></tr>
 <tr><td>Middle of the Road</td><td>Pretenders</td></tr>
-<tr><td>Midnight Rider</td><td>The Allman Brothers</td></tr>
+<tr><td>Midnight Rider</td><td>Allman Brothers</td></tr>
+<tr><td>Moonage Daydream</td><td>David Bowie</td></tr>
 <tr><td>My Hero</td><td>Foo Fighters</td></tr>
 <tr><td>No Woman No Cry</td><td>Bob Marley</td></tr>
+<tr><td>Only Happy When it Rains</td><td>Garbage</td></tr>
 <tr><td>Please Come Home for Christmas</td><td>Eagles</td></tr>
 <tr><td>Plush</td><td>Stone Temple Pilots</td></tr>
 <tr><td>Ready For Love</td><td>Bad Company</td></tr>
@@ -91,11 +98,14 @@ title: Song List
 <tr><td>Stop Draggin' My Heart Around</td><td>Stevie Nicks/Tom Petty</td></tr>
 <tr><td>Superstition</td><td>Stevie Wonder</td></tr>
 <tr><td>Surrender</td><td>Cheap Trick</td></tr>
+<tr><td>Synchronicity II</td><td>The Police</td></tr>
 <tr><td>Tennessee Jed</td><td>The Grateful Dead</td></tr>
 <tr><td>Tennessee Whiskey</td><td>Chris Stapleton</td></tr>
 <tr><td>Tighten Up</td><td>The Black Keys</td></tr>
 <tr><td>Up On Cripple Creek</td><td>The Band</td></tr>
+<tr><td>Virtual Insanity</td><td>Jamiroquai</td></tr>
 <tr><td>Waiting in Vain</td><td>Bob Marley</td></tr>
+<tr><td>What Is and What Should Never Be</td><td>Led Zeppelin</td></tr>
 <tr><td>What's the Frequency, Kenneth</td><td>R.E.M.</td></tr>
 <tr><td>When the World is Running Down</td><td>Police</td></tr>
 <tr><td>Where the Streets have No Name</td><td>U2</td></tr>
