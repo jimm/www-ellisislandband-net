@@ -103,7 +103,6 @@ title: Song List
 <tr><td>Tennessee Whiskey</td><td>Chris Stapleton</td></tr>
 <tr><td>Tighten Up</td><td>The Black Keys</td></tr>
 <tr><td>Up On Cripple Creek</td><td>The Band</td></tr>
-<tr><td>Virtual Insanity</td><td>Jamiroquai</td></tr>
 <tr><td>Waiting in Vain</td><td>Bob Marley</td></tr>
 <tr><td>What Is and What Should Never Be</td><td>Led Zeppelin</td></tr>
 <tr><td>What's the Frequency, Kenneth</td><td>R.E.M.</td></tr>
