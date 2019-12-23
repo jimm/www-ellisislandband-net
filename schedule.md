@@ -7,6 +7,10 @@ title: Schedule
 
 ## Upcoming
 
+_Check back for more gigs coming up in 2020 and beyond!_
+
+## Recent Gigs
+
 ### December 2019
 
 **December 1st** *Sherman Green Gazebo*, Fairfield CT. 5:15pm-6:15pm. Join
@@ -14,8 +18,6 @@ Ellis Island as we kick off the lighting of the town Christmas tree with an
 hour of your favorites. We'll even throw in a Christmas song!
 
 **December 14th** *Private Event*
-
-## Recent Gigs
 
 ### October 2019
 
