@@ -9,7 +9,7 @@ title: Schedule
 
 ### February 2020
 
-**February 29th** (_tentative_) *Rach's Hope*, Penfield Pavilion, Fairfield,
+**February 29th** *Rach's Hope*, Penfield Pavilion, Fairfield,
 CT Rach's Hope! (link for tickets coming soon): Families helping families
 weather the storm of critical illness. [Rach’s Hope: Weathering The Storm Of
 Critical
@@ -18,7 +18,6 @@ has more information about Rachel and the foundation that's been created in
 her honor.
 
 <a href="images/rachs_hope.jpeg"><img src="images/rachs_hope.jpeg" alt="band poster" width="200"/></a>
-</a>
 
 ## Recent Gigs
 
