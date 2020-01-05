@@ -10,8 +10,9 @@ title: Schedule
 ### February 2020
 
 **February 29th** *Rach's Hope*, Penfield Pavilion, Fairfield,
-CT Rach's Hope! (link for tickets coming soon): Families helping families
-weather the storm of critical illness. [Rach’s Hope: Weathering The Storm Of
+CT
+
+Rach's Hope! (link for tickets coming soon): [Weathering The Storm Of
 Critical
 Illness](https://06880danwoog.com/2019/02/18/rachs-hope-weathering-the-storm-of-critical-illness)
 has more information about Rachel and the foundation that's been created in
