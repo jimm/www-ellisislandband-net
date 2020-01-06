@@ -20,6 +20,11 @@ her honor.
 <a href="images/rachs_hope.jpeg"><img src="images/rachs_hope.jpeg" alt="band poster" width="200"/></a>
 </a>
 
+### March 2020
+
+**March 28th** *Gridiron Club*, (_tentative_) a fundraiser for the Farfield
+Warde High School football team.
+
 ## Recent Gigs
 
 ### December 2019
