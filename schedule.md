@@ -9,14 +9,14 @@ title: Schedule
 
 ### February 2020
 
-**February 29th** *Rach's Hope*, Penfield Pavilion, Fairfield,
+**February 29th** *Rach's Hope PJ Gala 2020*, Penfield Pavilion, Fairfield,
 CT
 
-Rach's Hope! (link for tickets coming soon): [Weathering The Storm Of
-Critical
+[Rach's Hope: Weathering The Storm Of Critical
 Illness](https://06880danwoog.com/2019/02/18/rachs-hope-weathering-the-storm-of-critical-illness)
 has more information about Rachel and the foundation that's been created in
-her honor.
+her honor. See https://e.givesmart.com/events/foC/ for tickets and more
+event information.
 
 <a href="images/rachs_hope.jpeg"><img src="images/rachs_hope.jpeg" alt="band poster" width="200"/></a>
 
