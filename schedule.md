@@ -14,9 +14,7 @@ title: Schedule
 O'Malley's*, 1494 Post Rd, Fairfield CT. $10 at the door.
 
 **February 29th** *Rach's Hope PJ Gala 2020*, Penfield Pavilion, Fairfield,
-CT
-
-[Rach's Hope: Weathering The Storm Of Critical
+CT. [Rach's Hope: Weathering The Storm Of Critical
 Illness](https://06880danwoog.com/2019/02/18/rachs-hope-weathering-the-storm-of-critical-illness)
 has more information about Rachel and the foundation that's been created in
 her honor. See [this page](https://e.givesmart.com/events/foC/) for tickets
