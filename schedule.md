@@ -7,7 +7,11 @@ title: Schedule
 
 ## Upcoming
 
+
 ### February 2020
+
+**February 21st** Warde High School basketball team fundraiser at *Grace
+O'Malley's*, 1494 Post Rd, Fairfield CT. $10 at the door.
 
 **February 29th** *Rach's Hope PJ Gala 2020*, Penfield Pavilion, Fairfield,
 CT
@@ -20,10 +24,18 @@ and more event information.
 
 <a href="images/rachs_hope.jpeg"><img src="images/rachs_hope.jpeg" alt="band poster" width="200"/></a>
 
+
 ### March 2020
 
-**March 28th** *Gridiron Club*, (_tentative_) a fundraiser for the Farfield
-Warde High School football team.
+**March 28th** Warde High School football team fundraiser at the *Gridiron
+Club*, (_tentative_) a fundraiser for the Farfield .
+
+
+### August 2020
+
+**August 6th** *Private Event*
+
+
 
 ## Recent Gigs
 
