@@ -15,6 +15,7 @@ title: About
     </td>
     <td width="300">
       <img src="images/bourbon_tray.jpeg" width="300"/>
+      <p>Island Juice</p>
     </td>
   </tr>
   <tr>
