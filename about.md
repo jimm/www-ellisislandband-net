@@ -15,6 +15,7 @@ title: About
     </td>
     <td width="300">
       <img src="images/bourbon_tray.jpeg" width="300"/>
+      <p>Island Juice</p>
     </td>
   </tr>
   <tr>
@@ -30,6 +31,10 @@ title: About
 
 Vocals and acoustic and electric guitars (*and foot tambourine*)
 
+## Jeannine Swaim
+
+Vocals and percussion
+
 ## Nate Balogh
 
 Acoustic and electric guitars
@@ -38,15 +43,11 @@ Acoustic and electric guitars
 
 Bass and vocals
 
-## Jim Menard
-
-Keyboards (*and tambourine on one song, and they let him sing some harmony
-that's not critical or needs to be in tune or anything*)
-
 ## Jeff Steele
 
 Drums and percussion
 
-## Jeannine Swaim
+## Jim Menard
 
-Vocals and percussion
+Keyboards (*and tambourine on one song, and they let him sing some harmony
+that's not critical or needs to be in tune or anything*)
