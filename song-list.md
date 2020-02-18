@@ -22,9 +22,11 @@ title: Song List
 <tr><td>Are You Gonna Be My Girl</td><td>Jet</td></tr>
 <tr><td>Back on the Chain Gang</td><td>The Pretenders</td></tr>
 <tr><td>Bad Moon Rising</td><td>Credence Clearwater Revival</td></tr>
+<tr><td>Bargain</td><td>The Who</td></tr>
 <tr><td>Bennie and the Jets</td><td>Elton John</td></tr>
 <tr><td>Best of You</td><td>Foo Fighters</td></tr>
 <tr><td>Better Man</td><td>Perl Jam</td></tr>
+<tr><td>Black</td><td>Pearl Jam</td></tr>
 <tr><td>Break On Through</td><td>The Doors</td></tr>
 <tr><td>Cannonball</td><td>The Breeders</td></tr>
 <tr><td>Caravan</td><td>Van Morrison</td></tr>
