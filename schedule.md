@@ -15,7 +15,7 @@ O'Malley's*, 1494 Post Rd, Fairfield CT. $10 at the door. A singer will be
 performing from 7-9, then we'll go on at 9:30 and add that magical rock
 touch that we do so well.
 
-<a href="images/poster_2020_02_21.jpg"><img src="images/poster_2019_02_21.jpg" alt="band gig poster" width="200"/></a>
+<a href="images/poster_2020_02_21.jpg"><img src="images/poster_2020_02_21.jpg" alt="band gig poster" width="200"/></a>
 
 **February 29th** *Rach's Hope PJ Gala 2020*, Penfield Pavilion, Fairfield,
 CT. [Rach's Hope: Weathering The Storm Of Critical
