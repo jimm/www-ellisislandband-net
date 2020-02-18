@@ -13,6 +13,8 @@ title: Schedule
 **February 21st** Warde High School basketball team fundraiser at *Grace
 O'Malley's*, 1494 Post Rd, Fairfield CT. $10 at the door.
 
+<a href="images/poster_2020_02_21.jpg"><img src="images/poster_2019_02_21.jpg" alt="band gig poster" width="200"/></a>
+
 **February 29th** *Rach's Hope PJ Gala 2020*, Penfield Pavilion, Fairfield,
 CT. [Rach's Hope: Weathering The Storm Of Critical
 Illness](https://06880danwoog.com/2019/02/18/rachs-hope-weathering-the-storm-of-critical-illness)
@@ -20,7 +22,7 @@ has more information about Rachel and the foundation that's been created in
 her honor. See [this page](https://e.givesmart.com/events/foC/) for tickets
 and more event information.
 
-<a href="images/rachs_hope.jpeg"><img src="images/rachs_hope.jpeg" alt="band poster" width="200"/></a>
+<a href="images/rachs_hope.jpeg"><img src="images/rachs_hope.jpeg" alt="band gig poster" width="200"/></a>
 
 
 ### March 2020
@@ -53,13 +55,13 @@ Southport CT
 **October 19th** *Kieran's Place*, H. Smith Richardson Golf Course, 2425
 Morehouse Highway, Fairfield CT. 8:00 PM.
 
-<a href="images/poster_2019_10_19.jpg"><img src="images/poster_2019_10_19.jpg" alt="band poster" width="200"/></a>
+<a href="images/poster_2019_10_19.jpg"><img src="images/poster_2019_10_19.jpg" alt="band gig poster" width="200"/></a>
 
 ### September 2019
 
 **September 27th** *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
 
-<a href="images/poster_2019_09_27.jpg"><img src="images/poster_2019_09_27.jpg" alt="band poster" width="200"/></a>
+<a href="images/poster_2019_09_27.jpg"><img src="images/poster_2019_09_27.jpg" alt="band gig poster" width="200"/></a>
 
 ### August 2019
 
@@ -84,7 +86,7 @@ cream and music!
 Richardson Golf Course, 2425 Morehouse Highway, Fairfield CT. 8:00 PM. Open
 to the public.
 
-<a href="images/poster_2019_06_15.jpg"><img src="images/poster_2019_06_15.jpg" alt="band poster" width="200"/></a>
+<a href="images/poster_2019_06_15.jpg"><img src="images/poster_2019_06_15.jpg" alt="band gig poster" width="200"/></a>
 
 ### May 2019
 
@@ -95,7 +97,7 @@ to the public.
 **April 5th** Ellis Island Acoustic (Tim and Jim) were at the *St. Lawrence
 Society*.
 
-<a href="images/poster_2019_04_05.jpg"><img src="images/poster_2019_04_05.jpg" alt="band poster" width="200"/></a>
+<a href="images/poster_2019_04_05.jpg"><img src="images/poster_2019_04_05.jpg" alt="band gig poster" width="200"/></a>
 
 **April 24th** Ellis Island Acoustic (Tim, Nate, Alex, and Jim) played at
 the *Hi-Ho Motel* for a Mad Men-themed party! 4180 Black Rock Turnpike,
@@ -109,7 +111,7 @@ School football team.
 **March 14th** Ellis Island Acoustic (Tim and Jim) at *Pomodoro Restaurant*,
 1247 E. Putnam Ave, Riverside CT
 
-<a href="images/poster_2019_03_14.jpg"><img src="images/poster_2019_03_14.jpg" alt="band poster" width="200"/></a>
+<a href="images/poster_2019_03_14.jpg"><img src="images/poster_2019_03_14.jpg" alt="band gig poster" width="200"/></a>
 
 **March 2nd** *Rach's Hope*, Penfield Pavilion, Fairfield, CT
 [Rach's Hope Kickoff!](https://www.eventbrite.com/e/rachs-hope-kickoff-tickets-55122699478?ref=eios&aff=eios)
@@ -119,24 +121,24 @@ has more information about Rachel and the foundation that's been created in
 her honor.
 
 <a href="https://www.eventbrite.com/e/rachs-hope-kickoff-tickets-55122699478?ref=eios&aff=eios">
-  <img src="images/rachs_hope.jpeg" alt="band poster" width="200"/>
+  <img src="images/rachs_hope.jpeg" alt="band gig poster" width="200"/>
 </a>
 
 ### February 2019
 
 **Feb 14th** *Pomodoro Restaurant*, 1247 E. Putnam Ave, Riverside CT
 
-<a href="images/poster_2019_02_14.jpg"><img src="images/poster_2019_02_14.jpg" alt="band poster" width="200"/></a>
+<a href="images/poster_2019_02_14.jpg"><img src="images/poster_2019_02_14.jpg" alt="band gig poster" width="200"/></a>
 
 **Feb 1st** *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
 
-<a href="images/poster_2019_02_01.jpg"><img src="images/poster_2019_02_01.jpg" alt="band poster" width="200"/></a>
+<a href="images/poster_2019_02_01.jpg"><img src="images/poster_2019_02_01.jpg" alt="band gig poster" width="200"/></a>
 
 ### January 2019
 
 **Jan 4th** *The Seagrape*, 1144 Reef Road, Fairfield CT
 
-<a href="images/poster_2019_01_04.jpg"><img src="images/poster_2019_01_04.jpg" alt="band poster" width="200"/></a>
+<a href="images/poster_2019_01_04.jpg"><img src="images/poster_2019_01_04.jpg" alt="band gig poster" width="200"/></a>
 
 ### December 2018
 
