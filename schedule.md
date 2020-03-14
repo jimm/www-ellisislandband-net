@@ -30,8 +30,8 @@ auctions, and music galore.
 
 ### March 2020
 
-**March 28th** Warde High School football team fundraiser at the *Gridiron
-Club*, (_tentative_).
+**March 28th** (_CANCELED_) Warde High School football team fundraiser at
+the *Gridiron Club*.
 
 
 ### August 2020
