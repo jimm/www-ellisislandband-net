@@ -8,6 +8,27 @@ title: Schedule
 ## Upcoming
 
 
+### March 2020
+
+**March 28th** (_CANCELED due to COVID-19 concerns_) Warde High School
+football team fundraiser at the *Gridiron Club*.
+
+
+### May 2020
+
+**May 15th** Fundraiser for Christ & Holy Trinity Preschool at the Christ &
+Holy Trinity Episcopal Church, 75 Church Lane, Westport CT.
+
+
+### August 2020
+
+**August 6th** *Private Event*
+
+
+
+## Recent Gigs
+
+
 ### February 2020
 
 **February 21st** Warde High School basketball team fundraiser at *Grace
@@ -27,20 +48,6 @@ auctions, and music galore.
 
 <a href="images/rachs_hope.jpeg"><img src="images/rachs_hope.jpeg" alt="band gig poster" width="200"/></a>
 
-
-### March 2020
-
-**March 28th** (_CANCELED_) Warde High School football team fundraiser at
-the *Gridiron Club*.
-
-
-### August 2020
-
-**August 6th** *Private Event*
-
-
-
-## Recent Gigs
 
 ### December 2019
 
