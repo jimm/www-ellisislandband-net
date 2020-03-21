@@ -11,7 +11,7 @@ title: About
       Ellis Island is made up of musicians with diverse backgrounds and
       musical histories. Combined, they have more than a century of
       experience playing for audiences from upstate New York down to Alabama
-      and Florida.
+      and Florida and across the ocean in London.
     </td>
     <td width="300">
       <img src="images/bourbon_tray.jpeg" width="300"/>

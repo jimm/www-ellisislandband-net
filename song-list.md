@@ -40,7 +40,7 @@ title: Song List
 <tr><td>Daughter</td><td>Pearl Jam</td></tr>
 <tr><td>Dead Flowers</td><td>The Rolling Stones</td></tr>
 <tr><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
-<tr><td>Driven to Tears</td><td>Police</td></tr>
+<tr><td>Driven to Tears</td><td>The Police</td></tr>
 <tr><td>Fade Into You</td><td>Mazzy Star</td></tr>
 <tr><td>Feeling Alright</td><td>Joe Cocker</td></tr>
 <tr><td>Friend of the Devil</td><td>Grateful Dead</td></tr>
@@ -108,7 +108,7 @@ title: Song List
 <tr><td>Waiting in Vain</td><td>Bob Marley</td></tr>
 <tr><td>What Is and What Should Never Be</td><td>Led Zeppelin</td></tr>
 <tr><td>What's the Frequency, Kenneth</td><td>R.E.M.</td></tr>
-<tr><td>When the World is Running Down</td><td>Police</td></tr>
+<tr><td>When the World is Running Down</td><td>The Police</td></tr>
 <tr><td>Where the Streets have No Name</td><td>U2</td></tr>
 <tr><td>Wish I Knew You</td><td>The Revivalists</td></tr>
 <tr><td>Who Knew</td><td>Pink</td></tr>
