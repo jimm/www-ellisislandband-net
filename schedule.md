@@ -8,12 +8,6 @@ title: Schedule
 ## Upcoming
 
 
-### March 2020
-
-**March 28th** (_CANCELED due to COVID-19 concerns_) Warde High School
-football team fundraiser at the *Gridiron Club*.
-
-
 ### May 2020
 
 **May 15th** Fundraiser for Christ & Holy Trinity Preschool at the Christ &
