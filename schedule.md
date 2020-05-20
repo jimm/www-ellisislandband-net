@@ -8,12 +8,6 @@ title: Schedule
 ## Upcoming
 
 
-### May 2020
-
-**May 15th** Fundraiser for Christ & Holy Trinity Preschool at the Christ &
-Holy Trinity Episcopal Church, 75 Church Lane, Westport CT.
-
-
 ### August 2020
 
 **August 6th** *Private Event*
