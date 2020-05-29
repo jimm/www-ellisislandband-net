@@ -25,7 +25,7 @@ title: Song List
 <tr><td>Bargain</td><td>The Who</td></tr>
 <tr><td>Bennie and the Jets</td><td>Elton John</td></tr>
 <tr><td>Best of You</td><td>Foo Fighters</td></tr>
-<tr><td>Better Man</td><td>Perl Jam</td></tr>
+<tr><td>Better Man</td><td>Pearl Jam</td></tr>
 <tr><td>Black</td><td>Pearl Jam</td></tr>
 <tr><td>Break On Through</td><td>The Doors</td></tr>
 <tr><td>Cannonball</td><td>The Breeders</td></tr>
@@ -54,7 +54,7 @@ title: Song List
 <tr><td>Gold Dust Woman</td><td>Fleetwood Mac</td></tr>
 <tr><td>Goodbye Yellow Brick Road</td><td>Elton John</td></tr>
 <tr><td>Here Comes the Sun</td><td>Beatles</td></tr>
-<tr><td>Hard To Handle</td><td>Black Crowes</td></tr>
+<tr><td>Hard To Handle</td><td>The Black Crowes</td></tr>
 <tr><td>Heroes</td><td>David Bowie</td></tr>
 <tr><td>Hey Hey What Can I Do</td><td>Led Zepplin</td></tr>
 <tr><td>Hey Jealousy</td><td>Gin Blossoms</td></tr>
@@ -66,7 +66,7 @@ title: Song List
 <tr><td>Interstate Love Song</td><td>Stone Temple Pilots</td></tr>
 <tr><td>Into the Mystic</td><td>Van Morrison</td></tr>
 <tr><td>Ironic</td><td>Alanis Morissette</td></tr>
-<tr><td>Jealous Again</td><td>Black Crowes</td></tr>
+<tr><td>Jealous Again</td><td>The Black Crowes</td></tr>
 <tr><td>Josie</td><td>Steely Dan</td></tr>
 <tr><td>Just What I Needed</td><td>The Cars</td></tr>
 <tr><td>LA Woman</td><td>The Doors</td></tr>

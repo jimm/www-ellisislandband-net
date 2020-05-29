@@ -5,6 +5,12 @@ layout: default
 # Ellis Island
 Rock that'll get you moving!
 
+Ellis Island is based in Fairfield, CT. See the links above to check out our
+schedule, contact us, or take a look at what kind of music we play.
+
+Obligatory Covid-19 Update: Stay safe, wash your hands, and wear a mask. We
+want you to stay healthy so we can all have fun together again soon!
+
 <table width="100%">
   <tr style="vertical-align: top;">
     <td with="50%" style="align: top; text-align: left;">
