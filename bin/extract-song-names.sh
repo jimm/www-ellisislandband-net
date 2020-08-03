@@ -2,7 +2,7 @@
 #
 # usage: extract-song-names.sh [songfile]
 
-here="$(cd $(dirname "$0") && pwd)"
+here="$(cd $(dirname "$0") > /dev/null && pwd)"
 songfile=${1:-$pim/orgs/music/ellis_island.org}
 
 if [ ! -f $songfile ] ; then

@@ -43,7 +43,7 @@ title: Song List
 <tr><td>Driven to Tears</td><td>The Police</td></tr>
 <tr><td>Fade Into You</td><td>Mazzy Star</td></tr>
 <tr><td>Feeling Alright</td><td>Joe Cocker</td></tr>
-<tr><td>Friend of the Devil</td><td>Grateful Dead</td></tr>
+<tr><td>Friend of the Devil</td><td>The Grateful Dead</td></tr>
 <tr><td>Take Me To the River</td><td>Talking Heads</td></tr>
 <tr><td>The First Cut is the Deepest</td><td>Sheryl Crow</td></tr>
 <tr><td>Georgia</td><td>Ray Charles</td></tr>
@@ -97,7 +97,7 @@ title: Song List
 <tr><td>Rocket Man</td><td>Elton John</td></tr>
 <tr><td>Rocky Raccoon</td><td>Beatles</td></tr>
 <tr><td>She's the One</td><td>Bruce Springsteen</td></tr>
-<tr><td>Stop Draggin' My Heart Around</td><td>Stevie Nicks/Tom Petty</td></tr>
+<tr><td>Stop Draggin' My Heart Around</td><td>Tom Petty/Stevie Nicks</td></tr>
 <tr><td>Superstition</td><td>Stevie Wonder</td></tr>
 <tr><td>Surrender</td><td>Cheap Trick</td></tr>
 <tr><td>Synchronicity II</td><td>The Police</td></tr>
@@ -109,7 +109,7 @@ title: Song List
 <tr><td>What Is and What Should Never Be</td><td>Led Zeppelin</td></tr>
 <tr><td>What's the Frequency, Kenneth</td><td>R.E.M.</td></tr>
 <tr><td>When the World is Running Down</td><td>The Police</td></tr>
-<tr><td>Where the Streets have No Name</td><td>U2</td></tr>
+<tr><td>Where the Streets Have No Name</td><td>U2</td></tr>
 <tr><td>Wish I Knew You</td><td>The Revivalists</td></tr>
 <tr><td>Who Knew</td><td>Pink</td></tr>
 <tr><td>Ziggy Stardust</td><td>David Bowie</td></tr>
