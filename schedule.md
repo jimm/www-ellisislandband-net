@@ -19,7 +19,7 @@ Nothing scheduled right now. Thanks, COVID-19!
 public. Sit outside, enjoy great food and drink, and listen to the Ellis
 Island Duo: Tim and Jim.
 
-<a href="images/ei_duo_sep_2020.jpg"><img src="images/ei_duo_sep.jpg" alt="band gig poster" width="200"/></a>
+<a href="images/ei_duo_sep_2020.jpg"><img src="images/ei_duo_sep_2020.jpg" alt="band gig poster" width="200"/></a>
 
 
 ## Blasts From the Past
