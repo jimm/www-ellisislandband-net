@@ -8,14 +8,21 @@ title: Schedule
 ## Upcoming
 
 
-### August 2020
-
-**August 6th** *Private Event*
-
-
+Nothing scheduled right now. Thanks, COVID-19!
 
 ## Recent Gigs
 
+
+### September 2020
+
+** September 5th** Clubhouse Grille, 165 Fillow St, Norwalk CT. Open to the
+public. Sit outside, enjoy great food and drink, and listen to the Ellis
+Island Duo: Tim and Jim.
+
+<a href="images/ei_duo_sep_2020.jpg"><img src="images/ei_duo_sep.jpg" alt="band gig poster" width="200"/></a>
+
+
+## Blasts From the Past
 
 ### February 2020
 
@@ -35,7 +42,6 @@ and more event information. We played last year and had a blast. Food,
 auctions, and music galore.
 
 <a href="images/rachs_hope.jpeg"><img src="images/rachs_hope.jpeg" alt="band gig poster" width="200"/></a>
-
 
 ### December 2019
 
