@@ -12,10 +12,18 @@ Nothing scheduled right now. Thanks, COVID-19!
 
 ## Recent Gigs
 
+### November 2020
+
+**November 7th** *Private Event* (outdoors, of course!)
+
+### October 2020
+
+**October 18th** Ellis Island Acoustic (Tim and Jim) are at the *Clubhouse
+Grille*, Oak Hills Golf Course, Norwalk CT. Open to the public.
 
 ### September 2020
 
-** September 5th** Clubhouse Grille, 165 Fillow St, Norwalk CT. Open to the
+**September 5th** *Clubhouse Grille*, 165 Fillow St, Norwalk CT. Open to the
 public. Sit outside, enjoy great food and drink, and listen to the Ellis
 Island Duo: Tim and Jim.
 
@@ -151,3 +159,8 @@ her honor.
 ### November 2018
 
 **Nov 8th** *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
+
+### The Distant Past
+
+Alas, no records remain of a time so ancient that the website did not even
+exist.
