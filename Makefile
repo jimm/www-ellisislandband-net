@@ -1,10 +1,8 @@
-HOST = jimmenard.com
+HOST = jimm.opalstacked.com
 SRC = _site/
-DEST = webapps/ellisislandband
-OPALHOST = jimm.opalstacked.com
-OPALDEST = apps/ellis-island
+DEST = apps/ellis-island
 
-.PHONY: publish build server opal
+.PHONY: publish build server
 
 # NOTE: do not use the `--del` rsync flag or otherwise delete any files on
 # the server. There are files there such as the `.well-known` directory
@@ -13,13 +11,6 @@ publish: build
 	rsync -qrlpt --filter='- .DS_Store' --filter='- .localized' \
 	    --filter='- bin' --filter='- Makefile' --filter='- README.md' \
 	    $(SRC) $(HOST):$(DEST)
-
-# While transferring from Webfaction to Opalstack, let's keep this a
-# separate target.
-opal: build
-	rsync -qrlpt --filter='- .DS_Store' --filter='- .localized' \
-	    --filter='- bin' --filter='- Makefile' --filter='- README.md' \
-	    $(SRC) $(OPALHOST):$(OPALDEST)
 
 build:	schedule.md
 	jekyll build
