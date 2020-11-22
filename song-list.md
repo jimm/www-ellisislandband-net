@@ -24,6 +24,7 @@ title: Song List
 <tr><td>Bad Moon Rising</td><td>Credence Clearwater Revival</td></tr>
 <tr><td>Bargain</td><td>The Who</td></tr>
 <tr><td>Bennie and the Jets</td><td>Elton John</td></tr>
+<tr><td>Bertha</td><td>Grateful Dead</td></tr>
 <tr><td>Best of You</td><td>Foo Fighters</td></tr>
 <tr><td>Better Man</td><td>Pearl Jam</td></tr>
 <tr><td>Black</td><td>Pearl Jam</td></tr>
