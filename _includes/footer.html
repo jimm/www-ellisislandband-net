@@ -48,11 +48,16 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        <p>Site contents &copy; 2019&ndash;2020 by Ellis Island. All rights
-          reserved.</p>
+        <p>Site contents &copy; 2019&ndash;<span id="current-year"></span>
+          by Ellis Island. All rights reserved.</p>
       </div>
     </div>
 
   </div>
+
+  <script>
+    let year = (new Date()).getFullYear();
+    document.getElementById("current-year").innerHTML = year;
+  </script>
 
 </footer>
