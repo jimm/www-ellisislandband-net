@@ -33,4 +33,4 @@ want you to stay healthy so we can all have fun together again soon!
 
 # Contact Information
 
-Email: [EllisIslandRock@gmail.com](mailto:EllisIslandRock@gmail.com)
+Email: [band@ellisislandrock.com](mailto:band@ellisislandrock.com)
