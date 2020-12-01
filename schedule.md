@@ -7,8 +7,7 @@ title: Schedule
 
 ## Upcoming
 
-
-Nothing scheduled right now. Thanks, COVID-19!
+Nothing scheduled right now. *Thanks, COVID-19!*
 
 ## Recent Gigs
 
