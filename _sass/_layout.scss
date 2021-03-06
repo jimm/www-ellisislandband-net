@@ -305,6 +305,7 @@ table.songlist {
             color: $background-color;
             text-decoration: none;
             &:hover {
+                cursor: pointer;
                 color: $background-color;
             }
         }

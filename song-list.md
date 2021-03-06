@@ -8,21 +8,20 @@ title: Song List
 <p>Click "Song" or "Artist" to sort the list.</p>
 <table class="songlist" id="songlist">
 <tr>
-  <th><a href="#" onclick="sort_by_title();">Song</a></th>
-  <th><a href="#" onclick="sort_by_artist();">Artist</a></th>
+  <th class="sorter" onclick="sort_by_title();">Song</th>
+  <th class="sorter" onclick="sort_by_artist();">Artist</th>
 </tr>
 <!-- start list -->
 <tr><td>Alive</td><td>Pearl Jam</td></tr>
 <tr><td>American Girl</td><td>Tom Petty</td></tr>
 <tr><td>And It Stoned Me</td><td>Van Morrison</td></tr>
-<tr><td>Ants Marching</td><td>Dave Matthews Band</td></tr>
 <tr><td>Angel Of Harlem</td><td>U2</td></tr>
 <tr><td>Angela</td><td>The Luminiers</td></tr>
+<tr><td>Ants Marching</td><td>Dave Matthews Band</td></tr>
 <tr><td>Appaloosa</td><td>The Black Crowes</td></tr>
 <tr><td>Are You Gonna Be My Girl</td><td>Jet</td></tr>
 <tr><td>Back on the Chain Gang</td><td>The Pretenders</td></tr>
 <tr><td>Bad Moon Rising</td><td>Credence Clearwater Revival</td></tr>
-<tr><td>Bargain</td><td>The Who</td></tr>
 <tr><td>Bennie and the Jets</td><td>Elton John</td></tr>
 <tr><td>Bertha</td><td>Grateful Dead</td></tr>
 <tr><td>Best of You</td><td>Foo Fighters</td></tr>
@@ -38,9 +37,9 @@ title: Song List
 <tr><td>Criminal</td><td>Fiona Apple</td></tr>
 <tr><td>Cupid</td><td>Sam Cooke</td></tr>
 <tr><td>Danny's Song</td><td>Loggins and Mesina</td></tr>
-<tr><td>Daughter</td><td>Pearl Jam</td></tr>
 <tr><td>Dead Flowers</td><td>The Rolling Stones</td></tr>
 <tr><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
+<tr><td>Don't Wanna Fight</td><td>Alabama Shakes</td></tr>
 <tr><td>Driven to Tears</td><td>The Police</td></tr>
 <tr><td>Fade Into You</td><td>Mazzy Star</td></tr>
 <tr><td>Feeling Alright</td><td>Joe Cocker</td></tr>
@@ -59,7 +58,6 @@ title: Song List
 <tr><td>Heroes</td><td>David Bowie</td></tr>
 <tr><td>Hey Hey What Can I Do</td><td>Led Zepplin</td></tr>
 <tr><td>Hey Jealousy</td><td>Gin Blossoms</td></tr>
-<tr><td>Higher Ground</td><td>Stevie Wonder</td></tr>
 <tr><td>Hunger Strike</td><td>Temple of the Dog</td></tr>
 <tr><td>I Don't Want to Be</td><td>Gavin DeGraw</td></tr>
 <tr><td>I'm on Fire</td><td>Bruce Springsteen</td></tr>
@@ -72,13 +70,11 @@ title: Song List
 <tr><td>Just What I Needed</td><td>The Cars</td></tr>
 <tr><td>LA Woman</td><td>The Doors</td></tr>
 <tr><td>Landslide</td><td>Fleetwood Mac</td></tr>
-<tr><td>Layla</td><td>Eric Clapton</td></tr>
 <tr><td>Learn to Fly</td><td>Foo Fighters</td></tr>
 <tr><td>Let It Go</td><td>James Bay</td></tr>
 <tr><td>Let It Rain</td><td>Eric Clapton</td></tr>
 <tr><td>Little Wing</td><td>Jimi Hendrix</td></tr>
 <tr><td>Love Me Two Times</td><td>The Doors</td></tr>
-<tr><td>Mary Jane's Last Dance</td><td>Tom Petty</td></tr>
 <tr><td>Maybe I'm Amazed</td><td>Paul McCartney</td></tr>
 <tr><td>Me and Julio</td><td>Paul Simon</td></tr>
 <tr><td>Mr. Jones</td><td>Counting Crows</td></tr>
