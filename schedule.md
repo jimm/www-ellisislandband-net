@@ -7,7 +7,10 @@ title: Schedule
 
 ## Upcoming
 
-Nothing scheduled right now. *Thanks, COVID-19!*
+We are _very_ excited that some gigs are being booked starting this summer
+of 2021! We'll update this page as dates are confirmed.
+
+Get your shots everybody so we can party again!
 
 ## Recent Gigs
 
