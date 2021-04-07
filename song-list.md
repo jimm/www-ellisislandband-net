@@ -20,7 +20,6 @@ title: Song List
 <tr><td>Ants Marching</td><td>Dave Matthews Band</td></tr>
 <tr><td>Appaloosa</td><td>The Black Crowes</td></tr>
 <tr><td>Are You Gonna Be My Girl</td><td>Jet</td></tr>
-<tr><td>Back on the Chain Gang</td><td>The Pretenders</td></tr>
 <tr><td>Bad Moon Rising</td><td>Credence Clearwater Revival</td></tr>
 <tr><td>Bennie and the Jets</td><td>Elton John</td></tr>
 <tr><td>Bertha</td><td>Grateful Dead</td></tr>
@@ -28,30 +27,21 @@ title: Song List
 <tr><td>Better Man</td><td>Pearl Jam</td></tr>
 <tr><td>Black</td><td>Pearl Jam</td></tr>
 <tr><td>Break On Through</td><td>The Doors</td></tr>
-<tr><td>Cannonball</td><td>The Breeders</td></tr>
 <tr><td>Caravan</td><td>Van Morrison</td></tr>
 <tr><td>Celebrity Skin</td><td>Hole</td></tr>
-<tr><td>A Change Would Do You Good</td><td>Sheryl Crow</td></tr>
-<tr><td>Closing Time</td><td>Scary Pockets (Semisonic)</td></tr>
 <tr><td>Crazy Love</td><td>Van Morrison</td></tr>
-<tr><td>Criminal</td><td>Fiona Apple</td></tr>
 <tr><td>Cupid</td><td>Sam Cooke</td></tr>
 <tr><td>Danny's Song</td><td>Loggins and Mesina</td></tr>
 <tr><td>Dead Flowers</td><td>The Rolling Stones</td></tr>
 <tr><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
 <tr><td>Don't Wanna Fight</td><td>Alabama Shakes</td></tr>
 <tr><td>Driven to Tears</td><td>The Police</td></tr>
-<tr><td>Fade Into You</td><td>Mazzy Star</td></tr>
 <tr><td>Feeling Alright</td><td>Joe Cocker</td></tr>
 <tr><td>Friend of the Devil</td><td>The Grateful Dead</td></tr>
 <tr><td>Take Me To the River</td><td>Talking Heads</td></tr>
-<tr><td>The First Cut is the Deepest</td><td>Sheryl Crow</td></tr>
 <tr><td>Georgia</td><td>Ray Charles</td></tr>
-<tr><td>Give Me One Reason</td><td>Tracy Chapman</td></tr>
 <tr><td>Give Me Some Lovin'</td><td>The Spencer Davis Group</td></tr>
 <tr><td>Going to California</td><td>Led Zepplin</td></tr>
-<tr><td>God</td><td>Tori Amos</td></tr>
-<tr><td>Gold Dust Woman</td><td>Fleetwood Mac</td></tr>
 <tr><td>Goodbye Yellow Brick Road</td><td>Elton John</td></tr>
 <tr><td>Here Comes the Sun</td><td>Beatles</td></tr>
 <tr><td>Hard To Handle</td><td>The Black Crowes</td></tr>
@@ -64,12 +54,10 @@ title: Song List
 <tr><td>In God's Country</td><td>U2</td></tr>
 <tr><td>Interstate Love Song</td><td>Stone Temple Pilots</td></tr>
 <tr><td>Into the Mystic</td><td>Van Morrison</td></tr>
-<tr><td>Ironic</td><td>Alanis Morissette</td></tr>
 <tr><td>Jealous Again</td><td>The Black Crowes</td></tr>
 <tr><td>Josie</td><td>Steely Dan</td></tr>
 <tr><td>Just What I Needed</td><td>The Cars</td></tr>
 <tr><td>LA Woman</td><td>The Doors</td></tr>
-<tr><td>Landslide</td><td>Fleetwood Mac</td></tr>
 <tr><td>Learn to Fly</td><td>Foo Fighters</td></tr>
 <tr><td>Let It Go</td><td>James Bay</td></tr>
 <tr><td>Let It Rain</td><td>Eric Clapton</td></tr>
@@ -79,13 +67,10 @@ title: Song List
 <tr><td>Me and Julio</td><td>Paul Simon</td></tr>
 <tr><td>Mr. Jones</td><td>Counting Crows</td></tr>
 <tr><td>Melissa</td><td>Allman Brothers</td></tr>
-<tr><td>The Middle</td><td>Jimmy Eat World</td></tr>
-<tr><td>Middle of the Road</td><td>Pretenders</td></tr>
 <tr><td>Midnight Rider</td><td>Allman Brothers</td></tr>
 <tr><td>Moonage Daydream</td><td>David Bowie</td></tr>
 <tr><td>My Hero</td><td>Foo Fighters</td></tr>
 <tr><td>No Woman No Cry</td><td>Bob Marley</td></tr>
-<tr><td>Only Happy When it Rains</td><td>Garbage</td></tr>
 <tr><td>Please Come Home for Christmas</td><td>Eagles</td></tr>
 <tr><td>Plush</td><td>Stone Temple Pilots</td></tr>
 <tr><td>Ready For Love</td><td>Bad Company</td></tr>
@@ -94,7 +79,6 @@ title: Song List
 <tr><td>Rocket Man</td><td>Elton John</td></tr>
 <tr><td>Rocky Raccoon</td><td>Beatles</td></tr>
 <tr><td>She's the One</td><td>Bruce Springsteen</td></tr>
-<tr><td>Stop Draggin' My Heart Around</td><td>Tom Petty/Stevie Nicks</td></tr>
 <tr><td>Superstition</td><td>Stevie Wonder</td></tr>
 <tr><td>Surrender</td><td>Cheap Trick</td></tr>
 <tr><td>Synchronicity II</td><td>The Police</td></tr>
@@ -108,6 +92,5 @@ title: Song List
 <tr><td>When the World is Running Down</td><td>The Police</td></tr>
 <tr><td>Where the Streets Have No Name</td><td>U2</td></tr>
 <tr><td>Wish I Knew You</td><td>The Revivalists</td></tr>
-<tr><td>Who Knew</td><td>Pink</td></tr>
 <tr><td>Ziggy Stardust</td><td>David Bowie</td></tr>
 </table>

@@ -29,25 +29,26 @@ title: About
 
 ## Tim Ellis
 
-Vocals and acoustic and electric guitars (*and foot tambourine*)
-
-## Jeannine Swaim
-
-Vocals and percussion
+Vocals and acoustic and electric guitars (*and foot tambourine*).
 
 ## Nate Balogh
 
-Acoustic and electric guitars
+Acoustic and electric guitars and occasional bass.
 
 ## Alex Giannaras
 
-Bass and vocals
+Bass and vocals.
 
 ## Jeff Steele
 
-Drums and percussion
+Drums and percussion.
 
 ## Jim Menard
 
-Keyboards (*and tambourine on one song, and they let him sing some harmony
-that's not critical or needs to be in tune or anything*)
+Keyboards and occasional bass (*and tambourine on one song, and they let
+him sing some harmony that's not critical or needs to be in tune or
+anything*).
+
+## Jeannine Swaim
+
+Vocals and percussion, up until 2021.
