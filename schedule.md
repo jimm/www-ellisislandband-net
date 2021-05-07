@@ -12,6 +12,9 @@ of 2021! We'll update this page as dates are confirmed.
 
 Get your shots everybody so we can party again!
 
+**June 4th** Ellis Island Acoustic (Tim and Jim) are at the Westport Church
+Preschool fundraiser.
+
 ## Recent Gigs
 
 ### November 2020
