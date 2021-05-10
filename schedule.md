@@ -15,6 +15,10 @@ Get your shots everybody so we can party again!
 * **June 4th** &ndash; Ellis Island Acoustic (Tim and Jim) are at the
   Westport Church Preschool fundraiser.
 
+* **June 18th** &ndash; Steelpointe International Boat Show at the
+  Bridgeport Harbor Marina, 3:00-4:30. The good news: there are a ton of
+  great bands playing. The bad news: it's invitation only.
+
 ## Recent Gigs
 
 ### November 2020
