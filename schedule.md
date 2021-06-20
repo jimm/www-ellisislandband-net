@@ -10,7 +10,16 @@ title: Schedule
 We are _very_ excited that some gigs are being booked starting this summer
 of 2021! We'll update this page as dates are confirmed.
 
-Get your shots everybody so we can party again!
+Everybody get your shots so we can all party again!
+
+* **July 17th** &ndash; Ellis Island Acoustic (Tim, Nate, Alex, and Jim)
+  will be playing at the *Saltwater Grill* in SONO for an art show! 128
+  Washington St., Norwalk CT.
+
+
+## Past Gigs
+
+### June 2021
 
 * **June 13th** &ndash; Ellis Island Acoustic (Tim and Jim) are at a private
   party.
@@ -18,8 +27,6 @@ Get your shots everybody so we can party again!
 * **June 18th** &ndash; Steelpointe International Boat Show at the
   Bridgeport Harbor Marina, 3:00-4:30. The good news: there are a ton of
   great bands playing. The bad news: it's invitation only.
-
-## Recent Gigs
 
 ### June 2020
 
