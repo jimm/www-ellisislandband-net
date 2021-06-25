@@ -12,12 +12,12 @@ publish: build
 	    --filter='- bin' --filter='- Makefile' --filter='- README.md' \
 	    $(SRC) $(HOST):$(DEST)
 
-build:	schedule.md
+build:	song-list.md
 	jekyll build
 
-server:	schedule.md
+server:	song-list.md
 	jekyll server
 
-schedule.md:	$(pim)/orgs/music/ellis_island.org
+song-list.md:	$(pim)/orgs/music/ellis_island.org
 	bin/extract-song-names.sh > /tmp/song-list.md && \
 	    mv /tmp/song-list.md .
