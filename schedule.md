@@ -53,8 +53,6 @@ Everybody get your shots so we can all party again!
 <a href="images/ei_duo_sep_2020.jpg"><img src="images/ei_duo_sep_2020.jpg" alt="band gig poster" width="200"/></a>
 
 
-## Blasts From the Past
-
 ### February 2020
 
 * **February 21st** &ndash; Warde High School basketball team fundraiser
@@ -108,9 +106,6 @@ Everybody get your shots so we can all party again!
 * **July 20th** &ndash; Ellis Island Acoustic (Tim and Jim), *Private Event*
 
 * **July 25th** &ndash; Ellis Island Acoustic (Tim and Jim), *Private Event*
-
-<hr/>
-<br/>
 
 ### June 2019
 
