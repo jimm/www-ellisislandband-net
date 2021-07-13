@@ -12,12 +12,12 @@ of 2021! We'll update this page as dates are confirmed.
 
 Everybody get your shots so we can all party again!
 
-* **July 17th** &ndash; **TENTATIVE** Ellis Island Acoustic (Tim, Nate,
-  Alex, and Jim) are at the *Saltwater Grill* in SONO for an art show! 128
-  Washington St., Norwalk CT.
-
 * **July 18th** &ndash; Ellis Island Acoustic (Tim and Jim) are at a private
   party.
+
+* **August 5th** &ndash; *Private Event*
+
+* **September 18th** &ndash; *Private Event*
 
 ## Past Gigs
 
