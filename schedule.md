@@ -12,14 +12,16 @@ of 2021! We'll update this page as dates are confirmed.
 
 Everybody get your shots so we can all party again!
 
-* **July 18th** &ndash; Ellis Island Acoustic (Tim and Jim) are at a private
-  party.
-
 * **August 5th** &ndash; *Private Event*
 
 * **September 18th** &ndash; *Private Event*
 
 ## Past Gigs
+
+### July 2021
+
+* **July 18th** &ndash; Ellis Island Acoustic (Tim and Jim) are at a private
+  party.
 
 ### June 2021
 
