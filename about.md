@@ -14,14 +14,18 @@ title: About
       and Florida and across the ocean in London.
     </td>
     <td width="300">
-      <img src="images/bourbon_tray.jpeg" width="300"/>
+      <a href="images/bourbon_tray.jpeg">
+        <img src="images/bourbon_tray.jpeg" width="300"/>
+      </a>
       <p>Island Juice</p>
     </td>
   </tr>
   <tr>
     <td colspan="2" style="text-align: center;">
       <br/>
-      <img src="images/band_2021_08_05.jpg" width="80%"/>
+      <a href="images/band_2021_08_05.jpg">
+        <img src="images/band_2021_08_05.jpg" width="80%"/>
+      </a>
       <p>L to R: Tim, Jeff, Jim, Alex, Nate</p>
     </td>
   </tr>

@@ -14,19 +14,25 @@ want you to stay healthy so we can all have fun together again soon!
 <table width="100%">
   <tr style="vertical-align: top;">
     <td with="50%" style="align: top; text-align: left;">
-      <img src="images/tim_and_jeannine_seagrape.jpg" width="330"
-           alt="Tim and Jeannine at the Seagrape"/>
+      <a href="images/tim_and_jeannine_seagrape.jpg">
+          <img src="images/tim_and_jeannine_seagrape.jpg" width="330" 
+               alt="Tim and Jeannine at the Seagrape"/>
+      </a>
     </td>
     <td with="50%" style="align: top; text-align: center;">
       <br/><br/>
-      <img src="images/taste_of_fairfield.jpg" width="330"
-           alt="On stage at A Taste of Fairfield"/>
+      <a href="images/taste_of_fairfield.jpg">
+        <img src="images/taste_of_fairfield.jpg" width="330"
+             alt="On stage at A Taste of Fairfield"/>
+      </a>
     </td>
   </tr>
   <tr style="vertical-align: top;">
     <td colspan="2" width="100%" style="align: top; text-align: center;">
-      <img src="images/band_2021_08_05.jpg" width="100%"
-           alt="The band standing for a photo at Penfield Beach, August 2021"/>
+      <a href="images/band_2021_08_05.jpg" width="100%">
+        <img src="images/band_2021_08_05.jpg" width="100%"
+             alt="The band standing for a photo at Penfield Beach, August 2021"/>
+      </a>
     </td>
   </tr>
 </table>
