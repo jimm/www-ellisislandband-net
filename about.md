@@ -21,19 +21,19 @@ title: About
   <tr>
     <td colspan="2" style="text-align: center;">
       <br/>
-      <img src="images/band_2019_09_09.jpg" width="80%"/>
-      <p>L to R: Nate, Alex, Jeannine, Jeff, Tim, Jim</p>
+      <img src="images/band_2021_08_05.jpg" width="80%"/>
+      <p>L to R: Tim, Jeff, Jim, Alex, Nate</p>
     </td>
   </tr>
 </table>
 
 ## Tim Ellis
 
-Vocals and acoustic and electric guitars (*and foot tambourine*).
+Vocals and electric and acoustic guitars (*and foot tambourine*).
 
 ## Nate Balogh
 
-Acoustic and electric guitars and occasional bass.
+Electric and acoustic guitars and occasional bass.
 
 ## Alex Giannaras
 
@@ -48,7 +48,3 @@ Drums and percussion.
 Keyboards and occasional bass (*and tambourine on one song, and they let
 him sing some harmony that's not critical or needs to be in tune or
 anything*).
-
-## Jeannine Swaim
-
-Vocals and percussion, up until 2021.

@@ -20,13 +20,13 @@ want you to stay healthy so we can all have fun together again soon!
     <td with="50%" style="align: top; text-align: center;">
       <br/><br/>
       <img src="images/taste_of_fairfield.jpg" width="330"
-           alt="A Taste of Fairfield"/>
+           alt="On stage at A Taste of Fairfield"/>
     </td>
   </tr>
   <tr style="vertical-align: top;">
     <td colspan="2" width="100%" style="align: top; text-align: center;">
-      <img src="images/band_2019_09_09.jpg" width="100%"
-           alt="A Taste of Fairfield"/>
+      <img src="images/band_2021_08_05.jpg" width="100%"
+           alt="The band standing for a photo at Penfield Beach, August 2021"/>
     </td>
   </tr>
 </table>

@@ -19,7 +19,6 @@ title: Song List
 <tr><td>Angela</td><td>The Luminiers</td></tr>
 <tr><td>Ants Marching</td><td>Dave Matthews Band</td></tr>
 <tr><td>Appaloosa</td><td>The Black Crowes</td></tr>
-<tr><td>Are You Gonna Be My Girl</td><td>Jet</td></tr>
 <tr><td>Bad Moon Rising</td><td>Credence Clearwater Revival</td></tr>
 <tr><td>Bennie and the Jets</td><td>Elton John</td></tr>
 <tr><td>Bertha</td><td>Grateful Dead</td></tr>
@@ -40,7 +39,6 @@ title: Song List
 <tr><td>Take Me To the River</td><td>Talking Heads</td></tr>
 <tr><td>Georgia</td><td>Ray Charles</td></tr>
 <tr><td>Give Me Some Lovin'</td><td>The Spencer Davis Group</td></tr>
-<tr><td>Goodbye Yellow Brick Road</td><td>Elton John</td></tr>
 <tr><td>Here Comes the Sun</td><td>Beatles</td></tr>
 <tr><td>Hard To Handle</td><td>The Black Crowes</td></tr>
 <tr><td>Heroes</td><td>David Bowie</td></tr>
@@ -58,7 +56,6 @@ title: Song List
 <tr><td>LA Woman</td><td>The Doors</td></tr>
 <tr><td>Learn to Fly</td><td>Foo Fighters</td></tr>
 <tr><td>Let It Rain</td><td>Eric Clapton</td></tr>
-<tr><td>Little Wing</td><td>Jimi Hendrix</td></tr>
 <tr><td>Love Me Two Times</td><td>The Doors</td></tr>
 <tr><td>Maybe I'm Amazed</td><td>Paul McCartney</td></tr>
 <tr><td>Me and Julio</td><td>Paul Simon</td></tr>

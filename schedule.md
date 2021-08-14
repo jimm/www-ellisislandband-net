@@ -12,11 +12,13 @@ of 2021! We'll update this page as dates are confirmed.
 
 Everybody get your shots so we can all party again!
 
-* **August 5th** &ndash; *Private Event*
-
 * **September 18th** &ndash; *Private Event*
 
 ## Past Gigs
+
+### August 2021
+
+* **August 5th** &ndash; *Private Event*
 
 ### July 2021
 
