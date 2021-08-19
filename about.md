@@ -5,6 +5,12 @@ title: About
 
 # About Ellis Island
 
+<div id="myModal" class="modal">
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
 <table>
   <tr>
     <td style="padding-right: 3em;">
@@ -14,18 +20,17 @@ title: About
       and Florida and across the ocean in London.
     </td>
     <td width="300">
-      <a href="images/bourbon_tray.jpeg">
-        <img src="images/bourbon_tray.jpeg" width="300"/>
-      </a>
+      <img src="images/bourbon_tray.jpeg" width="300"
+           alt="Island Juice" onclick="modal_image(this);"/>
       <p>Island Juice</p>
     </td>
   </tr>
   <tr>
     <td colspan="2" style="text-align: center;">
       <br/>
-      <a href="images/band_2021_08_05.jpg">
-        <img src="images/band_2021_08_05.jpg" width="80%"/>
-      </a>
+      <img src="images/band_2021_08_05.jpg" width="80%" 
+           alt="The band standing for a photo at Penfield Beach, August 2021"
+           onclick="modal_image(this);"/>
       <p>L to R: Tim, Jeff, Jim, Alex, Nate</p>
     </td>
   </tr>
