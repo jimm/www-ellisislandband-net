@@ -36,7 +36,6 @@ title: Song List
 <tr><td>Driven to Tears</td><td>The Police</td></tr>
 <tr><td>Feeling Alright</td><td>Joe Cocker</td></tr>
 <tr><td>Friend of the Devil</td><td>The Grateful Dead</td></tr>
-<tr><td>Take Me To the River</td><td>Talking Heads</td></tr>
 <tr><td>Georgia</td><td>Ray Charles</td></tr>
 <tr><td>Give Me Some Lovin'</td><td>The Spencer Davis Group</td></tr>
 <tr><td>Here Comes the Sun</td><td>Beatles</td></tr>
@@ -63,7 +62,6 @@ title: Song List
 <tr><td>Melissa</td><td>Allman Brothers</td></tr>
 <tr><td>Midnight Rider</td><td>Allman Brothers</td></tr>
 <tr><td>Moonage Daydream</td><td>David Bowie</td></tr>
-<tr><td>My Hero</td><td>Foo Fighters</td></tr>
 <tr><td>No Woman No Cry</td><td>Bob Marley</td></tr>
 <tr><td>Please Come Home for Christmas</td><td>Eagles</td></tr>
 <tr><td>Plush</td><td>Stone Temple Pilots</td></tr>
@@ -76,6 +74,7 @@ title: Song List
 <tr><td>Superstition</td><td>Stevie Wonder</td></tr>
 <tr><td>Surrender</td><td>Cheap Trick</td></tr>
 <tr><td>Synchronicity II</td><td>The Police</td></tr>
+<tr><td>Take Me To the River</td><td>Talking Heads</td></tr>
 <tr><td>Tennessee Jed</td><td>The Grateful Dead</td></tr>
 <tr><td>Tennessee Whiskey</td><td>Chris Stapleton</td></tr>
 <tr><td>Tighten Up</td><td>The Black Keys</td></tr>
