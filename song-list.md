@@ -34,6 +34,7 @@ title: Song List
 <tr><td>Dead Flowers</td><td>The Rolling Stones</td></tr>
 <tr><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
 <tr><td>Driven to Tears</td><td>The Police</td></tr>
+<tr><td>Everybody Wants to Rule the World</td><td>Tears for Fears</td></tr>
 <tr><td>Feeling Alright</td><td>Joe Cocker</td></tr>
 <tr><td>Friend of the Devil</td><td>The Grateful Dead</td></tr>
 <tr><td>Georgia</td><td>Ray Charles</td></tr>
@@ -49,6 +50,7 @@ title: Song List
 <tr><td>In God's Country</td><td>U2</td></tr>
 <tr><td>Interstate Love Song</td><td>Stone Temple Pilots</td></tr>
 <tr><td>Into the Mystic</td><td>Van Morrison</td></tr>
+<tr><td>Isn't She Lovely</td><td>Stevie Wonder</td></tr>
 <tr><td>Jealous Again</td><td>The Black Crowes</td></tr>
 <tr><td>Josie</td><td>Steely Dan</td></tr>
 <tr><td>Just What I Needed</td><td>The Cars</td></tr>
@@ -62,6 +64,7 @@ title: Song List
 <tr><td>Melissa</td><td>Allman Brothers</td></tr>
 <tr><td>Midnight Rider</td><td>Allman Brothers</td></tr>
 <tr><td>Moonage Daydream</td><td>David Bowie</td></tr>
+<tr><td>My Hero</td><td>Foo Fighters</td></tr>
 <tr><td>No Woman No Cry</td><td>Bob Marley</td></tr>
 <tr><td>Please Come Home for Christmas</td><td>Eagles</td></tr>
 <tr><td>Plush</td><td>Stone Temple Pilots</td></tr>
@@ -78,6 +81,7 @@ title: Song List
 <tr><td>Tennessee Jed</td><td>The Grateful Dead</td></tr>
 <tr><td>Tennessee Whiskey</td><td>Chris Stapleton</td></tr>
 <tr><td>Tighten Up</td><td>The Black Keys</td></tr>
+<tr><td>Times Like These</td><td>Foo Fighters</td></tr>
 <tr><td>Up On Cripple Creek</td><td>The Band</td></tr>
 <tr><td>Waiting in Vain</td><td>Bob Marley</td></tr>
 <tr><td>What Is and What Should Never Be</td><td>Led Zeppelin</td></tr>
