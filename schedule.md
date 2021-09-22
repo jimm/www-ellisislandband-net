@@ -19,8 +19,8 @@ of 2021! We'll update this page as dates are confirmed.
 Everybody get your shots so we can all party again!
 
 * **October 2nd** &ndash; Tim, Jim, and Alex will be playing at *Rach's Hope
-  "Walk the Extra Mile with Pa!"* at the Ned Dimes Marina boathouse at Compo
-  Beach in Westport, CT. See
+  "Walk the Extra Mile with Pa!"* at 4pm at the Ned Dimes Marina boathouse
+  at Compo Beach in Westport, CT. See
   [https://rhwalk.givesmart.com](https://rhwalk.givesmart.com) for more
   info.
 
