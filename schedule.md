@@ -25,7 +25,7 @@ Everybody get your shots so we can all party again!
   info.
 
 * **October 78th** &ndash; Ellis Island Acoustic (Tim and Jim) are at the
-  Halloween Yacht Club in Stamford, CT.
+  Halloween Yacht Club in Stamford, CT from 7pm-10pm.
 
 * **March 5th, 2022** &ndash; *Rach's Hope PJ Gala 2022*, Penfield Pavilion,
   Fairfield, CT.
