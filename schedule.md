@@ -27,7 +27,8 @@ Everybody get your shots so we can all party again!
 * **October 7th** &ndash; *Private Event* Ellis Island Acoustic (Tim and
   Jim) are at the Halloween Yacht Club in Stamford, CT from 7pm-10pm.
 
-* **December 4th** &ndash; Stratford Village Association, Stratford CT.
+* **December 4th** &ndash; *Private Event* for the Stratford Village
+  Association at The Discovery Museum in Bridgeport, CT.
 
 * **March 5th, 2022** &ndash; *Rach's Hope PJ Gala 2022*, Penfield Pavilion,
   Fairfield, CT.
