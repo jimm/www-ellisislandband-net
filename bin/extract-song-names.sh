@@ -18,5 +18,9 @@ awk -f "$here/extract-song-names.awk" $songfile \
           -e 's#&#&amp;#g' \
           -e 's#^\*\* #<tr><td>#' \
           -e 's# - #</td><td>#' \
-          -e 's#$#</td></tr>#'
-echo '</table>'
+          -e 's#$#</td></tr>#' \
+          -e 's!:acoustic:!<sup><a href="#acoustic">*</a></sup>!'
+cat <<EOS
+</table>
+<p id="acoustic"><em>(*) Ellis Island acoustic (Tim & Jim) only.</em></p>
+EOS
