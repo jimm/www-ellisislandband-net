@@ -13,15 +13,6 @@ title: Schedule
 
 ## Upcoming
 
-* **October 2nd** &ndash; Ellis Island Acoustic (Tim and Jim) are at *Rach's
-  Hope "Walk the Extra Mile with Pa!"* at 4pm at the Ned Dimes Marina
-  boathouse at Compo Beach in Westport, CT. See
-  [https://rhwalk.givesmart.com](https://rhwalk.givesmart.com) for more
-  info.
-
-* **October 7th** &ndash; *Private Event* Ellis Island Acoustic (Tim and
-  Jim) are at the Halloween Yacht Club in Stamford, CT from 7pm-10pm.
-
 * **December 4th** &ndash; *Private Event* for the Stratford Village
   Association at The Discovery Museum in Bridgeport, CT.
 
@@ -32,6 +23,17 @@ title: Schedule
   in her honor.
 
 ## Past Gigs
+
+### October 2021
+
+* **October 2nd** &ndash; Ellis Island Acoustic (Tim and Jim) are at *Rach's
+  Hope "Walk the Extra Mile with Pa!"* at 4pm at the Ned Dimes Marina
+  boathouse at Compo Beach in Westport, CT. See
+  [https://rhwalk.givesmart.com](https://rhwalk.givesmart.com) for more
+  info.
+
+* **October 7th** &ndash; *Private Event* Ellis Island Acoustic (Tim and
+  Jim) are at the Halloween Yacht Club in Stamford, CT from 7pm-10pm.
 
 ### September 2021
 
