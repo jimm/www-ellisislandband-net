@@ -21,7 +21,6 @@ title: Song List
 <tr><td>Appaloosa <sup><a href="#acoustic">*</a></sup></td><td>The Black Crowes </td></tr>
 <tr><td>Bad Moon Rising <sup><a href="#acoustic">*</a></sup></td><td>Credence Clearwater Revival </td></tr>
 <tr><td>Bennie and the Jets</td><td>Elton John</td></tr>
-<tr><td>Bertha</td><td>Grateful Dead</td></tr>
 <tr><td>Best of You</td><td>Foo Fighters</td></tr>
 <tr><td>Better Man</td><td>Pearl Jam</td></tr>
 <tr><td>Black</td><td>Pearl Jam</td></tr>
@@ -69,7 +68,6 @@ title: Song List
 <tr><td>No Woman No Cry <sup><a href="#acoustic">*</a></sup></td><td>Bob Marley </td></tr>
 <tr><td>Please Come Home for Christmas</td><td>Eagles</td></tr>
 <tr><td>Plush</td><td>Stone Temple Pilots</td></tr>
-<tr><td>Ready For Love</td><td>Bad Company</td></tr>
 <tr><td>Remedy</td><td>The Black Crowes</td></tr>
 <tr><td>Riptide</td><td>Vance Joy</td></tr>
 <tr><td>Rocket Man</td><td>Elton John</td></tr>
@@ -79,7 +77,6 @@ title: Song List
 <tr><td>Surrender</td><td>Cheap Trick</td></tr>
 <tr><td>Synchronicity II</td><td>The Police</td></tr>
 <tr><td>Take Me To the River</td><td>Talking Heads</td></tr>
-<tr><td>Tennessee Jed</td><td>The Grateful Dead</td></tr>
 <tr><td>Tennessee Whiskey <sup><a href="#acoustic">*</a></sup></td><td>Chris Stapleton </td></tr>
 <tr><td>Tighten Up</td><td>The Black Keys</td></tr>
 <tr><td>Times Like These</td><td>Foo Fighters</td></tr>
