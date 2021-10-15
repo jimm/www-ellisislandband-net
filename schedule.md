@@ -13,6 +13,9 @@ title: Schedule
 
 ## Upcoming
 
+* **October 14th** &ndash; 5:00 - 8:00 at Cisco Brewers at The Village, 4
+  Star Point in Stamford.
+
 * **December 4th** &ndash; *Private Event* for the Stratford Village
   Association at The Discovery Museum in Bridgeport, CT.
 
