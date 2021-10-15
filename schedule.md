@@ -5,14 +5,24 @@ title: Schedule
 
 # Schedule
 
-_We are in the process of booking more gigs in the coming months. This page
-will always have the latest info on confirmed dates. Stay tuned._
-
 <div id="myModal" class="modal">
   <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
+
+<table>
+  <tr>
+    <td style="padding-right: 3em;">
+      <i>We are in the process of booking more gigs in the coming months.
+      This page will always have the latest info on confirmed dates. Stay tuned.</i>
+    </td>
+    <td width="300">
+      <img class="myImg" src="images/Ellis_Island_Business_Card_01.png" width="300"
+           alt="Ellis Island Business Card Front" onclick="modal_image(this);"/>
+    </td>
+  </tr>
+</table>
 
 ## Upcoming
 

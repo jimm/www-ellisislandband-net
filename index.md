@@ -3,20 +3,27 @@ layout: default
 ---
 
 # Ellis Island
-Rock that'll get you moving!
-
-Ellis Island is based in Fairfield, CT. Check out our
-[schedule](schedule.html), contact us, or take a look at what kind of music
-we play.
-
-Obligatory Covid-19 Update: Stay safe, wash your hands, and wear a mask. We
-want you to stay healthy so we can all have fun together again soon!
 
 <div id="myModal" class="modal">
   <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
+
+<table>
+  <tr>
+    <td style="padding-right: 3em;">
+<p>Rock that'll get you moving! Ellis Island is based in Fairfield, CT.</p>
+
+<p>Check out our <a href="schedule.hml">schedule</a>, contact us, or take a
+look at what kind of music we play.</p>
+    </td>
+    <td width="300">
+      <img class="myImg" src="images/Ellis_Island_banner.png" width="300"
+           alt="Ellis Island Banner" onclick="modal_image(this);"/>
+    </td>
+  </tr>
+</table>
 
 <table width="100%">
   <tr style="vertical-align: top;">
