@@ -5,6 +5,9 @@ title: Schedule
 
 # Schedule
 
+_We are in the process of booking more gigs in the coming months. This page
+will always have the latest info on confirmed dates. Stay tuned._
+
 <div id="myModal" class="modal">
   <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
   <img class="modal-content" id="img01">
@@ -12,9 +15,6 @@ title: Schedule
 </div>
 
 ## Upcoming
-
-_We are in the process of booking more gigs in the coming months. This page
-will always have the latest info on confirmed dates. Stay tuned._
 
 * **October 17th** &ndash; 5:00 - 8:00 at Cisco Brewers at The Village, 4
   Star Point in Stamford.
