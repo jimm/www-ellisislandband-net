@@ -74,7 +74,7 @@ title: Song List
 <tr><td>Riptide</td><td>Vance Joy</td></tr>
 <tr><td>Rocket Man</td><td>Elton John</td></tr>
 <tr><td>Rocky Raccoon <sup><a href="#acoustic">*</a></sup></td><td>Beatles </td></tr>
-<tr><td>She's the One</td><td>Bruce Springsteen</td></tr>
+<tr><td>Sledgehammer</td><td>Peter Gabriel</td></tr>
 <tr><td>Superstition</td><td>Stevie Wonder</td></tr>
 <tr><td>Surrender</td><td>Cheap Trick</td></tr>
 <tr><td>Synchronicity II</td><td>The Police</td></tr>
