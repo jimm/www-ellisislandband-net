@@ -26,12 +26,6 @@ title: Schedule
 
 ## Upcoming
 
-* **October 17th** &ndash; 5:00 - 8:00 at Cisco Brewers at The Village, 4
-  Star Point in Stamford.
-
-<img class="myImg" src="images/2021-10-17_cisco-brewers.jpeg"
-     alt="band gig poster" width="200" onclick="modal_image(this);"/>
-
 * **December 4th** &ndash; *Private Event* for the Stratford Village
   Association at The Discovery Museum in Bridgeport, CT.
 
@@ -53,6 +47,12 @@ title: Schedule
 
 * **October 7th** &ndash; *Private Event* Ellis Island Acoustic (Tim and
   Jim) are at the Halloween Yacht Club in Stamford, CT from 7pm-10pm.
+
+* **October 17th** &ndash; 5:00 - 8:00 at Cisco Brewers at The Village, 4
+  Star Point in Stamford.
+
+<img class="myImg" src="images/2021-10-17_cisco-brewers.jpeg"
+     alt="band gig poster" width="200" onclick="modal_image(this);"/>
 
 ### September 2021
 
