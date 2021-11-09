@@ -50,7 +50,6 @@ title: Song List
 <tr><td>In God's Country</td><td>U2</td></tr>
 <tr><td>Interstate Love Song</td><td>Stone Temple Pilots</td></tr>
 <tr><td>Into the Mystic <sup><a href="#acoustic">*</a></sup></td><td>Van Morrison </td></tr>
-<tr><td>Isn't She Lovely</td><td>Stevie Wonder</td></tr>
 <tr><td>Jealous Again</td><td>The Black Crowes</td></tr>
 <tr><td>Josie</td><td>Steely Dan</td></tr>
 <tr><td>Just What I Needed</td><td>The Cars</td></tr>
@@ -60,10 +59,10 @@ title: Song List
 <tr><td>Love Me Two Times</td><td>The Doors</td></tr>
 <tr><td>Maybe I'm Amazed</td><td>Paul McCartney</td></tr>
 <tr><td>Me and Julio <sup><a href="#acoustic">*</a></sup></td><td>Paul Simon </td></tr>
-<tr><td>Mr. Jones</td><td>Counting Crows</td></tr>
 <tr><td>Melissa <sup><a href="#acoustic">*</a></sup></td><td>Allman Brothers </td></tr>
 <tr><td>Midnight Rider <sup><a href="#acoustic">*</a></sup></td><td>Allman Brothers </td></tr>
 <tr><td>Moonage Daydream</td><td>David Bowie</td></tr>
+<tr><td>Mr. Jones</td><td>Counting Crows</td></tr>
 <tr><td>My Hero</td><td>Foo Fighters</td></tr>
 <tr><td>No Woman No Cry <sup><a href="#acoustic">*</a></sup></td><td>Bob Marley </td></tr>
 <tr><td>Please Come Home for Christmas</td><td>Eagles</td></tr>

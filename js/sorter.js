@@ -21,11 +21,13 @@ function sort_by(which) {
   var table = document.getElementById("songlist");
   if (table_data.length == 0)
     load_table_data(table);
-  // Yes, we normalize each string N times when sorting. The total list size
-  // isn't that big so I'm not worried about performance.
+
+  var normalized = [];
+  table_data.forEach(song => normalized[song[which]] = normalize_sort_string(song[which]));
+
   table_data.sort(function (a, b) {
-    a_str = normalize_sort_string(a[which]);
-    b_str = normalize_sort_string(b[which]);
+    a_str = normalized[a[which]];
+    b_str = normalized[b[which]];
     if (a_str < b_str) return -1;
     if (a_str > b_str) return 1;
     return 0;
