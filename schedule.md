@@ -29,6 +29,9 @@ title: Schedule
 * **December 4th** &ndash; *Private Event* for the Stratford Village
   Association at The Discovery Museum in Bridgeport, CT.
 
+* **December 18th** &ndash; *The Shebeen of Black Rock*, 2652 Fairfield Ave,
+  Bridgeport, CT. 8:00 PM.
+
 * **March 5th, 2022** &ndash; *Rach's Hope PJ Gala 2022*, Penfield Pavilion,
   Fairfield, CT.
   [Rach's Hope: Weathering The Storm Of Critical Illness](https://06880danwoog.com/2019/02/18/rachs-hope-weathering-the-storm-of-critical-illness)
