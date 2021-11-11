@@ -38,7 +38,7 @@ title: Schedule
   has more information about Rachel and the foundation that's been created
   in her honor.
 
-* **April 30th, 2022** &ndahs; *Jennings school fund raiser* at Testo's
+* **April 30th, 2022** &ndash; *Jennings school fund raiser* at Testo's
   Restaurant & Catering, 1775 Madison Ave, Bridgeport.
 
 ## Past Gigs
