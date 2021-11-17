@@ -33,7 +33,6 @@ title: Song List
 <tr><td>Danny's Song <sup><a href="#acoustic">*</a></sup></td><td>Loggins and Mesina </td></tr>
 <tr><td>Dead Flowers <sup><a href="#acoustic">*</a></sup></td><td>The Rolling Stones </td></tr>
 <tr><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
-<tr><td>Driven to Tears</td><td>The Police</td></tr>
 <tr><td>Everybody Wants to Rule the World</td><td>Tears for Fears</td></tr>
 <tr><td>Feeling Alright</td><td>Joe Cocker</td></tr>
 <tr><td>Friend of the Devil <sup><a href="#acoustic">*</a></sup></td><td>The Grateful Dead </td></tr>
@@ -82,7 +81,6 @@ title: Song List
 <tr><td>Up On Cripple Creek</td><td>The Band</td></tr>
 <tr><td>Waiting in Vain <sup><a href="#acoustic">*</a></sup></td><td>Bob Marley </td></tr>
 <tr><td>What Is and What Should Never Be</td><td>Led Zeppelin</td></tr>
-<tr><td>When the World is Running Down</td><td>The Police</td></tr>
 <tr><td>Where the Streets Have No Name</td><td>U2</td></tr>
 <tr><td>Wish I Knew You</td><td>The Revivalists</td></tr>
 <tr><td>Ziggy Stardust</td><td>David Bowie</td></tr>
