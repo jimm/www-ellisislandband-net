@@ -27,6 +27,7 @@ title: Song List
 <tr><td>Black Water <sup><a href="#acoustic">*</a></sup></td><td>The Doobie Brothers </td></tr>
 <tr><td>Break On Through</td><td>The Doors</td></tr>
 <tr><td>Breathe / On The Run / Time</td><td>Pink Floyd</td></tr>
+<tr><td>Bye Bye Love</td><td>The Cars</td></tr>
 <tr><td>Caravan <sup><a href="#acoustic">*</a></sup></td><td>Van Morrison </td></tr>
 <tr><td>Crazy Love <sup><a href="#acoustic">*</a></sup></td><td>Van Morrison </td></tr>
 <tr><td>Cupid <sup><a href="#acoustic">*</a></sup></td><td>Sam Cooke </td></tr>
@@ -59,9 +60,11 @@ title: Song List
 <tr><td>Maybe I'm Amazed</td><td>Paul McCartney</td></tr>
 <tr><td>Me and Julio <sup><a href="#acoustic">*</a></sup></td><td>Paul Simon </td></tr>
 <tr><td>Melissa <sup><a href="#acoustic">*</a></sup></td><td>Allman Brothers </td></tr>
+<tr><td>Message in a Bottle</td><td>The Police</td></tr>
 <tr><td>Midnight Rider <sup><a href="#acoustic">*</a></sup></td><td>Allman Brothers </td></tr>
-<tr><td>Moonage Daydream</td><td>David Bowie</td></tr>
+<tr><td>Mr. Brightside</td><td>The Killers</td></tr>
 <tr><td>Mr. Jones</td><td>Counting Crows</td></tr>
+<tr><td>Moonage Daydream</td><td>David Bowie</td></tr>
 <tr><td>My Hero</td><td>Foo Fighters</td></tr>
 <tr><td>No Woman No Cry <sup><a href="#acoustic">*</a></sup></td><td>Bob Marley </td></tr>
 <tr><td>Please Come Home for Christmas</td><td>Eagles</td></tr>
@@ -71,6 +74,7 @@ title: Song List
 <tr><td>Rocket Man</td><td>Elton John</td></tr>
 <tr><td>Rocky Raccoon <sup><a href="#acoustic">*</a></sup></td><td>Beatles </td></tr>
 <tr><td>Sledgehammer</td><td>Peter Gabriel</td></tr>
+<tr><td>Stay With Me</td><td>Faces</td></tr>
 <tr><td>Superstition</td><td>Stevie Wonder</td></tr>
 <tr><td>Surrender</td><td>Cheap Trick</td></tr>
 <tr><td>Synchronicity II</td><td>The Police</td></tr>
@@ -80,6 +84,7 @@ title: Song List
 <tr><td>Times Like These</td><td>Foo Fighters</td></tr>
 <tr><td>Up On Cripple Creek</td><td>The Band</td></tr>
 <tr><td>Waiting in Vain <sup><a href="#acoustic">*</a></sup></td><td>Bob Marley </td></tr>
+<tr><td>Walking on the Moon</td><td>The Police</td></tr>
 <tr><td>What Is and What Should Never Be</td><td>Led Zeppelin</td></tr>
 <tr><td>Where the Streets Have No Name</td><td>U2</td></tr>
 <tr><td>Wish I Knew You</td><td>The Revivalists</td></tr>
