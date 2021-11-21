@@ -15,8 +15,11 @@ layout: default
     <td style="padding-right: 3em;">
 <p>Rock that'll get you moving! Ellis Island is based in Fairfield, CT.</p>
 
-<p>Check out our <a href="schedule.hml">schedule</a>, contact us, or take a
-look at what kind of music we play.</p>
+<p>Check out our
+<a href="schedule.html">schedule</a>,
+<a href="contact.html">contact</a> us, or take a look at what kind of
+<a href="song-list.html">music we play</a>.</p>
+
     </td>
     <td width="300">
       <img class="myImg" src="images/Ellis_Island_banner.png" width="300"
