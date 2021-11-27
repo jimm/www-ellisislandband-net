@@ -75,7 +75,6 @@ title: Song List
 <tr><td>Rocky Raccoon <sup><a href="#acoustic">*</a></sup></td><td>Beatles </td></tr>
 <tr><td>Sledgehammer</td><td>Peter Gabriel</td></tr>
 <tr><td>Stay With Me</td><td>Faces</td></tr>
-<tr><td>Superstition</td><td>Stevie Wonder</td></tr>
 <tr><td>Surrender</td><td>Cheap Trick</td></tr>
 <tr><td>Synchronicity II</td><td>The Police</td></tr>
 <tr><td>Take Me To the River</td><td>Talking Heads</td></tr>
