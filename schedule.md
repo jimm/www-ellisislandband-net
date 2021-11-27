@@ -29,11 +29,12 @@ title: Schedule
 * **December 4th** &ndash; *Private Event* for the Stratford Village
   Association at The Discovery Museum in Bridgeport, CT.
 
-<img class="myImg" src="images/ShebeenDE.jpg"
-     alt="band gig poster" width="200" onclick="modal_image(this);"/>
-
 * **December 17th** &ndash; *The Shebeen of Black Rock*, 2652 Fairfield Ave,
   Bridgeport, CT. 8:30 PM.
+
+<img class="myImg schedule" src="images/ShebeenDE.jpg"
+     alt="gig poster December 17th, 2021" width="200"
+     onclick="modal_image(this);"/>
 
 * **March 5th, 2022** &ndash; *Rach's Hope PJ Gala 2022*, Penfield Pavilion,
   Fairfield, CT.
@@ -57,8 +58,9 @@ title: Schedule
 * **October 17th** &ndash; 5:00 - 8:00 at Cisco Brewers at The Village, 4
   Star Point in Stamford.
 
-<img class="myImg" src="images/2021-10-17_cisco-brewers.jpeg"
-     alt="band gig poster" width="200" onclick="modal_image(this);"/>
+<img class="myImg schedule" src="images/2021-10-17_cisco-brewers.jpeg"
+     alt="gig poster October 17th, 2021" width="200"
+     onclick="modal_image(this);"/>
 
 ### September 2021
 
@@ -102,8 +104,9 @@ title: Schedule
   Open to the public. Sit outside, enjoy great food and drink, and listen to
   the Ellis Island Duo: Tim and Jim.
 
-<img class="myImg" src="images/ei_duo_sep_2020.jpg" alt="band gig poster"
-     width="200" onclick="modal_image(this);"/>
+<img class="myImg schedule" src="images/ei_duo_sep_2020.jpg"
+     alt="gig poster September 5th, 2020" width="200"
+     onclick="modal_image(this);"/>
 
 
 ### February 2020
@@ -113,8 +116,9 @@ title: Schedule
   will be performing from 7-9, then we'll go on at 9:30 and add that magical
   rock touch that we do so well.
 
-<img class="myImg" src="images/poster_2020_02_21.jpg" alt="band gig poster"
-     width="200" onclick="modal_image(this);"/>
+<img class="myImg schedule" src="images/poster_2020_02_21.jpg"
+     alt="gig poster February 21st, 2020" width="200"
+     onclick="modal_image(this);"/>
 
 * **February 29th** &ndash; *Rach's Hope PJ Gala 2020*, Penfield Pavilion,
   Fairfield, CT.
@@ -124,7 +128,8 @@ title: Schedule
   tickets and more event information. We played last year and had a blast.
   Food, auctions, and music galore.
 
-<img class="myImg" src="images/rachs_hope.jpeg" alt="band gig poster"
+<img class="myImg schedule" src="images/rachs_hope.jpeg"
+     alt="gig poster February 29th, 2020"
      width="200" onclick="modal_image(this);"/>
 
 ### December 2019
@@ -144,15 +149,17 @@ title: Schedule
 * **October 19th** &ndash; *Kieran's Place*, H. Smith Richardson Golf
   Course, 2425 Morehouse Highway, Fairfield CT. 8:00 PM.
 
-<img class="myImg" src="images/poster_2019_10_19.jpg" alt="band gig poster"
-     width="200" onclick="modal_image(this);"/>
+<img class="myImg schedule" src="images/poster_2019_10_19.jpg"
+     alt="gig poster October 19th, 2019" width="200"
+     onclick="modal_image(this);"/>
 
 ### September 2019
 
 * **September 27th** &ndash; *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
 
-<img class="myImg" src="images/poster_2019_09_27.jpg" alt="band gig poster"
-    width="200" onclick="modal_image(this);"/>
+<img class="myImg schedule" src="images/poster_2019_09_27.jpg"
+     alt="gig poster September 27th, 2019" width="200"
+     onclick="modal_image(this);"/>
 
 ### August 2019
 
@@ -174,8 +181,9 @@ title: Schedule
   Smith Richardson Golf Course, 2425 Morehouse Highway, Fairfield CT. 8:00
   PM. Open to the public.
 
-<img class="myImg" src="images/poster_2019_06_15.jpg" alt="band gig poster"
-    width="200" onclick="modal_image(this);"/>
+<img class="myImg schedule" src="images/poster_2019_06_15.jpg"
+     alt="gig poster June 15th, 2019" width="200"
+     onclick="modal_image(this);"/>
 
 ### May 2019
 
@@ -186,8 +194,9 @@ title: Schedule
 * **April 5th** &ndash; Ellis Island Acoustic (Tim and Jim) were at the *St.
   Lawrence Society*.
 
-<img class="myImg" src="images/poster_2019_04_05.jpg" alt="band gig poster"
-    width="200" onclick="modal_image(this);"/>
+<img class="myImg schedule" src="images/poster_2019_04_05.jpg"
+     alt="gig poster April 5th, 2019" width="200"
+     onclick="modal_image(this);"/>
 
 * **April 24th** &ndash; Ellis Island Acoustic (Tim, Nate, Alex, and Jim)
   played at the *Hi-Ho Motel* for a Mad Men-themed party! 4180 Black Rock
@@ -201,8 +210,9 @@ title: Schedule
 * **March 14th** &ndash; Ellis Island Acoustic (Tim and Jim) at *Pomodoro
   Restaurant*, 1247 E. Putnam Ave, Riverside CT
 
-<img class="myImg" src="images/poster_2019_03_14.jpg" alt="band gig poster"
-    width="200" onclick="modal_image(this);"/>
+<img class="myImg schedule" src="images/poster_2019_03_14.jpg"
+     alt="gig poster March 14th, 2019" width="200"
+     onclick="modal_image(this);"/>
 
 * **March 2nd** &ndash; *Rach's Hope*, Penfield Pavilion, Fairfield, CT
   [Rach's Hope Kickoff!](https://www.eventbrite.com/e/rachs-hope-kickoff-tickets-55122699478?ref=eios&aff=eios)
@@ -211,8 +221,9 @@ title: Schedule
   has more information about Rachel and the foundation that's been created
   in her honor.
 
-<img class="myImg" src="images/rachs_hope.jpeg" alt="band gig poster"
-    width="200"/ onclick="modal_image(this);">
+<img class="myImg schedule" src="images/rachs_hope.jpeg"
+     alt="gig poster March 2nd 2019" width="200"
+     onclick="modal_image(this);">
 
 
 ### February 2019
@@ -220,20 +231,23 @@ title: Schedule
 * **Feb 14th** &ndash; *Pomodoro Restaurant*, 1247 E. Putnam Ave, Riverside
   CT
 
-<img class="myImg" src="images/poster_2019_02_14.jpg" alt="band gig poster"
-    width="200" onclick="modal_image(this);"/>
+<img class="myImg schedule" src="images/poster_2019_02_14.jpg"
+    alt="gig poster February 14th, 2019" width="200"
+    onclick="modal_image(this);"/>
 
 * **Feb 1st** &ndash; *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
 
-<img class="myImg" src="images/poster_2019_02_01.jpg" alt="band gig poster"
-    width="200" onclick="modal_image(this);"/>
+<img class="myImg schedule" src="images/poster_2019_02_01.jpg" 
+     alt="gig poster February 1st, 2019" width="200"
+     onclick="modal_image(this);"/>
 
 ### January 2019
 
 * **Jan 4th** &ndash; *The Seagrape*, 1144 Reef Road, Fairfield CT
 
-<img class="myImg" src="images/poster_2019_01_04.jpg" alt="band gig poster"
-    width="200" onclick="modal_image(this);"/>
+<img class="myImg schedule" src="images/poster_2019_01_04.jpg"
+     alt="gig poster, January 4th, 2019" width="200"
+     onclick="modal_image(this);"/>
 
 ### December 2018
 
