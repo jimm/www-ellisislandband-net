@@ -32,6 +32,13 @@ title: Schedule
 <img class="myImg" src="images/ShebeenDE.jpg"
      alt="band gig poster" width="200" onclick="modal_image(this);"/>
 
+* **December 10th** &ndash; Ellis Island Acoustic (Tim and Jim) are at the
+  *Stamford Yacht Club*, 97 Ocean Dr W, Stamford, CT from 5:30 - 8:30. We'll
+  be playing a mix of Christmas songs and our usual repertoire.
+
+*The Shebeen of Black Rock*, 2652 Fairfield Ave,
+  Bridgeport, CT. 8:30 PM.
+
 * **December 17th** &ndash; *The Shebeen of Black Rock*, 2652 Fairfield Ave,
   Bridgeport, CT. 8:30 PM.
 
