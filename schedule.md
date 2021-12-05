@@ -26,9 +26,6 @@ title: Schedule
 
 ## Upcoming
 
-* **December 4th** &ndash; *Private Event* for the Stratford Village
-  Association at The Discovery Museum in Bridgeport, CT.
-
 * **December 10th** &ndash; Ellis Island Acoustic (Tim and Jim) are at the
   *Stamford Yacht Club*, 97 Ocean Dr W, Stamford, CT from 5:30 - 8:30. We'll
   be playing a mix of Christmas songs and our usual repertoire.
@@ -46,7 +43,14 @@ title: Schedule
   has more information about Rachel and the foundation that's been created
   in her honor.
 
+* **September 10th, 2022** &ndash; Look for Ellis Island at Stratford's Porchfest!
+
 ## Past Gigs
+
+### December 2021
+
+* **December 4th** &ndash; *Private Event* for the Stratford Village
+  Association at The Discovery Museum in Bridgeport, CT.
 
 ### October 2021
 
