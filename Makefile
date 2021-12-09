@@ -19,5 +19,5 @@ server:	song-list.md
 	jekyll server
 
 song-list.md:	$(pim)/orgs/music/ellis_island.org
-	bin/extract-song-names.sh > /tmp/song-list.md && \
+	bin/extract-song-names.sh | sed -e 's/:old://' > /tmp/song-list.md && \
 	    mv /tmp/song-list.md .

@@ -32,8 +32,10 @@ title: Song List
 <tr><td>Crazy Love <sup><a href="#acoustic">*</a></sup></td><td>Van Morrison </td></tr>
 <tr><td>Cupid <sup><a href="#acoustic">*</a></sup></td><td>Sam Cooke </td></tr>
 <tr><td>Danny's Song <sup><a href="#acoustic">*</a></sup></td><td>Loggins and Mesina </td></tr>
+<tr><td>Daughter</td><td>Pearl Jam </td></tr>
 <tr><td>Dead Flowers <sup><a href="#acoustic">*</a></sup></td><td>The Rolling Stones </td></tr>
 <tr><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
+<tr><td>Driven to Tears</td><td>The Police </td></tr>
 <tr><td>Everybody Wants to Rule the World</td><td>Tears for Fears</td></tr>
 <tr><td>Feeling Alright</td><td>Joe Cocker</td></tr>
 <tr><td>Friend of the Devil <sup><a href="#acoustic">*</a></sup></td><td>The Grateful Dead </td></tr>
@@ -57,10 +59,12 @@ title: Song List
 <tr><td>Learn to Fly</td><td>Foo Fighters</td></tr>
 <tr><td>Let It Rain</td><td>Eric Clapton</td></tr>
 <tr><td>Love Me Two Times</td><td>The Doors</td></tr>
+<tr><td>Mary Jane's Last Dance</td><td>Tom Petty </td></tr>
 <tr><td>Maybe I'm Amazed</td><td>Paul McCartney</td></tr>
 <tr><td>Me and Julio <sup><a href="#acoustic">*</a></sup></td><td>Paul Simon </td></tr>
 <tr><td>Melissa <sup><a href="#acoustic">*</a></sup></td><td>Allman Brothers </td></tr>
 <tr><td>Message in a Bottle</td><td>The Police</td></tr>
+<tr><td>The Middle</td><td>Jimmy Eat World </td></tr>
 <tr><td>Midnight Rider <sup><a href="#acoustic">*</a></sup></td><td>Allman Brothers </td></tr>
 <tr><td>Mr. Brightside</td><td>The Killers</td></tr>
 <tr><td>Mr. Jones</td><td>Counting Crows</td></tr>
@@ -75,9 +79,11 @@ title: Song List
 <tr><td>Rocky Raccoon <sup><a href="#acoustic">*</a></sup></td><td>Beatles </td></tr>
 <tr><td>Sledgehammer</td><td>Peter Gabriel</td></tr>
 <tr><td>Stay With Me</td><td>Faces</td></tr>
+<tr><td>Superstition</td><td>Stevie Wonder </td></tr>
 <tr><td>Surrender</td><td>Cheap Trick</td></tr>
 <tr><td>Synchronicity II</td><td>The Police</td></tr>
 <tr><td>Take Me To the River</td><td>Talking Heads</td></tr>
+<tr><td>Tennessee Jed</td><td>The Grateful Dead </td></tr>
 <tr><td>Tennessee Whiskey <sup><a href="#acoustic">*</a></sup></td><td>Chris Stapleton </td></tr>
 <tr><td>Tighten Up</td><td>The Black Keys</td></tr>
 <tr><td>Times Like These</td><td>Foo Fighters</td></tr>
@@ -85,6 +91,7 @@ title: Song List
 <tr><td>Waiting in Vain <sup><a href="#acoustic">*</a></sup></td><td>Bob Marley </td></tr>
 <tr><td>Walking on the Moon</td><td>The Police</td></tr>
 <tr><td>What Is and What Should Never Be</td><td>Led Zeppelin</td></tr>
+<tr><td>When the World is Running Down</td><td>The Police </td></tr>
 <tr><td>Where the Streets Have No Name</td><td>U2</td></tr>
 <tr><td>Wish I Knew You</td><td>The Revivalists</td></tr>
 <tr><td>Ziggy Stardust</td><td>David Bowie</td></tr>
