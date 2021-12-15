@@ -26,10 +26,6 @@ title: Schedule
 
 ## Upcoming
 
-* **December 10th** &ndash; Ellis Island Acoustic (Tim and Jim) are at the
-  *Stamford Yacht Club*, 97 Ocean Dr W, Stamford, CT from 5:30 - 8:30. We'll
-  be playing a mix of Christmas songs and our usual repertoire.
-
 * **December 17th** &ndash; *The Shebeen of Black Rock*, 2652 Fairfield Ave,
   Bridgeport, CT. 8:30 PM.
 
@@ -51,6 +47,10 @@ title: Schedule
 
 * **December 4th** &ndash; *Private Event* for the Stratford Village
   Association at The Discovery Museum in Bridgeport, CT.
+
+* **December 10th** &ndash; Ellis Island Acoustic (Tim and Jim) are at the
+  *Stamford Yacht Club*, 97 Ocean Dr W, Stamford, CT from 5:30 - 8:30. We'll
+  be playing a mix of Christmas songs and our usual repertoire.
 
 ### October 2021
 
