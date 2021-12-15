@@ -2,7 +2,7 @@ var table_data = [];
 
 function load_table_data(table) {
   for (var i = 1, row; row = table.rows[i]; i++) // skip table header row
-    table_data.push([row.cells[0].innerHTML, row.cells[1].innerHTML])
+    table_data.push([row.cells[1].innerHTML, row.cells[2].innerHTML])
 }
 
 function normalize_sort_string(str) {
@@ -32,9 +32,14 @@ function sort_by(which) {
     if (a_str > b_str) return 1;
     return 0;
   });
-  for (var i = 1, row; row = table.rows[i]; i++) {
+  for (var i = 0, row; row = table.rows[i+1]; i++) {
+    if ((i & 1) == 1)
+      row.classList.add('odd');
+    else
+      row.classList.remove('odd');
+    row.cells[0].innerHTML = "" + (i + 1);
     for (var j = 0; j < 2; ++j)
-      row.cells[j].innerHTML = table_data[i-1][j];
+      row.cells[j+1].innerHTML = table_data[i][j];
   }
 }
 

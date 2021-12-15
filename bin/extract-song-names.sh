@@ -16,7 +16,7 @@ awk -f "$here/extract-song-names.awk" $songfile \
     | sed \
           -e 's#<#&lt;#g' \
           -e 's#&#&amp;#g' \
-          -e 's#^\*\* #<tr><td>#' \
+          -e 's#^\*\* #<tr><td class="rownum">0</td><td>#' \
           -e 's# - #</td><td>#' \
           -e 's#$#</td></tr>#' \
           -e 's!\(</td><td>[^<]*\):acoustic:! <sup><a href="#acoustic">*</a></sup>\1!'
