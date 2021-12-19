@@ -99,3 +99,4 @@ title: Song List
 <tr><td class="rownum">0</td><td>Ziggy Stardust</td><td>David Bowie</td></tr>
 </table>
 <p id="acoustic"><em>(*) Ellis Island acoustic (Tim & Jim) only.</em></p>
+<script>sort_by_title();</script>
