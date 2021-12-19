@@ -26,13 +26,6 @@ title: Schedule
 
 ## Upcoming
 
-* **December 17th** &ndash; *The Shebeen of Black Rock*, 2652 Fairfield Ave,
-  Bridgeport, CT. 8:30 PM.
-
-<img class="myImg schedule" src="images/ShebeenDE.jpg"
-     alt="gig poster December 17th, 2021" width="200"
-     onclick="modal_image(this);"/>
-
 * **March 5th, 2022** &ndash; *Rach's Hope PJ Gala 2022*, Penfield Pavilion,
   Fairfield, CT.
   [Rach's Hope: Weathering The Storm Of Critical Illness](https://06880danwoog.com/2019/02/18/rachs-hope-weathering-the-storm-of-critical-illness)
@@ -51,6 +44,13 @@ title: Schedule
 * **December 10th** &ndash; Ellis Island Acoustic (Tim and Jim) are at the
   *Stamford Yacht Club*, 97 Ocean Dr W, Stamford, CT from 5:30 - 8:30. We'll
   be playing a mix of Christmas songs and our usual repertoire.
+
+* **December 17th** &ndash; *The Shebeen of Black Rock*, 2652 Fairfield Ave,
+  Bridgeport, CT. 8:30 PM.
+
+<img class="myImg schedule" src="images/ShebeenDE.jpg"
+     alt="gig poster December 17th, 2021" width="200"
+     onclick="modal_image(this);"/>
 
 ### October 2021
 
