@@ -1,6 +1,7 @@
-HOST = jimm.opalstacked.com
 SRC = _site/
-DEST = apps/ellis-island
+WEB_USER = jimm
+WEB_SERVER = jimm.opalstacked.com
+WEB_DIR = apps/ellis-island
 
 .PHONY: publish build server
 
@@ -10,7 +11,8 @@ DEST = apps/ellis-island
 publish: build
 	rsync -qrlpt --filter='- .DS_Store' --filter='- .localized' \
 	    --filter='- bin' --filter='- Makefile' --filter='- README.md' \
-	    $(SRC) $(HOST):$(DEST)
+	    $(SRC) $(WEB_SERVER):$(WEB_DIR)
+	ssh $(WEB_USER)@$(WEB_SERVER) find $(WEB_DIR) -type d -exec chmod 755 {} \\\;
 
 build:	song-list.md
 	jekyll build
