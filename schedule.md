@@ -26,12 +26,6 @@ title: Schedule
 
 ## Upcoming
 
-* **March 5th, 2022** &ndash; *Rach's Hope PJ Gala 2022*, Penfield Pavilion,
-  Fairfield, CT.
-  [Rach's Hope: Weathering The Storm Of Critical Illness](https://06880danwoog.com/2019/02/18/rachs-hope-weathering-the-storm-of-critical-illness)
-  has more information about Rachel and the foundation that's been created
-  in her honor.
-
 * **September 10th, 2022** &ndash; Look for Ellis Island at Stratford's Porchfest!
 
 ## Past Gigs
