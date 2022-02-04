@@ -26,7 +26,8 @@ title: Schedule
 
 ## Upcoming
 
-* **September 10th, 2022** &ndash; Look for Ellis Island at Stratford's Porchfest!
+* **September 10th, 2022** &ndash; Look for Ellis Island at Stratford's
+  LincolnParkPalooza!
 
 ## Past Gigs
 
