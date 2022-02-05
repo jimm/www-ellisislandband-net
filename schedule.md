@@ -26,6 +26,10 @@ title: Schedule
 
 ## Upcoming
 
+* **March 11th, 2022** *The Shebeen of Black Rock*, 2652 Fairfield Ave,
+  Bridgeport, CT. 8:30 PM. Actually, last time we were at The Shebeen we
+  started around 8:15 because everybody was so excited to have a great time!
+
 * **September 10th, 2022** &ndash; Look for Ellis Island at Stratford's
   LincolnParkPalooza!
 
