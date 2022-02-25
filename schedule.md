@@ -42,6 +42,10 @@ title: Schedule
 * **September 10th, 2022** &ndash; Look for Ellis Island at Stratford's
   LincolnParkPalooza!
 
+* **September 15th, 2022** &ndash; *Halloween Yacht Club* (10 Seaview Ave,
+  Stamford) has bands outside all summer long on Thursday nights. See you on
+  there on the 15th, 6:30 - 9:30.
+
 ## Past Gigs
 
 ### December 2021
