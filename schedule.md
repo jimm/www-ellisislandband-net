@@ -37,6 +37,9 @@ title: Schedule
 * **May 21st, 2022** &ndash; *Brooklawn Country Club*'s "Kick Off for
   Summer" party. 500 Algonquin Rd, Fairfield, CT.
 
+* **August 20th, 2022** &ndash; *Fairfield Sherman Green* (the Gazebo),
+  6:30. Corner of Post Road (Route 1) and Reef Road.
+
 * **September 10th, 2022** &ndash; Look for Ellis Island at Stratford's
   LincolnParkPalooza!
 
