@@ -26,9 +26,6 @@ title: Schedule
 
 ## Upcoming
 
-* **March 11th, 2022** &ndash; *The Shebeen of Black Rock*, 2652 Fairfield
-  Ave, Bridgeport, CT. 8:00 PM --- an early start!
-
 * **May 7th, 2022** &ndash; Ellis Island Acoustic (Tim and Jim) will be at
   the *Rach's Hope PJ Gala 2022*, Penfield Pavilion, Fairfield, CT from
   7:30 - 11:00. This is a charity event with food, auctions, and music. For
@@ -48,6 +45,11 @@ title: Schedule
   there on the 15th, 6:30 - 9:30.
 
 ## Past Gigs
+
+### March 2022
+
+* **March 11th, 2022** &ndash; *The Shebeen of Black Rock*, 2652 Fairfield
+  Ave, Bridgeport, CT. 8:00 PM --- an early start!
 
 ### December 2021
 
