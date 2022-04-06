@@ -31,6 +31,9 @@ title: Schedule
   7:30 - 11:00. This is a charity event with food, auctions, and music. For
   more info see [Rach's Hope](https://www.rachshope.org/).
 
+* **May 20th** &ndash; Ellis Island Acoustic (Tim and Jim) are at a Westport
+  Church event.
+
 * **May 21st, 2022** &ndash; *Brooklawn Country Club*'s "Kick Off for
   Summer" party. 500 Algonquin Rd, Fairfield, CT.
 
