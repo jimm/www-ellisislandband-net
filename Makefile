@@ -2,6 +2,7 @@ SRC = _site/
 WEB_USER = jimm
 WEB_SERVER = jimm.opalstacked.com
 WEB_DIR = apps/ellis-island
+ORG_FILE = $(pim)/orgs/ellis_island.org
 
 .PHONY: publish build server
 
@@ -20,6 +21,6 @@ build:	song-list.md
 server:	song-list.md
 	jekyll server
 
-song-list.md:	$(pim)/orgs/music/ellis_island.org
-	bin/extract-song-names.sh | sed -e 's/:old://' > /tmp/song-list.md && \
+song-list.md:	$(ORG_FILE)
+	bin/extract-song-names.sh "$(ORG_FILE)" | sed -e 's/:old://' > /tmp/song-list.md && \
 	    mv /tmp/song-list.md .
