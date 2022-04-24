@@ -71,6 +71,12 @@ title: Song List
 <tr><td class="rownum">0</td><td>Where the Streets Have No Name</td><td>U2</td></tr>
 <tr><td class="rownum">0</td><td>Wish I Knew You</td><td>The Revivalists</td></tr>
 <tr><td class="rownum">0</td><td>Ziggy Stardust</td><td>David Bowie</td></tr>
+<tr><td class="rownum">0</td><td>Daughter</td><td>Pearl Jam </td></tr>
+<tr><td class="rownum">0</td><td>Driven to Tears</td><td>The Police </td></tr>
+<tr><td class="rownum">0</td><td>Mary Jane's Last Dance</td><td>Tom Petty </td></tr>
+<tr><td class="rownum">0</td><td>The Middle</td><td>Jimmy Eat World </td></tr>
+<tr><td class="rownum">0</td><td>Superstition</td><td>Stevie Wonder </td></tr>
+<tr><td class="rownum">0</td><td>Tennessee Jed</td><td>The Grateful Dead </td></tr>
+<tr><td class="rownum">0</td><td>When the World is Running Down</td><td>The Police </td></tr>
 </table>
-<p id="acoustic"><em>(*) Ellis Island acoustic (Tim & Jim) only.</em></p>
 <script>sort_by_title();</script>
