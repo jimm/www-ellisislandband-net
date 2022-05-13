@@ -44,7 +44,7 @@ title: Song List
 <tr><td class="rownum">0</td><td>Learn to Fly</td><td>Foo Fighters</td></tr>
 <tr><td class="rownum">0</td><td>Let It Rain</td><td>Eric Clapton</td></tr>
 <tr><td class="rownum">0</td><td>Love Me Two Times</td><td>The Doors</td></tr>
-<tr><td class="rownum">0</td><td>Love, Reign O'er Me</td><td>The Who</td></tr>
+<tr><td class="rownum">0</td><td>Love Reign O'er Me</td><td>The Who</td></tr>
 <tr><td class="rownum">0</td><td>Maybe I'm Amazed</td><td>Paul McCartney</td></tr>
 <tr><td class="rownum">0</td><td>Message in a Bottle</td><td>The Police</td></tr>
 <tr><td class="rownum">0</td><td>Mr. Brightside</td><td>The Killers</td></tr>

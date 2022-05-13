@@ -22,7 +22,7 @@ title: About
     <td width="300">
       <img class="myImg" src="images/bourbon_tray.jpeg" width="300"
            alt="Island Juice" onclick="modal_image(this);"/>
-      <p>Island Juice</p>
+      <div class="caption">Island Juice</div>
     </td>
   </tr>
   <tr>
@@ -31,7 +31,7 @@ title: About
       <img class="myImg" src="images/band_2021_08_05.jpg" width="80%" 
            alt="The band standing for a photo at Penfield Beach, August 2021"
            onclick="modal_image(this);"/>
-      <p>L to R: Tim, Jeff, Jim, Alex, Nate</p>
+      <div class="caption">L to R: Tim, Jeff, Jim, Alex, Nate</div>
     </td>
   </tr>
 </table>
