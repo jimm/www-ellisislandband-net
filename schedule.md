@@ -26,11 +26,6 @@ title: Schedule
 
 ## Upcoming
 
-* **May 7th, 2022** &ndash; Ellis Island Acoustic (Tim and Jim) will be at
-  the *Rach's Hope PJ Gala 2022*, Penfield Pavilion, Fairfield, CT from
-  7:30 - 11:00. This is a charity event with food, auctions, and music. For
-  more info see [Rach's Hope](https://www.rachshope.org/).
-
 * **May 20th** &ndash; Ellis Island Acoustic (Tim and Jim) are at a Westport
   Church event.
 
@@ -40,14 +35,22 @@ title: Schedule
 * **August 20th, 2022** &ndash; *Fairfield Sherman Green* (the Gazebo),
   6:30 - 8:30. Corner of Post Road (Route 1) and Reef Road.
 
-* **September 10th, 2022** &ndash; Look for Ellis Island at Stratford's
-  LincolnParkPalooza! We'll be on the main stage.
+* **September 10th, 2022** &ndash; Look for Ellis Island at Stratfield
+  Village Associations's Lincoln Parkapalooza fundraising event! We'll be on
+  the main stage. Lincoln Park, 455 Jackman Ave, Fairfield, CT.
 
 * **September 15th, 2022** &ndash; *Halloween Yacht Club* (10 Seaview Ave,
   Stamford) has bands outside all summer long on Thursday nights. See you on
   there on the 15th, 6:30 - 9:30.
 
 ## Past Gigs
+
+### May 2022
+
+* **May 7th, 2022** &ndash; Ellis Island Acoustic (Tim and Jim) will be at
+  the *Rach's Hope PJ Gala 2022*, Penfield Pavilion, Fairfield, CT from
+  7:30 - 11:00. This is a charity event with food, auctions, and music. For
+  more info see [Rach's Hope](https://www.rachshope.org/).
 
 ### March 2022
 
@@ -66,7 +69,7 @@ title: Schedule
 * **December 17th** &ndash; *The Shebeen of Black Rock*, 2652 Fairfield Ave,
   Bridgeport, CT. 8:30 PM.
 
-<img class="myImg schedule" src="images/ShebeenDE.jpg"
+<img class="myImg schedule" src="images/posters/ShebeenDE.jpg"
      alt="gig poster December 17th, 2021" width="200"
      onclick="modal_image(this);"/>
 
@@ -130,7 +133,7 @@ title: Schedule
   Open to the public. Sit outside, enjoy great food and drink, and listen to
   the Ellis Island Duo: Tim and Jim.
 
-<img class="myImg schedule" src="images/ei_duo_sep_2020.jpg"
+<img class="myImg schedule" src="images/posters/ei_duo_sep_2020.jpg"
      alt="gig poster September 5th, 2020" width="200"
      onclick="modal_image(this);"/>
 
