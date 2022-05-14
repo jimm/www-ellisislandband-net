@@ -142,7 +142,7 @@ title: Schedule
   will be performing from 7-9, then we'll go on at 9:30 and add that magical
   rock touch that we do so well.
 
-<img class="myImg schedule" src="images/poster_2020_02_21.jpg"
+<img class="myImg schedule" src="images/posters/2020_02_21.jpg"
      alt="gig poster February 21st, 2020" width="200"
      onclick="modal_image(this);"/>
 
@@ -175,7 +175,7 @@ title: Schedule
 * **October 19th** &ndash; *Kieran's Place*, H. Smith Richardson Golf
   Course, 2425 Morehouse Highway, Fairfield CT. 8:00 PM.
 
-<img class="myImg schedule" src="images/poster_2019_10_19.jpg"
+<img class="myImg schedule" src="images/posters/2019_10_19.jpg"
      alt="gig poster October 19th, 2019" width="200"
      onclick="modal_image(this);"/>
 
@@ -183,7 +183,7 @@ title: Schedule
 
 * **September 27th** &ndash; *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
 
-<img class="myImg schedule" src="images/poster_2019_09_27.jpg"
+<img class="myImg schedule" src="images/posters/2019_09_27.jpg"
      alt="gig poster September 27th, 2019" width="200"
      onclick="modal_image(this);"/>
 
@@ -207,7 +207,7 @@ title: Schedule
   Smith Richardson Golf Course, 2425 Morehouse Highway, Fairfield CT. 8:00
   PM. Open to the public.
 
-<img class="myImg schedule" src="images/poster_2019_06_15.jpg"
+<img class="myImg schedule" src="images/posters/2019_06_15.jpg"
      alt="gig poster June 15th, 2019" width="200"
      onclick="modal_image(this);"/>
 
@@ -220,7 +220,7 @@ title: Schedule
 * **April 5th** &ndash; Ellis Island Acoustic (Tim and Jim) were at the *St.
   Lawrence Society*.
 
-<img class="myImg schedule" src="images/poster_2019_04_05.jpg"
+<img class="myImg schedule" src="images/posters/2019_04_05.jpg"
      alt="gig poster April 5th, 2019" width="200"
      onclick="modal_image(this);"/>
 
@@ -236,7 +236,7 @@ title: Schedule
 * **March 14th** &ndash; Ellis Island Acoustic (Tim and Jim) at *Pomodoro
   Restaurant*, 1247 E. Putnam Ave, Riverside CT
 
-<img class="myImg schedule" src="images/poster_2019_03_14.jpg"
+<img class="myImg schedule" src="images/posters/2019_03_14.jpg"
      alt="gig poster March 14th, 2019" width="200"
      onclick="modal_image(this);"/>
 
@@ -257,13 +257,13 @@ title: Schedule
 * **Feb 14th** &ndash; *Pomodoro Restaurant*, 1247 E. Putnam Ave, Riverside
   CT
 
-<img class="myImg schedule" src="images/poster_2019_02_14.jpg"
+<img class="myImg schedule" src="images/posters/2019_02_14.jpg"
     alt="gig poster February 14th, 2019" width="200"
     onclick="modal_image(this);"/>
 
 * **Feb 1st** &ndash; *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
 
-<img class="myImg schedule" src="images/poster_2019_02_01.jpg" 
+<img class="myImg schedule" src="images/posters/2019_02_01.jpg" 
      alt="gig poster February 1st, 2019" width="200"
      onclick="modal_image(this);"/>
 
@@ -271,7 +271,7 @@ title: Schedule
 
 * **Jan 4th** &ndash; *The Seagrape*, 1144 Reef Road, Fairfield CT
 
-<img class="myImg schedule" src="images/poster_2019_01_04.jpg"
+<img class="myImg schedule" src="images/posters/2019_01_04.jpg"
      alt="gig poster, January 4th, 2019" width="200"
      onclick="modal_image(this);"/>
 
