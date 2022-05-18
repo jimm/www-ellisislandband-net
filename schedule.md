@@ -87,7 +87,7 @@ title: Schedule
 * **October 17th** &ndash; 5:00 - 8:00 at Cisco Brewers at The Village, 4
   Star Point in Stamford.
 
-<img class="myImg schedule" src="images/2021-10-17_cisco-brewers.jpeg"
+<img class="myImg schedule" src="images/posters/2021-10-17_cisco-brewers.jpeg"
      alt="gig poster October 17th, 2021" width="200"
      onclick="modal_image(this);"/>
 

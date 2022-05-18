@@ -36,24 +36,39 @@ title: About
   </tr>
 </table>
 
-## Tim Ellis
-
-Vocals and electric and acoustic guitars (*and foot tambourine*).
-
-## Nate Balogh
-
-Electric and acoustic guitars and occasional bass.
-
-## Alex Giannaras
-
-Bass and vocals.
-
-## Jeff Steele
-
-Drums and percussion.
-
-## Jim Menard
-
-Keyboards and occasional bass (*and tambourine on one song, and they let
-him sing some harmony that's not critical or needs to be in tune or
-anything*).
+<table>
+  <tr>
+    <td width="50%">
+      <h2>Tim Ellis</h2>
+      <p>Vocals and electric and acoustic guitars (<em>and foot tambourine</em>).</p>
+      <img width="200" src="images/fuv/tim_singing_1.jpg" alt="Tim singing"/>
+    </td>
+    <td width="50%">
+      <h2>Nate Balogh</h2>
+      <p>Electric and acoustic guitars and occasional bass.</p>
+      <img width="200" src="images/fuv/nate_2.jpg" alt="Nate playing"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h2>Alex Giannaras</h2>
+      <p>Bass and vocals.</p>
+      <img width="200" src="images/fuv/alex.jpg" alt="Alex playing"/>
+    </td>
+    <td width="50%">
+      <h2>Jeff Steele</h2>
+      <p>Drums and percussion.</p>
+      <img width="100%" src="images/fuv/jeff.jpg" alt="Jeff playing"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h2>Jim Menard</h2>
+      <p>Keyboards and occasional bass (<em>and tambourine on one song, and
+      they let him sing some harmony that's not critical or needs to be in tune or
+      anything</em>).</p>
+      <img width="200" src="images/fuv/jim_head_down.jpg" alt="Jim playing"/>
+    </td>
+    <td width="50%">&nbsp;</td>
+  </tr>
+</table>

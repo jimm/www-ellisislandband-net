@@ -30,14 +30,21 @@ layout: default
 
 <table width="100%">
   <tr style="vertical-align: top;">
+    <td colspan="2" width="100%" style="align: top; text-align: center;">
+      <img class="myImg" src="images/fuv/band_5.jpg" width="100%"
+           alt="Ellis Island @ Factory Underground, May 2022"
+           onclick="modal_image(this);"/>
+    </td>
+  </tr>
+  <tr style="vertical-align: top;">
     <td with="50%" style="align: center; text-align: center;">
-        <img class="myImg" src="images/tim_and_jeannine_seagrape.jpg" width="330" 
-             alt="Tim and Jeannine at the Seagrape" onclick="modal_image(this);"/>
+        <img class="myImg" src="images/fuv/jeff_cropped.jpg" width="430" 
+             alt="Jeff on drums" onclick="modal_image(this);"/>
     </td>
     <td with="50%" style="align: center; text-align: center;">
       <br/><br/>
-      <img class="myImg" src="images/taste_of_fairfield.jpg" width="330"
-           alt="On stage at A Taste of Fairfield" onclick="modal_image(this);"/>
+      <img class="myImg" src="images/fuv/tim_singing_1.jpg" width="330"
+           alt="Tim singing" onclick="modal_image(this);"/>
     </td>
   </tr>
   <tr style="vertical-align: top;">
