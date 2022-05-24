@@ -8,7 +8,7 @@ title: Gallery
 ## Mystery Recording Session
 
 In May of 2022, the band held a recording session at Factory Underground in
-Bridgeport for a special project that we'll announce soon!
+Norwalk for a special project that we'll announce soon!
 
 <div id="myModal" class="modal">
   <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
