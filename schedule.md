@@ -26,18 +26,12 @@ title: Schedule
 
 ## Upcoming
 
-* **May 20th** &ndash; Ellis Island Acoustic (Tim and Jim) are at a Westport
-  Church event.
-
-* **May 21st, 2022** &ndash; *Brooklawn Country Club*'s "Kick Off for
-  Summer" party. 500 Algonquin Rd, Fairfield, CT. It's outdoor fun time, so
-  bring a chair or blanket if you like, and bring your dancin' shoes!
-
-* **May 22nd, 2022** &ndash; *Fairfield Sherman Green* (the Gazebo),
-  6:30 - 8:30. Corner of Post Road (Route 1) and Reef Road.
-
 * **August 20th, 2022** &ndash; *Fairfield Sherman Green* (the Gazebo),
   6:30 - 8:30. Corner of Post Road (Route 1) and Reef Road.
+
+* **August 27th, 2022** &ndash; *Black Rock PorchFest* in Bridgeport, CT. We
+  have a kind host porch right in the heart of PorchFest! _Address and time
+  will be updated when we get the final details_.
 
 * **September 10th, 2022** &ndash; Look for Ellis Island at Stratfield
   Village Associations's Lincoln Parkapalooza fundraising event! We'll be on
@@ -55,6 +49,16 @@ title: Schedule
   the *Rach's Hope PJ Gala 2022*, Penfield Pavilion, Fairfield, CT from
   7:30 - 11:00. This is a charity event with food, auctions, and music. For
   more info see [Rach's Hope](https://www.rachshope.org/).
+
+* **May 20th** &ndash; Ellis Island Acoustic (Tim and Jim) are at a Westport
+  Church event.
+
+* **May 21st, 2022** &ndash; *Brooklawn Country Club*'s "Kick Off for
+  Summer" party. 500 Algonquin Rd, Fairfield, CT. It's outdoor fun time, so
+  bring a chair or blanket if you like, and bring your dancin' shoes!
+
+* **May 22nd, 2022** &ndash; *Fairfield Sherman Green* (the Gazebo),
+  6:30 - 8:30. Corner of Post Road (Route 1) and Reef Road.
 
 ### March 2022
 
