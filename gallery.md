@@ -16,6 +16,13 @@ Norwalk for a special project that we'll announce soon!
   <div id="caption"></div>
 </div>
 
+<iframe width="100%" height="500px"
+    src="https://www.youtube.com/embed/MN8Sgid2x30"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+<div class="caption">Our 2022 demo video</div>
+
 <table width="100%">
   <tr style="vertical-align: top;">
     <td colspan="2" width="100%" style="align: center; text-align: center;">
