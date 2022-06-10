@@ -2,13 +2,14 @@
 layout: default
 ---
 
-# Ellis Island
-
 <div id="myModal" class="modal">
   <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
+
+<img class="mainLogo" src="images/Ellis_Island_banner.png" width="300"
+    alt="Ellis Island Banner" onclick="modal_image(this);"/>
 
 <iframe width="100%" height="500px"
     src="https://www.youtube.com/embed/MN8Sgid2x30"
@@ -16,23 +17,12 @@ layout: default
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
 
-<table>
-  <tr>
-    <td style="padding-right: 3em;">
-<p>Rock that'll get you moving! Ellis Island is based in Fairfield, CT.</p>
+Rock that'll get you moving! Ellis Island is based in Fairfield, CT.
 
-<p>Check out our
+Check out our
 <a href="schedule.html">schedule</a>,
 <a href="contact.html">contact</a> us, or take a look at what kind of
-<a href="song-list.html">music we play</a>.</p>
-
-    </td>
-    <td width="300">
-      <img class="myImg" src="images/Ellis_Island_banner.png" width="300"
-           alt="Ellis Island Banner" onclick="modal_image(this);"/>
-    </td>
-  </tr>
-</table>
+<a href="song-list.html">music we play</a>.
 
 <table width="100%">
   <tr style="vertical-align: top;">
