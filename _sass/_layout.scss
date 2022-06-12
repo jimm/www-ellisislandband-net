@@ -246,6 +246,18 @@
     }
 }
 
+table.bandpics {
+  td.bandmember {
+    padding: 1em;
+    background: $grey-color-dark;
+    vertical-align: top;
+  }
+  p {
+    padding-left: 0;
+    padding-top: 1em;
+  }
+}
+
 table.songlist {
     th,td {
         padding-left: 1em;

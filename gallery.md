@@ -10,12 +10,6 @@ title: Gallery
 In May of 2022, the band held a recording session at Factory Underground in
 Norwalk for a special project that we'll announce soon!
 
-<div id="myModal" class="modal">
-  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-
 <iframe width="100%" height="500px"
     src="https://www.youtube.com/embed/MN8Sgid2x30"
     title="YouTube video player" frameborder="0"

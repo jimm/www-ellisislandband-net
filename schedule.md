@@ -5,12 +5,6 @@ title: Schedule
 
 # Schedule
 
-<div id="myModal" class="modal">
-  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-
 <table>
   <tr>
     <td style="padding-right: 3em;">

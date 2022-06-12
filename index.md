@@ -2,12 +2,6 @@
 layout: default
 ---
 
-<div id="myModal" class="modal">
-  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-
 <img class="mainLogo" src="images/Ellis_Island_banner.png" width="300"
     alt="Ellis Island Banner" onclick="modal_image(this);"/>
 
