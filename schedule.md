@@ -26,6 +26,9 @@ title: Schedule
 * **August 20th, 2022** &ndash; *Fairfield Sherman Green* (the Gazebo),
   6:30 - 8:30. Corner of Post Road (Route 1) and Reef Road.
 
+* **August 25th, 2022** &ndash; Warde Baseball fundraiser at BRYAC, 3074
+  Fairfield Avenue, Bridgeport, CT. More details coming soon.
+
 * **August 27th, 2022** &ndash; *Black Rock PorchFest* in Bridgeport, CT. We
   have a kind host porch right in the heart of PorchFest! _Address and time
   will be updated when we get the final details_.
