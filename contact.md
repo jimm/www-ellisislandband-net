@@ -14,15 +14,21 @@ during a typical rehearsal? Get in touch!
     <a href="mailto:band@ellisislandrock.com">band@ellisislandrock.com</a>
   </li>
 
+  {% if site.twitter_username %}
+    <li>
+      {% include twitter_link.html %}
+    </li>
+  {% endif %}
+
   {% if site.facebook_username %}
     <li>
       {% include facebook_link.html %}
     </li>
   {% endif %}
 
-  {% if site.twitter_username %}
+  {% if site.youtube_username %}
     <li>
-      {% include twitter_link.html %}
+      {% include youtube_link.html %}
     </li>
   {% endif %}
 
