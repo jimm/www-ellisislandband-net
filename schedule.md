@@ -23,7 +23,7 @@ title: Schedule
 * **August 4th, 2022** &ndash; *Private Event*, Penfield Pavilion,
   Fairfield, CT.
 
-* **August 4th, 2022** &ndash; *Fairfield Farmer's Market* at Fairfield
+* **August 7th, 2022** &ndash; *Fairfield Farmer's Market* at Fairfield
   Sherman Green (the Gazebo), 10:00am - 2:00pm. Corner of Post Road (Route
   1) and Reef Road.
 
