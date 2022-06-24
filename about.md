@@ -5,11 +5,11 @@ title: About
 
 # About Ellis Island
 
-<table>
+<table class="about">
   <tr>
     <td style="padding-right: 3em;">
       Ellis Island is made up of musicians with diverse backgrounds and
-      musical histories. Combined, they have more than a century of
+      musical histories. Combined, we have more than a century of
       experience playing for audiences from upstate New York down to Alabama
       and Florida and across the ocean in London.
     </td>
@@ -36,7 +36,7 @@ title: About
       <h2>Tim Ellis</h2>
       <img class="myImg" width="200" src="images/fuv/tim_singing_1.jpg"
            alt="Tim Ellis"  onclick="modal_image(this);"/>
-      <p>Vocals and electric and acoustic guitars (<em>and foot tambourine</em>)</p>
+      <p>Vocals, electric and acoustic guitars, and foot tambourine</p>
     </td>
     <td class="bandmember" width="50%">
       <h2>Nate Balogh</h2>
@@ -64,9 +64,8 @@ title: About
       <h2>Jim Menard</h2>
       <img class="myImg" width="200" src="images/fuv/jim_head_down.jpg"
            alt="Jim Menard" onclick="modal_image(this);"/>
-      <p>Keyboards and occasional bass (<em>and tambourine on one song, and
-      they let him sing some harmony that's not critical or needs to be in tune or
-      anything</em>)</p>
+      <p>Keyboards, occasional bass, and sometimes he warbles some harmony
+      that's not critical or needs to be in tune or anything</p>
     </td>
     <td width="50%">&nbsp;</td>
   </tr>

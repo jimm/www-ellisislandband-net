@@ -5,18 +5,15 @@ layout: default
 <img class="mainLogo" src="images/Ellis_Island_banner.png" width="300"
     alt="Ellis Island Banner" onclick="modal_image(this);"/>
 
-<iframe width="100%" height="500px"
-    src="https://www.youtube.com/embed/MN8Sgid2x30"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
+Rock that'll get you moving! Ellis Island is a five-piece rock band based in
+Fairfield, CT with an extensive [song list](/song-list.html) that will have
+you dancing in no time.
 
-Rock that'll get you moving! Ellis Island is based in Fairfield, CT.
+Check out our new [demo video](https://www.youtube.com/embed/MN8Sgid2x30).
 
-Check out our
-<a href="schedule.html">schedule</a>,
-<a href="contact.html">contact</a> us, or take a look at what kind of
-<a href="song-list.html">music we play</a>.
+You can use the links at the top of the page to check out our
+[schedule](/schedule.html), [contact](/contact.html) us, take a peek inside
+the [gallery](/gallery.html), and more.
 
 <table width="100%">
   <tr style="vertical-align: top;">
