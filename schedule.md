@@ -33,9 +33,8 @@ title: Schedule
 * **August 25th, 2022** &ndash; Warde Baseball fundraiser at BRYAC, 3074
   Fairfield Avenue, Bridgeport, CT. More details coming soon.
 
-* **August 27th, 2022** &ndash; *Black Rock PorchFest* in Bridgeport, CT. We
-  have a kind host porch right in the heart of PorchFest! _Address and time
-  will be updated when we get the final details_.
+* **August 27th, 2022** &ndash; *Black Rock PorchFest* in Bridgeport, CT.
+  We'll be at 49 Fayerweather Terrace. Time still TBD.
 
 * **September 10th, 2022** &ndash; Look for Ellis Island at Stratfield
   Village Associations's *Lincoln Parkapalooza* fundraising event! We'll be
