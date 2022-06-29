@@ -34,7 +34,7 @@ title: Schedule
   Fairfield Avenue, Bridgeport, CT. More details coming soon.
 
 * **August 27th, 2022** &ndash; *Black Rock PorchFest* in Bridgeport, CT.
-  We'll be at 49 Fayerweather Terrace. Time still TBD.
+  We'll be at 49 Fayerweather Terrace from 5-6pm.
 
 * **September 10th, 2022** &ndash; Look for Ellis Island at Stratfield
   Village Associations's *Lincoln Parkapalooza* fundraising event! We'll be
