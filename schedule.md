@@ -5,18 +5,9 @@ title: Schedule
 
 # Schedule
 
-<table>
-  <tr>
-    <td style="padding-right: 3em;">
-      <i>We are in the process of booking more gigs in the coming months.
-      This page will always have the latest info on confirmed dates. Stay tuned.</i>
-    </td>
-    <td width="300">
-      <img class="myImg" src="images/Ellis_Island_Business_Card_01.png" width="300"
-           alt="Ellis Island Business Card Front" onclick="modal_image(this);"/>
-    </td>
-  </tr>
-</table>
+<img class="myImg schedule-logo"
+     src="images/Ellis_Island_Business_Card_01.png" width="300"
+     alt="Ellis Island Business Card Front" onclick="modal_image(this);"/>
 
 ## Upcoming
 

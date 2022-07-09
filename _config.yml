@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://ellisislandrock.com" # the base hostname & protocol for your site
 twitter_username: EllisIslandRock
 facebook_username: EllisIslandRock
-instagram_username: ellisislandband
+# instagram_username: ellisislandband
 youtube_username: Ellis Island
 youtube_link: channel/UCfrfDRVuiN-yMjjUcMA_1pg
 
