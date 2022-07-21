@@ -32,8 +32,9 @@ title: Schedule
   Stamford) has bands outside all summer long on Thursday nights. See you on
   there on the 15th, 6:30 - 9:30.
 
-* **October 1st, 2022** &ndash; *Milford PorchFest*, Milford CT. Details
-  TBD; the whole event runs from noon to 6pm.
+* **October 1st, 2022** &ndash; *Milford PorchFest*, Milford CT. 4-6pm at 61
+  Melba Street. It's a prime location, right on the beach! The whole event
+  runs from noon to 6pm.
 
 ## Past Gigs
 
