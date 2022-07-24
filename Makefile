@@ -16,10 +16,10 @@ publish: build
 	ssh $(WEB_USER)@$(WEB_SERVER) find $(WEB_DIR) -type d -exec chmod 755 {} \\\;
 
 build:	song-list.md
-	jekyll build
+	bundle exec jekyll build
 
 server:	song-list.md
-	jekyll server
+	bundle exec jekyll server
 
 song-list.md:	$(ORG_FILE)
 	bin/extract-song-names.sh "$(ORG_FILE)" | sed -e 's/:old://' > /tmp/song-list.md && \
