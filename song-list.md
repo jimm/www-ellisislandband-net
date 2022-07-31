@@ -44,6 +44,7 @@ title: Song List
 <tr><td class="rownum">0</td><td>LA Woman</td><td>The Doors</td></tr>
 <tr><td class="rownum">0</td><td>Learn to Fly</td><td>Foo Fighters</td></tr>
 <tr><td class="rownum">0</td><td>Let It Rain</td><td>Eric Clapton</td></tr>
+<tr><td class="rownum">0</td><td>Little Wing</td><td>Jimi Hendrix</td></tr>
 <tr><td class="rownum">0</td><td>Love Me Two Times</td><td>The Doors</td></tr>
 <tr><td class="rownum">0</td><td>Love Reign O'er Me</td><td>The Who</td></tr>
 <tr><td class="rownum">0</td><td>Maybe I'm Amazed</td><td>Paul McCartney</td></tr>
@@ -59,6 +60,7 @@ title: Song List
 <tr><td class="rownum">0</td><td>Remedy</td><td>The Black Crowes</td></tr>
 <tr><td class="rownum">0</td><td>Riptide</td><td>Vance Joy</td></tr>
 <tr><td class="rownum">0</td><td>Rocket Man</td><td>Elton John</td></tr>
+<tr><td class="rownum">0</td><td>Sex on Fire</td><td>Kings of Leon</td></tr>
 <tr><td class="rownum">0</td><td>Sledgehammer</td><td>Peter Gabriel</td></tr>
 <tr><td class="rownum">0</td><td>Stay With Me</td><td>Faces</td></tr>
 <tr><td class="rownum">0</td><td>Surrender</td><td>Cheap Trick</td></tr>
