@@ -25,6 +25,7 @@ title: Song List
 <tr><td class="rownum">0</td><td>Break On Through</td><td>The Doors</td></tr>
 <tr><td class="rownum">0</td><td>Breathe / On The Run / Time</td><td>Pink Floyd</td></tr>
 <tr><td class="rownum">0</td><td>Bye Bye Love</td><td>The Cars</td></tr>
+<tr><td class="rownum">0</td><td>Dead Flowers</td><td>The Rolling Stones</td></tr>
 <tr><td class="rownum">0</td><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
 <tr><td class="rownum">0</td><td>Everybody Wants to Rule the World</td><td>Tears for Fears</td></tr>
 <tr><td class="rownum">0</td><td>Feeling Alright</td><td>Joe Cocker</td></tr>
