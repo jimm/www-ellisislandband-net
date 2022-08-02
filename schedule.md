@@ -36,6 +36,8 @@ title: Schedule
   Melba Street. It's a prime location, right on the beach! The whole event
   runs from noon to 6pm.
 
+* **October 22nd, 2022** &ndash; *Private Event*.
+
 ## Past Gigs
 
 ### May 2022
