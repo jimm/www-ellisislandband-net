@@ -49,6 +49,7 @@ title: Song List
 <tr><td class="rownum">0</td><td>Love Reign O'er Me</td><td>The Who</td></tr>
 <tr><td class="rownum">0</td><td>Maybe I'm Amazed</td><td>Paul McCartney</td></tr>
 <tr><td class="rownum">0</td><td>Message in a Bottle</td><td>The Police</td></tr>
+<tr><td class="rownum">0</td><td>The Middle</td><td>Jimmy Eat World</td></tr>
 <tr><td class="rownum">0</td><td>Mr. Brightside</td><td>The Killers</td></tr>
 <tr><td class="rownum">0</td><td>Mr. Jones</td><td>Counting Crows</td></tr>
 <tr><td class="rownum">0</td><td>Moonage Daydream</td><td>David Bowie</td></tr>
@@ -77,7 +78,6 @@ title: Song List
 <tr><td class="rownum">0</td><td>Daughter</td><td>Pearl Jam </td></tr>
 <tr><td class="rownum">0</td><td>Driven to Tears</td><td>The Police </td></tr>
 <tr><td class="rownum">0</td><td>Mary Jane's Last Dance</td><td>Tom Petty </td></tr>
-<tr><td class="rownum">0</td><td>The Middle</td><td>Jimmy Eat World </td></tr>
 <tr><td class="rownum">0</td><td>Superstition</td><td>Stevie Wonder </td></tr>
 <tr><td class="rownum">0</td><td>Tennessee Jed</td><td>The Grateful Dead </td></tr>
 <tr><td class="rownum">0</td><td>When the World is Running Down</td><td>The Police </td></tr>
