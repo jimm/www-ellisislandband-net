@@ -11,9 +11,6 @@ title: Schedule
 
 ## Upcoming
 
-* **August 4th, 2022** &ndash; *Private Event*, Penfield Pavilion,
-  Fairfield, CT.
-
 * **August 20th, 2022** &ndash; *Fairfield Sherman Green* (the Gazebo),
   6:30 - 8:30. Corner of Post Road (Route 1) and Reef Road.
 
@@ -39,6 +36,11 @@ title: Schedule
 * **October 22nd, 2022** &ndash; *Private Event*.
 
 ## Past Gigs
+
+### August 2022
+
+* **August 4th, 2022** &ndash; *Private Event*, Penfield Pavilion,
+  Fairfield, CT.
 
 ### May 2022
 
