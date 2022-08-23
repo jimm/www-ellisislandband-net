@@ -15,7 +15,7 @@ title: Schedule
   6:30 - 8:00. Corner of Post Road (Route 1) and Reef Road.
 
 * **August 25th, 2022** &ndash; Warde Baseball fundraiser at BRYAC, 3074
-  Fairfield Avenue, Bridgeport, CT. More details coming soon.
+  Fairfield Avenue, Bridgeport, CT. 8:00 - 11:00.
 
 * **August 27th, 2022** &ndash; *Black Rock PorchFest* in Bridgeport, CT.
   We'll be at 49 Fayerweather Terrace from 5-6pm.
