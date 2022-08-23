@@ -11,9 +11,6 @@ title: Schedule
 
 ## Upcoming
 
-* **August 20th, 2022** &ndash; *Fairfield Sherman Green* (the Gazebo),
-  6:30 - 8:00. Corner of Post Road (Route 1) and Reef Road.
-
 * **August 25th, 2022** &ndash; Warde Baseball fundraiser at BRYAC, 3074
   Fairfield Avenue, Bridgeport, CT. 8-11pm. Your $20 donation goes to the
   team.
@@ -46,6 +43,9 @@ title: Schedule
 
 * **August 4th, 2022** &ndash; *Private Event*, Penfield Pavilion,
   Fairfield, CT.
+
+* **August 20th, 2022** &ndash; *Fairfield Sherman Green* (the Gazebo),
+  6:30 - 8:00. Corner of Post Road (Route 1) and Reef Road.
 
 ### May 2022
 
