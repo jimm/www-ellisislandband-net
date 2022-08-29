@@ -11,13 +11,6 @@ title: Schedule
 
 ## Upcoming
 
-* **August 27th, 2022** &ndash; *Black Rock PorchFest* in Bridgeport, CT.
-  We'll be at 49 Fayerweather Terrace from 5-6pm.
-
-<img class="myImg schedule" src="images/posters/ei_blackrock_porchfest_2022.jpg"
-     alt="gig poster, Black Rock Porchfest 2022" width="200"
-     onclick="modal_image(this);"/>
-
 * **September 10th, 2022** &ndash; Look for Ellis Island at Stratfield
   Village Associations's *Lincoln Parkapalooza* fundraising event! We'll be
   on the main stage from 6:30-7:30, followed by The Tom Petty Project.
@@ -46,6 +39,13 @@ title: Schedule
 * **August 25th, 2022** &ndash; Warde Baseball fundraiser at BRYAC, 3074
   Fairfield Avenue, Bridgeport, CT. 8-11pm. Your $20 donation goes to the
   team.
+
+* **August 27th, 2022** &ndash; *Black Rock PorchFest* in Bridgeport, CT.
+  We'll be at 49 Fayerweather Terrace from 5-6pm.
+
+<img class="myImg schedule" src="images/posters/ei_blackrock_porchfest_2022.jpg"
+     alt="gig poster, Black Rock Porchfest 2022" width="200"
+     onclick="modal_image(this);"/>
 
 ### May 2022
 
