@@ -5,10 +5,10 @@ title: Gallery
 
 # Gallery
 
-## Mystery Recording Session
+## Demo Video Recording Session
 
 In May of 2022, the band held a recording session at Factory Underground in
-Norwalk for a special project that we'll announce soon!
+Norwalk for our <a href="https://www.youtube.com/watch?v=MN8Sgid2x30">demo video</a>.
 
 <iframe width="100%" height="500px"
     src="https://www.youtube.com/embed/MN8Sgid2x30"
@@ -51,4 +51,3 @@ Norwalk for a special project that we'll announce soon!
     </td>
   </tr>
 </table>
-
