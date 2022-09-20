@@ -11,10 +11,6 @@ title: Schedule
 
 ## Upcoming
 
-* **September 15th, 2022** &ndash; *Halloween Yacht Club* (10 Seaview Ave,
-  Stamford) has bands outside all summer long on Thursday nights. See you on
-  there on the 15th, 6:30 - 9:30.
-
 * **October 1st, 2022** &ndash; *Milford PorchFest*, Milford CT. 4-6pm at 61
   Melba Street. It's a prime location, right on the beach! The whole event
   runs from noon to 6pm.
@@ -29,6 +25,10 @@ title: Schedule
   Village Associations's *Lincoln Parkapalooza* fundraising event! We'll be
   on the main stage from 6:30-7:30, followed by The Tom Petty Project.
   Lincoln Park, 455 Jackman Ave, Fairfield, CT.
+
+* **September 15th, 2022** &ndash; *Halloween Yacht Club* (10 Seaview Ave,
+  Stamford) has bands outside all summer long on Thursday nights. See you on
+  there on the 15th, 6:30 - 9:30.
 
 ### August 2022
 
