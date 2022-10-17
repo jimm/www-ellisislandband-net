@@ -11,13 +11,15 @@ title: Schedule
 
 ## Upcoming
 
-* **October 1st, 2022** &ndash; *Milford PorchFest*, Milford CT. 4-6pm at 61
-  Melba Street. It's a prime location, right on the beach! The whole event
-  runs from noon to 6pm.
-
 * **October 22nd, 2022** &ndash; *Private Event*.
 
 ## Past Gigs
+
+### October 2022
+
+* **October 1st, 2022** &ndash; *Milford PorchFest*, Milford CT. 4-6pm at 61
+  Melba Street. It's a prime location, right on the beach! The whole event
+  runs from noon to 6pm.
 
 ### September 2022
 
