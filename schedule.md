@@ -11,7 +11,8 @@ title: Schedule
 
 ## Upcoming
 
-* **October 22nd, 2022** &ndash; *Private Event*.
+* **December 7th** &ndash; *Private Event* for the Stratford Village
+  Association at The Discovery Museum in Bridgeport, CT.
 
 ## Past Gigs
 
@@ -20,6 +21,8 @@ title: Schedule
 * **October 1st, 2022** &ndash; *Milford PorchFest*, Milford CT. 4-6pm at 61
   Melba Street. It's a prime location, right on the beach! The whole event
   runs from noon to 6pm.
+
+* **October 22nd, 2022** &ndash; *Private Event*.
 
 ### September 2022
 
