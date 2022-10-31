@@ -11,6 +11,10 @@ title: Schedule
 
 ## Upcoming
 
+* **December 2nd** &ndash; *Park City Music Hall*, opening for
+  [The Amish Outlaws](https://amishoutlaws.com/). We're scheduled to to on
+  at 8:00.
+
 * **December 7th** &ndash; *Private Event* for the Stratford Village
   Association at The Discovery Museum in Bridgeport, CT.
 
