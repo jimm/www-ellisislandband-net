@@ -11,9 +11,15 @@ title: Schedule
 
 ## Upcoming
 
-* **December 2nd** &ndash; *Park City Music Hall*, opening for
-  [The Amish Outlaws](https://amishoutlaws.com/). We're scheduled to to on
-  at 8:00.
+* **December 2nd** &ndash; We're opening for
+  [The Amish Outlaws](https://amishoutlaws.com/) at *Park City Music Hall*,
+  2926 Fairfield Ave, Bridgeport, starting at 9:00.
+  [Get your tickets here](https://www.etix.com/ticket/p/8676333/the-amish-outlaws-bridgeport-park-city-music-hall?partner_id=240&_ga=2.120388171.239255643.1667569696-1869609574.1665324372).
+
+<img class="myImg schedule"
+     src="images/posters/amish_600.jpeg"
+     alt="Poster: The Amish Outlaws featuring Ellis Island"
+     width="200" onclick="modal_image(this);"/>
 
 * **December 7th** &ndash; *Private Event* for the Stratford Village
   Association at The Discovery Museum in Bridgeport, CT.
