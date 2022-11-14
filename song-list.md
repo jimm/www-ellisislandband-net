@@ -71,6 +71,7 @@ title: Song List
 <tr><td class="rownum">0</td><td>Times Like These</td><td>Foo Fighters</td></tr>
 <tr><td class="rownum">0</td><td>Up On Cripple Creek</td><td>The Band</td></tr>
 <tr><td class="rownum">0</td><td>Walking on the Moon</td><td>The Police</td></tr>
+<tr><td class="rownum">0</td><td>We're an American Band</td><td>Grand Funk Railroad</td></tr>
 <tr><td class="rownum">0</td><td>What Is and What Should Never Be</td><td>Led Zeppelin</td></tr>
 <tr><td class="rownum">0</td><td>Where the Streets Have No Name</td><td>U2</td></tr>
 <tr><td class="rownum">0</td><td>Wish I Knew You</td><td>The Revivalists</td></tr>
