@@ -15,6 +15,7 @@ title: Schedule
   [The Amish Outlaws](https://amishoutlaws.com/) at *Park City Music Hall*,
   2926 Fairfield Ave, Bridgeport, starting at 9:00.
   [Get your tickets here](https://www.etix.com/ticket/p/8676333/the-amish-outlaws-bridgeport-park-city-music-hall?partner_id=240&_ga=2.120388171.239255643.1667569696-1869609574.1665324372).
+  Tickets are $21 in advance, $26 at the door.
 
 <img class="myImg schedule"
      src="images/posters/amish_600.jpeg"
