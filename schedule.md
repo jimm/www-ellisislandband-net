@@ -13,13 +13,15 @@ title: Schedule
 
 * **December 2nd** &ndash; We're opening for
   [The Amish Outlaws](https://amishoutlaws.com/) at *Park City Music Hall*,
-  2926 Fairfield Ave, Bridgeport, starting at 9:00.
+  2926 Fairfield Ave, Bridgeport, starting at 9:00. Come see us then stick
+  around for a fun, high-energy band that tours all up and down the East
+  Coast.
   [Get your tickets here](https://www.etix.com/ticket/p/8676333/the-amish-outlaws-bridgeport-park-city-music-hall?partner_id=240&_ga=2.120388171.239255643.1667569696-1869609574.1665324372).
-  Tickets are $21 in advance, $26 at the door.
+  Tickets are $21 in advance, $26 day of the show.
 
 <img class="myImg schedule"
-     src="images/posters/amish_600.jpeg"
-     alt="Poster: The Amish Outlaws featuring Ellis Island"
+     src="images/posters/2022-12-02-park_city_amish_outlaws.jpeg"
+     alt="Second Poster: The Amish Outlaws featuring Ellis Island"
      width="200" onclick="modal_image(this);"/>
 
 * **December 7th** &ndash; *Private Event* for the Stratford Village
