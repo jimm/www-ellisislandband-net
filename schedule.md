@@ -20,8 +20,8 @@ title: Schedule
   Tickets are $21 in advance, $26 day of the show.
 
 <img class="myImg schedule"
-     src="images/posters/2022-12-02-park_city_amish_outlaws.jpeg"
-     alt="Second Poster: The Amish Outlaws featuring Ellis Island"
+     src="images/posters/amish_600.jpeg"
+     alt="Poster: The Amish Outlaws featuring Ellis Island"
      width="200" onclick="modal_image(this);"/>
 
 * **December 7th** &ndash; *Private Event* for the Stratford Village
