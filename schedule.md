@@ -20,7 +20,7 @@ title: Schedule
   Tickets are $21 in advance, $26 day of the show.
 
 <img class="myImg schedule"
-     src="images/posters/amish_600.jpeg"
+     src="images/posters/2022-12-02-park_city_amish_outlaws.jpeg"
      alt="Poster: The Amish Outlaws featuring Ellis Island"
      width="200" onclick="modal_image(this);"/>
 
