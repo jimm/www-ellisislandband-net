@@ -76,6 +76,7 @@ title: Song List
 <tr><td class="rownum">0</td><td>When You Were Young</td><td>The Killers</td></tr>
 <tr><td class="rownum">0</td><td>Where the Streets Have No Name</td><td>U2</td></tr>
 <tr><td class="rownum">0</td><td>Wish I Knew You</td><td>The Revivalists</td></tr>
+<tr><td class="rownum">0</td><td>Young Lust</td><td>Pink Floyd</td></tr>
 <tr><td class="rownum">0</td><td>Ziggy Stardust</td><td>David Bowie</td></tr>
 <tr><td class="rownum">0</td><td>Daughter</td><td>Pearl Jam </td></tr>
 <tr><td class="rownum">0</td><td>Driven to Tears</td><td>The Police </td></tr>
