@@ -24,9 +24,6 @@ title: Schedule
      alt="Poster: The Amish Outlaws featuring Ellis Island"
      width="200" onclick="modal_image(this);"/>
 
-* **December 7th** &ndash; *Private Event* for the Stratford Village
-  Association at The Discovery Museum in Bridgeport, CT.
-
 ## Past Gigs
 
 ### October 2022
