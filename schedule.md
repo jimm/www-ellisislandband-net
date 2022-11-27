@@ -16,7 +16,7 @@ title: Schedule
   2926 Fairfield Ave, Bridgeport, from 9:00 - 10:15. Come see us then stick
   around for a fun, high-energy band that tours all up and down the East
   Coast.
-  [Get your tickets here](https://www.etix.com/ticket/p/8676333/the-amish-outlaws-bridgeport-park-city-music-hall?partner_id=240&_ga=2.120388171.239255643.1667569696-1869609574.1665324372).
+  [Get your tickets here](https://www.etix.com/ticket/p/8676333/the-amish-outlaws-bridgeport-park-city-music-hall).
   Tickets are $21 in advance, $26 day of the show.
 
 <img class="myImg schedule"
