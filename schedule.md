@@ -11,6 +11,12 @@ title: Schedule
 
 ## Upcoming
 
+We're starting to open up bookings for 2024, so stay tuned!
+
+## Past Gigs
+
+### December 2022
+
 * **December 2nd** &ndash; We're opening for
   [The Amish Outlaws](https://amishoutlaws.com/) at *Park City Music Hall*,
   2926 Fairfield Ave, Bridgeport, from 9:00 - 10:15. Come see us then stick
@@ -23,8 +29,6 @@ title: Schedule
      src="images/posters/2022-12-02-park_city_amish_outlaws.jpeg"
      alt="Poster: The Amish Outlaws featuring Ellis Island"
      width="200" onclick="modal_image(this);"/>
-
-## Past Gigs
 
 ### October 2022
 
