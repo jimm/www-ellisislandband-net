@@ -11,94 +11,94 @@ title: Gallery
   <tr style="vertical-align: top;">
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/green-halo.jpg" width="100%" 
-           alt="On stage with green halo light" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1731.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1734.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1735.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
   </tr>
   <tr style="vertical-align: top;">
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1737.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1738.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1742.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1744.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
   </tr>
   <tr style="vertical-align: top;">
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1745.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1748.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1750.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1753.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
   </tr>
   <tr style="vertical-align: top;">
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1754.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1757.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1758.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1759.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
     </td>
   </tr>
   <tr style="vertical-align: top;">
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1770.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
       <div class="caption"></div>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1771.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
       <div class="caption"></div>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/IMG_1772.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
       <div class="caption"></div>
     </td>
     <td style="align: center; text-align: center;">
       <img class="myImg" src="images/park_city_2022_12_02/more-green.jpg" width="100%" 
-           alt="The band onstage at Park City, Dec. 2, 2022" onclick="modal_image(this);"/>
+           alt="The band onstage at Park City, Dec. 2, 2022; photo by Victoria Menard (c) 2022" onclick="modal_image(this);"/>
       <div class="caption"></div>
     </td>
   </tr>
