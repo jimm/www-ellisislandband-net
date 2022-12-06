@@ -41,7 +41,3 @@ the [gallery](/gallery.html), and more.
     </td>
   </tr>
 </table>
-
-# Contact Information
-
-Email: [band@ellisislandrock.com](mailto:band@ellisislandrock.com)

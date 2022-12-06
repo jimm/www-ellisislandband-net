@@ -11,7 +11,7 @@ during a typical rehearsal? Get in touch!
 
 <ul class="social-media-list">
   <li>
-    <a href="mailto:band@ellisislandrock.com">band@ellisislandrock.com</a>
+    {% include email_link.html %}
   </li>
 
   {% if site.twitter_username %}

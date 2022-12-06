@@ -11,6 +11,14 @@ title: Schedule
 
 ## Upcoming
 
+* **February 11th, 2021** &ndash;
+  *[Rach's Hope](https://www.rachshope.org/)* PJ Gala fundraiser,
+  [Fairfield Theater Company](https://fairfieldtheatre.org/), Fairfield, CT.
+
+<img class="myImg schedule" src="images/rachs_hope.jpeg"
+     alt="gig poster March 2nd 2019" width="200"
+     onclick="modal_image(this);">
+
 We're starting to open up bookings for 2024, so stay tuned!
 
 ## Past Gigs
