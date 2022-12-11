@@ -24,8 +24,6 @@ title: Schedule
      alt="gig poster March 2nd 2019" width="200"
      onclick="modal_image(this);">
 
-We're starting to open up bookings for 2024, so stay tuned!
-
 ## Past Gigs
 
 ### December 2022
