@@ -11,11 +11,14 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+$logo-background-color: #364445;
+$logo-guitar-color: #7d9d9c;
+
 $spacing-unit:     30px;
 
 $header-text-color: #fdfdfd;
 $text-color:        white;
-$background-color:  black;
+$background-color:  darken($logo-background-color, 10%);
 $odd-row-color:     #444;
 $brand-color:       #70c0ff;
 
@@ -52,6 +55,18 @@ $on-laptop:        900px;
         "layout",
         "syntax-highlighting"
 ;
+
+h1 {
+  background-color: $logo-guitar-color;
+  padding-left: 1em;
+}
+
+h2 {
+  background-color: $logo-background-color;
+  padding-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
 p {
   padding-left: 2em;

@@ -2,8 +2,10 @@
 layout: default
 ---
 
+<div class="mainLogo">
 <img class="mainLogo" src="images/Ellis_Island_banner.png" width="300"
     alt="Ellis Island Banner" onclick="modal_image(this);"/>
+</div>
 
 Rock that'll get you moving! Ellis Island is a five-piece rock band based in
 Fairfield, CT with an extensive [song list](/song-list.html) that will have

@@ -296,12 +296,15 @@ img.schedule {
 
 img.schedule-logo {
   float: right;
-  margin: 2em;
+  margin-top: 4em;
+  margin-left: 2em;
 }
 
 img.mainLogo {
-  margin-left: 0;
-  padding-left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
 }
 
 /**
