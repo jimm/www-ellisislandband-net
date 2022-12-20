@@ -13,7 +13,7 @@ title: Schedule
 
 * **January 13th, 2023** &ndash; *Park City Music Hall*, Bridgeport CT. Back
   so soon? Yes! Ellis Island is thrilled to be back at Park City. Come see
-  opening band Get Lit at 9pm and stick around, drink, and dance as we rock
+  an opening band (TBD) at 9pm and stick around, drink, and dance as we rock
   the house from 10:30 onward.
 
 * **March 11th, 2023** &ndash;
