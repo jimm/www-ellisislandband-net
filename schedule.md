@@ -15,7 +15,7 @@ title: Schedule
   so soon? Yes! Ellis Island is thrilled to be back at Park City. Come see
   the opening band Get Lit at 9pm and stick around, drink, and dance as we
   rock the house all night long!
-  (Tickets)[https://parkcitymusichall.com/event/ellis-island-get-lit/park-city-music-hall/bridgeport/]
+  [Tickets](https://parkcitymusichall.com/event/ellis-island-get-lit/park-city-music-hall/bridgeport/)
   are $10, or $13 day of the show.
 
 <img class="myImg schedule" src="images/posters/2023_01_13.jpg"
