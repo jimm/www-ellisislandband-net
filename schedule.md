@@ -18,12 +18,16 @@ title: Schedule
   (Tickets)[https://parkcitymusichall.com/event/ellis-island-get-lit/park-city-music-hall/bridgeport/]
   are $10, or $13 day of the show.
 
+<img class="myImg schedule" src="images/posters/2023_01_13.jpg"
+     alt="gig poster Jan 13th 2023" width="200"
+     onclick="modal_image(this);">
+
 * **March 11th, 2023** &ndash;
   *[Rach's Hope](https://www.rachshope.org/)* PJ Gala fundraiser,
   [Fairfield Theater Company](https://fairfieldtheatre.org/), Fairfield, CT.
 
 <img class="myImg schedule" src="images/rachs_hope.jpeg"
-     alt="gig poster March 2nd 2019" width="200"
+     alt="gig poster March 11th 2023" width="200"
      onclick="modal_image(this);">
 
 ## Past Gigs
