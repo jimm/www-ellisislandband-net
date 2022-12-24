@@ -10,6 +10,8 @@ layout: default
 Rock that'll get you moving! Ellis Island is a five-piece rock band based in
 Fairfield, CT with an extensive [song list](/song-list.html) that will have
 you singing and dancing in no time. Check out our
+[Youtube Channel](https://www.youtube.com/@ellisislandfairfieldct), where
+you can find our
 [demo video](https://www.youtube.com/embed/MN8Sgid2x30).
 
 You can use the links at the top of the page to see our
