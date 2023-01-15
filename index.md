@@ -7,6 +7,16 @@ layout: default
     alt="Ellis Island Banner" onclick="modal_image(this);"/>
 </div>
 
+<table width="100%">
+  <tr style="vertical-align: top;">
+    <td id="random-index-image" colspan="2" width="100%" style="align: top; text-align: center;">
+      <img/>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
 Rock that'll get you moving! Ellis Island is a five-piece rock band based in
 Fairfield, CT with an extensive [song list](/song-list.html) that will have
 you singing and dancing in no time. Check out our
@@ -18,7 +28,7 @@ You can use the links at the top of the page to see our
 [schedule](/schedule.html), [contact](/contact.html) us, take a peek inside
 the [gallery](/gallery.html), and more.
 
-<table width="100%">
+<table>
   <tr style="vertical-align: top;">
     <td colspan="2" width="100%" style="align: top; text-align: center;">
       <img class="myImg" src="images/fuv/band_5.jpg" width="100%"
@@ -45,3 +55,4 @@ the [gallery](/gallery.html), and more.
     </td>
   </tr>
 </table>
+<script>insert_random_index_image();</script>

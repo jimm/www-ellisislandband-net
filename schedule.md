@@ -11,6 +11,22 @@ title: Schedule
 
 ## Upcoming
 
+* **February 25th, 2021** &ndash; *Private Event*, benefit concert for
+  D'Valda and Sirico Dance and Music Centre.
+  [Fairfield Theatre Company](https://fairfieldtheatre.org/) (FTC), Fairfield, CT.
+
+* **March 11th, 2023** &ndash;
+  *[Rach's Hope](https://www.rachshope.org/)* PJ Gala fundraiser,
+  [Fairfield Theatre Company](https://fairfieldtheatre.org/) (FTC), Fairfield, CT.
+
+<img class="myImg schedule" src="images/rachs_hope.jpeg"
+     alt="gig poster, Rach's Hope, March 11th 2023" width="200"
+     onclick="modal_image(this);">
+
+## Past Gigs
+
+### January 2023
+
 * **January 13th, 2023** &ndash; *Park City Music Hall*, Bridgeport CT. Back
   so soon? Yes! Ellis Island is thrilled to be back at Park City. Come see
   the opening band Get Lit at 9pm and stick around, drink, and dance as we
@@ -21,16 +37,6 @@ title: Schedule
 <img class="myImg schedule" src="images/posters/2023_01_13.jpg"
      alt="gig poster Jan 13th 2023" width="200"
      onclick="modal_image(this);">
-
-* **March 11th, 2023** &ndash;
-  *[Rach's Hope](https://www.rachshope.org/)* PJ Gala fundraiser,
-  [Fairfield Theater Company](https://fairfieldtheatre.org/), Fairfield, CT.
-
-<img class="myImg schedule" src="images/rachs_hope.jpeg"
-     alt="gig poster March 11th 2023" width="200"
-     onclick="modal_image(this);">
-
-## Past Gigs
 
 ### December 2022
 
