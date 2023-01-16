@@ -14,21 +14,15 @@
 
       <div class="footer-col  footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include github_link.html %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include twitter_link.html %}
-          </li>
-          {% endif %}
-
           {% if site.facebook_username %}
           <li>
             {% include facebook_link.html %}
+          </li>
+          {% endif %}
+
+          {% if site.instagram_username %}
+          <li>
+            {% include instagram_link.html %}
           </li>
           {% endif %}
 
@@ -38,9 +32,15 @@
           </li>
           {% endif %}
 
-          {% if site.instagram_username %}
+          {% if site.twitter_username %}
           <li>
-            {% include instagram_link.html %}
+            {% include twitter_link.html %}
+          </li>
+          {% endif %}
+
+          {% if site.github_username %}
+          <li>
+            {% include github_link.html %}
           </li>
           {% endif %}
         </ul>

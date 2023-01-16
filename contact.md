@@ -14,15 +14,15 @@ during a typical rehearsal? Get in touch!
     {% include email_link.html %}
   </li>
 
-  {% if site.twitter_username %}
-    <li>
-      {% include twitter_link.html %}
-    </li>
-  {% endif %}
-
   {% if site.facebook_username %}
     <li>
       {% include facebook_link.html %}
+    </li>
+  {% endif %}
+
+  {% if site.instagram_username %}
+    <li>
+      {% include instagram_link.html %}
     </li>
   {% endif %}
 
@@ -32,9 +32,9 @@ during a typical rehearsal? Get in touch!
     </li>
   {% endif %}
 
-  {% if site.instagram_username %}
+  {% if site.twitter_username %}
     <li>
-      {% include instagram_link.html %}
+      {% include twitter_link.html %}
     </li>
   {% endif %}
 </ul>
