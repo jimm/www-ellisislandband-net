@@ -27,6 +27,9 @@ title: Schedule
   [314 Beer Garden](https://314beergarden.com/) in South Norwalk. Start time
   TBD.
 
+* **September 9th, 2023** &ndash; *Milford PorchFest*, Milford CT. Address
+  and time TDB. The whole event runs from noon to 6pm.
+
 ## Past Gigs
 
 ### January 2023
