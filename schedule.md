@@ -23,6 +23,10 @@ title: Schedule
      alt="gig poster, Rach's Hope, March 11th 2023" width="200"
      onclick="modal_image(this);">
 
+* **June 9th, 2023** &ndash; Ellis Island will be at
+  [314 Beer Garden](https://314beergarden.com/) in South Norwalk. Start time
+  TBD.
+
 ## Past Gigs
 
 ### January 2023
