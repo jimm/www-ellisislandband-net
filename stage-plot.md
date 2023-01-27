@@ -24,3 +24,6 @@ stage right, keys stage left, drums upstage center.
 - AC: at least four 110V/120V outlets
 
 You can contact us at the email address below.
+
+<img class="myImg" src="images/stage-plot.png" alt="Stage plot"
+     onclick="modal_image(this);"/>
