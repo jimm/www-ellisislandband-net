@@ -3,7 +3,7 @@ layout: default
 title: Song List
 ---
 
-# Ellis Island Song List
+# Song List
 
 <p>Click "Song" or "Artist" to sort the list.</p>
 <table class="songlist" id="songlist">
