@@ -23,7 +23,7 @@ stage right, keys stage left, drums upstage center.
   - 1 for bass
   - 1 for drums
   - 1 for keys
-- AC: at least four 110V/120V outlets
+- AC: at least four 110V outlets
 
 You can contact us at the email address below.
 
