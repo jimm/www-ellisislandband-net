@@ -23,12 +23,22 @@ title: Schedule
      alt="gig poster, Rach's Hope, March 11th 2023" width="200"
      onclick="modal_image(this);">
 
+* ***March 17th, 2023** &ndash; *Private Event*, St. Patrickt's Day party at
+  Brooklawn Country Club.
+
 * **June 9th, 2023** &ndash; Ellis Island will be at
   [314 Beer Garden](https://314beergarden.com/) in South Norwalk. Start time
   TBD.
 
-* **September 9th, 2023** &ndash; *Milford PorchFest*, Milford CT. Address
-  and time TDB. The whole event runs from noon to 6pm.
+* **September 9th, 2023** &ndash; Two, two, two gigs in one (day)!
+
+    * *Milford PorchFest*, Milford CT. Address and time TDB. The whole event
+      runs from noon to 6pm.
+
+    * Look for Ellis Island at Stratfield Village Associations's *Lincoln
+      Parkapalooza* fundraising event! We'll be on the main stage, exact
+      time TBD but probably something like 6:30-7:30. Lincoln Park, 455
+      Jackman Ave, Fairfield, CT.
 
 ## Past Gigs
 
