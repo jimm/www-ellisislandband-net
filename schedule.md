@@ -23,7 +23,7 @@ title: Schedule
      alt="gig poster, Rach's Hope, March 11th 2023" width="200"
      onclick="modal_image(this);">
 
-* ***March 17th, 2023** &ndash; *Private Event*, St. Patrick's Day party at
+* **March 17th, 2023** &ndash; *Private Event*, St. Patrick's Day party at
   Brooklawn Country Club.
 
 * **June 9th, 2023** &ndash; Ellis Island will be at
