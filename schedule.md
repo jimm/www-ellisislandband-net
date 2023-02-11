@@ -15,9 +15,11 @@ title: Schedule
   D'Valda and Sirico Dance and Music Centre.
   [Fairfield Theatre Company](https://fairfieldtheatre.org/) (FTC), Fairfield, CT.
 
-* **March 11th, 2023** &ndash;
-  *[Rach's Hope](https://www.rachshope.org/)* PJ Gala fundraiser,
-  [Fairfield Theatre Company](https://fairfieldtheatre.org/) (FTC), Fairfield, CT.
+* **March 11th, 2023** &ndash; *Rach's Hope* PJ Gala fundraiser at
+  [Fairfield Theatre Company](https://fairfieldtheatre.org/) (FTC),
+  Fairfield, CT. 7pm. Get your tickets at the
+  [Rach's Hope](https://www.rachshope.org/) website, where you can also
+  learn more about their mission.
 
 <img class="myImg schedule" src="images/rachs_hope.jpeg"
      alt="gig poster, Rach's Hope, March 11th 2023" width="200"
