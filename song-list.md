@@ -31,9 +31,11 @@ title: Song List
 <tr><td class="rownum">0</td><td>Everybody Wants to Rule the World</td><td>Tears for Fears</td></tr>
 <tr><td class="rownum">0</td><td>Give Me Some Lovin'</td><td>The Spencer Davis Group</td></tr>
 <tr><td class="rownum">0</td><td>Hard To Handle</td><td>The Black Crowes</td></tr>
+<tr><td class="rownum">0</td><td>Have a Cigar</td><td>Pink Floyd </td></tr>
 <tr><td class="rownum">0</td><td>Heroes</td><td>David Bowie</td></tr>
 <tr><td class="rownum">0</td><td>Hey Hey What Can I Do</td><td>Led Zepplin</td></tr>
 <tr><td class="rownum">0</td><td>Hey Jealousy</td><td>Gin Blossoms</td></tr>
+<tr><td class="rownum">0</td><td>High and Dry</td><td>Radiohead</td></tr>
 <tr><td class="rownum">0</td><td>Hunger Strike</td><td>Temple of the Dog</td></tr>
 <tr><td class="rownum">0</td><td>I Don't Want to Be</td><td>Gavin DeGraw</td></tr>
 <tr><td class="rownum">0</td><td>In God's Country</td><td>U2</td></tr>
@@ -54,6 +56,7 @@ title: Song List
 <tr><td class="rownum">0</td><td>Mr. Jones</td><td>Counting Crows</td></tr>
 <tr><td class="rownum">0</td><td>Moonage Daydream</td><td>David Bowie</td></tr>
 <tr><td class="rownum">0</td><td>My Hero</td><td>Foo Fighters</td></tr>
+<tr><td class="rownum">0</td><td>New Year's Day</td><td>U2</td></tr>
 <tr><td class="rownum">0</td><td>Off the Record</td><td>My Morning Jacket</td></tr>
 <tr><td class="rownum">0</td><td>One Big Holiday</td><td>My Morning Jacket</td></tr>
 <tr><td class="rownum">0</td><td>Please Come Home for Christmas</td><td>Eagles</td></tr>
