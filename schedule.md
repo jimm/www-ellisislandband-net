@@ -32,6 +32,9 @@ title: Schedule
   [314 Beer Garden](https://314beergarden.com/) in South Norwalk. Start time
   TBD.
 
+* **July 1st, 2023** &ndash; We're back at *Park City Music Hall*,
+  Bridgeport. Opening band and ticket info TBD.
+
 * **September 9th, 2023** &ndash; Two, two, two gigs in one (day)!
 
     * *Milford PorchFest*, Milford CT. Address and time TDB. The whole event
