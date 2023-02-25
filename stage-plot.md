@@ -27,5 +27,4 @@ stage right, keys stage left, drums upstage center.
 
 You can contact us at the email address below.
 
-<img class="myImg" src="images/stage-plot.png" alt="Stage plot"
-     onclick="modal_image(this);"/>
+{% include pic.html src="stage-plot.png" alt="Stage plot" %}

@@ -1,0 +1,17 @@
+{% if include.schedule %}
+  {% assign width = "200" %}
+  {% assign class = "schedule" %}
+{% else %}
+  {% assign width = include.width %}
+  {% assign class = include.class %}
+{% endif %}
+<img
+  class="{{ class | prepend: "myImg " }}"
+  width="{{ width | default: "100%" }}"
+  src="{{ include.src | prepend: "images/" }}"
+  {% if include.alt %}alt="{{ include.alt }}"{% endif %}
+  onclick="modal_image(this);"
+/>
+{% if include.caption and include.alt %}
+  <div class="caption">{{ include.caption }}</div>
+{% endif %}

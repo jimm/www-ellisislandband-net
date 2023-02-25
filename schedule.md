@@ -5,9 +5,8 @@ title: Schedule
 
 # Schedule
 
-<img class="myImg schedule-logo"
-     src="images/Ellis_Island_Business_Card_01.png" width="300"
-     alt="Ellis Island Business Card Front" onclick="modal_image(this);"/>
+{% include pic.html class="schedule-logo" width="300" src="Ellis_Island_Business_Card_01.png"
+     alt="Ellis Island Business Card Front" %}
 
 ## Upcoming
 
@@ -21,9 +20,8 @@ title: Schedule
   [Rach's Hope](https://www.rachshope.org/) website, where you can also
   learn more about their mission.
 
-<img class="myImg schedule" src="images/rachs_hope.jpeg"
-     alt="gig poster, Rach's Hope, March 11th 2023" width="200"
-     onclick="modal_image(this);">
+{% include pic.html schedule=true src="rachs_hope.jpeg"
+     alt="gig poster, Rach's Hope, March 11th 2023" %}
 
 * **March 17th, 2023** &ndash; *Private Event*, St. Patrick's Day party at
   Brooklawn Country Club.
@@ -56,9 +54,8 @@ title: Schedule
   [Tickets](https://parkcitymusichall.com/event/ellis-island-get-lit/park-city-music-hall/bridgeport/)
   are $10, or $13 day of the show.
 
-<img class="myImg schedule" src="images/posters/2023_01_13.jpg"
-     alt="gig poster Jan 13th 2023" width="200"
-     onclick="modal_image(this);">
+{% include pic.html schedule=true src="posters/2023_01_13.jpg"
+     alt="gig poster Jan 13th 2023" %}
 
 ### December 2022
 
@@ -70,10 +67,8 @@ title: Schedule
   [Get your tickets here](https://www.etix.com/ticket/p/8676333/the-amish-outlaws-bridgeport-park-city-music-hall).
   Tickets are $21 in advance, $26 day of the show.
 
-<img class="myImg schedule"
-     src="images/posters/2022-12-02-park_city_amish_outlaws.jpeg"
-     alt="Poster: The Amish Outlaws featuring Ellis Island"
-     width="200" onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/2022-12-02-park_city_amish_outlaws.jpeg"
+     alt="Poster: The Amish Outlaws featuring Ellis Island" %}
 
 ### October 2022
 
@@ -109,9 +104,8 @@ title: Schedule
 * **August 27th, 2022** &ndash; *Black Rock PorchFest* in Bridgeport, CT.
   We'll be at 49 Fayerweather Terrace from 5-6pm.
 
-<img class="myImg schedule" src="images/posters/ei_blackrock_porchfest_2022.jpg"
-     alt="gig poster, Black Rock Porchfest 2022" width="200"
-     onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/ei_blackrock_porchfest_2022.jpg"
+     alt="gig poster, Black Rock Porchfest 2022" %}
 
 ### May 2022
 
@@ -147,9 +141,8 @@ title: Schedule
 * **December 17th** &ndash; *The Shebeen of Black Rock*, 2652 Fairfield Ave,
   Bridgeport, CT. 8:30 PM.
 
-<img class="myImg schedule" src="images/posters/ShebeenDE.jpg"
-     alt="gig poster December 17th, 2021" width="200"
-     onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/ShebeenDE.jpg"
+     alt="gig poster December 17th, 2021" %}
 
 ### October 2021
 
@@ -165,9 +158,8 @@ title: Schedule
 * **October 17th** &ndash; 5:00 - 8:00 at Cisco Brewers at The Village, 4
   Star Point in Stamford.
 
-<img class="myImg schedule" src="images/posters/2021-10-17_cisco-brewers.jpeg"
-     alt="gig poster October 17th, 2021" width="200"
-     onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/2021-10-17_cisco-brewers.jpeg"
+     alt="gig poster October 17th, 2021" %}
 
 ### September 2021
 
@@ -211,9 +203,8 @@ title: Schedule
   Open to the public. Sit outside, enjoy great food and drink, and listen to
   the Ellis Island Duo: Tim and Jim.
 
-<img class="myImg schedule" src="images/posters/ei_duo_sep_2020.jpg"
-     alt="gig poster September 5th, 2020" width="200"
-     onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/ei_duo_sep_2020.jpg"
+     alt="gig poster September 5th, 2020" %}
 
 
 ### February 2020
@@ -223,9 +214,8 @@ title: Schedule
   will be performing from 7-9, then we'll go on at 9:30 and add that magical
   rock touch that we do so well.
 
-<img class="myImg schedule" src="images/posters/2020_02_21.jpg"
-     alt="gig poster February 21st, 2020" width="200"
-     onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/2020_02_21.jpg"
+     alt="gig poster February 21st, 2020" %}
 
 * **February 29th** &ndash; *Rach's Hope PJ Gala 2020*, Penfield Pavilion,
   Fairfield, CT.
@@ -235,9 +225,8 @@ title: Schedule
   tickets and more event information. We played last year and had a blast.
   Food, auctions, and music galore.
 
-<img class="myImg schedule" src="images/rachs_hope.jpeg"
-     alt="gig poster February 29th, 2020"
-     width="200" onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="rachs_hope.jpeg"
+     alt="gig poster February 29th, 2020" %}
 
 ### December 2019
 
@@ -256,17 +245,15 @@ title: Schedule
 * **October 19th** &ndash; *Kieran's Place*, H. Smith Richardson Golf
   Course, 2425 Morehouse Highway, Fairfield CT. 8:00 PM.
 
-<img class="myImg schedule" src="images/posters/2019_10_19.jpg"
-     alt="gig poster October 19th, 2019" width="200"
-     onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/2019_10_19.jpg"
+     alt="gig poster October 19th, 2019" %}
 
 ### September 2019
 
 * **September 27th** &ndash; *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
 
-<img class="myImg schedule" src="images/posters/2019_09_27.jpg"
-     alt="gig poster September 27th, 2019" width="200"
-     onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/2019_09_27.jpg"
+     alt="gig poster September 27th, 2019" %}
 
 ### August 2019
 
@@ -288,9 +275,8 @@ title: Schedule
   Smith Richardson Golf Course, 2425 Morehouse Highway, Fairfield CT. 8:00
   PM. Open to the public.
 
-<img class="myImg schedule" src="images/posters/2019_06_15.jpg"
-     alt="gig poster June 15th, 2019" width="200"
-     onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/2019_06_15.jpg"
+     alt="gig poster June 15th, 2019" %}
 
 ### May 2019
 
@@ -301,9 +287,8 @@ title: Schedule
 * **April 5th** &ndash; Ellis Island Acoustic (Tim and Jim) were at the *St.
   Lawrence Society*.
 
-<img class="myImg schedule" src="images/posters/2019_04_05.jpg"
-     alt="gig poster April 5th, 2019" width="200"
-     onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/2019_04_05.jpg"
+     alt="gig poster April 5th, 2019" %}
 
 * **April 24th** &ndash; Ellis Island Acoustic (Tim, Nate, Alex, and Jim)
   played at the *Hi-Ho Motel* for a Mad Men-themed party! 4180 Black Rock
@@ -317,9 +302,8 @@ title: Schedule
 * **March 14th** &ndash; Ellis Island Acoustic (Tim and Jim) at *Pomodoro
   Restaurant*, 1247 E. Putnam Ave, Riverside CT
 
-<img class="myImg schedule" src="images/posters/2019_03_14.jpg"
-     alt="gig poster March 14th, 2019" width="200"
-     onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/2019_03_14.jpg"
+     alt="gig poster March 14th, 2019" %}
 
 * **March 2nd** &ndash; *Rach's Hope*, Penfield Pavilion, Fairfield, CT
   [Rach's Hope Kickoff!](https://www.eventbrite.com/e/rachs-hope-kickoff-tickets-55122699478?ref=eios&aff=eios)
@@ -328,9 +312,8 @@ title: Schedule
   has more information about Rachel and the foundation that's been created
   in her honor.
 
-<img class="myImg schedule" src="images/rachs_hope.jpeg"
-     alt="gig poster March 2nd 2019" width="200"
-     onclick="modal_image(this);">
+{% include pic.html schedule=true src="rachs_hope.jpeg"
+     alt="gig poster March 2nd 2019" %}
 
 
 ### February 2019
@@ -338,23 +321,20 @@ title: Schedule
 * **Feb 14th** &ndash; *Pomodoro Restaurant*, 1247 E. Putnam Ave, Riverside
   CT
 
-<img class="myImg schedule" src="images/posters/2019_02_14.jpg"
-    alt="gig poster February 14th, 2019" width="200"
-    onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/2019_02_14.jpg"
+    alt="gig poster February 14th, 2019" %}
 
 * **Feb 1st** &ndash; *Grace O'Malley's*, 1494 Post Rd, Fairfield CT
 
-<img class="myImg schedule" src="images/posters/2019_02_01.jpg" 
-     alt="gig poster February 1st, 2019" width="200"
-     onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/2019_02_01.jpg"
+     alt="gig poster February 1st, 2019" %}
 
 ### January 2019
 
 * **Jan 4th** &ndash; *The Seagrape*, 1144 Reef Road, Fairfield CT
 
-<img class="myImg schedule" src="images/posters/2019_01_04.jpg"
-     alt="gig poster, January 4th, 2019" width="200"
-     onclick="modal_image(this);"/>
+{% include pic.html schedule=true src="posters/2019_01_04.jpg"
+     alt="gig poster, January 4th, 2019" %}
 
 ### December 2018
 
