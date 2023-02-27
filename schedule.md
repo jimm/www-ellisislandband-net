@@ -33,6 +33,9 @@ title: Schedule
 * **July 1st, 2023** &ndash; We're back at *Park City Music Hall*,
   Bridgeport. Opening band and ticket info TBD.
 
+* **August 26th, 2023** &ndash; *Black Rock PorchFest* in Bridgeport, CT.
+  Time and place TBD, but we think we'll be at 49 Fayerweather Terrace.
+
 * **September 9th, 2023** &ndash; Two, two, two gigs in one (day)!
 
     * *Milford PorchFest*, Milford CT. Address and time TDB. The whole event
