@@ -23,23 +23,25 @@ const GALLERY_SOURCES = [
   "IMG_1772.jpg",
   "more-green.jpg",
 ];
+const INDEX_IMAGE_DIR = "images/";
 const INDEX_SOURCES = [
-  "green-halo.jpg",
-  "IMG_1734.jpg",
-  "IMG_1735.jpg",
-  "IMG_1737.jpg",
-  "IMG_1745.jpg",
-  "IMG_1748.jpg",
-  "IMG_1750.jpg",
-  "IMG_1753.jpg",
-  "IMG_1754.jpg",
-  "IMG_1757.jpg",
-  "IMG_1758.jpg",
-  "IMG_1759.jpg",
-  "IMG_1770.jpg",
-  "IMG_1771.jpg",
-  "IMG_1772.jpg",
-  "more-green.jpg",
+  "park_city_2022_12_02/green-halo.jpg",
+  "park_city_2022_12_02/IMG_1734.jpg",
+  "park_city_2022_12_02/IMG_1735.jpg",
+  "park_city_2022_12_02/IMG_1737.jpg",
+  "park_city_2022_12_02/IMG_1745.jpg",
+  "park_city_2022_12_02/IMG_1748.jpg",
+  "park_city_2022_12_02/IMG_1750.jpg",
+  "park_city_2022_12_02/IMG_1753.jpg",
+  "park_city_2022_12_02/IMG_1754.jpg",
+  "park_city_2022_12_02/IMG_1757.jpg",
+  "park_city_2022_12_02/IMG_1758.jpg",
+  "park_city_2022_12_02/IMG_1759.jpg",
+  "park_city_2022_12_02/IMG_1770.jpg",
+  "park_city_2022_12_02/IMG_1771.jpg",
+  "park_city_2022_12_02/IMG_1772.jpg",
+  "park_city_2022_12_02/more-green.jpg",
+  "jeff_and_banner_ftc_edited.jpeg"
 ];
 
 function park_city_image(i) {
@@ -55,7 +57,7 @@ function park_city_td(i) {
 
 function index_image(i) {
   const image = INDEX_SOURCES[i];
-  return `<img class="myImg" src="${IMAGE_DIR}${image}" alt="${ALT_TAG}" onclick="modal_image(this);"/>\n`;
+  return `<img class="myImg" src="${INDEX_IMAGE_DIR}${image}" alt="${ALT_TAG}" onclick="modal_image(this);"/>\n`;
 }
 
 function insert_park_city_images() {

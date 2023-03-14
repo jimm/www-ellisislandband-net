@@ -14,7 +14,7 @@ stage right, keys stage left, drums upstage center.
   - Stage right in front of bass amp for bass player
 - 2 mics for guitar amps
 - Mono XLR direct out for bass amp
-- Stereo XLR out for keys (keys go into a submixer with stereo XLR out)
+- Stereo XLR out for keys (keys have a submixer with stereo XLR out)
 - Drum mics (your discretion: kick with front port and blanket inside,
   snare, HH, 3 toms, 2 rotos, multiple cymbals)
 - 2 DIs for acoustic guitars (won't always need both for every gig)
