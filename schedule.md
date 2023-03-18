@@ -10,9 +10,30 @@ title: Schedule
 
 ## Upcoming
 
-* **February 25th, 2021** &ndash; *Private Event*, benefit concert for
-  D'Valda and Sirico Dance and Music Centre.
-  [Fairfield Theatre Company](https://fairfieldtheatre.org/) (FTC), Fairfield, CT.
+* **June 9th, 2023** &ndash; Ellis Island will be at
+  [314 Beer Garden](https://314beergarden.com/) in South Norwalk. Start time
+  TBD.
+
+* **July 1st, 2023** &ndash; We're back at *Park City Music Hall*,
+  Bridgeport. Opening band and ticket info TBD.
+
+* **August 26th, 2023** &ndash; *Black Rock PorchFest* in Bridgeport, CT.
+  We're thrilled to be back at 49 Fayerweather Terrace. Time TBD.
+
+* **September 9th, 2023** &ndash; Two, two, two gigs in one (day)!
+
+    * *Milford PorchFest*, Milford CT. Address and time TDB. The whole event
+      runs from noon to 6pm.
+
+    * Look for Ellis Island at Stratfield Village Associations's *Lincoln
+      Parkapalooza* fundraising event! We'll be on the main stage opening
+      for the [Alpaca Gnomes](https://www.thealpacagnomes.com/). Exact time
+      TBD but probably something like 6:30-7:30. Lincoln Park, 455 Jackman
+      Ave, Fairfield, CT.
+
+## Past Gigs
+
+### March 2023
 
 * **March 11th, 2023** &ndash; *Rach's Hope* PJ Gala fundraiser at
   [Fairfield Theatre Company](https://fairfieldtheatre.org/) (FTC),
@@ -26,27 +47,11 @@ title: Schedule
 * **March 17th, 2023** &ndash; *Private Event*, St. Patrick's Day party at
   Brooklawn Country Club.
 
-* **June 9th, 2023** &ndash; Ellis Island will be at
-  [314 Beer Garden](https://314beergarden.com/) in South Norwalk. Start time
-  TBD.
+### February 2023
 
-* **July 1st, 2023** &ndash; We're back at *Park City Music Hall*,
-  Bridgeport. Opening band and ticket info TBD.
-
-* **August 26th, 2023** &ndash; *Black Rock PorchFest* in Bridgeport, CT.
-  Time and place TBD, but we think we'll be at 49 Fayerweather Terrace.
-
-* **September 9th, 2023** &ndash; Two, two, two gigs in one (day)!
-
-    * *Milford PorchFest*, Milford CT. Address and time TDB. The whole event
-      runs from noon to 6pm.
-
-    * Look for Ellis Island at Stratfield Village Associations's *Lincoln
-      Parkapalooza* fundraising event! We'll be on the main stage, exact
-      time TBD but probably something like 6:30-7:30. Lincoln Park, 455
-      Jackman Ave, Fairfield, CT.
-
-## Past Gigs
+* **February 25th, 2023** &ndash; *Private Event*, benefit concert for
+  D'Valda and Sirico Dance and Music Centre.
+  [Fairfield Theatre Company](https://fairfieldtheatre.org/) (FTC), Fairfield, CT.
 
 ### January 2023
 
