@@ -10,6 +10,12 @@ title: Schedule
 
 ## Upcoming
 
+* **March 31, 2023** &ndash; Ellis Island Acoustic (Tim and Nate) are at a
+  private event.
+
+* **April 28th, 2023** &ndash; Ellis Island Acoustic (Tim and Jim) are at a
+  private event.
+
 * **June 9th, 2023** &ndash; Ellis Island will be at
   [314 Beer Garden](https://314beergarden.com/) in South Norwalk. Start time
   TBD.
