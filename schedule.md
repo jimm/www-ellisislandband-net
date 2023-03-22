@@ -16,13 +16,14 @@ title: Schedule
 * **April 28th, 2023** &ndash; Ellis Island Acoustic (Tim and Jim) are at a
   private event.
 
-* **June 9th, 2023** &ndash; Ellis Island will be at
+* **June 9th, 2023** &ndash; Come have a blast at
   [314 Beer Garden](https://314beergarden.com/) in South Norwalk. Start time
   TBD.
 
-* **July 1st, 2023** &ndash; We're back at *Park City Music Hall*,
-  Bridgeport. Come see the opening band Get Lit at 9pm and stick around,
-  drink, and dance as we rock the house all night long! Ticket info TBD.
+* **July 1st, 2023** &ndash; We're back at
+  [Park City Music Hall](https://parkcitymusichall.com/) in Bridgeport, CT.
+  Come see the opening band Get Lit at 9pm and stick around, drink, and
+  dance as we rock the house all night long! Ticket info TBD.
 
 * **August 26th, 2023** &ndash; *Black Rock PorchFest* in Bridgeport, CT.
   We're thrilled to be back at 49 Fayerweather Terrace. Time TBD.
