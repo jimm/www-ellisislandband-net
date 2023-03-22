@@ -21,7 +21,8 @@ title: Schedule
   TBD.
 
 * **July 1st, 2023** &ndash; We're back at *Park City Music Hall*,
-  Bridgeport. Opening band and ticket info TBD.
+  Bridgeport. Come see the opening band Get Lit at 9pm and stick around,
+  drink, and dance as we rock the house all night long! Ticket info TBD.
 
 * **August 26th, 2023** &ndash; *Black Rock PorchFest* in Bridgeport, CT.
   We're thrilled to be back at 49 Fayerweather Terrace. Time TBD.
