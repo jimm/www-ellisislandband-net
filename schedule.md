@@ -10,9 +10,6 @@ title: Schedule
 
 ## Upcoming
 
-* **March 31, 2023** &ndash; Ellis Island Acoustic (Tim and Nate) are at a
-  private event.
-
 * **April 28th, 2023** &ndash; Ellis Island Acoustic (Tim and Jim) are at a
   private event.
 
@@ -54,6 +51,9 @@ title: Schedule
 
 * **March 17th, 2023** &ndash; *Private Event*, St. Patrick's Day party at
   Brooklawn Country Club.
+
+* **March 31, 2023** &ndash; Ellis Island Acoustic (Tim and Nate) are at a
+  private event.
 
 ### February 2023
 
