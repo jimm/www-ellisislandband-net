@@ -34,7 +34,7 @@ https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519
 <tr><td class="rownum">0</td><td>Dead Flowers</td><td>The Rolling Stones</td></tr>
 <tr><td class="rownum">0</td><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
 <tr><td class="rownum">0</td><td>Everybody Wants to Rule the World</td><td>Tears for Fears</td></tr>
-<tr><td class="rownum">0</td><td>Give Me Some Lovin'</td><td>The Spencer Davis Group</td></tr>
+<tr><td class="rownum">0</td><td>Gimme Some Lovin'</td><td>The Spencer Davis Group</td></tr>
 <tr><td class="rownum">0</td><td>Hard To Handle</td><td>The Black Crowes</td></tr>
 <tr><td class="rownum">0</td><td>Have a Cigar</td><td>Pink Floyd </td></tr>
 <tr><td class="rownum">0</td><td>Heroes</td><td>David Bowie</td></tr>
