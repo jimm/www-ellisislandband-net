@@ -5,6 +5,10 @@ title: Song List
 
 # Song List
 
+<script type="text/javascript" src="https://www.bandhelper.com/widget/smart_list/9s5Ljv/64519?fields=artist&sections=0&labels=1"></script>
+
+https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519
+
 <p>Click "Song" or "Artist" to sort the list.</p>
 <table class="songlist" id="songlist">
 <tr>
@@ -26,9 +30,9 @@ title: Song List
 <tr><td class="rownum">0</td><td>Breathe / On The Run / Time</td><td>Pink Floyd</td></tr>
 <tr><td class="rownum">0</td><td>Bye Bye Love</td><td>The Cars</td></tr>
 <tr><td class="rownum">0</td><td>Creep</td><td>Radiohead</td></tr>
+<tr><td class="rownum">0</td><td>D'yer Mak'er</td><td>Led Zepplin</td></tr>
 <tr><td class="rownum">0</td><td>Dead Flowers</td><td>The Rolling Stones</td></tr>
 <tr><td class="rownum">0</td><td>Diamonds on the Inside</td><td>Ben Harper</td></tr>
-<tr><td class="rownum">0</td><td>D'yer Mak'er</td><td>Led Zepplin</td></tr>
 <tr><td class="rownum">0</td><td>Everybody Wants to Rule the World</td><td>Tears for Fears</td></tr>
 <tr><td class="rownum">0</td><td>Give Me Some Lovin'</td><td>The Spencer Davis Group</td></tr>
 <tr><td class="rownum">0</td><td>Hard To Handle</td><td>The Black Crowes</td></tr>
@@ -44,7 +48,6 @@ title: Song List
 <tr><td class="rownum">0</td><td>Jealous Again</td><td>The Black Crowes</td></tr>
 <tr><td class="rownum">0</td><td>Josie</td><td>Steely Dan</td></tr>
 <tr><td class="rownum">0</td><td>Just What I Needed</td><td>The Cars</td></tr>
-<tr><td class="rownum">0</td><td>LA Woman</td><td>The Doors</td></tr>
 <tr><td class="rownum">0</td><td>Learn to Fly</td><td>Foo Fighters</td></tr>
 <tr><td class="rownum">0</td><td>Let It Rain</td><td>Eric Clapton</td></tr>
 <tr><td class="rownum">0</td><td>Little Wing</td><td>Jimi Hendrix</td></tr>
@@ -85,6 +88,7 @@ title: Song List
 <tr><td class="rownum">0</td><td>Ziggy Stardust</td><td>David Bowie</td></tr>
 <tr><td class="rownum">0</td><td>Daughter</td><td>Pearl Jam </td></tr>
 <tr><td class="rownum">0</td><td>Driven to Tears</td><td>The Police </td></tr>
+<tr><td class="rownum">0</td><td>LA Woman</td><td>The Doors </td></tr>
 <tr><td class="rownum">0</td><td>Mary Jane's Last Dance</td><td>Tom Petty </td></tr>
 <tr><td class="rownum">0</td><td>Tennessee Jed</td><td>The Grateful Dead </td></tr>
 <tr><td class="rownum">0</td><td>When the World is Running Down</td><td>The Police </td></tr>
