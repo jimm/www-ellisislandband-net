@@ -38,7 +38,7 @@ https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519
 <tr><td class="rownum">0</td><td>Hard To Handle</td><td>The Black Crowes</td></tr>
 <tr><td class="rownum">0</td><td>Have a Cigar</td><td>Pink Floyd </td></tr>
 <tr><td class="rownum">0</td><td>Heroes</td><td>David Bowie</td></tr>
-<tr><td class="rownum">0</td><td>Hey Hey What Can I Do</td><td>Led Zepplin</td></tr>
+<tr><td class="rownum">0</td><td>Hey, Hey, What Can I Do</td><td>Led Zepplin</td></tr>
 <tr><td class="rownum">0</td><td>Hey Jealousy</td><td>Gin Blossoms</td></tr>
 <tr><td class="rownum">0</td><td>High and Dry</td><td>Radiohead</td></tr>
 <tr><td class="rownum">0</td><td>Hunger Strike</td><td>Temple of the Dog</td></tr>
@@ -74,7 +74,7 @@ https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519
 <tr><td class="rownum">0</td><td>Superstition</td><td>Stevie Wonder</td></tr>
 <tr><td class="rownum">0</td><td>Surrender</td><td>Cheap Trick</td></tr>
 <tr><td class="rownum">0</td><td>Synchronicity II</td><td>The Police</td></tr>
-<tr><td class="rownum">0</td><td>Take Me To the River</td><td>Talking Heads</td></tr>
+<tr><td class="rownum">0</td><td>Take Me to the River</td><td>Talking Heads</td></tr>
 <tr><td class="rownum">0</td><td>Tighten Up</td><td>The Black Keys</td></tr>
 <tr><td class="rownum">0</td><td>Times Like These</td><td>Foo Fighters</td></tr>
 <tr><td class="rownum">0</td><td>Up On Cripple Creek</td><td>The Band</td></tr>
@@ -88,7 +88,7 @@ https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519
 <tr><td class="rownum">0</td><td>Ziggy Stardust</td><td>David Bowie</td></tr>
 <tr><td class="rownum">0</td><td>Daughter</td><td>Pearl Jam </td></tr>
 <tr><td class="rownum">0</td><td>Driven to Tears</td><td>The Police </td></tr>
-<tr><td class="rownum">0</td><td>LA Woman</td><td>The Doors </td></tr>
+<tr><td class="rownum">0</td><td>L.A Woman</td><td>The Doors </td></tr>
 <tr><td class="rownum">0</td><td>Mary Jane's Last Dance</td><td>Tom Petty </td></tr>
 <tr><td class="rownum">0</td><td>Tennessee Jed</td><td>The Grateful Dead </td></tr>
 <tr><td class="rownum">0</td><td>When the World is Running Down</td><td>The Police </td></tr>
