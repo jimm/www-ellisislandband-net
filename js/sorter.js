@@ -50,3 +50,14 @@ function sort_by_title() {
 function sort_by_artist() {
   sort_by(1);
 }
+
+function insert_song_list() {
+  const song_list = get_json('https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519');
+  song_list.forEach(entry => {
+    if (entry.type == "song") {
+      table_data.push([entry.name, entry.artist]);
+      document.write(`<tr><td class="rownum">0</td><td>entry.name</td><td>entry.artist</td></tr>`);
+    }
+  });
+  console.log(table_data);
+}
