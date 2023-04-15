@@ -5,10 +5,6 @@ title: Song List
 
 # Song List
 
-<script type="text/javascript" src="https://www.bandhelper.com/widget/smart_list/9s5Ljv/64519?fields=artist&sections=0&labels=1"></script>
-
-https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519
-
 <p>Click "Song" or "Artist" to sort the list.</p>
 <table class="songlist" id="songlist">
 <tr>

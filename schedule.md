@@ -10,10 +10,7 @@ title: Schedule
 
 ## Upcoming
 
-* **April 28th, 2023** &ndash; Ellis Island Acoustic (Tim and Jim) are at a
-  private event.
-
-* **June 9th, 2023** &ndash; Rowayton Porchfest. Time and porch TBA.
+* **June 2nd, 2023** &ndash; Rowayton Porchfest. Time and porch TBA.
 
 * **June 9th, 2023** &ndash; Come have a blast at
   [314 Beer Garden](https://314beergarden.com/) in South Norwalk. Start time
