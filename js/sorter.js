@@ -54,7 +54,7 @@ function sort_by_artist() {
 function insert_song_list() {
   const song_list = get_json('https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519');
   song_list.forEach(entry => {
-    if (entry.type == "song") {
+    if (entry.type == "song" && entry.tags != "Learning") {
       name = entry.name;
       if (name.match(/, The/))
         name = `The ${name.substring(0, name.length - 5)}`;
