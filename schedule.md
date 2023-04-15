@@ -10,7 +10,7 @@ title: Schedule
 
 ## Upcoming
 
-* **June 2nd, 2023** &ndash; Rowayton Porchfest. Time and porch TBA.
+* **June 3nd, 2023** &ndash; Rowayton Porchfest. Time and porch TBA.
 
 * **June 9th, 2023** &ndash; Come have a blast at
   [314 Beer Garden](https://314beergarden.com/) in South Norwalk. Start time
