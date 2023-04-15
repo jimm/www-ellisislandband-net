@@ -55,8 +55,11 @@ function insert_song_list() {
   const song_list = get_json('https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519');
   song_list.forEach(entry => {
     if (entry.type == "song") {
-      table_data.push([entry.name, entry.artist]);
-      document.write(`<tr><td class="rownum">0</td><td>entry.name</td><td>entry.artist</td></tr>`);
+      name = entry.name;
+      if (name.match(/, The/))
+        name = `The ${name.substring(0, name.length - 5)}`;
+      table_data.push([name, entry.artist]);
+      document.write(`<tr><td class="rownum">0</td><td>name</td><td>entry.artist</td></tr>`);
     }
   });
   console.log(table_data);
