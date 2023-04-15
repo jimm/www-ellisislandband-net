@@ -276,14 +276,9 @@ table.songlist {
     th {
         background: $text-color;
         color: $background-color;
-        a {
-            color: $background-color;
-            text-decoration: none;
-            &:hover {
-                cursor: pointer;
-                color: $background-color;
-            }
-        }
+    }
+    th.sorter {
+        cursor: pointer;
     }
 }
 
