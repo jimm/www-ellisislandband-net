@@ -1,6 +1,4 @@
-function insert_schedule() {
-  const schedule = get_json('https://www.bandhelper.com/feed/calendar/64519?range=9');
-
+function _do_insert_schedule(schedule) {
   html = "<ul>";
   schedule.forEach(gig => {
     html += `<li><strong>${gig.date_display}</strong>`;
@@ -11,4 +9,11 @@ function insert_schedule() {
   html += "</ul>";
   const div = document.getElementById("schedule-list");
   div.innerHTML = html;
+}
+
+function insert_schedule() {
+  $.getJSON(
+    'https://www.bandhelper.com/feed/calendar/64519?range=9',
+    _do_insert_schedule
+  );
 }

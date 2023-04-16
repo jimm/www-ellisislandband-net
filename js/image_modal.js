@@ -1,15 +1,15 @@
 window.onkeyup = function(event) {
   if (event.keyCode == 27)
-    document.getElementById('myModal').style.display = 'none';
+    $('#myModal').hide();
 }
 
 function modal_image(img) {
-  const modal = document.getElementById('myModal');
-  const modal_img = document.getElementById('img01');
-  const caption = document.getElementById('caption');
+  const modal = $('#myModal');
+  const modal_img = $('#img01');
+  const caption = $('#caption');
 
-  modal_img.src = img.src;
-  modal_img.alt = img.alt;
-  caption.innerHTML = img.alt;
-  modal.style.display = 'block';
+  modal_img.attr("src", img.src);
+  modal_img.attr("alt", img.alt);
+  caption.text(img.alt);
+  modal.show();
 }

@@ -14,4 +14,3 @@ title: Song List
 </tr>
 <script>insert_song_list();</script>
 </table>
-<script>sort_by_title();</script>

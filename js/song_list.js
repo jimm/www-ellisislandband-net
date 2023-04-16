@@ -1,10 +1,5 @@
 var table_data = [];
 
-function load_table_data(table) {
-  for (var i = 1, row; row = table.rows[i]; i++) // skip table header row
-    table_data.push([row.cells[1].innerHTML, row.cells[2].innerHTML])
-}
-
 function normalize_sort_string(str) {
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
     // says to use upper case instead of lower case due to problems with
@@ -19,12 +14,9 @@ function normalize_sort_string(str) {
 
 function sort_by(which) {
   var table = document.getElementById("songlist");
-  if (table_data.length == 0)
-    load_table_data(table);
-
   var normalized = [];
-  table_data.forEach(song => normalized[song[which]] = normalize_sort_string(song[which]));
 
+  table_data.forEach(song => normalized[song[which]] = normalize_sort_string(song[which]));
   table_data.sort(function (a, b) {
     a_str = normalized[a[which]];
     b_str = normalized[b[which]];
@@ -51,16 +43,24 @@ function sort_by_artist() {
   sort_by(1);
 }
 
-function insert_song_list() {
-  const song_list = get_json('https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519');
+function _do_insert_song_list(song_list) {
+  html = '';
   song_list.forEach(entry => {
     if (entry.type == "song" && entry.tags != "Learning") {
       name = entry.name;
       if (name.match(/, The/))
         name = `The ${name.substring(0, name.length - 5)}`;
       table_data.push([name, entry.artist]);
-      document.write(`<tr><td class="rownum">0</td><td>name</td><td>entry.artist</td></tr>`);
+      html += `<tr><td class="rownum">0</td><td>${name}</td><td>${entry.artist}</td></tr>`;
     }
   });
-  console.log(table_data);
+  $('#songlist tr:last').after(html);
+  sort_by_title();
+}
+
+function insert_song_list() {
+  $.getJSON(
+    'https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519',
+    _do_insert_song_list
+  );
 }
