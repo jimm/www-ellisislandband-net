@@ -3,6 +3,9 @@ layout: default
 title: Contact
 ---
 
+{% include pic.html class="schedule-logo" width="300" src="Ellis_Island_Business_Card_01.png"
+     alt="Ellis Island Business Card Front" %}
+
 # Contact Ellis Island
 
 Would you like to join our mailing list? Want to book Ellis Island for a

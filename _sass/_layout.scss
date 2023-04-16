@@ -305,6 +305,58 @@ img.mainLogo {
   margin-bottom: 2em;
 }
 
+ul.schedule {
+  list-style: none;
+  li {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+}
+
+div.schedule-item {
+  display: flex;
+
+  div.schedule-date {
+    width: 6em;
+    margin-right: 1em;
+    div.month {
+      font-size: 18px;
+      text-transform: uppercase;
+      color: white;
+      background-color: grey;
+      text-align: center;
+      padding-top: 0.4em;
+      padding-bottom: 0.1em;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+    div.day {
+      font-size: 24px;
+      color: grey;
+      background-color: white;
+      text-align: center;
+      padding-top: 0.4em;
+      padding-bottom: 0.2em;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+  }
+
+  div.schedule-text {
+    flex: 1;
+    margin-top: -0.2em;
+  }
+
+  div.schedule-name {
+    color: #f7f;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  div.schedule-datetime {
+  }
+}
+
 /**
  * Modal for images
  */
