@@ -13,9 +13,7 @@ function normalize_sort_string(str) {
 }
 
 function sort_by(which) {
-  var table = document.getElementById("songlist");
   var normalized = [];
-
   table_data.forEach(song => normalized[song[which]] = normalize_sort_string(song[which]));
   table_data.sort(function (a, b) {
     a_str = normalized[a[which]];
@@ -24,14 +22,17 @@ function sort_by(which) {
     if (a_str > b_str) return 1;
     return 0;
   });
-  for (var i = 0, row; row = table.rows[i+1]; i++) {
+
+  for (var i = 0; i < table_data.length; i++) {
+    var row = $(`#songlist tr:eq(${i+1})`); // tbody tr:eq(i) does not work
     if ((i & 1) == 1)
-      row.classList.add('odd');
+      row.addClass('odd');
     else
-      row.classList.remove('odd');
-    row.cells[0].innerHTML = "" + (i + 1);
+      row.removeClass('odd');
+    var cells = row.children();
+    $(cells[0]).text("" + (i + 1));
     for (var j = 0; j < 2; ++j)
-      row.cells[j+1].innerHTML = table_data[i][j];
+      $(cells[j+1]).text(table_data[i][j]);
   }
 }
 
