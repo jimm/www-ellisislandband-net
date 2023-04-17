@@ -357,6 +357,20 @@ div.schedule-item {
   }
 }
 
+h2#past-gigs + table {
+  width: 95%;
+  margin-left: 1.5em;
+  border-collapse: collapse;
+  th {
+    text-align: left;
+    border-bottom: 1px solid gray;
+  }
+  td {
+    border-bottom: 1px solid gray;
+    padding-right: 1em;
+  }
+}
+
 /**
  * Modal for images
  */
