@@ -24,12 +24,14 @@ function _text_div(gig) {
 function _do_insert_schedule(schedule) {
   var html = '<ul class="schedule">';
   schedule.forEach(gig => {
-    html += '<li>';
-    html += '<div class="schedule-item">';
-    html += _date_div(gig.date_start);
-    html += _text_div(gig);
-    html += '</div>';
-    html += '</li>';
+    if (gig.category == 'Show') {
+      html += '<li>';
+      html += '<div class="schedule-item">';
+      html += _date_div(gig.date_start);
+      html += _text_div(gig);
+      html += '</div>';
+      html += '</li>';
+    }
   });
   html += "</ul>";
   const div = document.getElementById("schedule-list");
