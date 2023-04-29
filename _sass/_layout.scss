@@ -348,9 +348,14 @@ div.schedule-item {
   }
 
   div.schedule-name {
-    color: $schedule-name-color;
     font-weight: bolder;
     font-size: 1.3em;
+    span.band {
+      color: $schedule-name-band-color;
+    }
+    span.acoustic {
+      color: $schedule-name-acoustic-color;
+    }
   }
 
   div.schedule-datetime {
