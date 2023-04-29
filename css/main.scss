@@ -16,7 +16,8 @@ $logo-guitar-color: #7d9d9c;
 
 // lighten($logo-background-color, 40%);
 $schedule-name-band-color: #7f7;
-$schedule-name-acoustic-color: #ddf;
+// $schedule-name-acoustic-color: #ddf;
+$schedule-name-acoustic-color: lighten($logo-guitar-color, 30%);
 
 $spacing-unit:     30px;
 

@@ -20,7 +20,7 @@ title: Schedule
 |Mar 31, 2023|Private Event|
 |Feb 25th, 2023|Private Event, benefit concert for D'Valda and Sirico Dance and Music Centre|
 |Jan 13th, 2023|Park City Music Hall with Get Lit|
-|Dec 2nd|Park City Music Hall, opened for The Amish Outlaws|
+|Dec 2nd, 2022|Park City Music Hall, opened for The Amish Outlaws|
 |Oct 1st, 2022|Milford PorchFest|
 |Oct 22nd, 2022|Private Event|
 |Sep 10th, 2022|Lincoln Parkapalooza|
@@ -30,7 +30,7 @@ title: Schedule
 |Aug 25th, 2022|Warde Baseball fundraiser at BRYAC|
 |Aug 27th, 2022|Black Rock PorchFest|
 |May 7th, 2022|Rach's Hope PJ Gala 2022|
-|May 20th|Westport Church Fundraiser, Ellis Island Acoustic (Tim and Jim)|
+|May 20th, 2022|Westport Church Fundraiser, Ellis Island Acoustic (Tim and Jim)|
 |May 21st, 2022|Brooklawn Country Club|
 |May 22nd, 2022|Fairfield Sherman Green (the Gazebo)|
 |Mar 11th, 2022|The Shebeen of Black Rock|
@@ -47,7 +47,7 @@ title: Schedule
 |Jun 18th, 2021|Steelpointe International Boat Show|
 |Jun 4th, 2021|Westport Church Preschool fundraiser (acoustic)|
 |Nov 7th, 2020|Private Event|
-|Oct , 2020|Clubhouse Grille (acoustic)|
+|Oct 18th, 2020|Clubhouse Grille (acoustic)|
 |Sep 5th, 2020|Clubhouse Grille (acoustic)|
 |Feb 21st, 2020|Warde High School basketball team fundraiser at Grace O'Malley's|
 |Feb 29th, 2020|Rach's Hope PJ Gala 2020|
