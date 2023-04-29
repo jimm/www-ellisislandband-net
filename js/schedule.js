@@ -24,7 +24,7 @@ function _text_div(gig) {
 function _do_insert_schedule(schedule) {
   var html = '<ul class="schedule">';
   schedule.forEach(gig => {
-    if (gig.category == 'Show') {
+    if (gig.category == 'Full Band Gig') {
       html += '<li>';
       html += '<div class="schedule-item">';
       html += _date_div(gig.date_start);
