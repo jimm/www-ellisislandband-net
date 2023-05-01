@@ -22,7 +22,10 @@ function _date_div(date) {
 
 function _text_div(gig, name_class) {
   var html = '<div class="schedule-text">';
-  html += `<div class="schedule-name"><span class="${name_class}">${gig.name}</span></div>`;
+  var notes = '';
+  if (name_class == 'acoustic')
+    notes = ' (Acoustic Set)';
+  html += `<div class="schedule-name"><span class="${name_class}">${gig.name}${notes}</span></div>`;
   html += `<div class="schedule-datetime">${gig.date_display}</div>`;
   html += `<p>${html_unescape(gig.custom_cC99h9)}</p>`; // description
   html += '</div>';
