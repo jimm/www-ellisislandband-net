@@ -6,6 +6,11 @@ const CATEGORY_FULL_BAND = 'Full Band Gig';
 const CATEGORY_ACOUSTIC = 'Acoustic Gig';
 const POSTER_REGEX_STR = "{% *poster ([^ %]+)( +alt=\"([^\"]+)\")? *%}";
 
+// Custom field name mappings
+// - custom_cC99h9: gig description (required)
+// - custom_CCMx5n: poster image name or URL (optional)
+// - custom_Kz3bz0: poster alt text (optional)
+
 function _date_div(date) {
   const ymd = date.split('-');
   var html = '<div class="schedule-date">';
