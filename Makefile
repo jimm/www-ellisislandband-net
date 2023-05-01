@@ -12,6 +12,8 @@ SINGLE_JS = js/all.js
 # the server. There are files there such as the `.well-known` directory
 # that should not be checked in here and should not be deleted there.
 publish: build
+	find _site -name '*.html' -print0 | xargs -0 sed -i.bak '/START DEVELOPMENT/,/END DEVELOPMENT/{//p;d;}'
+	find _site -name '*.html.bak' -print0 | xargs -0 rm
 	rsync -qrlpt --filter='- .DS_Store' --filter='- .localized' \
 	    --filter='- Makefile' --filter='- README.md' \
 	    $(SRC) $(WEB_SERVER):$(WEB_DIR)
