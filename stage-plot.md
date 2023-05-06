@@ -9,6 +9,12 @@ Ellis Island is a five piece rock band: guitar + lead vocals, guitar, bass +
 vocals, drums, and keyboards. Lead front and center, 2nd guitar and bass
 stage left, keys stage right, drums upstage center.
 
+A text description of the setup is below the image.
+
+If you have any questions you can contact us at the email address below.
+
+{% include pic.html src="stage-plot.png" alt="Stage plot, page text contains list" %}
+
 - 2 vocal mics
   - Center stage for lead vocals
   - Stage left in front of bass amp for bass player
@@ -24,10 +30,3 @@ stage left, keys stage right, drums upstage center.
   - 1 for drums
   - 1 for keys
 - AC: at least four 110V outlets
-
-You can contact us at the email address below.
-
-**Note**: The image below should be flipped: the bass and second guitar are
-now stage left and the keyboards are stage right.
-
-{% include pic.html src="stage-plot.png" alt="Stage plot" %}
