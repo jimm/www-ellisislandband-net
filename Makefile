@@ -11,9 +11,7 @@ SINGLE_JS = js/all.js
 # NOTE: do not use the `--del` rsync flag or otherwise delete any files on
 # the server. There are files there such as the `.well-known` directory
 # that should not be checked in here and should not be deleted there.
-publish: build
-	find _site -name '*.html' -print0 | xargs -0 sed -i.bak '/START DEVELOPMENT/,/END DEVELOPMENT/{//p;d;}'
-	find _site -name '*.html.bak' -print0 | xargs -0 rm
+publish: dev_js_to_all_js
 	rsync -qrlpt --filter='- .DS_Store' --filter='- .localized' \
 	    --filter='- Makefile' --filter='- README.md' \
 	    $(SRC) $(WEB_SERVER):$(WEB_DIR)
@@ -21,6 +19,10 @@ publish: build
 
 build:	js/all.js
 	bundle exec jekyll build
+
+dev_js_to_all_js: build
+	find _site -name '*.html' -print0 | xargs -0 sed -i '' '/START DEVELOPMENT/,/END DEVELOPMENT/{//d;d;}'
+	find _site -name '*.html' -print0 | xargs -0 sed -i '' -e 's/<!-- ALL //' -e 's/ ALL -->//'
 
 server:	js/all.js
 	bundle exec jekyll server
