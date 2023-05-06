@@ -261,31 +261,39 @@ table.bandpics {
   }
 }
 
-table.songlist {
-    th,td {
-        padding-left: 1em;
-        padding-right: 1em;
-        text-align: left;
+div#schedule-list {
+  div.row {
+    div.column {
+      float: left;
+      padding: 10px;
     }
-    tr.odd {
-        background: $odd-row-color;
-    }
-    td.rownum {
-        text-align: right;
-    }
-    th {
-        background: $text-color;
-        color: $background-color;
-    }
-    th.sorter {
-        cursor: pointer;
-    }
-}
 
-table.about {
-    td {
-        vertical-align: top;
+    .left {
+      width: 7em;
     }
+    .left + .right {
+      width: calc(100% - 7em - 3em);
+    }
+    .middle {
+      width: calc(100% - 7em - 170px - 3em);
+      overflow: wrap-word;
+    }
+    .midde + .right {
+      width: 150px;
+      text-align: right;
+    }
+
+    img.schedule {
+      width: 150px;
+    }
+  }
+
+  /* Clear floats after the columns */
+  div.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 img.schedule-logo {
@@ -306,27 +314,6 @@ ul.schedule {
   li {
     margin-top: 2em;
     margin-bottom: 1em;
-  }
-}
-
-table.schedule {
-  border-collapse: collapse;
-  tr {
-    td {
-      vertical-align: top;
-      padding-bottom: 2em;
-      p {
-        margin-left: 0;
-        padding-left: 0;
-      }
-    }
-    td.date-display {
-      width: 7em;
-    }
-    td.poster {
-      width: 220px;
-      text-align: right;
-    }
   }
 }
 
@@ -356,10 +343,12 @@ div.schedule-date {
   }
 }
 
+/*
 div.schedule-text {
   flex: 1;
   margin-top: -0.2em;
 }
+*/
 
 div.schedule-name {
   font-weight: bolder;

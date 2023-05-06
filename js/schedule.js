@@ -27,7 +27,7 @@ function _text_div(gig, name_class) {
     notes = ' (Acoustic Set)';
   html += `<div class="schedule-name"><span class="${name_class}">${gig.name}${notes}</span></div>`;
   html += `<div class="schedule-datetime">${gig.date_display}</div>`;
-  html += `<p>${html_unescape(gig.custom_cC99h9)}</p>`; // description
+  html += `${html_unescape(gig.custom_cC99h9)}`; // description
   html += '</div>';
   return html;
 }
@@ -42,26 +42,24 @@ function _poster_image(gig) {
   var alt = "";
   if (poster_alt_text != null)
     alt = `alt="${poster_alt_text}"`;
-  return `<img class="myImg schedule" width="200" src="${src}" ${alt} onclick="modal_image(this);"/>`;
+  return `<img class="myImg schedule" src="${src}" ${alt} onclick="modal_image(this);"/>`;
 }
 
 function _gig_html(gig) {
   var name_class = gig.category == CATEGORY_FULL_BAND ? 'band' : 'acoustic';
-  var gig_html = '<tr>';
 
-  gig_html += `<td class="date-display">${_date_div(gig.date_start)}</td>`;
+  var gig_html = '<div class="row">';
+  if (_has_poster(gig)) {
+    gig_html += `<div class="column left">${_date_div(gig.date_start)}</div>`;
+    gig_html += `<div class="column middle">${_text_div(gig, name_class)}</div>`;
+    gig_html += `<div class="column right">${_poster_image(gig)}</div>`;
+  }
+  else {
+    gig_html += `<div class="column left">${_date_div(gig.date_start)}</div>`;
+    gig_html += `<div class="column right">${_text_div(gig, name_class)}</div>`;
+  }
+  gig_html += '</div>';
 
-  if (_has_poster(gig))
-    gig_html +=  '<td colspan="2">';
-  else
-    gig_html +=  '<td>';
-  gig_html += _text_div(gig, name_class);
-  gig_html += '</td>';
-
-  if (_has_poster(gig))
-    gig_html += `<td class="poster">${_poster_image(gig)}</td>`;
-
-  gig_html += '</tr>';
   return gig_html;
 }
 
