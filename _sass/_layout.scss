@@ -276,7 +276,6 @@ div#schedule-list {
     }
     .middle {
       width: calc(100% - 7em - 170px - 3em);
-      overflow: wrap-word;
     }
     .midde + .right {
       width: 150px;
@@ -285,6 +284,21 @@ div#schedule-list {
 
     img.schedule {
       width: 150px;
+    }
+
+    @include media-query($on-palm) {
+      .middle {
+        width: calc(100% - 10em);
+      }
+      .midde + .right {
+        display: none;
+        visibility: hidden;
+      }
+
+      img.schedule {
+        display: none;
+        visibility: hidden;
+      }
     }
   }
 
