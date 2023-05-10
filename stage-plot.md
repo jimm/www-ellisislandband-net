@@ -25,7 +25,7 @@ If you have any questions you can contact us at the email address below.
   snare, HH, 3 toms, 2 rotos, multiple cymbals)
 - 2 DIs for acoustic guitars (won't always need both for every gig)
 - 5 monitors, one for each band member:
-  - 2 in front (center and stage right)
+  - 2 in front (center and stage left)
   - 1 for bass
   - 1 for drums
   - 1 for keys
