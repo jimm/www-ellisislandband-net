@@ -389,6 +389,29 @@ h2#past-gigs + table {
   }
 }
 
+/* song list */
+
+table#songlist {
+    th,td {
+        padding-left: 1em;
+        padding-right: 1em;
+        text-align: left;
+    }
+    tr.odd {
+        background: $odd-row-color;
+    }
+    td.rownum {
+        text-align: right;
+    }
+    th {
+        background: $text-color;
+        color: $background-color;
+    }
+    th.sorter {
+        cursor: pointer;
+    }
+}
+
 /**
  * Modal for images
  */
