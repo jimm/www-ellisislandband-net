@@ -37,7 +37,8 @@ function _has_poster(gig) {
 }
 
 function _poster_image(gig) {
-  const src = `images/posters/${gig.custom_CCMx5n}`;
+  const url = gig.custom_CCMx5n;
+  const src = url.startsWith("http") ? url : `images/posters/${url}`;
   const poster_alt_text = gig.custom_Kz3bz0;
   var alt = "";
   if (poster_alt_text != null)
