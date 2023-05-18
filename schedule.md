@@ -15,6 +15,8 @@ title: Schedule
 
 |Date|Event|
 |----|-----|
+|May 13th, 2023|BJ Ryan's East (Acoustic)|
+|May 11th ,2023|Tim (Acoustic)|
 |Mar 11th, 2023|Rach's Hope PJ Gala fundraiser|
 |Mar 17th, 2023|Private Event, St. Patrick's Day party|
 |Mar 31, 2023|Private Event|
