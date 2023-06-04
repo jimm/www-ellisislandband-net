@@ -5,9 +5,6 @@ title: Schedule
 
 # Schedule
 
-<script type="text/javascript" src="https://www.bandhelper.com/widget/calendar/64519?layout=2&range=6"></script>
-
-
 ## Upcoming
 
 <div id="schedule-list"></div>
