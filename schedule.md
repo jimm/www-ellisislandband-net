@@ -5,6 +5,8 @@ title: Schedule
 
 # Schedule
 
+<script type="text/javascript" src="https://www.bandhelper.com/widget/calendar/64519?layout=2&range=6"></script>
+
 
 ## Upcoming
 
@@ -15,6 +17,7 @@ title: Schedule
 
 |Date|Event|
 |----|-----|
+|Jun 4th, 2023|Rowayton PorchJam|
 |May 13th, 2023|BJ Ryan's East (Acoustic)|
 |May 11th ,2023|Tim (Acoustic)|
 |Mar 11th, 2023|Rach's Hope PJ Gala fundraiser|
