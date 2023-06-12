@@ -14,6 +14,8 @@ title: Schedule
 
 |Date|Event|
 |----|-----|
+|Jun 11th, 2023|Yalloween Yacht Club (Acoustic)|
+|Jun 9th, 2023|314 Beer Garden|
 |Jun 4th, 2023|Rowayton PorchJam|
 |May 13th, 2023|BJ Ryan's East (Acoustic)|
 |May 11th ,2023|Tim (Acoustic)|
