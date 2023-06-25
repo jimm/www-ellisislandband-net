@@ -14,6 +14,7 @@ title: Schedule
 
 |Date|Event|
 |----|-----|
+|Jun 21st, 2023|Make Music Fairfield|
 |Jun 11th, 2023|Halloween Yacht Club (Acoustic)|
 |Jun 9th, 2023|314 Beer Garden|
 |Jun 4th, 2023|Rowayton PorchJam|
