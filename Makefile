@@ -29,5 +29,8 @@ server:	js/all.js
 
 javascript: $(SINGLE_JS)
 
+feed:
+	@curl --silent 'https://www.bandhelper.com/feed/calendar/64519?range=9' | jq
+
 $(SINGLE_JS): $(JS_FILES)
 	cat $^ > $@
