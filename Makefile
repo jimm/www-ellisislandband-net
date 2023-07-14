@@ -6,7 +6,7 @@ ORG_FILE = $(pim)/orgs/ellis_island.org
 JS_FILES = $(shell ls js/*.js | grep -v all.js)
 SINGLE_JS = js/all.js
 
-.PHONY: publish build server javascript
+.PHONY: publish build server dev_js_to_all_js javascript feed
 
 # NOTE: do not use the `--del` rsync flag or otherwise delete any files on
 # the server. There are files there such as the `.well-known` directory
