@@ -14,6 +14,7 @@ title: Schedule
 
 |Date|Event|
 |----|-----|
+|Aug 3rd, 2023|Private Event|
 |Jul 19th, 2023|Private Event|
 |Jul 2nd, 2023|Private Party|
 |Jul 1st, 2023|Park City Music Hall with Get Lit|

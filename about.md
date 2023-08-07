@@ -14,7 +14,7 @@ title: About
       and Florida and across the ocean in London.
     </td>
     <td width="300">
-      {% include pic.html src="bourbon_tray.jpeg" width="300" alt="Island Juice" %}
+      {% include pic.html src="bourbon_tray_2.jpeg" width="300" alt="Island Juice" %}
       <div class="caption">Island Juice</div>
     </td>
   </tr>
