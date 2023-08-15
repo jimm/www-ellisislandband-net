@@ -14,6 +14,7 @@ title: Schedule
 
 |Date|Event|
 |----|-----|
+|Aug 11th, 2023|BJ Ryan's East (Acoustic)|
 |Aug 6th, 2023|Fun Fore Scholarships|
 |Aug 3rd, 2023|Private Event|
 |Jul 19th, 2023|Private Event|
