@@ -33,7 +33,7 @@ title: About
     <td class="bandmember" width="50%">
       <h2>Tim Ellis</h2>
       {% include pic.html width="200" src="fuv/tim_singing_1.jpg" alt="Tim Ellis" %}
-      <p>Vocals, electric and acoustic guitars, and foot tambourine</p>
+      <p>Vocals, electric and acoustic guitars</p>
     </td>
     <td class="bandmember" width="50%">
       <h2>Nate Balogh</h2>
@@ -57,8 +57,7 @@ title: About
     <td class="bandmember" width="50%">
       <h2>Jim Menard</h2>
       {% include pic.html width="200" src="fuv/jim_head_down.jpg" alt="Jim Menard" %}
-      <p>Keyboards, occasional bass, and sometimes he warbles some harmony
-      that's not critical or needs to be in tune or anything</p>
+      <p>Keyboards</p>
     </td>
     <td width="50%">&nbsp;</td>
   </tr>
