@@ -55,7 +55,7 @@ function _do_insert_song_list(song_list) {
       html += `<tr><td class="rownum">0</td><td>${name}</td><td>${entry.artist}</td></tr>`;
     }
   });
-  $('#songlist tr:last').after(html);
+  $('#songlist tbody').html(html);
   sort_by_title();
 }
 

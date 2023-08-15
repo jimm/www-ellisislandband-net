@@ -15,6 +15,7 @@ title: Song List
   </tr>
 </thead>
 <tbody>
+<tr><td>&nbsp;</td><td>&nbsp;&nbsp;&nbsp;...loading...</td><td></td></tr>
 </tbody>
 </table>
 <script>insert_song_list();</script>
