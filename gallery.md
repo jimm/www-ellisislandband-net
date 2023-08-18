@@ -11,9 +11,8 @@ title: Gallery
 
 See even more videos on our [Youtube channel](https://www.youtube.com/@ellisislandfairfieldct).
 
-{% include yt_vid.html src="https://www.youtube.com/embed/kssaZeKYr3M" %}
 {% include yt_vid.html src="https://www.youtube.com/embed/nKSaUqGN0Sg" %}
-
+{% include yt_vid.html src="https://www.youtube.com/watch?v=N9kmmFGn7ik" %}
 
 ### Photos
 
