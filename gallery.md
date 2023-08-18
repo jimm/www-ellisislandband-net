@@ -11,8 +11,8 @@ title: Gallery
 
 See even more videos on our [Youtube channel](https://www.youtube.com/@ellisislandfairfieldct).
 
-{% include yt_vid.html src="https://www.youtube.com/embed/nKSaUqGN0Sg" %}
-{% include yt_vid.html src="https://www.youtube.com/embed/N9kmmFGn7ik" %}
+{% include yt_vid.html id="nKSaUqGN0Sg" %}
+{% include yt_vid.html id="N9kmmFGn7ik" %}
 
 ### Photos
 
@@ -27,7 +27,7 @@ See even more videos on our [Youtube channel](https://www.youtube.com/@ellisisla
 In May of 2022, the band held a recording session at Factory Underground in
 Norwalk for our <a href="https://www.youtube.com/watch?v=MN8Sgid2x30">demo video</a>.
 
-{%include yt_vid.html width="100%" height="500px" src="https://www.youtube.com/embed/MN8Sgid2x30" %}
+{%include yt_vid.html width="100%" height="500px" id="MN8Sgid2x30" %}
 
 <table width="100%">
   <tr style="vertical-align: top;">
