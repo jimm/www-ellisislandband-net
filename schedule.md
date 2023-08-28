@@ -14,6 +14,7 @@ title: Schedule
 
 |Date|Event|
 |----|-----|
+|Aug 26th, 2023|Black Rock PorchFest|
 |Aug 11th, 2023|BJ Ryan's East (Acoustic)|
 |Aug 6th, 2023|Fun Fore Scholarships|
 |Aug 3rd, 2023|Private Event|
