@@ -14,6 +14,8 @@ title: Schedule
 
 |Date|Event|
 |----|-----|
+|Sep 9th, 2023|Lincoln Parkapalooza|
+|Sep 9th, 2023|Milford PorchFest|
 |Aug 26th, 2023|Black Rock PorchFest|
 |Aug 11th, 2023|BJ Ryan's East (Acoustic)|
 |Aug 6th, 2023|Fun Fore Scholarships|
