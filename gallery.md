@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gallery
+title: Gallery/Videos
 ---
 
 # Gallery
