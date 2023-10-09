@@ -6,6 +6,8 @@ const CATEGORY_FULL_BAND = 'Full Band Gig';
 const CATEGORY_ACOUSTIC = 'Acoustic Gig';
 const POSTER_REGEX_STR = "{% *poster ([^ %]+)( +alt=\"([^\"]+)\")? *%}";
 const PRIVATE_EVENT_NAME = 'Private Event';
+const PRIVATE_EVENT_DESCRIPTION = 'Private Event';
+const ACOUSTIC_NOTES = ' (Acoustic Set)';
 
 // Custom field name mappings
 // - custom_cC99h9: gig description (required)
@@ -23,16 +25,14 @@ function _date_div(date) {
 }
 
 function _text_div(gig, name_class) {
+  const name = gig.is_private_event ? PRIVATE_EVENT_NAME : gig.name;
+  const description = gig.is_private_event ? PRIVATE_EVENT_DESCRIPTION : gig.custom_cC99h9;
+  const notes = name_class == 'acoustic' ? ACOUSTIC_NOTES : '';
+
   var html = '<div class="schedule-text">';
-  var notes = '';
-  var name = gig.name;
-  if (gig.custom_7CpO7C != "")
-    name = PRIVATE_EVENT_NAME;
-  if (name_class == 'acoustic')
-    notes = ' (Acoustic Set)';
   html += `<div class="schedule-name"><span class="${name_class}">${name}${notes}</span></div>`;
   html += `<div class="schedule-datetime">${gig.date_display}</div>`;
-  html += `${html_unescape(gig.custom_cC99h9)}`; // description
+  html += `${html_unescape(description)}`; // description
   html += '</div>';
   return html;
 }
@@ -72,8 +72,10 @@ function _gig_html(gig) {
 function _do_insert_schedule(schedule) {
   var html = '<table class="schedule">';
   schedule.forEach(gig => {
-    if (gig.category == CATEGORY_FULL_BAND || gig.category == CATEGORY_ACOUSTIC)
+    if (gig.category == CATEGORY_FULL_BAND || gig.category == CATEGORY_ACOUSTIC) {
+      gig.is_private_event = gig.custom_7CpO7C != "";
       html += _gig_html(gig);
+    }
   });
   html += '</table>';
 
