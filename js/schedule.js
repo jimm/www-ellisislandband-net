@@ -5,11 +5,13 @@ const MONTHS = [
 const CATEGORY_FULL_BAND = 'Full Band Gig';
 const CATEGORY_ACOUSTIC = 'Acoustic Gig';
 const POSTER_REGEX_STR = "{% *poster ([^ %]+)( +alt=\"([^\"]+)\")? *%}";
+const PRIVATE_EVENT_NAME = 'Private Event';
 
 // Custom field name mappings
 // - custom_cC99h9: gig description (required)
 // - custom_CCMx5n: poster image name or URL (optional)
 // - custom_Kz3bz0: poster alt text (optional)
+// - custom_7CpO7C: display as private (optional, numeric)
 
 function _date_div(date) {
   const ymd = date.split('-');
@@ -23,9 +25,12 @@ function _date_div(date) {
 function _text_div(gig, name_class) {
   var html = '<div class="schedule-text">';
   var notes = '';
+  var name = gig.name;
+  if (gig.custom_7CpO7C != "")
+    name = PRIVATE_EVENT_NAME;
   if (name_class == 'acoustic')
     notes = ' (Acoustic Set)';
-  html += `<div class="schedule-name"><span class="${name_class}">${gig.name}${notes}</span></div>`;
+  html += `<div class="schedule-name"><span class="${name_class}">${name}${notes}</span></div>`;
   html += `<div class="schedule-datetime">${gig.date_display}</div>`;
   html += `${html_unescape(gig.custom_cC99h9)}`; // description
   html += '</div>';
