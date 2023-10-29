@@ -14,6 +14,7 @@ title: Schedule
 
 |Date|Event|
 |----|-----|
+|Oct 22nd, 2023|Rach's Hope "Walk the Extra Mile", Tim & Jim|
 |Sep 9th, 2023|Lincoln Parkapalooza|
 |Sep 9th, 2023|Milford PorchFest|
 |Aug 26th, 2023|Black Rock PorchFest|
