@@ -14,6 +14,7 @@ title: Schedule
 
 |Date|Event|
 |----|-----|
+|Nov 18th, 2023|Park City Music Call with Chuck's in London|
 |Oct 22nd, 2023|Rach's Hope "Walk the Extra Mile", Tim & Jim|
 |Sep 9th, 2023|Lincoln Parkapalooza|
 |Sep 9th, 2023|Milford PorchFest|
