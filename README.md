@@ -23,13 +23,14 @@ runs Jekyll locally. You can see it at
 
 The schedule and song list are obtained via JSON feeds from our
 [BandHelper](https://www.bandhelper.com/) account and built in Javascript.
+The feed URL is https://www.bandhelper.com/feed/calendar/64519?range=9
 
 When developing locally, the individual Javascript files are loaded in each
 pages' header. Just before the site is pushed up to the server, all of the
 local Javascript files are concatenated into one and the HTML file's headers
 are modified to reference that one instead of the individual JS files.
 
-We also own the domain ~ellisislandband.net~, thus the name of this repo.
+We also own the domain `ellisislandband.net`, thus the name of this repo.
 
 Original images are often reduced from their original slizes to a max height
 of 800 to save bandwidth.

@@ -2,6 +2,7 @@ const MONTHS = [
   '', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
 ];
+const SCHEDULE_JSON_URL = 'https://www.bandhelper.com/feed/calendar/64519?range=9';
 const CATEGORY_FULL_BAND = 'Full Band Gig';
 const CATEGORY_ACOUSTIC = 'Acoustic Gig';
 const POSTER_REGEX_STR = "{% *poster ([^ %]+)( +alt=\"([^\"]+)\")? *%}";
@@ -24,6 +25,17 @@ function _date_div(date) {
   return html;
 }
 
+function _info_div(gig) {
+  var venue_info = '';
+  if (!gig.is_private_event) {
+    venue_info = ` @ ${gig.venue_info}`;
+    if (gig.address)
+      venue_info += `, ${gig.address}`;
+  }
+
+  return `<div class="schedule-info">${gig.date_display}${venue_info}</div>`;
+}
+
 function _text_div(gig, name_class) {
   const name = gig.is_private_event ? PRIVATE_EVENT_NAME : gig.name;
   const description = gig.is_private_event ? PRIVATE_EVENT_DESCRIPTION : gig.custom_cC99h9;
@@ -31,8 +43,8 @@ function _text_div(gig, name_class) {
 
   var html = '<div class="schedule-text">';
   html += `<div class="schedule-name"><span class="${name_class}">${name}${notes}</span></div>`;
-  html += `<div class="schedule-datetime">${gig.date_display}</div>`;
-  html += `${html_unescape(description)}`; // description
+  html += _info_div(gig);
+  html += `<div class="schedule-description">${html_unescape(description)}</div>`; // description
   html += '</div>';
   return html;
 }
@@ -84,8 +96,5 @@ function _do_insert_schedule(schedule) {
 }
 
 function insert_schedule() {
-  $.getJSON(
-    'https://www.bandhelper.com/feed/calendar/64519?range=9',
-    _do_insert_schedule
-  );
+  $.getJSON(SCHEDULE_JSON_URL, _do_insert_schedule);
 }
