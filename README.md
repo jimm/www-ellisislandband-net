@@ -32,5 +32,5 @@ are modified to reference that one instead of the individual JS files.
 
 We also own the domain `ellisislandband.net`, thus the name of this repo.
 
-Original images are often reduced from their original slizes to a max height
+Original images are often reduced from their original sizes to a max height
 of 800 to save bandwidth.
