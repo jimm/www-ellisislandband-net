@@ -19,18 +19,18 @@ title: Schedule
 |Sep 9th, 2023|Lincoln Parkapalooza|
 |Sep 9th, 2023|Milford PorchFest|
 |Aug 26th, 2023|Black Rock PorchFest|
-|Aug 11th, 2023|BJ Ryan's East (Acoustic)|
+|Aug 11th, 2023|BJ Ryan's East (acoustic)|
 |Aug 6th, 2023|Fun Fore Scholarships|
 |Aug 3rd, 2023|Private Event|
 |Jul 19th, 2023|Private Event|
 |Jul 2nd, 2023|Private Party|
 |Jul 1st, 2023|Park City Music Hall with Get Lit|
 |Jun 21st, 2023|Make Music Fairfield|
-|Jun 11th, 2023|Halloween Yacht Club (Acoustic)|
+|Jun 11th, 2023|Halloween Yacht Club (acoustic)|
 |Jun 9th, 2023|314 Beer Garden|
 |Jun 4th, 2023|Rowayton PorchJam|
-|May 13th, 2023|BJ Ryan's East (Acoustic)|
-|May 11th ,2023|Tim (Acoustic)|
+|May 13th, 2023|BJ Ryan's East (acoustic)|
+|May 11th ,2023|Tim (acoustic)|
 |Mar 11th, 2023|Rach's Hope PJ Gala fundraiser|
 |Mar 17th, 2023|Private Event, St. Patrick's Day party|
 |Mar 31, 2023|Private Event|
