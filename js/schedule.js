@@ -28,7 +28,7 @@ function _date_div(date) {
 function _info_div(gig) {
   var venue_info = '';
   if (!gig.is_private_event) {
-    venue_info = ` @ ${gig.venue_info}`;
+    venue_info = ` @ ${gig.venue}`;
     if (gig.address)
       venue_info += `, ${gig.address}`;
   }
