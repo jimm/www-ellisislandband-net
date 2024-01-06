@@ -19,18 +19,22 @@ server name and the directory it is served from.
 runs Jekyll locally. You can see it at
 [http://localhost:4000/](http://localhost:4000/).
 
-## Notes
-
-The schedule and song list are obtained via JSON feeds from our
-[BandHelper](https://www.bandhelper.com/) account and built in Javascript.
-The feed URL is https://www.bandhelper.com/feed/calendar/64519?range=9
-
 When developing locally, the individual Javascript files are loaded in each
 pages' header. Just before the site is pushed up to the server, all of the
 local Javascript files are concatenated into one and the HTML file's headers
 are modified to reference that one instead of the individual JS files.
 
-We also own the domain `ellisislandband.net`, thus the name of this repo.
+## Notes
+
+The schedule and song list are obtained via JSON feeds from our
+[BandHelper](https://www.bandhelper.com/) account and built in Javascript.
+The data is fetched by a cron job that is currently run every hour at 15
+past the hour. It runs `scripts/fetch-json.sh`, which is uploaded to the
+`$HOME/bin` directory on the server. Here's the crontab entry:
+
+    15 * * * * $HOME/bin/fetch-json.sh
+
+We used to the domain `ellisislandband.net`, thus the name of this repo.
 
 Original images are often reduced from their original sizes to a max height
 of 800 to save bandwidth.

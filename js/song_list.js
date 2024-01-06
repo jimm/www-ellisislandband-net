@@ -1,3 +1,5 @@
+const SONG_LIST_JSON_URL = '/song-list.json';
+
 var table_data = [];
 
 function normalize_sort_string(str) {
@@ -60,8 +62,5 @@ function _do_insert_song_list(song_list) {
 }
 
 function insert_song_list() {
-  $.getJSON(
-    'https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519',
-    _do_insert_song_list
-  );
+  $.getJSON(SONG_LIST_JSON_URL, _do_insert_song_list);
 }
