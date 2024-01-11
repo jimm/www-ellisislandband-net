@@ -6,7 +6,7 @@ built with [Jekyll](https://jekyllrb.com/).
 ## Building and publishing the site
 
     make publish
-
+$
 Once you have Jekyll installed locally, running `make publish` will build
 the site from the Markdown files and publish it to the web site. You'll also
 need `ssh` access to the server it's hosted on. See the Makefile for the
