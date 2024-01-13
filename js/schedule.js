@@ -2,6 +2,8 @@ const MONTHS = [
   '', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
 ];
+const SCHEDULE_FILE = 'schedule.json';
+const SCHEDULE_JSON_URL = 'https://www.bandhelper.com/feed/calendar/64519?range=9';
 const CATEGORY_FULL_BAND = 'Full Band Gig';
 const CATEGORY_ACOUSTIC = 'Acoustic Gig';
 const POSTER_REGEX_STR = "{% *poster ([^ %]+)( +alt=\"([^\"]+)\")? *%}";
@@ -95,5 +97,5 @@ function _do_insert_schedule(schedule) {
 }
 
 function insert_schedule() {
-  $.getJSON('/schedule.json', _do_insert_schedule);
+  get_file_or_url(SCHEDULE_FILE, SCHEDULE_JSON_URL, _do_insert_schedule);
 }
