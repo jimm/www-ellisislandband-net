@@ -16,9 +16,9 @@ publish: dev_js_to_all_js
 	    --filter='- Makefile' --filter='- README.md' --filter='- scripts' \
 	    $(SRC) $(WEB_SERVER):$(WEB_DIR)
 	ssh $(WEB_USER)@$(WEB_SERVER) find $(WEB_DIR) -type d -exec chmod 755 {} \\\;
-	scp scripts/fetch-json.sh $(WEB_USER)@$(WEB_SERVER):bin/fetch-json.sh
-	ssh $(WEB_USER)@$(WEB_SERVER) chmod +x bin/fetch-json.sh
-	ssh $(WEB_USER)@$(WEB_SERVER) bin/fetch-json.sh
+	scp scripts/fetch-ellisislandrock-json.sh $(WEB_USER)@$(WEB_SERVER):bin/fetch-ellisislandrock-json.sh
+	ssh $(WEB_USER)@$(WEB_SERVER) chmod +x bin/fetch-ellisislandrock-json.sh
+	ssh $(WEB_USER)@$(WEB_SERVER) bin/fetch-ellisislandrock-json.sh
 
 build:	$(SINGLE_JS)
 	bundle exec jekyll build
@@ -33,7 +33,7 @@ server:	$(SINGLE_JS) local-json-data-files
 javascript: $(SINGLE_JS)
 
 local-json-data-files:
-	scripts/fetch-json.sh .
+	scripts/fetch-ellisislandrock-json.sh .
 
 $(SINGLE_JS): $(JS_FILES)
 	cat $^ > $@

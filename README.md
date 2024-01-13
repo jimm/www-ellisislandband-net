@@ -29,10 +29,11 @@ are modified to reference that one instead of the individual JS files.
 The schedule and song list are obtained via JSON feeds from our
 [BandHelper](https://www.bandhelper.com/) account and built in Javascript.
 The data is fetched by a cron job that is currently run every hour at 15
-past the hour. It runs `scripts/fetch-json.sh`, which is uploaded to the
-`$HOME/bin` directory on the server. Here's the crontab entry:
+past the hour. It runs `scripts/fetch-ellisislandrock-json.sh`, which is
+uploaded to the `$HOME/bin` directory on the server. Here's the crontab
+entry:
 
-    15 * * * * $HOME/bin/fetch-json.sh
+    15 * * * * $HOME/bin/fetch-ellisislandrock-json.sh
 
 We used to the domain `ellisislandband.net`, thus the name of this repo.
 

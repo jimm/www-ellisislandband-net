@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# usage: fetch-json.sh [output-dir]
+# usage: fetch-ellisislandrock-json.sh [output-dir]
 
 output_dir="${1:-$HOME/apps/ellis-island}"
 
