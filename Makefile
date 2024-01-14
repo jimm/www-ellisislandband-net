@@ -34,7 +34,7 @@ refresh-feeds: install-feed-script
 	ssh $(WEB_USER)@$(WEB_SERVER) bin/fetch-ellisislandrock-json.sh
 
 .PHONY: server
-server:	$(SINGLE_JS) refresh-local-feeds
+server:	$(SINGLE_JS)
 	bundle exec jekyll server --livereload-ignore "scripts/*"
 
 .PHONY: refresh-local-feeds
