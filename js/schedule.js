@@ -26,12 +26,17 @@ function _date_div(date) {
   return html;
 }
 
+function _address_link(gig) {
+  search_term = encodeURIComponent(gig.address.replaceAll(/[.,]/g, " "));
+  return `<a href="https://www.google.com/maps/search/?api=1&query=${search_term}" target="_blank">${gig.address}</a>`;
+}
+
 function _info_div(gig) {
   var venue_info = '';
   if (!gig.is_private_event) {
     venue_info = ` @ ${gig.venue}`;
     if (gig.address)
-      venue_info += `, ${gig.address}`;
+      venue_info += `, ${_address_link(gig)}`;
   }
 
   return `<div class="schedule-info">${gig.date_display}${venue_info}</div>`;
