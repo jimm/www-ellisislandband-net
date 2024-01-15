@@ -1,6 +1,7 @@
 function html_unescape(input) {
   var doc = new DOMParser().parseFromString(input, "text/html");
-  return doc.documentElement.textContent;
+  var text = doc.documentElement.textContent;
+  return text.replaceAll("\n\n", "<br/></br/>");
 }
 
 // Fetches JSON from `file` and calls `callback_func`. If the file does not

@@ -45,6 +45,7 @@ function _info_div(gig) {
 function _text_div(gig, name_class) {
   const name = gig.is_private_event ? PRIVATE_EVENT_NAME : gig.name;
   const description = gig.is_private_event ? PRIVATE_EVENT_DESCRIPTION : gig.custom_cC99h9;
+  console.log(description);     // DEBUG
   const notes = name_class == 'acoustic' ? ACOUSTIC_NOTES : '';
 
   var html = '<div class="schedule-text">';
