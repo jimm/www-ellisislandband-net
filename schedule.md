@@ -15,6 +15,7 @@ title: Schedule
 |Date|Event|
 |----|-----|
 |Jan 20th, 2024|Park City Music Hall, opened for The Amish Outlaws|
+|Dec 16th, 2023|Private Event|
 |Nov 18th, 2023|Park City Music Call with Chuck's in London|
 |Oct 22nd, 2023|Rach's Hope "Walk the Extra Mile", Tim & Jim|
 |Sep 9th, 2023|Lincoln Parkapalooza|
