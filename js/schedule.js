@@ -8,7 +8,6 @@ const CATEGORY_FULL_BAND = 'Full Band Gig';
 const CATEGORY_ACOUSTIC = 'Acoustic Gig';
 const POSTER_REGEX_STR = "{% *poster ([^ %]+)( +alt=\"([^\"]+)\")? *%}";
 const PRIVATE_EVENT_NAME = 'Private Event';
-const PRIVATE_EVENT_DESCRIPTION = 'Private Event';
 const ACOUSTIC_NOTES = ' (Acoustic Set)';
 
 // Custom field name mappings
@@ -43,13 +42,11 @@ function _info_div(gig) {
 }
 
 function _text_div(gig, name_class) {
-  const name = gig.is_private_event ? PRIVATE_EVENT_NAME : gig.name;
-  const description = gig.is_private_event ? PRIVATE_EVENT_DESCRIPTION : gig.custom_cC99h9;
-  console.log(description);     // DEBUG
+  const description = gig.is_private_event ? '' : gig.custom_cC99h9;
   const notes = name_class == 'acoustic' ? ACOUSTIC_NOTES : '';
 
   var html = '<div class="schedule-text">';
-  html += `<div class="schedule-name"><span class="${name_class}">${name}${notes}</span></div>`;
+  html += `<div class="schedule-name"><span class="${name_class}">${gig.name}${notes}</span></div>`;
   html += _info_div(gig);
   html += `<div class="schedule-description">${html_unescape(description)}</div>`; // description
   html += '</div>';
@@ -57,7 +54,7 @@ function _text_div(gig, name_class) {
 }
 
 function _has_poster(gig) {
-  return gig.custom_CCMx5n != "";
+  return gig.custom_CCMx5n !== undefined && gig.custom_CCMx5n != "";
 }
 
 function _poster_image_src(gig) {
@@ -78,7 +75,7 @@ function _poster_image(gig) {
 }
 
 function _gig_html(gig) {
-  var name_class = gig.category == CATEGORY_FULL_BAND ? 'band' : 'acoustic';
+  var name_class = gig.category == CATEGORY_ACOUSTIC ? 'acoustic' : 'band';
 
   var gig_html = '<div class="row">';
   if (_has_poster(gig)) {
@@ -95,11 +92,19 @@ function _gig_html(gig) {
   return gig_html;
 }
 
+function _should_display(gig) {
+  // Private events are marked "Public" with "Hide Details" in BandHelper.
+  // They always have the name PRIVATE_EVENT_NAME.
+  return gig.category == CATEGORY_FULL_BAND
+    || gig.category == CATEGORY_ACOUSTIC
+    || gig.is_private_event;
+}
+
 function _do_insert_schedule(schedule) {
   var html = '<table class="schedule">';
   schedule.forEach(gig => {
-    if (gig.category == CATEGORY_FULL_BAND || gig.category == CATEGORY_ACOUSTIC) {
-      gig.is_private_event = gig.custom_7CpO7C != "";
+    gig.is_private_event = gig.name == PRIVATE_EVENT_NAME;
+    if (_should_display(gig)) {
       html += _gig_html(gig);
     }
   });
