@@ -5,13 +5,18 @@ title: Gallery/Videos
 
 # Gallery
 
-## Park City Music Hall, Dec. 2, 2022
+## Park City Music Hall, November, 2022
+
+Here's Ellis Island headlining before a sold-out house!
+
+{% include yt_vid.html id="9g4aiH7UTXw" %}
+
+## Park City Music Hall, December 2022
 
 ### Videos
 
 See even more videos on our [Youtube channel](https://www.youtube.com/@ellisislandfairfieldct).
 
-{% include yt_vid.html id="9g4aiH7UTXw" %}
 {% include yt_vid.html id="nKSaUqGN0Sg" %}
 {% include yt_vid.html id="N9kmmFGn7ik" %}
 
