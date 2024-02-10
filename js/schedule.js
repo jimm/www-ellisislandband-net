@@ -3,7 +3,7 @@ const MONTHS = [
   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
 ];
 const SCHEDULE_FILE = 'schedule.json';
-const SCHEDULE_JSON_URL = 'https://www.bandhelper.com/feed/calendar/64519?range=9';
+const SCHEDULE_JSON_URL = 'https://www.bandhelper.com/feed/calendar/64519?range=6';
 const CATEGORY_FULL_BAND = 'Full Band Gig';
 const CATEGORY_ACOUSTIC = 'Acoustic Gig';
 const POSTER_REGEX_STR = "{% *poster ([^ %]+)( +alt=\"([^\"]+)\")? *%}";
