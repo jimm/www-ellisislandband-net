@@ -11,5 +11,8 @@ instagram_username: ellisislandband
 youtube_username: Ellis Island
 youtube_link: "@ellisislandfairfieldct"
 
+plugins:
+  - jekyll-sitemap
+
 # Build settings
 markdown: kramdown
