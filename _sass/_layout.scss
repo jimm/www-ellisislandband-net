@@ -416,6 +416,17 @@ table#songlist {
     }
 }
 
+/* youtube videos */
+div.video-iframe {
+    text-align: center;
+    iframe {
+        margin: auto;
+    }
+}
+div.center {
+    text-align: center;
+}
+
 /**
  * Modal for images
  */

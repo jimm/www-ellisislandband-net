@@ -2,9 +2,13 @@
 layout: default
 ---
 
+<div class="video-iframe">
 {% include yt_vid.html id="9g4aiH7UTXw" %}
+</div>
 
+<div class="center">
 Ellis Island headlining before a sold-out house!
+</div>
 
 <!--
 <table width="100%">
