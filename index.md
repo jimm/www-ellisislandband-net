@@ -2,6 +2,11 @@
 layout: default
 ---
 
+{% include yt_vid.html id="9g4aiH7UTXw" %}
+
+Ellis Island headlining before a sold-out house!
+
+<!--
 <table width="100%">
   <tr style="vertical-align: top;">
     <td id="random-index-image" colspan="2" width="100%" style="align: top; text-align: center;">
@@ -9,6 +14,7 @@ layout: default
     </td>
   </tr>
 </table>
+-->
 
 <br/>
 
