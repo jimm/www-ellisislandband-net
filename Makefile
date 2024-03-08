@@ -8,8 +8,8 @@ SINGLE_JS = js/all.js
 # NOTE: do not use the `--del` rsync flag or otherwise delete any files on
 # the server. There are files there such as the `.well-known` directory
 # that should not be checked in here and should not be deleted there.
-.PHONY: publish ## Build the site and upload it (feeds not refreshed)
-publish: dev-js-to-all-js install-feed-script
+.PHONY: publish ## Build the site, upload it, and refresh the feeds
+publish: dev-js-to-all-js refresh-feeds
 	rsync -qrlpt --filter='- .DS_Store' --filter='- .localized' \
 	    --filter='- Makefile' --filter='- README.md' --filter='- scripts' \
 	    $(SRC) $(WEB_SERVER):$(WEB_DIR)
