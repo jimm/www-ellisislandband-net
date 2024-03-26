@@ -8,7 +8,7 @@ const CATEGORY_FULL_BAND = 'Full Band Gig';
 const CATEGORY_ACOUSTIC = 'Acoustic Gig';
 const POSTER_REGEX_STR = "{% *poster ([^ %]+)( +alt=\"([^\"]+)\")? *%}";
 const PRIVATE_EVENT_NAME = 'Private Event';
-const ACOUSTIC_NOTES = ' (Acoustic Set)';
+const ACOUSTIC_NOTES = ' (Acoustic)';
 
 // Custom field name mappings
 // - custom_cC99h9: gig description (required)
