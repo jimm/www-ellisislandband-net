@@ -14,6 +14,7 @@ title: Schedule
 
 |Date|Event|
 |----|-----|
+|Apr 7th, 2024|Taste of Fairfield at Elicit Brewing|
 |Mar 23rd, 2024|Rach's Hope PJ Gala fundraiser|
 |Mar 2nd, 2024|Private Event|
 |Jan 20th, 2024|Park City Music Hall, opened for The Amish Outlaws|
