@@ -43,7 +43,7 @@ function _info_div(gig) {
 
 function _text_div(gig, name_class) {
   const description = gig.is_private_event ? '' : gig.custom_cC99h9;
-  const notes = name_class == 'acoustic' ? ACOUSTIC_NOTES : '';
+  const notes = gig.is_acoustic ? ACOUSTIC_NOTES : '';
 
   var html = '<div class="schedule-text">';
   html += `<div class="schedule-name"><span class="${name_class}">${gig.name}${notes}</span></div>`;
@@ -75,7 +75,7 @@ function _poster_image(gig) {
 }
 
 function _gig_html(gig) {
-  var name_class = gig.category == CATEGORY_ACOUSTIC ? 'acoustic' : 'band';
+  var name_class = gig.is_acoustic ? 'acoustic' : 'band';
 
   var gig_html = '<div class="row">';
   if (_has_poster(gig)) {
@@ -96,7 +96,7 @@ function _should_display(gig) {
   // Private events are marked "Public" with "Hide Details" in BandHelper.
   // They always have the name PRIVATE_EVENT_NAME.
   return gig.category == CATEGORY_FULL_BAND
-    || gig.category == CATEGORY_ACOUSTIC
+    || gig.is_acoustic
     || gig.is_private_event;
 }
 
@@ -104,6 +104,7 @@ function _do_insert_schedule(schedule) {
   var html = '<table class="schedule">';
   schedule.forEach(gig => {
     gig.is_private_event = gig.name == PRIVATE_EVENT_NAME;
+    gig.is_acoustic = gig.category == CATEGORY_ACOUSTIC;
     if (_should_display(gig)) {
       html += _gig_html(gig);
     }
