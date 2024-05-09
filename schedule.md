@@ -14,6 +14,7 @@ title: Schedule
 
 |Date|Event|
 |----|-----|
+|Mar 4th, 2024|Tommy Fund Charity Fundraiser at Park City Music Hall|
 |Apr 27th, 2024|Elicit Brewing Co., Fairfield|
 |Apr 7th, 2024|Taste of Fairfield at Elicit Brewing Co., Fairfield|
 |Mar 23rd, 2024|Rach's Hope PJ Gala fundraiser|
