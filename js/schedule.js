@@ -43,15 +43,14 @@ function _info_div(gig) {
 }
 
 function _text_div(gig, name_class) {
-  const description = gig.is_private_event ? '' : gig.custom_cC99h9;
+  const name = html_unescape(gig.name);
+  const description = gig.is_private_event ? '' : html_unescape(gig.custom_cC99h9);
   const notes = gig.is_acoustic ? ACOUSTIC_NOTES : '';
 
   var html = '<div class="schedule-text">';
-  name = html_unescape(gig.name);
-  description = html_unescape(gig.description);
   html += `<div class="schedule-name"><span class="${name_class}">${name}${notes}</span></div>`;
   html += _info_div(gig);
-  html += `<div class="schedule-description">${description}</div>`; // description
+  html += `<div class="schedule-description">${description}</div>`;
   html += '</div>';
   return html;
 }
