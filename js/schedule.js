@@ -26,14 +26,15 @@ function _date_div(date) {
 }
 
 function _address_link(gig) {
-  search_term = encodeURIComponent(gig.address.replaceAll(/[.,]/g, " "));
-  return `<a href="https://www.google.com/maps/search/?api=1&query=${search_term}" target="_blank">${gig.address}</a>`;
+  address = html_unescape(gig.address);
+  search_term = encodeURIComponent(address.replaceAll(/[.,]/g, " "));
+  return `<a href="https://www.google.com/maps/search/?api=1&query=${search_term}" target="_blank">${address}</a>`;
 }
 
 function _info_div(gig) {
   var venue_info = '';
   if (!gig.is_private_event) {
-    venue_info = ` @ ${gig.venue}`;
+    venue_info = ` @ ${html_unescape(gig.venue)}`;
     if (gig.address)
       venue_info += `, ${_address_link(gig)}`;
   }
@@ -46,9 +47,11 @@ function _text_div(gig, name_class) {
   const notes = gig.is_acoustic ? ACOUSTIC_NOTES : '';
 
   var html = '<div class="schedule-text">';
-  html += `<div class="schedule-name"><span class="${name_class}">${gig.name}${notes}</span></div>`;
+  name = html_unescape(gig.name);
+  description = html_unescape(gig.description);
+  html += `<div class="schedule-name"><span class="${name_class}">${name}${notes}</span></div>`;
   html += _info_div(gig);
-  html += `<div class="schedule-description">${html_unescape(description)}</div>`; // description
+  html += `<div class="schedule-description">${description}</div>`; // description
   html += '</div>';
   return html;
 }

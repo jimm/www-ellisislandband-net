@@ -51,11 +51,12 @@ function _do_insert_song_list(song_list) {
   html = '';
   song_list.forEach(entry => {
     if (entry.type == "song" && entry.tags != "Learning") {
-      name = entry.name;
+      name = html_unescape(entry.name);
+      artist = html_unescape(entry.artist);
       if (name.match(/, The/))
         name = `The ${name.substring(0, name.length - 5)}`;
-      table_data.push([name, entry.artist]);
-      html += `<tr><td class="rownum">0</td><td>${name}</td><td>${entry.artist}</td></tr>`;
+      table_data.push([name, artist]);
+      html += `<tr><td class="rownum">0</td><td>${name}</td><td>${artist}</td></tr>`;
     }
   });
   $('#songlist tbody').html(html);
