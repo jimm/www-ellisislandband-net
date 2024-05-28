@@ -22,9 +22,20 @@ Spring 2024 Demo Reel
 
 <br/>
 
-Rock that'll get you moving! **Ellis Island** is a five-piece rock band
-based in Fairfield, CT with an extensive [song list](/song-list.html) that
-will have you singing and dancing in no time. Check out our [Youtube
+Ellis Island is a Fairfield, Connecticut-based rock cover band that has been
+playing throughout Fairfield and New Haven Counties for over a decade. The
+band plays extensively at a range of public events, porch fests, festivals,
+bars, breweries, and other venues, as well as private parties and
+fundraisers in southern CT. Ellis Island brings a unique and varied [song
+list](/song-list.html) to its performances that includes some of the most
+iconic and memorable rock songs over the last 60 years. Their music covers
+many of the greatest artists and bands from the 1970s to today, from the
+Rolling Stones, Led Zeppelin, Pink Floyd, The Who, Bruce Springsteen, and
+Tom Petty, to the Black Crowes, U2, The Cars, Stone Temple Pilots, the
+Killers, Pearl Jam, and the Foo Fighters. Ellis Island will bring a
+powerful, high energy, and memorable performance wherever they play.
+
+Check out our [Youtube
 Channel](https://www.youtube.com/@ellisislandfairfieldct), where you can
 find our [demo video](https://www.youtube.com/embed/MN8Sgid2x30).
 
