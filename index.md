@@ -28,7 +28,7 @@ band plays extensively at a range of public events, porch fests, festivals,
 bars, breweries, and other venues, as well as private parties and
 fundraisers in southern CT. Ellis Island brings a unique and varied [song
 list](/song-list.html) to its performances that includes some of the most
-iconic and memorable rock songs over the last 60 years. Their music covers
+iconic and memorable rock songs over the last 50 years. Their music covers
 many of the greatest artists and bands from the 1970s to today, from the
 Rolling Stones, Led Zeppelin, Pink Floyd, The Who, Bruce Springsteen, and
 Tom Petty, to the Black Crowes, U2, The Cars, Stone Temple Pilots, the
