@@ -20,7 +20,7 @@ Here are some of the places that Ellis Island has played over the years:
 - Clubhouse Grille (acoustic)
 - Corporate Parties
 - Elicit Brewing Company, Fairfield
-- Fairfield Theater Company
+- Fairfield Theatre Company
 - Grace O'Malley's
 - Halloween Yacht Club
 - Kieran's Place
