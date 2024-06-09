@@ -15,6 +15,8 @@ GEM
     ffi (1.16.3)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.2)
+    google-protobuf (3.25.2-arm64-darwin)
+    google-protobuf (3.25.2-x86_64-darwin)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
@@ -70,6 +72,8 @@ GEM
       google-protobuf (~> 3.25)
     sass-embedded (1.70.0-x86-linux-android)
       google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-x86_64-darwin)
+      google-protobuf (~> 3.25)
     sass-embedded (1.70.0-x86_64-linux-android)
       google-protobuf (~> 3.25)
     terminal-table (3.0.2)
@@ -84,6 +88,7 @@ PLATFORMS
   arm-linux-musleabihf
   arm64-darwin-23
   x86-linux-android
+  x86_64-darwin-20
   x86_64-linux-android
 
 DEPENDENCIES
