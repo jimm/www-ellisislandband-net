@@ -55,6 +55,8 @@ function _do_insert_song_list(song_list) {
       artist = html_unescape(entry.artist);
       if (name.match(/, The/))
         name = `The ${name.substring(0, name.length - 5)}`;
+      if (entry.tags == "Acoustic")
+        name += " (Acoustic only)";
       table_data.push([name, artist]);
       html += `<tr><td class="rownum">0</td><td>${name}</td><td>${artist}</td></tr>`;
     }
