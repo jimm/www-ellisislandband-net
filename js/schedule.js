@@ -16,10 +16,12 @@ const ACOUSTIC_NOTES = ' (Acoustic)';
 // - custom_Kz3bz0: poster alt text (optional)
 // - custom_7CpO7C: display as private (optional, numeric)
 
-function _date_div(date) {
+function _date_div(date, date_display) {
   const ymd = date.split('-');
+  const day_name = date_display.split(' ')[0];
   var html = '<div class="schedule-date">';
   html += `<div class="month">${MONTHS[Number(ymd[1])]}</div>`;
+  html += `<div class="day-name">${day_name}</div>`;
   html += `<div class="day">${Number(ymd[2])}</div>`;
   html += '</div>';
   return html;
@@ -81,12 +83,12 @@ function _gig_html(gig) {
 
   var gig_html = '<div class="row">';
   if (_has_poster(gig)) {
-    gig_html += `<div class="column left">${_date_div(gig.date_start)}</div>`;
+    gig_html += `<div class="column left">${_date_div(gig.date_start, gig.date_display)}</div>`;
     gig_html += `<div class="column middle">${_text_div(gig, name_class)}</div>`;
     gig_html += `<div class="column right">${_poster_image(gig)}</div>`;
   }
   else {
-    gig_html += `<div class="column left">${_date_div(gig.date_start)}</div>`;
+    gig_html += `<div class="column left">${_date_div(gig.date_start, gig.date_display)}</div>`;
     gig_html += `<div class="column right">${_text_div(gig, name_class)}</div>`;
   }
   gig_html += '</div>';

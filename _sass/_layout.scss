@@ -345,12 +345,18 @@ div.schedule-date {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
   }
+  div.day-name {
+    font-size: 14px;
+    color: grey;
+    background-color: white;
+    text-align: center;
+    padding-top: 0.4em;
+  }
   div.day {
     font-size: 24px;
     color: grey;
     background-color: white;
     text-align: center;
-    padding-top: 0.4em;
     padding-bottom: 0.2em;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
