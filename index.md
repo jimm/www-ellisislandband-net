@@ -25,8 +25,8 @@ Spring 2024 Demo Reel
 Ellis Island is a five-member Fairfield-based rock band with an extensive
 song list made up of some of the most iconic and impactful music from the
 '80's to today. We cover a [wide array of bands](/song-list.html) from Pink
-Floyd, Led Zeppelin, Tom Petty, and Bruce Sprinsteen to Radiohead, The Black
-Crowes, Pearl Jam, and Foo Fighters.
+Floyd, Led Zeppelin, Tom Petty, and Bruce Springsteen to Radiohead, The
+Black Crowes, Pearl Jam, and Foo Fighters.
 
 Ellis Island has been playing throughout Fairfield and New Haven Counties
 for over a decade. The band plays extensively at a range of public events,
