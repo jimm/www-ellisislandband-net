@@ -52,4 +52,4 @@ For other videos:
 
     {% include video_tag.html src="porchfest_2024_bruce.mp4" %}
 
-You can also optionally specify width and height.
+You can also optionally specify width, height, and poster.

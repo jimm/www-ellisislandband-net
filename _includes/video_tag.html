@@ -1,5 +1,8 @@
 <div class="video">
-  <video width="{{  include.width | default: "638" }}" height="{{ include.height | default: "360" }}" controls>
+  <video width="{{  include.width | default: "638" }}"
+         height="{{ include.height | default: "360" }}"
+         poster="{{ include.poster }}"
+         controls>
     <source src="{{ include.src }}" type="{{ include.type | default: "video/mp4" }}">
     Your browser does not support the video tag.
   </video>
