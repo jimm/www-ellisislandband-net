@@ -5,7 +5,11 @@ title: Gallery/Videos
 
 # Gallery
 
-## Park City Music Hall, November, 2022
+## Black Rock Porchfest, August 2024
+
+{% include video_tag.html src="porchfest_2024_bruce.mp4" poster="images/porchfest_2024_still.png" %}
+
+## Park City Music Hall, November 2023
 
 Here's Ellis Island headlining before a sold-out house!
 
