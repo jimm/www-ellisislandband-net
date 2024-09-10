@@ -21,9 +21,14 @@ title: About
   <tr>
     <td colspan="2" style="text-align: center;">
       <br/>
-      {% include pic.html src="band_2021_08_05.jpg" width="80%"
-                 alt="The band standing for a photo at Penfield Beach, August 2021" %}
-      <div class="caption">L to R: Tim, Jeff, Jim, Alex, Nate</div>
+      {% include pic.html src="band_2024_06_ftc.jpg" width="80%"
+                 alt="The band in front of FTC, June 2024. (c) 2024, David Gray" %}
+      <br/>
+      <div class="caption">
+          L to R: Jeff, Tim, Alex, Jim, Nate
+          <br/>
+          Image (c) 2024 by <a href="https://www.graypeakimages.com/">David Gray</a>
+      </div>
     </td>
   </tr>
 </table>
@@ -38,7 +43,7 @@ title: About
     <td class="bandmember" width="50%">
       <h2>Nate Balogh</h2>
       {% include pic.html width="200" src="fuv/nate_2.jpg" alt="Nate Balogh" %}
-      <p>Electric and acoustic guitars and occasional bass</p>
+      <p>Electric and acoustic guitars</p>
     </td>
   </tr>
   <tr>

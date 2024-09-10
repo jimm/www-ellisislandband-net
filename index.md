@@ -64,8 +64,10 @@ the [gallery](/gallery.html), and more.
   </tr>
   <tr style="vertical-align: top;">
     <td colspan="2" width="100%" style="align: top; text-align: center;">
-      {% include pic.html src="band_2021_08_05.jpg"
-                 alt="The band standing for a photo at Penfield Beach, August 2021" %}
+      {% include pic.html src="band_2024_06_ftc.jpg"
+                 alt="The band in front of FTC, June 2024. (c) 2024, David Gray" %}
+      <br/>
+      Image (c) 2024 by <a href="https://www.graypeakimages.com/">David Gray</a>
     </td>
   </tr>
 </table>
