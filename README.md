@@ -39,3 +39,17 @@ We used to the domain `ellisislandband.net`, thus the name of this repo.
 
 Original images are often reduced from their original sizes to a max height
 of 800 to save bandwidth.
+
+### Embedding Videos
+
+For Youtube videos:
+
+    {% include yt_vid.html id="Uf8QA3BE5fU" %}
+
+You can also optionally specify width and height.
+
+For other videos:
+
+    {% include video_tag.html src="porchfest_2024_bruce.mp4" %}
+
+You can also optionally specify width and height.

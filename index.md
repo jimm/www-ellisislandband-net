@@ -2,12 +2,10 @@
 layout: default
 ---
 
-<div class="video-iframe">
-{% include yt_vid.html id="Uf8QA3BE5fU" %}
-</div>
+{% include video_tag.html src="porchfest_2024_bruce.mp4" %}
 
 <div class="center">
-Spring 2024 Demo Reel
+Ellis Island at Black Rock Porchfest, 2024
 </div>
 
 <!--
