@@ -67,7 +67,7 @@ the [gallery](/gallery.html), and more.
       {% include pic.html src="band_2024_06_ftc.jpg"
                  alt="The band in front of FTC, June 2024. (c) 2024, David Gray" %}
       <br/>
-      Image (c) 2024 by <a href="https://www.graypeakimages.com/">David Gray</a>
+      Image &copy; 2024 by <a href="https://www.graypeakimages.com/">David Gray</a>
     </td>
   </tr>
 </table>

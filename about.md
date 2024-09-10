@@ -27,7 +27,7 @@ title: About
       <div class="caption">
           L to R: Jeff, Tim, Alex, Jim, Nate
           <br/>
-          Image (c) 2024 by <a href="https://www.graypeakimages.com/">David Gray</a>
+          Image &copy; 2024 by <a href="https://www.graypeakimages.com/">David Gray</a>
       </div>
     </td>
   </tr>
