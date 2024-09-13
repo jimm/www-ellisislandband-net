@@ -3,20 +3,17 @@ layout: default
 ---
 
 {% include video_tag.html src="porchfest_2024_bruce.mp4" poster="images/porchfest_2024_still.png" %}
-
 <div class="center">
 Ellis Island at Black Rock Porchfest, 2024
 </div>
 
-<!--
+<br/>
+
 <table width="100%">
-  <tr style="vertical-align: top;">
-    <td id="random-index-image" colspan="2" width="100%" style="align: top; text-align: center;">
-      <img/>
-    </td>
-  </tr>
+{% include pic.html src="porchfest_2024_from_roof.jpeg" width="640"
+     alt="A birds-eye view of the crowd watching Ellis Island"
+     trow=true caption=true %}
 </table>
--->
 
 <br/>
 

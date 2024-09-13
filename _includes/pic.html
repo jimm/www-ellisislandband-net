@@ -1,3 +1,7 @@
+{% if include.trow %}
+<tr style="vertical-align: top;">
+  <td width="100%" style="align: center; text-align: center;">
+{% endif %}
 {% if include.schedule %}
   {% assign width = "200" %}
   {% assign class = "schedule" %}
@@ -14,4 +18,8 @@
 />
 {% if include.caption and include.alt %}
   <div class="caption">{{ include.alt }}</div>
+{% endif %}
+{% if include.trow %}
+  </td>
+</tr>
 {% endif %}
