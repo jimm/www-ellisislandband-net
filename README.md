@@ -35,10 +35,11 @@ entry:
 
     15 * * * * $HOME/bin/fetch-ellisislandrock-json.sh
 
-We used to the domain `ellisislandband.net`, thus the name of this repo.
+The code uses a Markdown library to parse the description field. BandHelper
+wasn't designed to handle HTML in custom fields according to the author.
 
-Original images are often reduced from their original sizes to a max height
-of 800 to save bandwidth.
+Images are often reduced from their original sizes to a max height of 800 to
+save bandwidth.
 
 ### Embedding Videos
 
@@ -52,4 +53,8 @@ For other videos:
 
     {% include video_tag.html src="porchfest_2024_bruce.mp4" %}
 
-You can also optionally specify width, height, and poster.
+You can also optionally specify width, height, and poster (the image used
+before the video is played).
+
+We used to have the domain `ellisislandband.net`, thus the name of this
+repo.
