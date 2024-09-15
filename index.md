@@ -37,11 +37,6 @@ You can use the links at the top of the page to see our
 [schedule](/schedule.html), [contact](/contact.html) us, take a peek inside
 the [gallery](/gallery.html), and more.
 
-<div class="mainLogo">
-<img class="mainLogo" src="images/Ellis_Island_banner.png" width="300"
-    alt="Ellis Island Banner" onclick="modal_image(this);"/>
-</div>
-
 <table>
   <tr style="vertical-align: top;">
     <td colspan="2" width="100%" style="align: top; text-align: center;">

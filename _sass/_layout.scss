@@ -12,24 +12,12 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    vertical-align: bottom;
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
     margin-bottom: 0;
-
-    padding: 0 1em 0 1em;
-    background: #555;
-    border: 1px solid black;
-
     float: left;
-
-    &,
-    &:visited {
-        color: $header-text-color;
-    }
 }
 
 .site-nav {
@@ -37,7 +25,7 @@
     line-height: 56px;
 
     padding: 0 1em 0 1em;
-    background: #555;
+    background: $logo-background-color;
     border: 1px solid black;
 
     .menu-icon {
@@ -320,7 +308,6 @@ img.mainLogo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2em;
 }
 
 ul.schedule {

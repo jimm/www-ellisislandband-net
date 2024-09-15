@@ -11,13 +11,14 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$logo-background-color: #364445;
+$logo-background-color: rgb(43, 62, 60);
+$header-background-color: #7d9d9c;
 $logo-guitar-color: #7d9d9c;
 
 // lighten($logo-background-color, 40%);
 $schedule-name-band-color: #7f7;
 // $schedule-name-acoustic-color: #ddf;
-$schedule-name-acoustic-color: lighten($logo-guitar-color, 40%);
+$schedule-name-acoustic-color: lighten($header-background-color, 40%);
 
 $spacing-unit:     30px;
 
@@ -62,7 +63,7 @@ $on-laptop:        900px;
 ;
 
 h1 {
-  background-color: $logo-guitar-color;
+  background-color: $header-background-color;
   padding-left: 1em;
 }
 
