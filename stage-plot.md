@@ -20,13 +20,14 @@ If you have any questions you can contact us at the email address below.
   - Stage left in front of bass amp for bass player
 - 2 mics for guitar amps
 - Mono XLR direct out for bass amp
-- Stereo XLR out for keys (keys have a submixer with stereo XLR out)
+- Stereo (or mono) XLR (or 1/4") out for keys (keys have a submixer with
+  stereo/mono XLR or 1/4" out)
 - Drum mics (your discretion: kick with front port and blanket inside,
   snare, HH, 3 toms, 2 rotos, multiple cymbals)
 - 2 DIs for acoustic guitars (won't always need both for every gig)
-- 5 monitors, one for each band member:
-  - 2 in front (center and stage left)
+- 5 monitor feeds, 4 or 5 monitor wedges, one for each band member:
+  - 2 in front (center and stage left for lead vocals and rhythm guitar)
   - 1 for bass
   - 1 for drums
-  - 1 for keys
+  - 1 for keys OR XLR male monitor feed for IEMs (preferred)
 - AC: at least four 110V outlets
