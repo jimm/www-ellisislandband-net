@@ -2,7 +2,7 @@
 title: Ellis Island
 email: band@ellisislandrock.com
 description: > # this means to ignore newlines until "baseurl:"
-  Ellis Island: Rock that'll get you moving!
+  Ellis Island
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://ellisislandrock.com" # the base hostname & protocol for your site
 # twitter_username: EllisIslandRock
