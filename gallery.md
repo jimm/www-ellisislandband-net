@@ -9,6 +9,17 @@ title: Gallery/Videos
 
 {% include yt_vid.html id="Uf8QA3BE5fU" %}
 
+## Milford Porchfest, September 2024
+
+<table width="100%">
+  {% include pic.html src="tim_trish_ei_army.jpg" width="660"
+       alt="Tim, Trish (our host), and members of the Ellis Island Army" 
+       trow=true caption=true %}
+  <tr style="height: 2em;">
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
 ## Black Rock Porchfest, August 2024
 
 <table width="100%">
