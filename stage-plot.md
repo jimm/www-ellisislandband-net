@@ -25,9 +25,9 @@ If you have any questions you can contact us at the email address below.
 - Drum mics (your discretion: kick with front port and blanket inside,
   snare, HH, 3 toms, 2 rotos, multiple cymbals)
 - 2 DIs for acoustic guitars (won't always need both for every gig)
-- 5 monitor feeds, 4 or 5 monitor wedges, one for each band member:
-  - 2 in front (center and stage left for lead vocals and rhythm guitar)
-  - 1 for bass
-  - 1 for drums
-  - 1 for keys OR XLR male monitor feed for IEMs (preferred)
+- 5 monitor feeds: 4 monitor wedges + 1 IEM XLR monitor feed
+  - 2 monitors in front (center and stage left for lead vocals and rhythm guitar)
+  - 1 monitor for bass
+  - 1 monitor for drums
+  - 1 XLR monitor feed for keys IEMs
 - AC: at least four 110V outlets
