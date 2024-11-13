@@ -32,6 +32,12 @@
           </li>
           {% endif %}
 
+          {% if site.bluesky_username %}
+          <li>
+            {% include bluesky_link.html %}
+          </li>
+          {% endif %}
+
           {% if site.twitter_username %}
           <li>
             {% include twitter_link.html %}

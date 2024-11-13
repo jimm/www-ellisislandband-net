@@ -25,7 +25,7 @@ const GALLERY_SOURCES = [
 ];
 const INDEX_IMAGE_DIR = "images/";
 const INDEX_SOURCES = [
-  "park_city_2022_12_02/green-halo.jpg",
+  "jeff_and_banner_ftc_edited.jpeg"
   "park_city_2022_12_02/IMG_1734.jpg",
   "park_city_2022_12_02/IMG_1735.jpg",
   "park_city_2022_12_02/IMG_1737.jpg",
@@ -40,8 +40,8 @@ const INDEX_SOURCES = [
   "park_city_2022_12_02/IMG_1770.jpg",
   "park_city_2022_12_02/IMG_1771.jpg",
   "park_city_2022_12_02/IMG_1772.jpg",
+  "park_city_2022_12_02/green-halo.jpg",
   "park_city_2022_12_02/more-green.jpg",
-  "jeff_and_banner_ftc_edited.jpeg"
 ];
 
 function park_city_image(i) {
