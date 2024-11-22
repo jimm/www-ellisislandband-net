@@ -25,7 +25,7 @@ const GALLERY_SOURCES = [
 ];
 const INDEX_IMAGE_DIR = "images/";
 const INDEX_SOURCES = [
-  "jeff_and_banner_ftc_edited.jpeg"
+  "jeff_and_banner_ftc_edited.jpeg",
   "park_city_2022_12_02/IMG_1734.jpg",
   "park_city_2022_12_02/IMG_1735.jpg",
   "park_city_2022_12_02/IMG_1737.jpg",
