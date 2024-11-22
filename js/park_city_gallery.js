@@ -78,5 +78,6 @@ function insert_park_city_images() {
 function insert_random_index_image() {
   const index = Math.floor(Math.random() * INDEX_SOURCES.length);
   const img = document.getElementById("random-index-image");
-  img.innerHTML = index_image(index);
+  if (img != null)
+    img.innerHTML = index_image(index);
 }
