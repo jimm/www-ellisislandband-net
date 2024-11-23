@@ -4,12 +4,15 @@ WEB_SERVER = jimm.opalstacked.com
 WEB_DIR = apps/ellis-island
 JS_FILES = $(shell ls js/*.js | grep -v all.js)
 SINGLE_JS = js/all.js
+TIMESTAMP_FILE = /tmp/band-site-timestamp.txt
 
 # NOTE: do not use the `--del` rsync flag or otherwise delete any files on
 # the server. There are files there such as the `.well-known` directory
 # that should not be checked in here and should not be deleted there.
-.PHONY: publish ## Build the site, upload it, and refresh the feeds
-publish: dev-js-to-all-js refresh-feeds
+.PHONY: publish ## Build the site, upload it, modify timestamp, and refresh the feeds
+publish: build dev-js-to-all-js upload update-timestamp refresh-feeds
+
+.PHONY: upload
 	rsync -qrlpt --filter='- .DS_Store' --filter='- .localized' \
 	    --filter='- Makefile' --filter='- README.md' --filter='- scripts' \
 	    $(SRC) $(WEB_SERVER):$(WEB_DIR)
@@ -24,7 +27,7 @@ build:	javascript		## Build the site using Jekyll
 	bundle exec jekyll build
 
 .PHONY: dev-js-to-all-js
-dev-js-to-all-js: build		## Make HTML files use all.js
+dev-js-to-all-js: build		## Modify HTML files to use all.js
 	find _site -name '*.html' -print0 | xargs -0 sed -i '' '/START DEVELOPMENT/,/END DEVELOPMENT/{//d;d;}'
 	find _site -name '*.html' -print0 | xargs -0 sed -i '' -e 's/<!-- ALL //' -e 's/ ALL -->//'
 
@@ -36,6 +39,15 @@ install-feed-script:		## Upload the cron feed script
 .PHONY: refresh-feeds
 refresh-feeds: install-feed-script ## Refresh the remote JSON feed files
 	ssh $(WEB_USER)@$(WEB_SERVER) bin/fetch-ellisislandrock-json.sh
+
+.PHONY: install-timestamp-script
+install-timestamp-script:	## Upload the timestamp script
+	scp scripts/update-ellisislandrock-timestamp.sh $(WEB_USER)@$(WEB_SERVER):bin/update-ellisislandrock-timestamp.sh
+	ssh $(WEB_USER)@$(WEB_SERVER) chmod +x bin/update-ellisislandrock-timestamp.sh
+
+.PHONY: update-timestamp
+update-timestamp: install-timestamp-script ## Update the remote timestamp
+	ssh $(WEB_USER)@$(WEB_SERVER) bin/update-ellisislandrock-timestamp.sh
 
 .PHONY: refresh-local-feeds
 refresh-local-feeds:		## Refresh the local JSON feed files
