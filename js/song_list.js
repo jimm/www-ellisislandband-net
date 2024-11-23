@@ -1,7 +1,22 @@
 const SONG_LIST_FILE = 'song-list.json';
 const SONG_LIST_JSON_URL = 'https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519';
 
-var table_data = [];
+var songs = [];
+var show_acoustic = false;
+
+function toggle_acoustic() {
+  var button = $('#acoustic-toggle');
+  if (show_acoustic) {
+    show_acoustic = false;
+    button.html("Show Acoustic-Only Songs");
+  }
+  else {
+    show_acoustic = true;
+    button.html("Hide Acoustic-Only Songs");
+  }
+  $('#songlist tbody').html('');
+  insert_song_list();
+}
 
 function normalize_sort_string(str) {
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
@@ -17,8 +32,8 @@ function normalize_sort_string(str) {
 
 function sort_by(which) {
   var normalized = [];
-  table_data.forEach(song => normalized[song[which]] = normalize_sort_string(song[which]));
-  table_data.sort(function (a, b) {
+  songs.forEach(song => normalized[song[which]] = normalize_sort_string(song[which]));
+  songs.sort(function (a, b) {
     a_str = normalized[a[which]];
     b_str = normalized[b[which]];
     if (a_str < b_str) return -1;
@@ -26,42 +41,43 @@ function sort_by(which) {
     return 0;
   });
 
-  for (var i = 0; i < table_data.length; i++) {
-    var row = $(`#songlist tr:eq(${i+1})`); // tbody tr:eq(i) does not work
-    if ((i & 1) == 1)
-      row.addClass('odd');
-    else
-      row.removeClass('odd');
-    var cells = row.children();
-    $(cells[0]).text("" + (i + 1));
-    for (var j = 0; j < 2; ++j)
-      $(cells[j+1]).text(table_data[i][j]);
+  html = '';
+  row = 1;
+  for (var i = 0; i < songs.length; i++) {
+    var song = songs[i];
+    var is_acoustic = song["is_acoustic"];
+    if (!show_acoustic && is_acoustic)
+      continue;
+
+    var rowclass = ((row & 1) == 1) ? " class='odd'" : "";
+    name = song["name"];
+    if (is_acoustic)
+      name += " (Acoustic Only)";
+    html += `<tr${rowclass}><td class="rownum">${row}</td><td>${name}</td><td>${song["artist"]}</td></tr>`;
+    row += 1;
   }
+  $('#songlist tbody').html(html);
 }
 
 function sort_by_title() {
-  sort_by(0);
+  sort_by("name");
 }
 
 function sort_by_artist() {
-  sort_by(1);
+  sort_by("artist");
 }
 
 function _do_insert_song_list(song_list) {
-  html = '';
+  songs = [];
   song_list.forEach(entry => {
     if (entry.type == "song" && entry.tags != "Learning") {
       name = html_unescape(entry.name);
       artist = html_unescape(entry.artist);
       if (name.match(/, The/))
         name = `The ${name.substring(0, name.length - 5)}`;
-      if (entry.tags == "Acoustic")
-        name += " (Acoustic only)";
-      table_data.push([name, artist]);
-      html += `<tr><td class="rownum">0</td><td>${name}</td><td>${artist}</td></tr>`;
+      songs.push({"name": name, "artist": artist, "is_acoustic": (entry.tags == "Acoustic")});
     }
   });
-  $('#songlist tbody').html(html);
   sort_by_title();
 }
 

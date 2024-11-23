@@ -5,7 +5,16 @@ title: Song List
 
 # Song List
 
-<p>Click "Song" or "Artist" to sort the list.</p>
+<table class="slinfo">
+  <tr>
+    <td>
+      Click "Song" or "Artist" to sort the list.
+    </td>
+    <td class="showhide">
+      <button id="acoustic-toggle" onclick="toggle_acoustic();">Show Acoustic-Only Songs</button>
+    </td>
+  </tr>
+</table>
 <table class="songlist" id="songlist">
 <thead>
   <tr>
