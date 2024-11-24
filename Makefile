@@ -3,60 +3,40 @@ WEB_USER = jimm
 WEB_SERVER = jimm.opalstacked.com
 WEB_DIR = apps/ellis-island
 JS_FILES = $(shell ls js/*.js | grep -v all.js)
-SINGLE_JS = js/all.js
+JSON_FILES = song-list.json schedule.json
+ALL_JS = js/all.js
 TIMESTAMP_FILE = /tmp/band-site-timestamp.txt
+TS_SCRIPT = update-ellisislandrock-timestamp.sh
+FETCH_SCRIPT = fetch-ellisislandrock-json.sh
 
 # NOTE: do not use the `--del` rsync flag or otherwise delete any files on
 # the server. There are files there such as the `.well-known` directory
 # that should not be checked in here and should not be deleted there.
-.PHONY: publish ## Build the site, upload it, modify timestamp, and refresh the feeds
-publish: build dev-js-to-all-js upload update-timestamp refresh-feeds
-
-.PHONY: upload
-	rsync -qrlpt --filter='- .DS_Store' --filter='- .localized' \
-	    --filter='- Makefile' --filter='- README.md' --filter='- scripts' \
-	    $(SRC) $(WEB_SERVER):$(WEB_DIR)
+.PHONY: publish
+publish: build ## Build the site, upload it, modify timestamp, and refresh the feeds
+	rsync -qrlpt $(SRC) $(WEB_SERVER):$(WEB_DIR)
 	ssh $(WEB_USER)@$(WEB_SERVER) find $(WEB_DIR) -type d -exec chmod 755 {} \\\;
+	scp scripts/* $(WEB_USER)@$(WEB_SERVER):bin
+	ssh $(WEB_USER)@$(WEB_SERVER) chmod +x bin/$(TS_SCRIPT) bin/$(FETCH_SCRIPT)
+	ssh $(WEB_USER)@$(WEB_SERVER) bin/$(TS_SCRIPT)
+	ssh $(WEB_USER)@$(WEB_SERVER) bin/$(FETCH_SCRIPT)
 
 .PHONY: server
-server:	javascript		## Run the Jekyl server
+server:				## Run the Jekyl server
 	bundle exec jekyll server --livereload-ignore "scripts/*"
 
 .PHONY: build
-build:	javascript		## Build the site using Jekyll
+build:	$(ALL_JS)		## Build all.js and the HTML files
 	bundle exec jekyll build
-
-.PHONY: dev-js-to-all-js
-dev-js-to-all-js: build		## Modify HTML files to use all.js
+	cd _site && rm -rf $(JSON_FILES) Makefile .DS_Store .localized README.md scripts
 	find _site -name '*.html' -print0 | xargs -0 sed -i '' '/START DEVELOPMENT/,/END DEVELOPMENT/{//d;d;}'
 	find _site -name '*.html' -print0 | xargs -0 sed -i '' -e 's/<!-- ALL //' -e 's/ ALL -->//'
 
-.PHONY: install-feed-script
-install-feed-script:		## Upload the cron feed script
-	scp scripts/fetch-ellisislandrock-json.sh $(WEB_USER)@$(WEB_SERVER):bin/fetch-ellisislandrock-json.sh
-	ssh $(WEB_USER)@$(WEB_SERVER) chmod +x bin/fetch-ellisislandrock-json.sh
-
-.PHONY: refresh-feeds
-refresh-feeds: install-feed-script ## Refresh the remote JSON feed files
-	ssh $(WEB_USER)@$(WEB_SERVER) bin/fetch-ellisislandrock-json.sh
-
-.PHONY: install-timestamp-script
-install-timestamp-script:	## Upload the timestamp script
-	scp scripts/update-ellisislandrock-timestamp.sh $(WEB_USER)@$(WEB_SERVER):bin/update-ellisislandrock-timestamp.sh
-	ssh $(WEB_USER)@$(WEB_SERVER) chmod +x bin/update-ellisislandrock-timestamp.sh
-
-.PHONY: update-timestamp
-update-timestamp: install-timestamp-script ## Update the remote timestamp
-	ssh $(WEB_USER)@$(WEB_SERVER) bin/update-ellisislandrock-timestamp.sh
-
 .PHONY: refresh-local-feeds
 refresh-local-feeds:		## Refresh the local JSON feed files
-	scripts/fetch-ellisislandrock-json.sh .
+	scripts/$(FETCH_SCRIPT) .
 
-.PHONY: javascript
-javascript: $(SINGLE_JS)	## Build all.js from separate JS files
-
-$(SINGLE_JS): $(JS_FILES)
+$(ALL_JS): $(JS_FILES)		## Build all.js from the other .js files
 	cat $^ > $@
 
 .PHONY: help
