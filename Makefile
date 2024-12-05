@@ -32,6 +32,10 @@ build:	$(ALL_JS)		## Build all.js and the HTML files
 	find _site -name '*.html' -print0 | xargs -0 sed -i '' '/START DEVELOPMENT/,/END DEVELOPMENT/{//d;d;}'
 	find _site -name '*.html' -print0 | xargs -0 sed -i '' -e 's/<!-- ALL //' -e 's/ ALL -->//'
 
+.PHONY: refresh-feeds
+refresh-feeds:			## Refresh the site's JSON feed files
+	ssh $(WEB_USER)@$(WEB_SERVER) bin/$(FETCH_SCRIPT)
+
 .PHONY: refresh-local-feeds
 refresh-local-feeds:		## Refresh the local JSON feed files
 	scripts/$(FETCH_SCRIPT) .
