@@ -6,7 +6,7 @@ JS_FILES = $(shell ls js/*.js | grep -v all.js)
 JSON_FILES = song-list.json schedule.json
 ALL_JS = js/all.js
 TIMESTAMP_FILE = /tmp/band-site-timestamp.txt
-TS_SCRIPT = update-ellisislandrock-timestamp.sh
+TIMESTAMP_SCRIPT = update-ellisislandrock-timestamp.sh
 FETCH_SCRIPT = fetch-ellisislandrock-json.sh
 
 # NOTE: do not use the `--del` rsync flag or otherwise delete any files on
@@ -17,8 +17,8 @@ publish: build ## Build the site, upload it, modify timestamp, and refresh the f
 	rsync -qrlpt $(SRC) $(WEB_SERVER):$(WEB_DIR)
 	ssh $(WEB_USER)@$(WEB_SERVER) find $(WEB_DIR) -type d -exec chmod 755 {} \\\;
 	scp scripts/* $(WEB_USER)@$(WEB_SERVER):bin
-	ssh $(WEB_USER)@$(WEB_SERVER) chmod +x bin/$(TS_SCRIPT) bin/$(FETCH_SCRIPT)
-	ssh $(WEB_USER)@$(WEB_SERVER) bin/$(TS_SCRIPT)
+	ssh $(WEB_USER)@$(WEB_SERVER) chmod +x bin/$(TIMESTAMP_SCRIPT) bin/$(FETCH_SCRIPT)
+	ssh $(WEB_USER)@$(WEB_SERVER) bin/$(TIMESTAMP_SCRIPT)
 	ssh $(WEB_USER)@$(WEB_SERVER) bin/$(FETCH_SCRIPT)
 
 .PHONY: server
