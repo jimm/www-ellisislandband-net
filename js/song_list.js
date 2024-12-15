@@ -1,17 +1,20 @@
 const SONG_LIST_FILE = 'song-list.json';
 const SONG_LIST_JSON_URL = 'https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519';
 
-var songs = [];
-var show_acoustic = false;
+const state = {
+  songs: [],
+  show_acoustic: false,
+  current_sort_by: "name",
+};
 
 function toggle_acoustic() {
   var button = $('#acoustic-toggle');
-  if (show_acoustic) {
-    show_acoustic = false;
+  if (state.show_acoustic) {
+    state.show_acoustic = false;
     button.html("Show Acoustic-Only Songs");
   }
   else {
-    show_acoustic = true;
+    state.show_acoustic = true;
     button.html("Hide Acoustic-Only Songs");
   }
   $('#songlist tbody').html('');
@@ -32,8 +35,8 @@ function normalize_sort_string(str) {
 
 function sort_by(which) {
   var normalized = [];
-  songs.forEach(song => normalized[song[which]] = normalize_sort_string(song[which]));
-  songs.sort(function (a, b) {
+  state.songs.forEach(song => normalized[song[which]] = normalize_sort_string(song[which]));
+  state.songs.sort(function (a, b) {
     a_str = normalized[a[which]];
     b_str = normalized[b[which]];
     if (a_str < b_str) return -1;
@@ -43,10 +46,10 @@ function sort_by(which) {
 
   html = '';
   row = 1;
-  for (var i = 0; i < songs.length; i++) {
-    var song = songs[i];
+  for (var i = 0; i < state.songs.length; i++) {
+    var song = state.songs[i];
     var is_acoustic = song["is_acoustic"];
-    if (!show_acoustic && is_acoustic)
+    if (!state.show_acoustic && is_acoustic)
       continue;
 
     name = song["name"];
@@ -60,14 +63,16 @@ function sort_by(which) {
 
 function sort_by_title() {
   sort_by("name");
+  state.current_sort_by = "name";
 }
 
 function sort_by_artist() {
   sort_by("artist");
+  state.current_sort_by = "artist";
 }
 
 function _do_insert_song_list(song_list) {
-  songs = [];
+  state.songs = [];
   song_list.forEach(entry => {
     if (entry.type == "song") {
       tags = entry.tags.split(", ");
@@ -76,11 +81,11 @@ function _do_insert_song_list(song_list) {
         artist = html_unescape(entry.artist);
         if (name.match(/, The/))
           name = `The ${name.substring(0, name.length - 5)}`;
-        songs.push({"name": name, "artist": artist, "is_acoustic": tags.includes("Acoustic")});
+        state.songs.push({"name": name, "artist": artist, "is_acoustic": tags.includes("Acoustic")});
       }
     }
   });
-  sort_by_title();
+  sort_by(state.current_sort_by);
 }
 
 function insert_song_list() {
