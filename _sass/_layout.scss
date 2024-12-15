@@ -403,7 +403,7 @@ table#songlist {
         padding-right: 1em;
         text-align: left;
     }
-    tr.odd {
+    tr:nth-child(odd) {
         background: $odd-row-color;
     }
     td.rownum {

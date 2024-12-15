@@ -49,11 +49,10 @@ function sort_by(which) {
     if (!show_acoustic && is_acoustic)
       continue;
 
-    var rowclass = ((row & 1) == 1) ? " class='odd'" : "";
     name = song["name"];
     if (is_acoustic)
       name += " (Acoustic Only)";
-    html += `<tr${rowclass}><td class="rownum">${row}</td><td>${name}</td><td>${song["artist"]}</td></tr>`;
+    html += `<tr><td class="rownum">${row}</td><td>${name}</td><td>${song["artist"]}</td></tr>`;
     row += 1;
   }
   $('#songlist tbody').html(html);
@@ -70,12 +69,15 @@ function sort_by_artist() {
 function _do_insert_song_list(song_list) {
   songs = [];
   song_list.forEach(entry => {
-    if (entry.type == "song" && entry.tags != "Learning") {
-      name = html_unescape(entry.name);
-      artist = html_unescape(entry.artist);
-      if (name.match(/, The/))
-        name = `The ${name.substring(0, name.length - 5)}`;
-      songs.push({"name": name, "artist": artist, "is_acoustic": (entry.tags == "Acoustic")});
+    if (entry.type == "song") {
+      tags = entry.tags.split(", ");
+      if (!tags.includes("Learning")) {
+        name = html_unescape(entry.name);
+        artist = html_unescape(entry.artist);
+        if (name.match(/, The/))
+          name = `The ${name.substring(0, name.length - 5)}`;
+        songs.push({"name": name, "artist": artist, "is_acoustic": tags.includes("Acoustic")});
+      }
     }
   });
   sort_by_title();
