@@ -17,24 +17,12 @@ Ellis Island at Black Rock Porchfest, 2024
 
 <br/>
 
-Ellis Island is a five-member Fairfield-based rock band with an extensive
-[song list](/song-list.html) made up of some of the most iconic and
-impactful music from the '80's to today. We cover a wide array of bands from
-Pink Floyd, Led Zeppelin, Tom Petty, and Bruce Springsteen to Radiohead, The
-Black Crowes, Pearl Jam, and Foo Fighters.
-
-Ellis Island has been playing throughout Fairfield and New Haven Counties
-for over a decade. The band plays extensively at a range of public events,
-porch fests, festivals, bars, breweries, and other venues, as well as
-private parties and fundraisers in southern CT. Ellis Island will bring a
-powerful, high energy, and memorable performance wherever they play.
-
 Check out our [Youtube
 Channel](https://www.youtube.com/@ellisislandfairfieldct), where you can
 find our [demo video](https://www.youtube.com/embed/MN8Sgid2x30).
 
-You can use the links at the top of the page to see our
-[schedule](/schedule.html), [contact](/contact.html) us, take a peek inside
+You can use the links at the top of the page to learn more [about us](/about.html),
+check out our [schedule](/schedule.html), [contact](/contact.html) us, take a peek inside
 the [gallery](/gallery.html), and more.
 
 <table>
@@ -57,7 +45,7 @@ the [gallery](/gallery.html), and more.
       {% include pic.html src="band_2024_06_ftc.jpg"
                  alt="The band in front of FTC, June 2024. (c) 2024, David Gray" %}
       <br/>
-      Image &copy; 2024 by <a href="https://www.graypeakimages.com/">David Gray</a>
+      Photo &copy; 2024 by <a href="https://www.graypeakimages.com/">David Gray</a>
     </td>
   </tr>
 </table>
