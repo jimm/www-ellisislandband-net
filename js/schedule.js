@@ -3,7 +3,7 @@ const MONTHS = [
   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
 ];
 const SCHEDULE_FILE = 'schedule.json';
-const SCHEDULE_JSON_URL = 'https://www.bandhelper.com/feed/calendar/64519?range=6';
+const SCHEDULE_JSON_URL = 'https://www.bandhelper.com/feed/calendar/64519?range=9';
 const CATEGORY_FULL_BAND = 'Full Band Gig';
 const CATEGORY_ACOUSTIC = 'Acoustic Gig';
 const POSTER_REGEX_STR = "{% *poster ([^ %]+)( +alt=\"([^\"]+)\")? *%}";
@@ -36,9 +36,12 @@ function _address_link(gig) {
 function _info_div(gig) {
   var venue_info = '';
   if (!gig.is_private_event) {
-    venue_info = ` @ ${html_unescape(gig.venue)}`;
-    if (gig.address)
-      venue_info += `, ${_address_link(gig)}`;
+    venue_info = gig.venue == "" ? "" : ` @ ${html_unescape(gig.venue)}`;
+    if (gig.address) {
+      if (venue_info != "")
+        venue_info += ", ";
+      venue_info += `${_address_link(gig)}`;
+    }
   }
 
   return `<div class="schedule-info">${gig.date_display}${venue_info}</div>`;
