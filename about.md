@@ -44,33 +44,33 @@ title: About
   </tr>
 </table>
 
-<table class="bandpics" id="bandpics">
+<table class="bandpics">
   <tr>
-    <td class="bandmember" width="50%">
+    <td class="bandmember" width="33%">
       <h2>Tim Ellis</h2>
       {% include pic.html width="200" src="fuv/tim_singing_1.jpg" alt="Tim Ellis" %}
       <p>Vocals, electric and acoustic guitars</p>
     </td>
-    <td class="bandmember" width="50%">
+    <td class="bandmember" width="34%">
+      <h2>Alex Giannaras</h2>
+      {% include pic.html width="200" src="fuv/alex.jpg" alt="Alex Giannaras" %}
+      <p>Bass and vocals</p>
+    </td>
+    <td class="bandmember" width="33%">
       <h2>Nate Balogh</h2>
       {% include pic.html width="200" src="fuv/nate_2.jpg" alt="Nate Balogh" %}
       <p>Electric and acoustic guitars</p>
     </td>
   </tr>
+</table>
+<table class="bandpics bandpics-2">
   <tr>
-    <td class="bandmember" width="50%">
-      <h2>Alex Giannaras</h2>
-      {% include pic.html width="200" src="fuv/alex.jpg" alt="Alex Giannaras" %}
-      <p>Bass and vocals</p>
-    </td>
-    <td class="bandmember" width="50%">
+    <td class="bandmember">
       <h2>Jeff Steele</h2>
       {% include pic.html src="fuv/jeff.jpg" alt="Jeff Steele" %}
       <p>Drums and percussion</p>
     </td>
-  </tr>
-  <tr>
-    <td class="bandmember" width="50%">
+    <td class="bandmember">
       <h2>Jim Menard</h2>
       {% include pic.html width="200" src="fuv/jim_head_down.jpg" alt="Jim Menard" %}
       <p>Keyboards</p>

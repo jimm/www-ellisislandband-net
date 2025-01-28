@@ -248,6 +248,14 @@ table.bandpics {
     padding-top: 1em;
   }
 }
+table.bandpics-2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 66%;
+  td {
+    width: 50%;
+  }
+}
 
 div#schedule-list {
   div.row {
