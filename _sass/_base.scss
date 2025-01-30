@@ -1,3 +1,8 @@
+@use "sass:color";
+@use "_vars" as *;
+@use "_mquery" as mq;
+@use "_clearfix" as cfix;
+
 /**
  * Reset some basic elements
  */
@@ -30,8 +35,7 @@ body {
  */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
+ul, ol, dl, figure {
     margin-bottom: calc($spacing-unit / 2);
 }
 
@@ -99,7 +103,7 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: color.adjust($brand-color, $lightness: -15%);
     }
 
     &:hover {
@@ -168,25 +172,11 @@ pre {
     padding-left: $spacing-unit;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
+    @include mq.media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: calc($spacing-unit / 2);
         padding-left: calc($spacing-unit / 2);
-    }
-}
-
-
-
-/**
- * Clearfix
- */
-%clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
     }
 }
 

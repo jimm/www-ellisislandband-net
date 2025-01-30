@@ -1,0 +1,8 @@
+@use "_vars" as *;
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+%vertical-rhythm {
+    margin-bottom: calc($spacing-unit / 2);
+}

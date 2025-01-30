@@ -1,3 +1,7 @@
+@use "_vars" as *;
+@use "_clearfix" as cfix;
+@use "_mquery" as mq;
+
 /**
  * Site header
  */
@@ -42,7 +46,7 @@
         }
     }
 
-    @include media-query($on-palm) {
+    @include mq.media-query($on-palm) {
         position: absolute;
         top: 9px;
         right: 30px;
@@ -137,7 +141,7 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
+@include mq.media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
@@ -150,7 +154,7 @@
     }
 }
 
-@include media-query($on-palm) {
+@include mq.media-query($on-palm) {
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -204,7 +208,7 @@
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
+    @include mq.media-query($on-laptop) {
         font-size: 36px;
     }
 }
@@ -215,7 +219,7 @@
     h2 {
         font-size: 32px;
 
-        @include media-query($on-laptop) {
+        @include mq.media-query($on-laptop) {
             font-size: 28px;
         }
     }
@@ -223,7 +227,7 @@
     h3 {
         font-size: 26px;
 
-        @include media-query($on-laptop) {
+        @include mq.media-query($on-laptop) {
             font-size: 22px;
         }
     }
@@ -231,7 +235,7 @@
     h4 {
         font-size: 20px;
 
-        @include media-query($on-laptop) {
+        @include mq.media-query($on-laptop) {
             font-size: 18px;
         }
     }
@@ -282,7 +286,7 @@ div#schedule-list {
       width: 150px;
     }
 
-    @include media-query($on-palm) {
+    @include mq.media-query($on-palm) {
       .middle {
         width: calc(100% - 10em);
       }

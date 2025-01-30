@@ -3,64 +3,11 @@
 ---
 @charset "utf-8";
 
+@use "_base";
+@use "_layout";
+@use "_syntax-highlighting";
+@use "_vars" as *;
 
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$logo-background-color: rgb(43, 62, 60);
-$header-background-color: #7d9d9c;
-$logo-guitar-color: #7d9d9c;
-
-// lighten($logo-background-color, 40%);
-$schedule-name-band-color: #7f7;
-// $schedule-name-acoustic-color: #ddf;
-$schedule-name-acoustic-color: lighten($header-background-color, 40%);
-
-$spacing-unit:     30px;
-
-$header-text-color: #fdfdfd;
-$text-color:        white;
-$background-color:  darken($logo-background-color, 10%);
-$odd-row-color:     #444;
-$brand-color:       #70c0ff;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    900px;
-
-$on-palm:          600px;
-$on-laptop:        900px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: calc($spacing-unit / 2);
-//         padding-left: calc($spacing-unit / 2);
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
 
 h1 {
   background-color: $header-background-color;
