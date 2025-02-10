@@ -12,6 +12,11 @@ and publish it to the web site. You'll also need `ssh` access to the server
 it's hosted on. See the Makefile for the server name and the directory it is
 served from.
 
+When the site is built, the separate Javascript files in the `js` directory
+are concatenated into one file named `all.js`. When it is published to the
+website, a script is run that timestamps the `all.js` file name and updates
+the files that include it to use that timestamped version of the file
+
 ## Developing Locally
 
     make server
@@ -38,8 +43,8 @@ entry:
 The code uses a Markdown library to parse the description field. BandHelper
 wasn't designed to handle HTML in custom fields according to the author.
 
-Images are often reduced from their original sizes to a max height of 800 to
-save bandwidth.
+Images have often been reduced manually from their original sizes to a max
+height of 800 to save bandwidth.
 
 ### Embedding Videos
 
