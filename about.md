@@ -9,11 +9,12 @@ title: About
   <tr>
     <td style="padding-right: 3em;">
       <p>
-      Ellis Island is a five-member Fairfield-based rock band with an extensive
-      <a href="/song-list.html">song list</a> made up of some of the most iconic
-      and impactful music from the '80's to today. We cover a wide array of
-      bands from Pink Floyd, Led Zeppelin, Tom Petty, and Bruce Springsteen to
-      Radiohead, The Black Crowes, Pearl Jam, and Foo Fighters.
+      Ellis Island is a five-member Fairfield, Connecticut -based rock band
+      with an extensive <a href="/song-list.html">song list</a> made up of
+      some of the most iconic and impactful music from the '80's to today.
+      We cover a wide array of bands from Pink Floyd, Led Zeppelin, Tom
+      Petty, and Bruce Springsteen to Radiohead, The Black Crowes, Pearl
+      Jam, and Foo Fighters.
       </p>
 
       <p>
