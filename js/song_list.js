@@ -89,5 +89,5 @@ function _do_insert_song_list(song_list) {
 }
 
 function insert_song_list() {
-  get_file_or_url(SONG_LIST_FILE, SONG_LIST_JSON_URL, _do_insert_song_list);
+  get_json_data(SONG_LIST_JSON_URL, SONG_LIST_FILE, _do_insert_song_list);
 }

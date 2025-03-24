@@ -124,5 +124,5 @@ function _do_insert_schedule(schedule) {
 }
 
 function insert_schedule() {
-  get_file_or_url(SCHEDULE_FILE, SCHEDULE_JSON_URL, _do_insert_schedule);
+  get_json_data(SCHEDULE_JSON_URL, SCHEDULE_FILE, _do_insert_schedule);
 }

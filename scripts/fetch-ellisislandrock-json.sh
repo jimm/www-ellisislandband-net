@@ -9,5 +9,12 @@ SONG_LIST_FEED_URL="https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519"
 SCHEDULE_JSON_FILE="$output_dir/schedule.json"
 SONG_LIST_JSON_FILE="$output_dir/song-list.json"
 
-curl --silent -o "$SCHEDULE_JSON_FILE" "$SCHEDULE_FEED_URL"
-curl --silent -o "$SONG_LIST_JSON_FILE" "$SONG_LIST_FEED_URL"
+# usage: safeish_get url output-file
+safeish_get() {
+    tmpfile="$(mktemp)"
+    curl --silent -o "$tmpfile" "$1" &&
+        mv "$tmpfile" $2
+}
+
+safeish_get "$SCHEDULE_FEED_URL" "$SCHEDULE_JSON_FILE" 
+safeish_get "$SONG_LIST_FEED_URL" "$SONG_LIST_JSON_FILE" 
