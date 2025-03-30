@@ -74,7 +74,7 @@ title: About
     <td class="bandmember">
       <h2>Jim Menard</h2>
       {% include pic.html width="200" src="fuv/jim_head_down.jpg" alt="Jim Menard" %}
-      <p>Keyboards</p>
+      <p>Keyboards and guitar</p>
     </td>
     <td width="50%">&nbsp;</td>
   </tr>
