@@ -13,7 +13,8 @@ SONG_LIST_JSON_FILE="$output_dir/song-list.json"
 safeish_get() {
     tmpfile="$(mktemp)"
     curl --silent -o "$tmpfile" "$1" &&
-        mv "$tmpfile" $2
+        mv "$tmpfile" "$2" &&
+        chmod 644 "$2"
 }
 
 safeish_get "$SCHEDULE_FEED_URL" "$SCHEDULE_JSON_FILE" 
