@@ -11,7 +11,7 @@ function html_unescape(input) {
 // because they are fetched every 15 minutes by a cron job. If there is an
 // error fetching them, they will contain old-ish data.
 function get_json_data(url, file, callback_func) {
-  try_order = [url, file];
+  try_order = [file, url];
   $.ajax({
     dataType: "json",
     url: try_order[0],
