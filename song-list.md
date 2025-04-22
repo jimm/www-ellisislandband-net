@@ -11,7 +11,8 @@ title: Song List
       Click "Song" or "Artist" to sort the list.
     </td>
     <td class="showhide">
-      <button id="acoustic-toggle" onclick="toggle_acoustic();">Show Acoustic-Only Songs</button>
+      <input type="checkbox" id="acoustic-toggle" onclick="toggle_acoustic();">
+      <label for="acoustic-toggle">Include Acoustic-Only Songs</label>
     </td>
   </tr>
 </table>

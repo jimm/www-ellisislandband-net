@@ -56,7 +56,7 @@ You can also optionally specify width and height.
 
 For other videos:
 
-    {% include video_tag.html src="porchfest_2024_bruce.mp4" %}
+    {% include video_tag.html src="images/porchfest_2024_bruce.mp4" %}
 
 You can also optionally specify width, height, and poster (the image used
 before the video is played).

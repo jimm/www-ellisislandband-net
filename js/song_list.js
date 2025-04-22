@@ -2,23 +2,15 @@ const SONG_LIST_FILE = 'song-list.json';
 const SONG_LIST_JSON_URL = 'https://www.bandhelper.com/feed/smart_list/9s5Ljv/64519';
 
 const state = {
-  songs: [],
+  songs: [],                    // {tags, name, artist}
+  songs_json_data: [],
   show_acoustic: false,
   current_sort_by: "name",
 };
 
 function toggle_acoustic() {
-  var button = $('#acoustic-toggle');
-  if (state.show_acoustic) {
-    state.show_acoustic = false;
-    button.html("Show Acoustic-Only Songs");
-  }
-  else {
-    state.show_acoustic = true;
-    button.html("Hide Acoustic-Only Songs");
-  }
-  $('#songlist tbody').html('');
-  insert_song_list();
+  state.show_acoustic = !state.show_acoustic;
+  _do_insert_song_list(state.songs_json_data);
 }
 
 function normalize_sort_string(str) {
@@ -72,6 +64,7 @@ function sort_by_artist() {
 }
 
 function _do_insert_song_list(song_list) {
+  state.songs_json_data = song_list;
   state.songs = [];
   song_list.forEach(entry => {
     if (entry.type == "song") {

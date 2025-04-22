@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include video_tag.html src="porchfest_2024_bruce.mp4" poster="images/porchfest_2024_still.png" %}
+{% include video_tag.html src="images/porchfest_2024_bruce.mp4" poster="images/porchfest_2024_still.png" %}
 <div class="center">
 Ellis Island at Black Rock Porchfest, 2024
 </div>

@@ -31,7 +31,7 @@ title: Gallery/Videos
   </tr>
 </table>
 
-{% include video_tag.html src="porchfest_2024_bruce.mp4" poster="images/porchfest_2024_still.png" %}
+{% include video_tag.html src="images/porchfest_2024_bruce.mp4" poster="images/porchfest_2024_still.png" %}
 
 ## Park City Music Hall, November 2023
 
