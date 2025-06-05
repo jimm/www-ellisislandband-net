@@ -24,7 +24,7 @@ If you have any questions you can contact us at the email address below.
   stereo/mono XLR or 1/4" out)
 - Drum mics (your discretion: kick with front port and blanket inside,
   snare, HH, 3 toms, 2 rotos, multiple cymbals)
-- 2 DIs for acoustic guitars (we can probably get away with 1 for most gits,
+- 2 DIs for acoustic guitars (we can probably get away with 1 for most gigs,
   2 is the exception)
 - 5 monitor feeds: 4 monitor wedges + 1 IEM XLR monitor feed
   - 2 monitors in front (center and stage left for lead vocals and rhythm guitar)
