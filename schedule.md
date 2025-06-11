@@ -16,7 +16,8 @@ Here are some of the places that Ellis Island has played over the years:
 
 - 314 Beer Garden
 - BJ Ryan's East (acoustic)
-- Bridgeport Porchfest
+- Black Rock Day
+- Black Rock Porchfest
 - Clubhouse Grille (acoustic)
 - Corporate Parties
 - Elicit Brewing Company, Fairfield
