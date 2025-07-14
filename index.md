@@ -10,8 +10,8 @@ Ellis Island at Black Rock Porchfest, 2024
 <br/>
 
 <table width="100%">
-{% include pic.html src="porchfest_2024_from_roof.jpeg" width="640"
-     alt="A birds-eye view of the crowd watching Ellis Island"
+{% include pic.html src="ftc_benefit_crowd.jpeg" width="640"
+     alt="A view from above and behind the crowd watching Ellis Island at FTC"
      trow=true caption=true %}
 </table>
 

@@ -9,6 +9,20 @@ title: Gallery/Videos
 
 {% include yt_vid.html id="Uf8QA3BE5fU" %}
 
+## FTC Fundraiser, June 2025
+
+<table width="100%">
+{% include pic.html src="ftc_benefit_crowd.jpeg" width="640"
+     alt="A view from above and behind the crowd watching Ellis Island at FTC"
+     trow=true caption=true %}
+</table>
+
+<table width="100%">
+{% include pic.html src="ftc_benefit_band.jpeg" width="640"
+     alt="A show of the band onstage at FTC"
+     trow=true caption=true %}
+</table>
+
 ## Milford Porchfest, September 2024
 
 <table width="100%">
