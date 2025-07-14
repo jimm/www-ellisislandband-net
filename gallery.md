@@ -19,7 +19,7 @@ title: Gallery/Videos
 
 <table width="100%">
 {% include pic.html src="ftc_benefit_band.jpeg" width="640"
-     alt="A show of the band onstage at FTC"
+     alt="The band onstage at FTC"
      trow=true caption=true %}
 </table>
 
