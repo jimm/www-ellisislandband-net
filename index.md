@@ -17,9 +17,10 @@ Ellis Island at Black Rock Porchfest, 2024
 
 <br/>
 
-Check out our [Youtube
-Channel](https://www.youtube.com/@ellisislandfairfieldct), where you can
-find our [demo video](https://www.youtube.com/embed/MN8Sgid2x30).
+Check out our
+[Youtube Channel](https://www.youtube.com/@ellisislandfairfieldct), where
+you can find our [latest full show video][https://youtu.be/mdLeSDI6Phs],
+a shorter [demo video](https://www.youtube.com/embed/MN8Sgid2x30), and more!
 
 You can use the links at the top of the page to learn more [about us](/about.html),
 check out our [schedule](/schedule.html), [contact](/contact.html) us, take a peek inside
