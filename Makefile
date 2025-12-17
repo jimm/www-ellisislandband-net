@@ -26,7 +26,8 @@ server:				## Run the Jekyl server
 	bundle exec jekyll server --livereload-ignore "scripts/*"
 
 .PHONY: build
-build:	$(ALL_JS)		## Build all.js and the HTML files
+build:	$(ALL_JS)		## Build all.js, React bundle, and the HTML files
+	npm run build
 	bundle exec jekyll build
 	cd _site && rm -rf $(JSON_FILES) Makefile .DS_Store .localized README.md scripts
 	find _site -name '*.html' -print0 | xargs -0 sed -i '' '/START DEVELOPMENT/,/END DEVELOPMENT/{//d;d;}'

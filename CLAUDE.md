@@ -36,18 +36,50 @@ those files.
 
 ## JavaScript Architecture
 
-Located in `js/` directory:
+### React Components (src/schedule/)
 
-### Core Files
-- **`schedule.js`** - Fetches schedule data from BandHelper API and renders
-  upcoming gigs. Handles full band gigs, acoustic gigs, and private events.
-  Displays dates, venue info, addresses (with Google Maps links), and poster
-  images. Currently being migrated to React components.
+The schedule system is implemented as a React application:
 
-- **`utils.js`** - Shared utilities:
+**Component Structure:**
+- `ScheduleApp.jsx` - Main container with data fetching and state management
+- `ScheduleList.jsx` - List wrapper for all gig items
+- `ScheduleItem.jsx` - Individual gig display with layout logic
+- `ScheduleDate.jsx` - Date display (month/day/day-name)
+- `ScheduleInfo.jsx` - Venue and address with Google Maps links
+- `ScheduleText.jsx` - Gig name, description, and notes
+- `PosterImage.jsx` - Poster display with modal integration
+
+**Utilities:**
+- `hooks/useScheduleData.js` - Custom hook for data fetching with fallback
+- `utils/constants.js` - All constants (months, categories, field mappings)
+- `utils/scheduleHelpers.js` - Pure functions for data processing
+
+**Features:**
+- Fetches from BandHelper calendar feed (bandhelper.com)
+- Falls back to local `schedule.json` file (updated by cron job)
+- Filters by category: Full Band Gig, Acoustic Gig, or Private Event
+- Two responsive layouts:
+  - 3-column (date | info | poster) when poster exists
+  - 2-column (date | info) when no poster
+- Custom fields from BandHelper:
+  - `custom_cC99h9` - Gig description (Markdown)
+  - `custom_CCMx5n` - Poster image name/URL
+  - `custom_Kz3bz0` - Poster alt text
+  - `custom_7CpO7C` - Display as private flag
+- Uses marked.js to parse Markdown in descriptions
+- Integrates with existing modal system for poster image viewing
+- Loading and error states
+
+**Build:**
+- Built with Vite as IIFE bundle
+- Output: `js/dist/schedule.bundle.iife.js` (197 KB, 62 KB gzipped)
+- React bundled with production optimizations
+
+### Legacy JavaScript (js/ directory)
+
+- **`utils.js`** - Shared utilities (still used by other pages):
   - `html_unescape()` - Parses HTML entities from JSON data
-  - `get_json_data()` - Fetches JSON from local file or remote API with
-    fallback logic
+  - `get_json_data()` - Fetches JSON from local file or remote API
 
 - **`image_modal.js`** - Modal functionality for viewing images full-screen
 
@@ -57,25 +89,8 @@ Located in `js/` directory:
 
 - **`all.js`** - Concatenated version of all JS files (for production)
 
-### Schedule System Details
-
-The schedule system (`js/schedule.js`) is the most complex JavaScript:
-- Fetches from BandHelper calendar feed (bandhelper.com)
-- Falls back to local `schedule.json` file (updated by cron job)
-- Filters by category: Full Band Gig, Acoustic Gig, or Private Event
-- Renders two layouts:
-  - 3-column (date | info | poster) when poster exists
-  - 2-column (date | info) when no poster
-- Custom fields from BandHelper:
-  - `custom_cC99h9` - Gig description (Markdown)
-  - `custom_CCMx5n` - Poster image name/URL
-  - `custom_Kz3bz0` - Poster alt text
-  - `custom_7CpO7C` - Display as private flag
-- Uses marked.js to parse Markdown in descriptions
-- Integrates with modal system for poster image viewing
-
 ### External Dependencies (in head.html)
-- jQuery 3.6.4 - Used for AJAX and DOM manipulation
+- jQuery 3.6.4 - Used by legacy scripts
 - marked.min.js - Markdown parser for gig descriptions
 
 ## Documentation
@@ -93,11 +108,36 @@ Current documents:
 The Makefile defines various tasks used to build and deploy the site.
 
 ### Development Workflow
-Scripts are loaded individually in development mode (see head.html comments).
-The site uses a "make publish" command that switches to the concatenated
-all.js file for production.
 
-### Branch Strategy
-- Main branch: `main`
-- Current branch: `react` (for React migration work)
+**Running locally:**
+```bash
+make server  # Starts Jekyll dev server on localhost:4000
+```
+
+For React development, run the React build in watch mode in a separate
+terminal:
+```bash
+npm run watch  # Rebuilds React bundle on file changes
+```
+
+### Production Build
+
+The `make build` command:
+1. Builds React bundle with Vite (`npm run build`)
+2. Concatenates vanilla JS files into `all.js`
+3. Builds Jekyll site
+4. Cleans up generated files
+5. Switches from individual scripts to concatenated versions
+
+### Dependencies
+
+**Ruby/Jekyll:**
+- Ruby with bundler
+- Jekyll and plugins (see Gemfile)
+
+**Node.js/npm:**
+- Node.js (for npm)
+- React, ReactDOM
+- Vite build tool
+- Run `npm install` to install dependencies
 

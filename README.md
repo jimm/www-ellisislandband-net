@@ -5,29 +5,64 @@ built with [Jekyll](https://jekyllrb.com/).
 
 ## Building and publishing the site
 
-You'll need Ruby and the `bundle` gem. Run `bundle install` once to install
-everything you need, including Jekyll. Once you have Jekyll installed
-locally, running `make publish` will build the site from the Markdown files
-and publish it to the web site. You'll also need `ssh` access to the server
-it's hosted on. See the Makefile for the server name and the directory it is
-served from.
+### Prerequisites
 
-When the site is built, the separate Javascript files in the `js` directory
-are concatenated into one file named `all.js`. When it is published to the
-website, a script is run that timestamps the `all.js` file name and updates
-the files that include it to use that timestamped version of the file
+You'll need:
+- Ruby and the `bundle` gem
+- Node.js and npm
+- SSH access to the server (for publishing)
+
+### Setup
+
+1. Install Ruby dependencies:
+   ```bash
+   bundle install
+   ```
+
+2. Install Node.js dependencies:
+   ```bash
+   npm install
+   ```
+
+### Building
+
+Running `make publish` will:
+1. Build the React components (`npm run build`)
+2. Concatenate legacy JavaScript files into `all.js`
+3. Build the Jekyll site
+4. Publish to the web server
+
+When published, a script timestamps the `all.js` file name and updates the
+HTML files to reference the timestamped version
 
 ## Developing Locally
 
-    make server
+Start the Jekyll development server:
 
-runs Jekyll locally. You can see it at
-[http://localhost:4000/](http://localhost:4000/).
+```bash
+make server
+```
 
-When developing locally, the individual Javascript files are loaded in each
-pages' header. Just before the site is pushed up to the server, all of the
-local Javascript files are concatenated into one and the HTML file's headers
-are modified to reference that one instead of the individual JS files.
+The site will be available at [http://localhost:4000/](http://localhost:4000/).
+
+### React Development
+
+The schedule page uses React components. When developing React features, run
+the build in watch mode in a separate terminal:
+
+```bash
+npm run watch
+```
+
+This rebuilds the React bundle automatically when you modify files in
+`src/schedule/`.
+
+### How It Works
+
+When developing locally, individual JavaScript files are loaded in each page's
+header. The React bundle is loaded from `js/dist/schedule.bundle.iife.js`.
+Before publishing, all legacy JavaScript files are concatenated into `all.js`
+and the HTML headers are modified to reference the concatenated version.
 
 ## Documentation
 
@@ -37,17 +72,25 @@ project, including:
 
 ## Notes
 
-The schedule and song list are obtained via JSON feeds from our
-[BandHelper](https://www.bandhelper.com/) account and built in Javascript.
-The data is fetched by a cron job that is currently run every hour at 15
-past the hour. It runs `scripts/fetch-ellisislandrock-json.sh`, which is
-uploaded to the `$HOME/bin` directory on the server. Here's the crontab
-entry:
+### Schedule System
+
+The schedule page is built with React components (in `src/schedule/`). The
+schedule data is obtained via JSON feeds from our
+[BandHelper](https://www.bandhelper.com/) account. The data is fetched by a
+cron job that runs every hour at 15 past the hour. It runs
+`scripts/fetch-ellisislandrock-json.sh`, which is uploaded to the `$HOME/bin`
+directory on the server. Here's the crontab entry:
 
     15 * * * * $HOME/bin/fetch-ellisislandrock-json.sh
 
-The code uses a Markdown library to parse the description field. BandHelper
-wasn't designed to handle HTML in custom fields according to the author.
+The React components use the marked.js library to parse Markdown in the gig
+description field. BandHelper wasn't designed to handle HTML in custom fields
+according to the author.
+
+### Song List
+
+The song list page uses vanilla JavaScript and also fetches data from
+BandHelper via the same cron job.
 
 Images have often been reduced manually from their original sizes to a max
 height of 800 to save bandwidth.
