@@ -1,0 +1,35 @@
+{
+  "name": "www-ellisislandband-net",
+  "version": "1.0.0",
+  "description": "This repo contains the source code for https://ellisilandrock.com. It's built with [Jekyll](https://jekyllrb.com/).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimm/www-ellisislandband-net.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jimm/www-ellisislandband-net/issues"
+  },
+  "homepage": "https://github.com/jimm/www-ellisislandband-net#readme",
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^7.3.0"
+  }
+}

@@ -3,6 +3,7 @@ _site
 .jekyll-cache
 schedule.json
 song-list.json
+js/dist
 
 # Added by Claude MPM /mpm-init
 $RECYCLE.BIN/
