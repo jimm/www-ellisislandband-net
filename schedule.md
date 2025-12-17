@@ -8,7 +8,6 @@ title: Schedule
 ## Upcoming
 
 <div id="schedule-list"></div>
-<script>insert_schedule();</script>
 
 ## Past Gigs {#past-gigs}
 

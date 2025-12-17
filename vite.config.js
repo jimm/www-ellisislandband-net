@@ -5,6 +5,10 @@ import { resolve } from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  define: {
+    // Define process.env for browser compatibility
+    'process.env.NODE_ENV': JSON.stringify('production')
+  },
   build: {
     // Output to js/dist directory so Jekyll can include it
     outDir: 'js/dist',
@@ -16,13 +20,9 @@ export default defineConfig({
       fileName: 'schedule.bundle'
     },
     rollupOptions: {
-      // Externalize React to use CDN version
-      external: ['react', 'react-dom'],
       output: {
-        globals: {
-          react: 'React',
-          'react-dom': 'ReactDOM'
-        }
+        // Ensure bundle is self-contained
+        inlineDynamicImports: true
       }
     }
   }

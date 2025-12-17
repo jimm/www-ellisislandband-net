@@ -19,7 +19,7 @@ function ScheduleItem({ gig }) {
     return (
       <div className="row">
         <div className="column left">
-          <ScheduleDate date={gig.date_start} dateDisplay={gig.date_display} />
+          <ScheduleDate date={gig.date_start} date_display={gig.date_display} />
         </div>
         <div className="column middle">
           <ScheduleText gig={gig} nameClass={nameClass} />
@@ -35,7 +35,7 @@ function ScheduleItem({ gig }) {
   return (
     <div className="row">
       <div className="column left">
-        <ScheduleDate date={gig.date_start} dateDisplay={gig.date_display} />
+        <ScheduleDate date={gig.date_start} date_display={gig.date_display} />
       </div>
       <div className="column right">
         <ScheduleText gig={gig} nameClass={nameClass} />

@@ -8,11 +8,11 @@ import { htmlUnescape, getGoogleMapsUrl } from '../utils/scheduleHelpers.js';
  * @param {Object} props.gig - Gig object
  */
 function ScheduleInfo({ gig }) {
-  const { dateDisplay, venue, address, is_private_event } = gig;
+  const { date_display, venue, address, is_private_event } = gig;
 
   // Private events don't show venue/address info
   if (is_private_event) {
-    return <div className="schedule-info">{dateDisplay}</div>;
+    return <div className="schedule-info">{date_display}</div>;
   }
 
   const venueText = venue ? ` @ ${htmlUnescape(venue)}` : '';
@@ -20,7 +20,7 @@ function ScheduleInfo({ gig }) {
 
   return (
     <div className="schedule-info">
-      {dateDisplay}
+      {date_display}
       {venueText}
       {address && (
         <>
