@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import TestComponent from './components/TestComponent.jsx';
+import ScheduleApp from './components/ScheduleApp.jsx';
 
 // Wait for DOM to be ready
 if (document.readyState === 'loading') {
@@ -13,7 +13,7 @@ function initSchedule() {
   const container = document.getElementById('schedule-list');
   if (container) {
     const root = createRoot(container);
-    root.render(<TestComponent />);
+    root.render(<ScheduleApp />);
   } else {
     console.error('Schedule container element not found');
   }
