@@ -75,6 +75,140 @@ The schedule system is implemented as a React application:
 - Output: `js/dist/schedule.bundle.iife.js` (197 KB, 62 KB gzipped)
 - React bundled with production optimizations
 
+### React Development Guide
+
+**Important: Field Naming Convention**
+
+BandHelper API returns data in **snake_case** (e.g., `date_display`,
+`date_start`, `is_private_event`). Always use snake_case when accessing API
+data fields in components and destructuring props. Do NOT convert to
+camelCase.
+
+✅ Correct: `const { date_display, date_start } = gig;`
+❌ Wrong: `const { dateDisplay, dateStart } = gig;`
+
+**Development Workflow:**
+
+1. Start Jekyll dev server: `make server` (runs on localhost:4000)
+2. In separate terminal, start React watch: `npm run watch`
+3. Edit files in `src/schedule/`
+4. Vite automatically rebuilds bundle
+5. Refresh browser to see changes (Jekyll auto-regenerates)
+
+**Adding New Features:**
+
+To add a new feature to the schedule:
+
+1. **New component:** Create in `src/schedule/components/`
+2. **New utility:** Add to `src/schedule/utils/scheduleHelpers.js`
+3. **New constant:** Add to `src/schedule/utils/constants.js`
+4. **Rebuild:** `npm run build` (or use `npm run watch`)
+
+**Modifying Existing Components:**
+
+- Keep components small and focused (single responsibility)
+- Extract pure functions to `scheduleHelpers.js`
+- Use existing CSS classes (defined in site's main.css)
+- Test both 2-column and 3-column layouts if modifying layout logic
+
+**Integration with Legacy Code:**
+
+The React components integrate with existing vanilla JavaScript:
+
+- **Markdown rendering:** Uses `window.marked.parseInline()` from marked.js
+  CDN
+- **Image modal:** Calls `window.modal_image()` from `js/image_modal.js`
+- **CSS classes:** Uses existing schedule CSS classes (no React-specific
+  styles)
+
+These global functions must remain available for React components to work.
+
+**Data Flow:**
+
+```
+BandHelper API or schedule.json
+         ↓
+useScheduleData hook (fetches & processes)
+         ↓
+ScheduleApp (manages state)
+         ↓
+ScheduleList (maps array)
+         ↓
+ScheduleItem (layout logic)
+         ↓
+ScheduleDate, ScheduleInfo, ScheduleText, PosterImage
+```
+
+**Build Configuration (vite.config.js):**
+
+- Entry point: `src/schedule/index.jsx`
+- Output format: IIFE (Immediately Invoked Function Expression)
+- React bundled (not external)
+- `process.env.NODE_ENV` defined as 'production'
+- Output directory: `js/dist/`
+
+**Common Tasks:**
+
+*Add new gig field display:*
+1. Check field name in BandHelper API response (snake_case)
+2. Add constant to `constants.js` if needed
+3. Add helper function to `scheduleHelpers.js` if processing needed
+4. Update appropriate component to display field
+5. Rebuild with `npm run build`
+
+*Modify layout logic:*
+- Edit `ScheduleItem.jsx` (controls 2-column vs 3-column)
+- Uses `hasPoster()` helper to determine layout
+
+*Change data fetching:*
+- Edit `hooks/useScheduleData.js`
+- Currently tries local file first, then API
+- Returns `{ gigs, loading, error }`
+
+*Update styling:*
+- Modify existing CSS in site's main.css (not in React components)
+- React components use className to reference existing styles
+
+**Testing:**
+
+1. Run Jekyll server: `make server`
+2. Visit http://localhost:4000/schedule.html
+3. Check browser console for errors
+4. Test all gig types: full band, acoustic, private events
+5. Test with/without poster images
+6. Test loading state (throttle network)
+7. Test error state (break API URL in constants.js temporarily)
+
+**Troubleshooting:**
+
+*"React is not defined" error:*
+- Check Vite config has React bundled (not external)
+- Rebuild with `npm run build`
+
+*"process is not defined" error:*
+- Check Vite config has `define: { 'process.env.NODE_ENV': ... }`
+- Rebuild with `npm run build`
+
+*Changes not appearing:*
+- Ensure `npm run watch` is running OR run `npm run build`
+- Hard refresh browser (Cmd+Shift+R / Ctrl+F5)
+- Check Jekyll regenerated (look for "Regenerating" in Jekyll output)
+
+*Data not loading:*
+- Check browser Network tab for failed requests
+- Verify schedule.json exists OR BandHelper API is accessible
+- Check console for fetch errors from useScheduleData hook
+
+**Production Deployment:**
+
+The `make publish` command handles everything:
+1. Runs `npm run build` (creates optimized React bundle)
+2. Builds Jekyll site (copies bundle to `_site/js/dist/`)
+3. Uploads `_site/` to server via rsync
+
+The React bundle is automatically included in the Jekyll build output, so no
+special deployment steps are needed.
+
 ### Legacy JavaScript (js/ directory)
 
 - **`utils.js`** - Shared utilities (still used by other pages):
