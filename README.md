@@ -29,6 +29,12 @@ pages' header. Just before the site is pushed up to the server, all of the
 local Javascript files are concatenated into one and the HTML file's headers
 are modified to reference that one instead of the individual JS files.
 
+## Documentation
+
+The `docs/` directory contains planning and architecture documents for the
+project, including:
+- `REACT_MIGRATION_PLAN.md` - Detailed plan for migrating JavaScript to React
+
 ## Notes
 
 The schedule and song list are obtained via JSON feeds from our
