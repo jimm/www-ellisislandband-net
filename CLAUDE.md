@@ -67,19 +67,18 @@ Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignor
 
 **Deployment:** `make publish` runs `npm run build` + Jekyll build + rsync to server
 
-## Legacy JavaScript (js/)
+## External JavaScript
 
-- `utils.js` - html_unescape(), get_json_data() (minimal usage)
-- `all.js` - Concatenated production build
-- External: jQuery 3.6.4, marked.min.js
+- jQuery 3.6.4 (minimal/legacy usage)
+- marked.min.js (Markdown parsing in descriptions)
 
-Note: `schedule.js`, `song_list.js`, `image_modal.js`, and `park_city_gallery.js` replaced by React.
+Note: All custom JavaScript replaced by React.
 
 ## Build & Dependencies
 
 **Makefile:**
 - `make server` - Jekyll dev server
-- `make build` - npm build + concatenate legacy JS + Jekyll build
+- `make build` - npm build + Jekyll build
 - `make publish` - Build + rsync to server
 
 **Dependencies:**

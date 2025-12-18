@@ -2,9 +2,7 @@ SRC = _site/
 WEB_USER = jimm
 WEB_SERVER = jimm.opalstacked.com
 WEB_DIR = apps/ellis-island
-JS_FILES = $(shell ls js/*.js | grep -v all.js)
 JSON_FILES = song-list.json schedule.json
-ALL_JS = js/all.js
 TIMESTAMP_FILE = /tmp/band-site-timestamp.txt
 TIMESTAMP_SCRIPT = update-ellisislandrock-timestamp.sh
 FETCH_SCRIPT = fetch-ellisislandrock-json.sh
@@ -26,12 +24,10 @@ server:				## Run the Jekyl server
 	bundle exec jekyll server --livereload-ignore "scripts/*"
 
 .PHONY: build
-build:	$(ALL_JS)		## Build all.js, React bundle, and the HTML files
+build:				## Build React bundles and HTML files
 	npm run build
 	bundle exec jekyll build
 	cd _site && rm -rf $(JSON_FILES) Makefile .DS_Store .localized README.md scripts
-	find _site -name '*.html' -print0 | xargs -0 sed -i '' '/START DEVELOPMENT/,/END DEVELOPMENT/{//d;d;}'
-	find _site -name '*.html' -print0 | xargs -0 sed -i '' -e 's/<!-- ALL //' -e 's/ ALL -->//'
 
 .PHONY: refresh-feeds
 refresh-feeds:			## Refresh the site's JSON feed files
@@ -40,9 +36,6 @@ refresh-feeds:			## Refresh the site's JSON feed files
 .PHONY: refresh-local-feeds
 refresh-local-feeds:		## Refresh the local JSON feed files
 	scripts/$(FETCH_SCRIPT) .
-
-$(ALL_JS): $(JS_FILES)		## Build all.js from the other .js files
-	cat $^ > $@
 
 .PHONY: help
 help: ## Show this help message
