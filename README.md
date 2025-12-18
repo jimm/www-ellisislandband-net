@@ -89,8 +89,10 @@ according to the author.
 
 ### Song List
 
-The song list page uses vanilla JavaScript and also fetches data from
-BandHelper via the same cron job.
+The song list page is also built with React components (in `src/song-list/`).
+It fetches data from BandHelper via the same cron job. Features include
+sortable columns (by song name or artist), filtering of acoustic-only songs,
+and automatic removal of leading articles for proper alphabetization.
 
 Images have often been reduced manually from their original sizes to a max
 height of 800 to save bandwidth.

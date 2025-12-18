@@ -12,17 +12,15 @@ export default defineConfig({
   build: {
     // Output to js/dist directory so Jekyll can include it
     outDir: 'js/dist',
-    // Generate library mode output
-    lib: {
-      entry: resolve(__dirname, 'src/schedule/index.jsx'),
-      name: 'ScheduleApp',
-      formats: ['iife'], // Immediately Invoked Function Expression for browser
-      fileName: 'schedule.bundle'
-    },
     rollupOptions: {
+      input: {
+        schedule: resolve(__dirname, 'src/schedule/index.jsx'),
+        'song-list': resolve(__dirname, 'src/song-list/index.jsx')
+      },
       output: {
-        // Ensure bundle is self-contained
-        inlineDynamicImports: true
+        // Use ES modules format (supported by all modern browsers)
+        format: 'es',
+        entryFileNames: '[name].bundle.js'
       }
     }
   }

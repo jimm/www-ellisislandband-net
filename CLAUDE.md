@@ -71,9 +71,40 @@ The schedule system is implemented as a React application:
 - Loading and error states
 
 **Build:**
-- Built with Vite as IIFE bundle
-- Output: `js/dist/schedule.bundle.iife.js` (197 KB, 62 KB gzipped)
-- React bundled with production optimizations
+- Built with Vite as ES module bundle
+- Output: `js/dist/schedule.bundle.js` (4.44 KB)
+- Shared React code: `js/dist/assets/client-*.js` (~192 KB, 60 KB gzipped)
+
+### React Components (src/song-list/)
+
+The song list system is implemented as a React application:
+
+**Component Structure:**
+- `SongListApp.jsx` - Main container with data fetching and state management
+- `SongTable.jsx` - Table with sorting and acoustic filtering
+- `SongRow.jsx` - Individual song row with acoustic notation
+
+**Utilities:**
+- `hooks/useSongListData.js` - Custom hook for data fetching with fallback
+- `utils/constants.js` - Constants (URLs, tags, sort options)
+- `utils/songHelpers.js` - Pure functions (normalization, sorting, filtering)
+
+**Features:**
+- Fetches from BandHelper smart list feed (bandhelper.com)
+- Falls back to local `song-list.json` file (updated by cron job)
+- Filters out "Learning" songs automatically
+- Sortable by song name or artist (click column headers)
+- Normalizes sort strings (removes leading "A", "An", "The")
+- Moves trailing ", The" to beginning of song names
+- Toggle to show/hide acoustic-only songs
+- Row numbering that adjusts with filtering
+- Acoustic songs marked with "(Acoustic Only)"
+- Loading and error states
+
+**Build:**
+- Built with Vite as ES module bundle
+- Output: `js/dist/song-list.bundle.js` (3.26 KB)
+- Shares React code with schedule bundle
 
 ### React Development Guide
 
@@ -91,17 +122,18 @@ camelCase.
 
 1. Start Jekyll dev server: `make server` (runs on localhost:4000)
 2. In separate terminal, start React watch: `npm run watch`
-3. Edit files in `src/schedule/`
-4. Vite automatically rebuilds bundle
+3. Edit files in `src/schedule/` or `src/song-list/`
+4. Vite automatically rebuilds both bundles
 5. Refresh browser to see changes (Jekyll auto-regenerates)
 
 **Adding New Features:**
 
-To add a new feature to the schedule:
+To add a new feature to the schedule or song list:
 
-1. **New component:** Create in `src/schedule/components/`
-2. **New utility:** Add to `src/schedule/utils/scheduleHelpers.js`
-3. **New constant:** Add to `src/schedule/utils/constants.js`
+1. **New component:** Create in `src/schedule/components/` or
+   `src/song-list/components/`
+2. **New utility:** Add to the appropriate `utils/[name]Helpers.js`
+3. **New constant:** Add to `utils/constants.js`
 4. **Rebuild:** `npm run build` (or use `npm run watch`)
 
 **Modifying Existing Components:**
@@ -141,9 +173,11 @@ ScheduleDate, ScheduleInfo, ScheduleText, PosterImage
 
 **Build Configuration (vite.config.js):**
 
-- Entry point: `src/schedule/index.jsx`
-- Output format: IIFE (Immediately Invoked Function Expression)
-- React bundled (not external)
+- Entry points:
+  - `src/schedule/index.jsx` → `schedule.bundle.js`
+  - `src/song-list/index.jsx` → `song-list.bundle.js`
+- Output format: ES modules (type="module")
+- React bundled (shared across both apps)
 - `process.env.NODE_ENV` defined as 'production'
 - Output directory: `js/dist/`
 
@@ -171,6 +205,7 @@ ScheduleDate, ScheduleInfo, ScheduleText, PosterImage
 
 **Testing:**
 
+For schedule page:
 1. Run Jekyll server: `make server`
 2. Visit http://localhost:4000/schedule.html
 3. Check browser console for errors
@@ -178,6 +213,13 @@ ScheduleDate, ScheduleInfo, ScheduleText, PosterImage
 5. Test with/without poster images
 6. Test loading state (throttle network)
 7. Test error state (break API URL in constants.js temporarily)
+
+For song list page:
+1. Visit http://localhost:4000/song-list.html
+2. Test sorting by clicking "Song" and "Artist" headers
+3. Toggle "Include Acoustic-Only Songs" checkbox
+4. Verify row numbers adjust with filtering
+5. Verify acoustic songs show "(Acoustic Only)" suffix
 
 **Troubleshooting:**
 
@@ -202,26 +244,27 @@ ScheduleDate, ScheduleInfo, ScheduleText, PosterImage
 **Production Deployment:**
 
 The `make publish` command handles everything:
-1. Runs `npm run build` (creates optimized React bundle)
-2. Builds Jekyll site (copies bundle to `_site/js/dist/`)
+1. Runs `npm run build` (creates optimized React bundles for schedule and
+   song list)
+2. Builds Jekyll site (copies bundles to `_site/js/dist/`)
 3. Uploads `_site/` to server via rsync
 
-The React bundle is automatically included in the Jekyll build output, so no
-special deployment steps are needed.
+Both React bundles are automatically included in the Jekyll build output, so
+no special deployment steps are needed.
 
 ### Legacy JavaScript (js/ directory)
 
-- **`utils.js`** - Shared utilities (still used by other pages):
+- **`utils.js`** - Shared utilities (still used by gallery pages):
   - `html_unescape()` - Parses HTML entities from JSON data
   - `get_json_data()` - Fetches JSON from local file or remote API
 
 - **`image_modal.js`** - Modal functionality for viewing images full-screen
 
-- **`song_list.js`** - Handles song list display functionality
-
 - **`park_city_gallery.js`** - Gallery-specific functionality
 
-- **`all.js`** - Concatenated version of all JS files (for production)
+- **`all.js`** - Concatenated version of legacy JS files (for production)
+
+Note: `schedule.js` and `song_list.js` have been replaced by React components
 
 ### External Dependencies (in head.html)
 - jQuery 3.6.4 - Used by legacy scripts
