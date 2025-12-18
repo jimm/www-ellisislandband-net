@@ -16,7 +16,9 @@ export default defineConfig({
       input: {
         schedule: resolve(__dirname, 'src/schedule/index.jsx'),
         'song-list': resolve(__dirname, 'src/song-list/index.jsx'),
-        'image-modal': resolve(__dirname, 'src/shared/index.jsx')
+        'image-modal': resolve(__dirname, 'src/shared/index.jsx'),
+        'park-city-gallery': resolve(__dirname, 'src/gallery/park-city-index.jsx'),
+        'random-index-image': resolve(__dirname, 'src/gallery/random-index.jsx')
       },
       output: {
         // Use ES modules format (supported by all modern browsers)

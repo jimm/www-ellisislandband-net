@@ -68,9 +68,7 @@ See even more videos on our [Youtube channel](https://www.youtube.com/@ellisisla
 
 ### Photos
 
-<table id="park-city-images" width="100%">
-</table>
-<script>insert_park_city_images();</script>
+<div id="park-city-images-root"></div>
 
 <br/><br/>
 

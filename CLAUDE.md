@@ -14,6 +14,7 @@ Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignor
 ### Structure (src/)
 - `schedule/` - Schedule page components (ScheduleApp → ScheduleList → ScheduleItem → Date/Info/Text/PosterImage)
 - `song-list/` - Song list components (SongListApp → SongTable → SongRow)
+- `gallery/` - Gallery components (ParkCityGallery, RandomIndexImage)
 - `shared/` - Common utilities and components
   - `components/ImageModal.jsx` - Full-screen image modal (replaces js/image_modal.js)
   - `hooks/useDataFetcher.js` - Generic fetch hook (local file → API fallback)
@@ -35,7 +36,7 @@ Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignor
 - Uses existing CSS classes (no React-specific styles)
 
 **Build (Vite):**
-- Output: `js/dist/schedule.bundle.js` (3.93 KB), `song-list.bundle.js` (2.78 KB), `image-modal.bundle.js` (0.95 KB), `assets/client-*.js` (~192 KB)
+- Output: `schedule.bundle.js` (3.93 KB), `song-list.bundle.js` (2.78 KB), `image-modal.bundle.js` (0.95 KB), `park-city-gallery.bundle.js` (0.79 KB), `random-index-image.bundle.js` (0.62 KB), `assets/client-*.js` (~192 KB)
 - Format: ES modules (type="module")
 
 ## Development Workflow
@@ -45,7 +46,7 @@ Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignor
 **Setup:**
 1. `make server` (Jekyll on localhost:4000)
 2. `npm run watch` (auto-rebuild React on file changes)
-3. Edit `src/schedule/`, `src/song-list/`, or `src/shared/`
+3. Edit `src/schedule/`, `src/song-list/`, `src/gallery/`, or `src/shared/`
 
 **Adding Features:**
 - New component → `src/{schedule|song-list}/components/`
@@ -54,7 +55,7 @@ Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignor
 - Check shared utilities before creating duplicates
 
 **Vite Config:**
-- Entries: `src/schedule/index.jsx`, `src/song-list/index.jsx`, `src/shared/index.jsx`
+- Entries: `src/schedule/index.jsx`, `src/song-list/index.jsx`, `src/shared/index.jsx`, `src/gallery/park-city-index.jsx`, `src/gallery/random-index.jsx`
 - Output: ES modules to `js/dist/`
 - `process.env.NODE_ENV` defined as 'production'
 
@@ -68,12 +69,11 @@ Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignor
 
 ## Legacy JavaScript (js/)
 
-- `utils.js` - html_unescape(), get_json_data() (used by gallery)
-- `park_city_gallery.js` - Gallery functionality
+- `utils.js` - html_unescape(), get_json_data() (minimal usage)
 - `all.js` - Concatenated production build
 - External: jQuery 3.6.4, marked.min.js
 
-Note: `schedule.js`, `song_list.js`, and `image_modal.js` replaced by React.
+Note: `schedule.js`, `song_list.js`, `image_modal.js`, and `park_city_gallery.js` replaced by React.
 
 ## Build & Dependencies
 

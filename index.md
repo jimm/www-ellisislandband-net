@@ -49,5 +49,9 @@ the [gallery](/gallery.html), and more.
       Photo &copy; 2024 by <a href="https://www.graypeakimages.com/">David Gray</a>
     </td>
   </tr>
+  <tr style="vertical-align: top;">
+    <td colspan="2" width="100%" style="align: top; text-align: center;">
+      <div id="random-index-image-root"></div>
+    </td>
+  </tr>
 </table>
-<script>insert_random_index_image();</script>

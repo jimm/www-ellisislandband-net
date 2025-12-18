@@ -19,7 +19,7 @@ make server     # Jekyll dev server (localhost:4000)
 npm run watch   # Auto-rebuild React (separate terminal)
 ```
 
-Edit files in `src/schedule/`, `src/song-list/`, or `src/shared/`.
+Edit files in `src/schedule/`, `src/song-list/`, `src/gallery/`, or `src/shared/`.
 
 **Publishing:**
 ```bash
