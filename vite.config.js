@@ -15,7 +15,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         schedule: resolve(__dirname, 'src/schedule/index.jsx'),
-        'song-list': resolve(__dirname, 'src/song-list/index.jsx')
+        'song-list': resolve(__dirname, 'src/song-list/index.jsx'),
+        'image-modal': resolve(__dirname, 'src/shared/index.jsx')
       },
       output: {
         // Use ES modules format (supported by all modern browsers)

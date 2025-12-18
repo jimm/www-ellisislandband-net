@@ -14,10 +14,12 @@ Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignor
 ### Structure (src/)
 - `schedule/` - Schedule page components (ScheduleApp → ScheduleList → ScheduleItem → Date/Info/Text/PosterImage)
 - `song-list/` - Song list components (SongListApp → SongTable → SongRow)
-- `shared/` - Common utilities
+- `shared/` - Common utilities and components
+  - `components/ImageModal.jsx` - Full-screen image modal (replaces js/image_modal.js)
   - `hooks/useDataFetcher.js` - Generic fetch hook (local file → API fallback)
   - `utils/dataFetcher.js` - fetchFromSource function
   - `utils/htmlHelpers.js` - HTML entity unescaping (with optional newline conversion)
+  - `index.jsx` - Entry point for shared components (mounts ImageModal)
 
 ### Key Details
 
@@ -29,11 +31,11 @@ Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignor
 
 **Integration with Legacy Code:**
 - Uses `window.marked.parseInline()` for Markdown in descriptions
-- Uses `window.modal_image()` from js/image_modal.js for poster viewing
+- Exposes `window.modal_image()` and `window.openImageModal()` from ImageModal component
 - Uses existing CSS classes (no React-specific styles)
 
 **Build (Vite):**
-- Output: `js/dist/schedule.bundle.js` (3.89 KB), `song-list.bundle.js` (2.74 KB), `assets/htmlHelpers-*.js` (~193 KB)
+- Output: `js/dist/schedule.bundle.js` (3.93 KB), `song-list.bundle.js` (2.78 KB), `image-modal.bundle.js` (0.95 KB), `assets/client-*.js` (~192 KB)
 - Format: ES modules (type="module")
 
 ## Development Workflow
@@ -52,7 +54,7 @@ Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignor
 - Check shared utilities before creating duplicates
 
 **Vite Config:**
-- Entries: `src/schedule/index.jsx`, `src/song-list/index.jsx`
+- Entries: `src/schedule/index.jsx`, `src/song-list/index.jsx`, `src/shared/index.jsx`
 - Output: ES modules to `js/dist/`
 - `process.env.NODE_ENV` defined as 'production'
 
@@ -67,12 +69,11 @@ Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignor
 ## Legacy JavaScript (js/)
 
 - `utils.js` - html_unescape(), get_json_data() (used by gallery)
-- `image_modal.js` - Full-screen image modal (used by React components)
 - `park_city_gallery.js` - Gallery functionality
 - `all.js` - Concatenated production build
 - External: jQuery 3.6.4, marked.min.js
 
-Note: `schedule.js` and `song_list.js` replaced by React.
+Note: `schedule.js`, `song_list.js`, and `image_modal.js` replaced by React.
 
 ## Build & Dependencies
 
