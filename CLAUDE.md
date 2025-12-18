@@ -50,7 +50,7 @@ The schedule system is implemented as a React application:
 - `PosterImage.jsx` - Poster display with modal integration
 
 **Utilities:**
-- `hooks/useScheduleData.js` - Custom hook for data fetching with fallback
+- `hooks/useScheduleData.js` - Custom hook using shared data fetching logic
 - `utils/constants.js` - All constants (months, categories, field mappings)
 - `utils/scheduleHelpers.js` - Pure functions for data processing
 
@@ -72,8 +72,8 @@ The schedule system is implemented as a React application:
 
 **Build:**
 - Built with Vite as ES module bundle
-- Output: `js/dist/schedule.bundle.js` (4.44 KB)
-- Shared React code: `js/dist/assets/client-*.js` (~192 KB, 60 KB gzipped)
+- Output: `js/dist/schedule.bundle.js` (3.89 KB)
+- Shared React code: `js/dist/assets/htmlHelpers-*.js` (~193 KB, 60 KB gzipped)
 
 ### React Components (src/song-list/)
 
@@ -85,7 +85,7 @@ The song list system is implemented as a React application:
 - `SongRow.jsx` - Individual song row with acoustic notation
 
 **Utilities:**
-- `hooks/useSongListData.js` - Custom hook for data fetching with fallback
+- `hooks/useSongListData.js` - Custom hook using shared data fetching logic
 - `utils/constants.js` - Constants (URLs, tags, sort options)
 - `utils/songHelpers.js` - Pure functions (normalization, sorting, filtering)
 
@@ -103,8 +103,21 @@ The song list system is implemented as a React application:
 
 **Build:**
 - Built with Vite as ES module bundle
-- Output: `js/dist/song-list.bundle.js` (3.26 KB)
+- Output: `js/dist/song-list.bundle.js` (2.74 KB)
 - Shares React code with schedule bundle
+
+### Shared React Utilities (src/shared/)
+
+Common code shared between schedule and song-list applications:
+
+**Hooks:**
+- `hooks/useDataFetcher.js` - Generic data fetching hook with local file →
+  API fallback pattern. Used by both useScheduleData and useSongListData.
+
+**Utilities:**
+- `utils/dataFetcher.js` - Common fetchFromSource function for JSON data
+- `utils/htmlHelpers.js` - HTML entity unescaping with optional newline
+  conversion. Used throughout both apps for processing BandHelper data.
 
 ### React Development Guide
 
@@ -133,8 +146,17 @@ To add a new feature to the schedule or song list:
 1. **New component:** Create in `src/schedule/components/` or
    `src/song-list/components/`
 2. **New utility:** Add to the appropriate `utils/[name]Helpers.js`
-3. **New constant:** Add to `utils/constants.js`
-4. **Rebuild:** `npm run build` (or use `npm run watch`)
+3. **Shared utility:** If the utility would benefit both apps, add to
+   `src/shared/utils/`
+4. **New constant:** Add to `utils/constants.js`
+5. **Rebuild:** `npm run build` (or use `npm run watch`)
+
+**Using Shared Utilities:**
+
+When both schedule and song-list need the same functionality:
+- Import from `src/shared/utils/` or `src/shared/hooks/`
+- Example: `import { htmlUnescape } from '../../shared/utils/htmlHelpers.js'`
+- Don't create duplicate functions - check shared utilities first
 
 **Modifying Existing Components:**
 

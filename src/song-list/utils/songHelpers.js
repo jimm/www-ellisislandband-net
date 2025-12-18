@@ -1,4 +1,5 @@
 import { TAG_LEARNING, TAG_ACOUSTIC } from './constants.js';
+import { htmlUnescape } from '../../shared/utils/htmlHelpers.js';
 
 /**
  * Normalizes a string for sorting by removing leading articles
@@ -16,16 +17,6 @@ export function normalizeSortString(str) {
   }
 
   return upperStr;
-}
-
-/**
- * Unescapes HTML entities from BandHelper JSON data
- * @param {string} input - HTML-encoded string
- * @returns {string} Decoded string
- */
-export function htmlUnescape(input) {
-  const doc = new DOMParser().parseFromString(input, "text/html");
-  return doc.documentElement.textContent;
 }
 
 /**

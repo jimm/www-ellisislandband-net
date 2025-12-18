@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useCallback } from 'react';
+import { useDataFetcher } from '../../shared/hooks/useDataFetcher.js';
 import { SONG_LIST_FILE, SONG_LIST_JSON_URL } from '../utils/constants.js';
 import { processSongListData } from '../utils/songHelpers.js';
 
@@ -9,63 +10,14 @@ import { processSongListData } from '../utils/songHelpers.js';
  * @returns {Object} { songs, loading, error }
  */
 export function useSongListData() {
-  const [songs, setSongs] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  // Memoize the processor function to prevent unnecessary re-fetches
+  const processData = useCallback((rawData) => processSongListData(rawData), []);
 
-  useEffect(() => {
-    let isMounted = true;
-
-    async function fetchSongListData() {
-      try {
-        // Try local file first
-        const data = await fetchFromSource(SONG_LIST_FILE);
-        if (isMounted) {
-          setSongs(processSongListData(data));
-          setLoading(false);
-        }
-      } catch (fileError) {
-        console.warn('Failed to fetch from local file, trying API:', fileError);
-
-        try {
-          // Fallback to API
-          const data = await fetchFromSource(SONG_LIST_JSON_URL);
-          if (isMounted) {
-            setSongs(processSongListData(data));
-            setLoading(false);
-          }
-        } catch (apiError) {
-          console.error('Failed to fetch song list from both sources:', apiError);
-          if (isMounted) {
-            setError(apiError);
-            setLoading(false);
-          }
-        }
-      }
-    }
-
-    fetchSongListData();
-
-    return () => {
-      isMounted = false;
-    };
-  }, []);
+  const { data: songs, loading, error } = useDataFetcher(
+    SONG_LIST_FILE,
+    SONG_LIST_JSON_URL,
+    processData
+  );
 
   return { songs, loading, error };
-}
-
-/**
- * Fetch JSON data from a source URL
- * @param {string} url - URL to fetch from
- * @returns {Promise<Array>} Song list data array
- */
-async function fetchFromSource(url) {
-  const response = await fetch(url);
-
-  if (!response.ok) {
-    throw new Error(`HTTP error! status: ${response.status}`);
-  }
-
-  const data = await response.json();
-  return data;
 }

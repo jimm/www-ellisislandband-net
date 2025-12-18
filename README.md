@@ -47,15 +47,15 @@ The site will be available at [http://localhost:4000/](http://localhost:4000/).
 
 ### React Development
 
-The schedule page uses React components. When developing React features, run
-the build in watch mode in a separate terminal:
+The schedule and song-list pages use React components. When developing React
+features, run the build in watch mode in a separate terminal:
 
 ```bash
 npm run watch
 ```
 
-This rebuilds the React bundle automatically when you modify files in
-`src/schedule/`.
+This rebuilds both React bundles automatically when you modify files in
+`src/schedule/`, `src/song-list/`, or `src/shared/`.
 
 ### How It Works
 
@@ -69,6 +69,9 @@ and the HTML headers are modified to reference the concatenated version.
 The `docs/` directory contains planning and architecture documents for the
 project, including:
 - `REACT_MIGRATION_PLAN.md` - Detailed plan for migrating JavaScript to React
+
+For detailed React component architecture and development guidance, see
+`CLAUDE.md`.
 
 ## Notes
 
@@ -86,6 +89,9 @@ directory on the server. Here's the crontab entry:
 The React components use the marked.js library to parse Markdown in the gig
 description field. BandHelper wasn't designed to handle HTML in custom fields
 according to the author.
+
+Both schedule and song-list apps share common utilities in `src/shared/`
+including data fetching hooks and HTML unescaping functions.
 
 ### Song List
 

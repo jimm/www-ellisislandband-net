@@ -1,15 +1,5 @@
 import { MONTHS, CATEGORY_FULL_BAND, CATEGORY_ACOUSTIC, PRIVATE_EVENT_NAME, CUSTOM_FIELDS } from './constants.js';
-
-/**
- * Unescapes HTML entities from BandHelper JSON data
- * @param {string} input - HTML-encoded string
- * @returns {string} Decoded string with double newlines converted to breaks
- */
-export function htmlUnescape(input) {
-  const doc = new DOMParser().parseFromString(input, "text/html");
-  const text = doc.documentElement.textContent;
-  return text.replaceAll("\n\n", "<br/><br/>");
-}
+import { htmlUnescape } from '../../shared/utils/htmlHelpers.js';
 
 /**
  * Parses date parts from ISO date string

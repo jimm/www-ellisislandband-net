@@ -1,5 +1,5 @@
 import React from 'react';
-import { htmlUnescape } from '../utils/scheduleHelpers.js';
+import { htmlUnescape } from '../../shared/utils/htmlHelpers.js';
 import { ACOUSTIC_NOTES, CUSTOM_FIELDS } from '../utils/constants.js';
 import ScheduleInfo from './ScheduleInfo.jsx';
 
@@ -15,9 +15,10 @@ function ScheduleText({ gig, nameClass }) {
   const notes = gig.is_acoustic ? ACOUSTIC_NOTES : '';
 
   // Private events don't show description
+  // Use convertNewlines: true for descriptions to convert double newlines to <br/> tags
   const description = gig.is_private_event
     ? ''
-    : htmlUnescape(gig[CUSTOM_FIELDS.DESCRIPTION] || '');
+    : htmlUnescape(gig[CUSTOM_FIELDS.DESCRIPTION] || '', true);
 
   // Use marked.js to parse Markdown if available
   const descriptionHtml = window.marked

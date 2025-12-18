@@ -1,5 +1,6 @@
 import React from 'react';
-import { htmlUnescape, getGoogleMapsUrl } from '../utils/scheduleHelpers.js';
+import { getGoogleMapsUrl } from '../utils/scheduleHelpers.js';
+import { htmlUnescape } from '../../shared/utils/htmlHelpers.js';
 
 /**
  * Displays venue and address information for a gig
