@@ -1,342 +1,88 @@
 # Ellis Island Band Website
 
-This is a Jekyll project that generates the [Ellisi Island
-Band](https://ellisislandrock.com/) website. Jekyll generates an HTML site
-from Markdown files. The generated HTML is in `_site` so you can ignore
-those files.
+Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignore it).
 
 ## Site Structure
 
-### Configuration
-- `_config.yml` - Jekyll configuration with site metadata (title, email,
-  social media usernames)
-- Uses kramdown for Markdown processing
-- Plugins: jekyll-sitemap
+- `_config.yml` - Jekyll config, kramdown processor, jekyll-sitemap plugin
+- `_layouts/` - default.html (with image modal), page.html, post.html
+- `_includes/` - head.html, header.html, footer.html, social links, content helpers
+- Root `.md` files - Pages (index, about, schedule, song-list, gallery, etc.)
 
-### Layouts (_layouts/)
-- `default.html` - Base layout with modal for image viewing
-- `page.html` - Page layout
-- `post.html` - Blog post layout
+## React Architecture
 
-### Includes (_includes/)
-- `head.html` - HTML head with meta tags, CSS, and script includes
-- `header.html` - Site header/navigation
-- `footer.html` - Site footer
-- Social media link components (bluesky_link.html, facebook_link.html, etc.)
-- Content helpers (pic.html, video_tag.html, yt_vid.html)
+### Structure (src/)
+- `schedule/` - Schedule page components (ScheduleApp → ScheduleList → ScheduleItem → Date/Info/Text/PosterImage)
+- `song-list/` - Song list components (SongListApp → SongTable → SongRow)
+- `shared/` - Common utilities
+  - `hooks/useDataFetcher.js` - Generic fetch hook (local file → API fallback)
+  - `utils/dataFetcher.js` - fetchFromSource function
+  - `utils/htmlHelpers.js` - HTML entity unescaping (with optional newline conversion)
 
-### Pages (Markdown files in root)
-- `index.md` - Home page
-- `about.md` - Band information
-- `schedule.md` - Upcoming gigs (uses React/JS to load dynamic content)
-- `song-list.md` - Band's song repertoire
-- `gallery.md` - Photo gallery
-- `stage-plot.md` - Technical stage setup
-- `contact.md` - Contact information
+### Key Details
 
-## JavaScript Architecture
-
-### React Components (src/schedule/)
-
-The schedule system is implemented as a React application:
-
-**Component Structure:**
-- `ScheduleApp.jsx` - Main container with data fetching and state management
-- `ScheduleList.jsx` - List wrapper for all gig items
-- `ScheduleItem.jsx` - Individual gig display with layout logic
-- `ScheduleDate.jsx` - Date display (month/day/day-name)
-- `ScheduleInfo.jsx` - Venue and address with Google Maps links
-- `ScheduleText.jsx` - Gig name, description, and notes
-- `PosterImage.jsx` - Poster display with modal integration
-
-**Utilities:**
-- `hooks/useScheduleData.js` - Custom hook using shared data fetching logic
-- `utils/constants.js` - All constants (months, categories, field mappings)
-- `utils/scheduleHelpers.js` - Pure functions for data processing
-
-**Features:**
-- Fetches from BandHelper calendar feed (bandhelper.com)
-- Falls back to local `schedule.json` file (updated by cron job)
-- Filters by category: Full Band Gig, Acoustic Gig, or Private Event
-- Two responsive layouts:
-  - 3-column (date | info | poster) when poster exists
-  - 2-column (date | info) when no poster
-- Custom fields from BandHelper:
-  - `custom_cC99h9` - Gig description (Markdown)
-  - `custom_CCMx5n` - Poster image name/URL
-  - `custom_Kz3bz0` - Poster alt text
-  - `custom_7CpO7C` - Display as private flag
-- Uses marked.js to parse Markdown in descriptions
-- Integrates with existing modal system for poster image viewing
-- Loading and error states
-
-**Build:**
-- Built with Vite as ES module bundle
-- Output: `js/dist/schedule.bundle.js` (3.89 KB)
-- Shared React code: `js/dist/assets/htmlHelpers-*.js` (~193 KB, 60 KB gzipped)
-
-### React Components (src/song-list/)
-
-The song list system is implemented as a React application:
-
-**Component Structure:**
-- `SongListApp.jsx` - Main container with data fetching and state management
-- `SongTable.jsx` - Table with sorting and acoustic filtering
-- `SongRow.jsx` - Individual song row with acoustic notation
-
-**Utilities:**
-- `hooks/useSongListData.js` - Custom hook using shared data fetching logic
-- `utils/constants.js` - Constants (URLs, tags, sort options)
-- `utils/songHelpers.js` - Pure functions (normalization, sorting, filtering)
-
-**Features:**
-- Fetches from BandHelper smart list feed (bandhelper.com)
-- Falls back to local `song-list.json` file (updated by cron job)
-- Filters out "Learning" songs automatically
-- Sortable by song name or artist (click column headers)
-- Normalizes sort strings (removes leading "A", "An", "The")
-- Moves trailing ", The" to beginning of song names
-- Toggle to show/hide acoustic-only songs
-- Row numbering that adjusts with filtering
-- Acoustic songs marked with "(Acoustic Only)"
-- Loading and error states
-
-**Build:**
-- Built with Vite as ES module bundle
-- Output: `js/dist/song-list.bundle.js` (2.74 KB)
-- Shares React code with schedule bundle
-
-### Shared React Utilities (src/shared/)
-
-Common code shared between schedule and song-list applications:
-
-**Hooks:**
-- `hooks/useDataFetcher.js` - Generic data fetching hook with local file →
-  API fallback pattern. Used by both useScheduleData and useSongListData.
-
-**Utilities:**
-- `utils/dataFetcher.js` - Common fetchFromSource function for JSON data
-- `utils/htmlHelpers.js` - HTML entity unescaping with optional newline
-  conversion. Used throughout both apps for processing BandHelper data.
-
-### React Development Guide
-
-**Important: Field Naming Convention**
-
-BandHelper API returns data in **snake_case** (e.g., `date_display`,
-`date_start`, `is_private_event`). Always use snake_case when accessing API
-data fields in components and destructuring props. Do NOT convert to
-camelCase.
-
-✅ Correct: `const { date_display, date_start } = gig;`
-❌ Wrong: `const { dateDisplay, dateStart } = gig;`
-
-**Development Workflow:**
-
-1. Start Jekyll dev server: `make server` (runs on localhost:4000)
-2. In separate terminal, start React watch: `npm run watch`
-3. Edit files in `src/schedule/` or `src/song-list/`
-4. Vite automatically rebuilds both bundles
-5. Refresh browser to see changes (Jekyll auto-regenerates)
-
-**Adding New Features:**
-
-To add a new feature to the schedule or song list:
-
-1. **New component:** Create in `src/schedule/components/` or
-   `src/song-list/components/`
-2. **New utility:** Add to the appropriate `utils/[name]Helpers.js`
-3. **Shared utility:** If the utility would benefit both apps, add to
-   `src/shared/utils/`
-4. **New constant:** Add to `utils/constants.js`
-5. **Rebuild:** `npm run build` (or use `npm run watch`)
-
-**Using Shared Utilities:**
-
-When both schedule and song-list need the same functionality:
-- Import from `src/shared/utils/` or `src/shared/hooks/`
-- Example: `import { htmlUnescape } from '../../shared/utils/htmlHelpers.js'`
-- Don't create duplicate functions - check shared utilities first
-
-**Modifying Existing Components:**
-
-- Keep components small and focused (single responsibility)
-- Extract pure functions to `scheduleHelpers.js`
-- Use existing CSS classes (defined in site's main.css)
-- Test both 2-column and 3-column layouts if modifying layout logic
+**BandHelper Integration:**
+- Schedule: Fetches calendar feed, filters by category (Full Band/Acoustic/Private Event)
+- Song list: Fetches smart list, filters out "Learning" songs, sortable columns
+- Both fall back to local JSON files (updated hourly by cron)
+- Custom fields: `custom_cC99h9` (description), `custom_CCMx5n` (poster URL), `custom_Kz3bz0` (poster alt), `custom_7CpO7C` (private flag)
 
 **Integration with Legacy Code:**
+- Uses `window.marked.parseInline()` for Markdown in descriptions
+- Uses `window.modal_image()` from js/image_modal.js for poster viewing
+- Uses existing CSS classes (no React-specific styles)
 
-The React components integrate with existing vanilla JavaScript:
+**Build (Vite):**
+- Output: `js/dist/schedule.bundle.js` (3.89 KB), `song-list.bundle.js` (2.74 KB), `assets/htmlHelpers-*.js` (~193 KB)
+- Format: ES modules (type="module")
 
-- **Markdown rendering:** Uses `window.marked.parseInline()` from marked.js
-  CDN
-- **Image modal:** Calls `window.modal_image()` from `js/image_modal.js`
-- **CSS classes:** Uses existing schedule CSS classes (no React-specific
-  styles)
+## Development Workflow
 
-These global functions must remain available for React components to work.
+**Critical: BandHelper uses snake_case** (`date_display`, `date_start`). Never convert to camelCase.
 
-**Data Flow:**
+**Setup:**
+1. `make server` (Jekyll on localhost:4000)
+2. `npm run watch` (auto-rebuild React on file changes)
+3. Edit `src/schedule/`, `src/song-list/`, or `src/shared/`
 
-```
-BandHelper API or schedule.json
-         ↓
-useScheduleData hook (fetches & processes)
-         ↓
-ScheduleApp (manages state)
-         ↓
-ScheduleList (maps array)
-         ↓
-ScheduleItem (layout logic)
-         ↓
-ScheduleDate, ScheduleInfo, ScheduleText, PosterImage
-```
+**Adding Features:**
+- New component → `src/{schedule|song-list}/components/`
+- App-specific utility → `utils/[name]Helpers.js`
+- Shared utility → `src/shared/utils/` or `src/shared/hooks/`
+- Check shared utilities before creating duplicates
 
-**Build Configuration (vite.config.js):**
-
-- Entry points:
-  - `src/schedule/index.jsx` → `schedule.bundle.js`
-  - `src/song-list/index.jsx` → `song-list.bundle.js`
-- Output format: ES modules (type="module")
-- React bundled (shared across both apps)
+**Vite Config:**
+- Entries: `src/schedule/index.jsx`, `src/song-list/index.jsx`
+- Output: ES modules to `js/dist/`
 - `process.env.NODE_ENV` defined as 'production'
-- Output directory: `js/dist/`
 
-**Common Tasks:**
+**Common Issues:**
+- "React is not defined" → Ensure Vite bundles React (not external), rebuild
+- "process is not defined" → Check Vite `define` config, rebuild
+- Changes not showing → Verify `npm run watch` running, hard refresh browser
+- Data not loading → Check Network tab, verify JSON file or API accessible
 
-*Add new gig field display:*
-1. Check field name in BandHelper API response (snake_case)
-2. Add constant to `constants.js` if needed
-3. Add helper function to `scheduleHelpers.js` if processing needed
-4. Update appropriate component to display field
-5. Rebuild with `npm run build`
+**Deployment:** `make publish` runs `npm run build` + Jekyll build + rsync to server
 
-*Modify layout logic:*
-- Edit `ScheduleItem.jsx` (controls 2-column vs 3-column)
-- Uses `hasPoster()` helper to determine layout
+## Legacy JavaScript (js/)
 
-*Change data fetching:*
-- Edit `hooks/useScheduleData.js`
-- Currently tries local file first, then API
-- Returns `{ gigs, loading, error }`
+- `utils.js` - html_unescape(), get_json_data() (used by gallery)
+- `image_modal.js` - Full-screen image modal (used by React components)
+- `park_city_gallery.js` - Gallery functionality
+- `all.js` - Concatenated production build
+- External: jQuery 3.6.4, marked.min.js
 
-*Update styling:*
-- Modify existing CSS in site's main.css (not in React components)
-- React components use className to reference existing styles
+Note: `schedule.js` and `song_list.js` replaced by React.
 
-**Testing:**
+## Build & Dependencies
 
-For schedule page:
-1. Run Jekyll server: `make server`
-2. Visit http://localhost:4000/schedule.html
-3. Check browser console for errors
-4. Test all gig types: full band, acoustic, private events
-5. Test with/without poster images
-6. Test loading state (throttle network)
-7. Test error state (break API URL in constants.js temporarily)
+**Makefile:**
+- `make server` - Jekyll dev server
+- `make build` - npm build + concatenate legacy JS + Jekyll build
+- `make publish` - Build + rsync to server
 
-For song list page:
-1. Visit http://localhost:4000/song-list.html
-2. Test sorting by clicking "Song" and "Artist" headers
-3. Toggle "Include Acoustic-Only Songs" checkbox
-4. Verify row numbers adjust with filtering
-5. Verify acoustic songs show "(Acoustic Only)" suffix
+**Dependencies:**
+- Ruby/bundler (Jekyll + plugins)
+- Node.js/npm (React, ReactDOM, Vite)
 
-**Troubleshooting:**
-
-*"React is not defined" error:*
-- Check Vite config has React bundled (not external)
-- Rebuild with `npm run build`
-
-*"process is not defined" error:*
-- Check Vite config has `define: { 'process.env.NODE_ENV': ... }`
-- Rebuild with `npm run build`
-
-*Changes not appearing:*
-- Ensure `npm run watch` is running OR run `npm run build`
-- Hard refresh browser (Cmd+Shift+R / Ctrl+F5)
-- Check Jekyll regenerated (look for "Regenerating" in Jekyll output)
-
-*Data not loading:*
-- Check browser Network tab for failed requests
-- Verify schedule.json exists OR BandHelper API is accessible
-- Check console for fetch errors from useScheduleData hook
-
-**Production Deployment:**
-
-The `make publish` command handles everything:
-1. Runs `npm run build` (creates optimized React bundles for schedule and
-   song list)
-2. Builds Jekyll site (copies bundles to `_site/js/dist/`)
-3. Uploads `_site/` to server via rsync
-
-Both React bundles are automatically included in the Jekyll build output, so
-no special deployment steps are needed.
-
-### Legacy JavaScript (js/ directory)
-
-- **`utils.js`** - Shared utilities (still used by gallery pages):
-  - `html_unescape()` - Parses HTML entities from JSON data
-  - `get_json_data()` - Fetches JSON from local file or remote API
-
-- **`image_modal.js`** - Modal functionality for viewing images full-screen
-
-- **`park_city_gallery.js`** - Gallery-specific functionality
-
-- **`all.js`** - Concatenated version of legacy JS files (for production)
-
-Note: `schedule.js` and `song_list.js` have been replaced by React components
-
-### External Dependencies (in head.html)
-- jQuery 3.6.4 - Used by legacy scripts
-- marked.min.js - Markdown parser for gig descriptions
-
-## Documentation
-
-The `docs/` directory contains planning and architecture documents for this
-project. All future planning documents and architectural decision records
-should be placed there.
-
-Current documents:
-- `docs/REACT_MIGRATION_PLAN.md` - Detailed plan for migrating
-  `js/schedule.js` to React components using a hybrid Jekyll + React approach
-
-## Build & Deployment
-
-The Makefile defines various tasks used to build and deploy the site.
-
-### Development Workflow
-
-**Running locally:**
-```bash
-make server  # Starts Jekyll dev server on localhost:4000
-```
-
-For React development, run the React build in watch mode in a separate
-terminal:
-```bash
-npm run watch  # Rebuilds React bundle on file changes
-```
-
-### Production Build
-
-The `make build` command:
-1. Builds React bundle with Vite (`npm run build`)
-2. Concatenates vanilla JS files into `all.js`
-3. Builds Jekyll site
-4. Cleans up generated files
-5. Switches from individual scripts to concatenated versions
-
-### Dependencies
-
-**Ruby/Jekyll:**
-- Ruby with bundler
-- Jekyll and plugins (see Gemfile)
-
-**Node.js/npm:**
-- Node.js (for npm)
-- React, ReactDOM
-- Vite build tool
-- Run `npm install` to install dependencies
-
+**Documentation:** `docs/` contains planning documents. See `REACT_MIGRATION_PLAN.md`.
