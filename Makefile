@@ -21,8 +21,9 @@ publish: build ## Build the site, upload it, modify timestamp, and refresh the f
 
 .PHONY: server
 server:				## Run the Jekyl server
-	npm run build
+	npm run watch &
 	bundle exec jekyll server --livereload-ignore "scripts/*"
+	pkill 'npm run watch'
 
 .PHONY: build
 build:				## Build React bundles and HTML files

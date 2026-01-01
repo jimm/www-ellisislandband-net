@@ -1,9 +1,12 @@
 # Ellis Island Band Website
 
-This repo contains the source code for https://ellisilandrock.com. It's
-built with [Jekyll](https://jekyllrb.com/).
+This repo contains the source code for
+[https://ellisislandrock.com](https://ellisislandrock.com). It's built with
+[Jekyll](https://jekyllrb.com/) and [React](https://react.dev/).
 
 ## Setup & Development
+
+See also [CLAUDE.md](CLAUDE.md).
 
 **Prerequisites:** Ruby/bundler, Node.js/npm, SSH (for publishing)
 
@@ -48,4 +51,4 @@ save bandwidth.
 
 (Optional: width, height, poster)
 
-**Note:** Repo named for former domain `ellisislandband.net`.
+**Note:** The repo is named for our former domain `ellisislandband.net`.
