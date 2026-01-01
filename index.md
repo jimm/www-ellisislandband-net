@@ -2,6 +2,17 @@
 layout: default
 ---
 
+Ellis Island is a five-member Fairfield, Connecticut-based rock band with
+an extensive [song list](/song-list.html) made up of some of the
+most iconic and impactful music from the '70s to today. Check out our
+[Youtube Channel](https://www.youtube.com/@ellisislandfairfieldct), where
+you can find our [latest full show video](https://youtu.be/mdLeSDI6Phs),
+a shorter [demo video](https://www.youtube.com/embed/MN8Sgid2x30), and more!
+
+You can use the links at the top of the page to learn more [about us](/about.html),
+check out our [schedule](/schedule.html), [contact](/contact.html) us, take a peek inside
+the [gallery](/gallery.html), and more.
+
 {% include video_tag.html src="images/porchfest_2024_bruce.mp4" poster="images/porchfest_2024_still.png" %}
 <div class="center">
 Ellis Island at Black Rock Porchfest, 2024
@@ -17,16 +28,12 @@ Ellis Island at Black Rock Porchfest, 2024
 
 <br/>
 
-Check out our
-[Youtube Channel](https://www.youtube.com/@ellisislandfairfieldct), where
-you can find our [latest full show video][https://youtu.be/mdLeSDI6Phs],
-a shorter [demo video](https://www.youtube.com/embed/MN8Sgid2x30), and more!
-
-You can use the links at the top of the page to learn more [about us](/about.html),
-check out our [schedule](/schedule.html), [contact](/contact.html) us, take a peek inside
-the [gallery](/gallery.html), and more.
-
 <table>
+  <tr style="vertical-align: top;">
+    <td colspan="2" width="100%" style="align: top; text-align: center;">
+      <div id="random-index-image-root"></div>
+    </td>
+  </tr>
   <tr style="vertical-align: top;">
     <td colspan="2" width="100%" style="align: top; text-align: center;">
       {% include pic.html src="fuv/band_5.jpg" alt="Ellis Island @ Factory Underground, May 2022" %}
@@ -47,11 +54,6 @@ the [gallery](/gallery.html), and more.
                  alt="The band in front of FTC, June 2024. (c) 2024, David Gray" %}
       <br/>
       Photo &copy; 2024 by <a href="https://www.graypeakimages.com/">David Gray</a>
-    </td>
-  </tr>
-  <tr style="vertical-align: top;">
-    <td colspan="2" width="100%" style="align: top; text-align: center;">
-      <div id="random-index-image-root"></div>
     </td>
   </tr>
 </table>

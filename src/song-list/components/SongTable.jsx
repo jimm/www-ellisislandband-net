@@ -56,10 +56,16 @@ function SongTable({ songs }) {
           <tr>
             <th>&nbsp;</th>
             <th className="sorter" onClick={handleSortByName}>
-              Song
+              <div style={{display: 'flex', justifyContent: 'space-between'}}>
+                <span>Song</span>
+                {sortBy === SORT_BY_NAME && <span>▲</span>}
+              </div>
             </th>
             <th className="sorter" onClick={handleSortByArtist}>
-              Artist
+              <div style={{display: 'flex', justifyContent: 'space-between'}}>
+                <span>Artist</span>
+                {sortBy === SORT_BY_ARTIST && <span>▲</span>}
+              </div>
             </th>
           </tr>
         </thead>
