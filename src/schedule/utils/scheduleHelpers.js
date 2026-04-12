@@ -81,7 +81,7 @@ export function processGig(gig) {
   // have the fields that are hidden by the "Hide Details" checkbox on
   // BandHelper.
   const is_private = gig.name === PRIVATE_EVENT_NAME || gig[CUSTOM_FIELDS.DESCRIPTION] === undefined;
-  // If it's a private gig, make sure the name says so.
+  // If it's a private gig, make sure the display name says so.
   const name = is_private ? PRIVATE_EVENT_NAME : gig.name;
   return {
     ...gig,
@@ -98,6 +98,6 @@ export function processGig(gig) {
  */
 export function processScheduleData(schedule) {
   return schedule
-    .map(processGig)
-    .filter(shouldDisplayGig);
+    .filter(shouldDisplayGig)
+    .map(processGig);
 }

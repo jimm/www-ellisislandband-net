@@ -25,10 +25,10 @@ Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignor
 ### Key Details
 
 **BandHelper Integration:**
-- Schedule: Fetches calendar feed, filters by category (Full Band/Acoustic/Private Event)
+- Schedule: Fetches calendar feed, marks gigs as private (either name == "Private Event" or some gig fields are not present)
 - Song list: Fetches smart list, filters out "Learning" songs, sortable columns
 - Both fall back to local JSON files (updated hourly by cron)
-- Custom fields: `custom_cC99h9` (description), `custom_CCMx5n` (poster URL), `custom_Kz3bz0` (poster alt), `custom_7CpO7C` (private flag)
+- Custom fields: `custom_cC99h9` (description), `custom_CCMx5n` (poster URL), `custom_Kz3bz0` (poster alt)
 
 **Integration with Legacy Code:**
 - Uses `window.marked.parseInline()` for Markdown in descriptions
@@ -36,7 +36,7 @@ Jekyll site for https://ellisislandrock.com. Generated HTML is in `_site` (ignor
 - Uses existing CSS classes (no React-specific styles)
 
 **Build (Vite):**
-- Output: `schedule.bundle.js` (3.93 KB), `song-list.bundle.js` (2.78 KB), `image-modal.bundle.js` (0.95 KB), `park-city-gallery.bundle.js` (0.79 KB), `random-index-image.bundle.js` (0.62 KB), `assets/client-*.js` (~192 KB)
+- Output: `schedule.bundle.js`, `song-list.bundle.js`, `image-modal.bundle.js`, `park-city-gallery.bundle.js`, `random-index-image.bundle.js`, `assets/client-*.js`
 - Format: ES modules (type="module")
 
 ## Development Workflow
