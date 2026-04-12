@@ -77,9 +77,16 @@ export function shouldDisplayGig(gig) {
  * @returns {Object} Processed gig with additional computed properties
  */
 export function processGig(gig) {
+  // A gig is private if its name is PRIVATE_EVENT_NAME or if it doesn't
+  // have the fields that are hidden by the "Hide Details" checkbox on
+  // BandHelper.
+  const is_private = gig.name === PRIVATE_EVENT_NAME || gig[CUSTOM_FIELDS.DESCRIPTION] === undefined;
+  // If it's a private gig, make sure the name says so.
+  const name = is_private ? PRIVATE_EVENT_NAME : gig.name;
   return {
     ...gig,
-    is_private_event: gig.name === PRIVATE_EVENT_NAME,
+    name: name,
+    is_private_event: is_private,
     is_acoustic: gig.category === CATEGORY_ACOUSTIC
   };
 }

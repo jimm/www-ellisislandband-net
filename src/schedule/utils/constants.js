@@ -22,5 +22,4 @@ export const CUSTOM_FIELDS = {
   DESCRIPTION: 'custom_cC99h9',    // Gig description (required, supports Markdown)
   POSTER_IMAGE: 'custom_CCMx5n',   // Poster image name or URL (optional)
   POSTER_ALT: 'custom_Kz3bz0',     // Poster alt text (optional)
-  DISPLAY_PRIVATE: 'custom_7CpO7C' // Display as private flag (optional, numeric)
 };
