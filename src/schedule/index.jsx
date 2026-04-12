@@ -14,8 +14,6 @@ function initSchedule() {
   if (container) {
     const root = createRoot(container);
     root.render(<ScheduleApp />);
-  } else {
-    console.error('Schedule container element not found');
   }
 }
 

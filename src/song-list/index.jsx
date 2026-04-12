@@ -14,8 +14,6 @@ function initSongList() {
   if (container) {
     const root = createRoot(container);
     root.render(<SongListApp />);
-  } else {
-    console.error('Song list container element not found');
   }
 }
 
