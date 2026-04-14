@@ -98,6 +98,6 @@ export function processGig(gig) {
  */
 export function processScheduleData(schedule) {
   return schedule
-    .filter(shouldDisplayGig)
-    .map(processGig);
+    .map(processGig)
+    .filter(shouldDisplayGig);
 }
