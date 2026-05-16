@@ -1,4 +1,4 @@
-import { TAG_LEARNING, TAG_ACOUSTIC } from './constants.js';
+import { TAG_LEARNING, TAG_ACOUSTIC, TAG_HIDE_ON_SITE } from './constants.js';
 import { htmlUnescape } from '../../shared/utils/htmlHelpers.js';
 
 /**
@@ -31,8 +31,7 @@ export function processSong(entry) {
 
   const tags = entry.tags ? entry.tags.split(", ") : [];
 
-  // Filter out learning songs
-  if (tags.includes(TAG_LEARNING)) {
+  if (tags.includes(TAG_LEARNING) || tags.includes(TAG_HIDE_ON_SITE)) {
     return null;
   }
 

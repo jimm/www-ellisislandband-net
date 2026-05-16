@@ -9,6 +9,7 @@ export const SORT_BY_ARTIST = 'artist';
 // Tags
 export const TAG_LEARNING = 'Learning';
 export const TAG_ACOUSTIC = 'Acoustic';
+export const TAG_HIDE_ON_SITE = 'Hide on site';
 
 // Display text
 export const ACOUSTIC_SUFFIX = ' (Acoustic Only)';
