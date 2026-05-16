@@ -54,7 +54,12 @@ function ImageModal() {
       <span className="close" onClick={handleClose}>
         &times;
       </span>
-      <img className="modal-content" src={imageSrc} alt={imageAlt} />
+      <img
+        className="modal-content"
+        src={imageSrc}
+        alt={imageAlt}
+        style={/\.svg$/i.test(imageSrc) ? { maxWidth: '800px', maxHeight: '800px' } : undefined}
+      />
       <div id="caption">{imageAlt}</div>
     </div>
   );
