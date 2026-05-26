@@ -13,6 +13,12 @@ You can use the links at the top of the page to learn more [about us](/about.htm
 check out our [schedule](/schedule.html), [contact](/contact.html) us, take a peek inside
 the [gallery](/gallery.html), and more.
 
+<div class="center">
+{% include pic.html src="2026-summer-poster.png" width="426"
+     alt="Summer 2026 schedule poster" trow=true caption=true %}
+</div>
+
+
 {% include video_tag.html src="images/porchfest_2024_bruce.mp4" poster="images/porchfest_2024_still.png" %}
 <div class="center">
 Ellis Island at Black Rock Porchfest, 2024
