@@ -4,6 +4,11 @@ This repo contains the source code for
 [https://ellisislandrock.com](https://ellisislandrock.com). It's built with
 [Jekyll](https://jekyllrb.com/) and [React](https://react.dev/).
 
+## Colors / CSS
+
+Main site color definitions are in [\_sass/\_vars.scss](_sass/_vars.scss).
+Header h1, h2, colors are set in [css/main.scss](css/main.scss).
+
 ## Setup & Development
 
 See also [CLAUDE.md](CLAUDE.md).

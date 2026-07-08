@@ -19,7 +19,8 @@ $spacing-unit:     30px;
 
 $header-text-color: #fdfdfd;
 $text-color:        white;
-$background-color:  color.adjust($logo-background-color, $lightness: -10%);
+$background-color:  $logo-background-color;
+$darker-background-color:  color.adjust($logo-background-color, $lightness: -5%);
 $odd-row-color:     #444;
 $brand-color:       #70c0ff;
 

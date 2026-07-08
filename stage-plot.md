@@ -24,9 +24,8 @@ If you have any questions you can contact us at the email address below.
   - Keys have a submixer that can send either XLR or 1/4" TS, and can send
     mono instead of stereo if required
 - Drum mics (your discretion: kick with front port and blanket inside,
-  snare, HH, 3 toms, 2 rotos, multiple cymbals)
-- 2 DIs for acoustic guitars (we can probably get away with 1 for most gigs,
-  2 is the exception)
+  snare, HH, 3 toms, multiple cymbals, sometimes 2 roto toms but usually not)
+- 1 DI for acoustic guitar
 - 5 monitor feeds: 4 monitor wedges + 1 IEM XLR monitor feed
   - 2 monitors in front (center and stage left for lead vocals and rhythm guitar)
     - stage left might have IEMs, so might require XLR instead of monitor wedge
