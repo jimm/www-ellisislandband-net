@@ -2,7 +2,25 @@
 
 This repo contains the source code for
 [https://ellisislandrock.com](https://ellisislandrock.com). It's built with
-[Jekyll](https://jekyllrb.com/) and [React](https://react.dev/).
+[Jekyll](https://jekyllrb.com/) and [React](https://react.dev/). The was
+repo is named when we had our old domain `ellisislandband.net`.
+
+## What Gets Displayed
+
+### Gigs
+
+Any gig in BandHelper that is in the Ellis Island project and has a category
+of either "Full Band Gig" or "Acoustic Gig" will show up on the site's
+schedule page. It must also have the options "Include in website widget" and
+"Confirmed" checked.
+
+### Songs
+
+Any song in BandHelper that is in the Ellis Island project, is Active, and
+does _not_ have the "Hide on site" label will show up on the site's song
+list page. The "Acoustic" label determines if it will be hidden by default
+and only shown if that page's "Include Acoustic-Only Songs" checkbox is
+checked.
 
 ## Colors / CSS
 
@@ -13,7 +31,7 @@ Header h1, h2, colors are set in [css/main.scss](css/main.scss).
 
 See also [CLAUDE.md](CLAUDE.md).
 
-**Prerequisites:** Ruby/bundler, Node.js/npm, SSH (for publishing)
+**Prerequisites:** Ruby and `bundler`, Node.js/`npm`, SSH (for publishing)
 
 **Install:**
 ```bash
@@ -27,7 +45,8 @@ make server     # Jekyll dev server (localhost:4000)
 npm run watch   # Auto-rebuild React (separate terminal)
 ```
 
-Edit files in `src/schedule/`, `src/song-list/`, `src/gallery/`, or `src/shared/`.
+Edit files in `src/schedule/`, `src/song-list/`, `src/gallery/`, or
+`src/shared/`.
 
 **Publishing:**
 ```bash
@@ -42,6 +61,7 @@ make publish    # Build React + Jekyll, rsync to server
 ## Notes
 
 **Schedule & Song List:**
+
 React apps in `src/schedule/` and `src/song-list/` fetch from
 [BandHelper](https://www.bandhelper.com/) with local JSON fallback. Data
 refreshed hourly via cron (`15 * * * * $HOME/bin/fetch-ellisislandrock-json.sh`).
@@ -51,9 +71,8 @@ Shared utilities in `src/shared/`.
 save bandwidth.
 
 **Embedding Videos:**
+
 - YouTube: `{% include yt_vid.html id="Uf8QA3BE5fU" %}`
 - Other: `{% include video_tag.html src="images/video.mp4" %}`
 
 (Optional: width, height, poster)
-
-**Note:** The repo is named for our former domain `ellisislandband.net`.
