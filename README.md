@@ -17,10 +17,10 @@ schedule page. It must also have the options "Include in website widget" and
 ### Songs
 
 Any song in BandHelper that is in the Ellis Island project, is Active, and
-does _not_ have the "Hide on site" label will show up on the site's song
-list page. The "Acoustic" label determines if it will be hidden by default
-and only shown if that page's "Include Acoustic-Only Songs" checkbox is
-checked.
+does _not_ have either of the "Learning" or "Hide on site" labels will show
+up on the site's song list page. The "Acoustic" label determines if it will
+be hidden by default and only shown if that page's "Include Acoustic-Only
+Songs" checkbox is checked.
 
 ## Colors / CSS
 
