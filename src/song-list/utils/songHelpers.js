@@ -1,4 +1,4 @@
-import { TAG_LEARNING, TAG_ACOUSTIC, TAG_HIDE_ON_SITE } from './constants.js';
+import { TAG_LEARNING, TAG_ACOUSTIC, TAG_HIDE_ON_SITE, SORT_ASC, SORT_DESC } from './constants.js';
 import { htmlUnescape } from '../../shared/utils/htmlHelpers.js';
 
 /**
@@ -65,21 +65,24 @@ export function processSongListData(songList) {
  * Sorts songs by a given field
  * @param {Array} songs - Array of song objects
  * @param {string} sortBy - Field to sort by ('name' or 'artist')
+ * @param {string} sortDir - Sort direction ('asc' or 'desc')
  * @returns {Array} Sorted array of songs
  */
-export function sortSongs(songs, sortBy) {
+export function sortSongs(songs, sortBy, sortDir = SORT_ASC) {
   // Create normalized lookup for sorting
   const normalized = {};
   songs.forEach(song => {
     normalized[song[sortBy]] = normalizeSortString(song[sortBy]);
   });
 
+  const direction = sortDir === SORT_DESC ? -1 : 1;
+
   return [...songs].sort((a, b) => {
     const aStr = normalized[a[sortBy]];
     const bStr = normalized[b[sortBy]];
 
-    if (aStr < bStr) return -1;
-    if (aStr > bStr) return 1;
+    if (aStr < bStr) return -1 * direction;
+    if (aStr > bStr) return 1 * direction;
     return 0;
   });
 }

@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import SongRow from './SongRow.jsx';
-import { SORT_BY_NAME, SORT_BY_ARTIST } from '../utils/constants.js';
+import { SORT_BY_NAME, SORT_BY_ARTIST, SORT_ASC, SORT_DESC } from '../utils/constants.js';
 import { sortSongs, filterSongs } from '../utils/songHelpers.js';
 
 /**
@@ -10,20 +10,30 @@ import { sortSongs, filterSongs } from '../utils/songHelpers.js';
  */
 function SongTable({ songs }) {
   const [sortBy, setSortBy] = useState(SORT_BY_NAME);
+  const [sortDir, setSortDir] = useState(SORT_ASC);
   const [showAcoustic, setShowAcoustic] = useState(false);
 
   // Memoize sorted and filtered songs to avoid unnecessary recalculation
   const displaySongs = useMemo(() => {
     const filtered = filterSongs(songs, showAcoustic);
-    return sortSongs(filtered, sortBy);
-  }, [songs, sortBy, showAcoustic]);
+    return sortSongs(filtered, sortBy, sortDir);
+  }, [songs, sortBy, sortDir, showAcoustic]);
+
+  const handleSort = (column) => {
+    if (sortBy === column) {
+      setSortDir(sortDir === SORT_ASC ? SORT_DESC : SORT_ASC);
+    } else {
+      setSortBy(column);
+      setSortDir(SORT_ASC);
+    }
+  };
 
   const handleSortByName = () => {
-    setSortBy(SORT_BY_NAME);
+    handleSort(SORT_BY_NAME);
   };
 
   const handleSortByArtist = () => {
-    setSortBy(SORT_BY_ARTIST);
+    handleSort(SORT_BY_ARTIST);
   };
 
   const handleToggleAcoustic = () => {
@@ -58,13 +68,13 @@ function SongTable({ songs }) {
             <th className="sorter" onClick={handleSortByName}>
               <div style={{display: 'flex', justifyContent: 'space-between'}}>
                 <span>Song</span>
-                {sortBy === SORT_BY_NAME && <span>▲</span>}
+                {sortBy === SORT_BY_NAME && <span>{sortDir === SORT_ASC ? '▲' : '▼'}</span>}
               </div>
             </th>
             <th className="sorter" onClick={handleSortByArtist}>
               <div style={{display: 'flex', justifyContent: 'space-between'}}>
                 <span>Artist</span>
-                {sortBy === SORT_BY_ARTIST && <span>▲</span>}
+                {sortBy === SORT_BY_ARTIST && <span>{sortDir === SORT_ASC ? '▲' : '▼'}</span>}
               </div>
             </th>
           </tr>

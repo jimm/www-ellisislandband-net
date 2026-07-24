@@ -5,6 +5,8 @@ export const SONG_LIST_JSON_URL = 'https://www.bandhelper.com/feed/smart_list/9s
 // Sort options
 export const SORT_BY_NAME = 'name';
 export const SORT_BY_ARTIST = 'artist';
+export const SORT_ASC = 'asc';
+export const SORT_DESC = 'desc';
 
 // Tags
 export const TAG_LEARNING = 'Learning';
