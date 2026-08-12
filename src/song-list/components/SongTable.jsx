@@ -68,13 +68,17 @@ function SongTable({ songs }) {
             <th className="sorter" onClick={handleSortByName}>
               <div style={{display: 'flex', justifyContent: 'space-between'}}>
                 <span>Song</span>
-                {sortBy === SORT_BY_NAME && <span>{sortDir === SORT_ASC ? '▲' : '▼'}</span>}
+                {sortBy === SORT_BY_NAME && (
+                  <span style={sortDir === SORT_DESC ? {display: 'inline-block', transform: 'rotate(180deg)'} : undefined}>▲</span>
+                )}
               </div>
             </th>
             <th className="sorter" onClick={handleSortByArtist}>
               <div style={{display: 'flex', justifyContent: 'space-between'}}>
                 <span>Artist</span>
-                {sortBy === SORT_BY_ARTIST && <span>{sortDir === SORT_ASC ? '▲' : '▼'}</span>}
+                {sortBy === SORT_BY_ARTIST && (
+                  <span style={sortDir === SORT_DESC ? {display: 'inline-block', transform: 'rotate(180deg)'} : undefined}>▲</span>
+                )}
               </div>
             </th>
           </tr>
