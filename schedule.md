@@ -23,6 +23,7 @@ Here are some of the places that Ellis Island has played over the years:
 - Fairfield Theatre Company
 - Grace O'Malley's
 - Halloween Yacht Club
+- Jetty Jam (formerly Fairfield Paddle Fest)
 - Kieran's Place
 - Lincoln Parkapalooza
 - Milford Porchfest
