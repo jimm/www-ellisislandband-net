@@ -5,13 +5,17 @@ title: Gallery/Videos
 
 # Gallery
 
-## Park City Music Hall, November 2025 Entire Show
+## Park City Music Hall, October 2026 Entire Show
 
-{% include yt_vid.html id="mdLeSDI6Phs" %}
+{% include yt_vid.html id="t8VyIcsJBdk" %}
 
 ## Latest Demo Video
 
-{% include yt_vid.html id="Uf8QA3BE5fU" %}
+{% include yt_vid.html id="-apFKm1Njm4" %}
+
+## Park City Music Hall, November 2025 Entire Show
+
+{% include yt_vid.html id="mdLeSDI6Phs" %}
 
 ## FTC Fundraiser, June 2025
 

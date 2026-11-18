@@ -6,18 +6,12 @@ Ellis Island is a five-member Fairfield, Connecticut-based rock band with
 an extensive [song list](/song-list.html) made up of some of the
 most iconic and impactful music from the '70s to today. Check out our
 [Youtube Channel](https://www.youtube.com/@ellisislandfairfieldct), where
-you can find our [latest full show video](https://youtu.be/mdLeSDI6Phs),
-a shorter [demo video](https://www.youtube.com/embed/MN8Sgid2x30), and more!
+you can find our [latest full show video](https://youtu.be/t8VyIcsJBdk),
+a shorter [demo video](https://www.youtube.com/embed/-apFKm1Njm4), and more!
 
 You can use the links at the top of the page to learn more [about us](/about.html),
 check out our [schedule](/schedule.html), [contact](/contact.html) us, take a peek inside
 the [gallery](/gallery.html), and more.
-
-<div class="center">
-{% include pic.html src="2026-summer-poster.png" width="426"
-     alt="Summer 2026 schedule poster" trow=true caption=true %}
-</div>
-
 
 {% include video_tag.html src="images/porchfest_2024_bruce.mp4" poster="images/porchfest_2024_still.png" %}
 <div class="center">

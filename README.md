@@ -72,7 +72,7 @@ save bandwidth.
 
 **Embedding Videos:**
 
-- YouTube: `{% include yt_vid.html id="Uf8QA3BE5fU" %}`
+- YouTube: `{% include yt_vid.html id="-apFKm1Njm4" %}`
 - Other: `{% include video_tag.html src="images/video.mp4" %}`
 
 (Optional: width, height, poster)
